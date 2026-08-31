@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erandurlover.github.io/ESO-PvP-Corpus/sitemap.xml
