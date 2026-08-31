@@ -1,0 +1,106 @@
+# ESO PvP Corpus A06 Learning Verification and Practical Application
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v159
+[PAGE_NAME] A06 Learning Verification and Practical Application
+[SECTION_SCOPE] v159 / A0572-A0640
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+
+# Part 8 — Learning, Verification, and Practical Application
+
+## Practical Results Vary Even with the Same Build
+
+[A0572][AUTHOR_JUDGMENT][DEF] The build screen shows the upper limit of what a character “can do.”
+[A0573][CAUSE] Practical performance changes with buff maintenance, sustained attacks, timing of CC, ブロック（Block）, and ロール回避（Roll Dodge）, switching between front and back bars, use of obstacles, when healing begins, recognition of offensive turns, and remaining resources; even with the same build, the actual utilization rate of its performance changes.
+[A0574][AUTHOR_JUDGMENT][CAUSE][PRACTICE][BUILD_GENERAL] Even if a character has the performance to handle many use cases, if the player has not learned the execution and decisions required for each use case, only the portions of that versatility for which the player is proficient can be converted reliably into practical combat value.
+[A0575][AUTHOR_JUDGMENT][CLAIM][PRACTICE][GROUP_CONTENT][RANGE_COST] Continuing to attack as a back-line ranged DD in large-scale field and keep battles in シロディール（Cyrodiil） is a valid PvP job in itself, and repeated operation in that role can develop proficiency in attacking large groups, managing range, and maintaining position relative to the frontline.
+[A0576][AUTHOR_JUDGMENT][CAUSE][PRACTICE][ROLE_BRUISER][RANGE_COST] Achieving results as a back-line ranged DD in large-scale combat does not necessarily expose lack of proficiency in defense under focus, offensive/defensive transitions, one-on-one combos, and similar personal-combat skills; a player may obtain results in that role while deficiencies in personal-combat skill remain.
+[A0577][AUTHOR_JUDGMENT][PRACTICE][ROLE_BRUISER][RANGE_COST] To operate a general-purpose ranged DD effectively across both large-scale and small-group combat, become proficient in foundational personal-combat skills that can sustain offense, defense, healing, CC, and resource decisions against one enemy's worth of combat power even when the benefit of range is not working sufficiently.
+[A0578][AUTHOR_JUDGMENT][PRACTICE][ROLE_BRUISER][RANGE_COST] Candidate environments for practicing the personal-combat skills of a general-purpose ranged DD include duels, small-number direct fights in バトルグラウンド（Battlegrounds）, and local fights in 帝都（Imperial City）, where defense against an individual opponent, offensive/defensive transitions, combos, and resource exchanges can be repeated at higher density than in large-scale back-line combat.
+[A0579][AUTHOR_JUDGMENT][CAUSE][PRACTICE][BUILD_GENERAL] Copying the equipment and skill configuration of a skilled general-purpose ranged DD does not copy the player's combat judgments, combo precision, handling under focus, and other player skills developed in personal and small-group combat.
+[A0580][AUTHOR_JUDGMENT][DIAG][PRACTICE][RANGE_COST][ROLE_BRUISER][OPPORTUNITY_COST] When a ranged DD moving from large-scale シロディール（Cyrodiil） combat into smaller バトルグラウンド（Battlegrounds） or similar content repeatedly struggles in direct fights against melee builds optimized for small-group combat, diagnose separately underdeveloped personal-combat skills and the opportunity cost in frontal offense/defense paid for range, while allowing that both may be causes at the same time.
+[A0581][AUTHOR_JUDGMENT][CAUSE][PRACTICE][RANGE_COST] Being able to achieve sufficient results through a preferred large-scale ranged role alone can reduce the perceived need to practice missing personal-combat skills and become a learning factor that causes the player to repeat already-strong skills while progress in the skills needed for broader versatility stagnates.
+[A0582][AUTHOR_JUDGMENT][AI][DIAG][RULE][PRACTICE][RANGE_COST][OPPORTUNITY_COST] When a ranged DD with extensive experience in large-scale シロディール（Cyrodiil） combat struggles in small-group combat, do not immediately reduce the cause to either player skill alone or build performance alone; diagnose proficiency in personal-combat skills and the opportunity cost of range separately.
+[A0583][AUTHOR_JUDGMENT][AI][RULE][LIMIT][PRACTICE][EPISTEMIC_SEPARATION] Do not treat long participation in large-scale combat as evidence of equal proficiency in personal combat or bruiser skills. At the same time, do not use deficiencies in small-group combat alone to undervalue skills developed in large-scale combat such as range management, group pressure, and frontline awareness.
+[A0584][AUTHOR_JUDGMENT][AI][DIAG][RULE][PRACTICE][BUILD_GENERAL] If personal-combat skill is diagnosed as the primary bottleneck, before repeatedly changing equipment, present as an improvement candidate a practice environment that demands that skill at high density.
+[A0585][AUTHOR_JUDGMENT][AI][RULE][PRACTICE][RANGE_COST][RECOMMENDATION_SCOPE] When advising on improvement of a general-purpose ranged DD, distinguish whether the goal is to increase frontal-combat capability as a ranged bruiser, convert range into other value such as skirmishing, off-healing, or debuffing, or maintain specialization for large-scale combat.
+[A0586][AUTHOR_JUDGMENT][AI][RULE][PRACTICE][BUILD_GENERAL] Do not treat the versatility a character theoretically possesses as identical to the player's practical versatility; separately verify the execution and decision proficiency needed to use each function in actual combat.
+[A0587][AUTHOR_JUDGMENT][AI][RULE][PRACTICE][ROLE_BRUISER][RANGE_COST] When the missing skill lies in the perception-action loop of personal combat, do not casually assume that “continuing more large-scale シロディール（Cyrodiil） combat will naturally teach it.” Prioritize high-task-fidelity practice that reproduces at high density the necessary decision frequency, time pressure, and offensive/defensive load.
+[A0588][AUTHOR_JUDGMENT][DIAG] If an opponent using the same equipment and skills alone seems much tougher or deals much higher damage, do not immediately attribute the cause to your overall weakness.
+[A0589][AUTHOR_JUDGMENT][DIAG] When the same equipment or skills produce different practical results, identify differences in utilization rate or timing one by one.
+
+## Use Duels as a Laboratory
+
+[A0590][AUTHOR_JUDGMENT][CLAIM][PRACTICE] BG and シロディール（Cyrodiil） contain simultaneous variables such as player count, terrain, allies, lag, and attacks from other directions, making conditions complex for testing a single element; duels with acquaintances are therefore useful for build adjustment and mechanic verification.
+[A0591][AUTHOR_JUDGMENT][PRACTICE] For build adjustment, comparative testing that changes only one element at a time is useful.
+[A0592][AUTHOR_JUDGMENT][PRACTICE][BUILD_REGRESSION_CHECK] After changing a build multiple times, re-check not only the changed parts but also whether major functions that worked before the changes have been unintentionally lost.
+[A0593][AUTHOR_JUDGMENT][DIAG][FUNCTION_LOSS] When damage, durability, or similar performance worsens for unknown reasons, check not only numerical insufficiency but also whether major roles such as buffs, debuffs, CC, healing, movement, or resource supply have dropped out of the configuration during adjustment.
+[A0594][AUTHOR_JUDGMENT][DIAG] In comparative testing, for defense measure HP loss, the number of actions required to restore HP, and resources required; for offense measure not only maximum damage but whether you forced the opponent to heal, how many times, and how many offensive opportunities you created before resource depletion.
+
+## Display and Verification
+
+[A0595][AUTHOR_JUDGMENT][CAUSE][EX][RULE] Because PvP results can be misread from screen display or subjective feel alone, questions such as “Criticals do not occur,” “the effect does not apply,” or “only a specific skill is weak” should, when possible, be repeatedly checked through combat logs, recording tools, or duels; do not discard the entire build based on a single subjective impression.
+[A0596][COND] If repeated practical use remains difficult, consider that the option may not fit you even if its theoretical performance is high.
+[A0597][AUTHOR_JUDGMENT][RULE] Evaluate builds using both numerical values and usability.
+
+## Prioritizing Causes of Death and Bottleneck Learning
+
+[A0598][AUTHOR_JUDGMENT][DIAG][PRACTICE] When you die, do not end with the general summary “I am weak”; classify the death into one cause category.
+[A0599][AUTHOR_JUDGMENT][PRACTICE][DEATH_REVIEW] When analyzing a death, if possible review the moments immediately before it from a recording instead of deciding the cause only from memory.
+[A0600][AUTHOR_JUDGMENT][DIAG][DEATH_REVIEW] When reviewing a recording, inspect position, resources, buffs, defensive actions, and enemy attack tells before determining the death-cause category.
+[A0601][EX] Example death-cause categories include failing to 打破（Break Free） CC, スタミナ（Stamina） depletion, delayed healing start, healing-over-time expiration, excessive front-bar time, failure to ブロック（Block） burst, being caught by multiple enemies on open ground, insufficient pressure, overpursuit away from allies, and excessive investment in an opponent you cannot kill.
+[A0602][CAUSE][LIMIT] Choosing one death cause allows a concrete practice target to be set for the next match, while a diagnosis of “everything was bad” makes it difficult to decide what to fix next.
+[A0603][CLAIM][DEATH_REVIEW] Multiple major factors commonly contribute to one death simultaneously; for beginners, delayed 打破（Break Free）, failed ブロック（Block）, delayed healing, unnecessary continued offense, positioning, insufficient resources, and similar problems often overlap in the same death.
+[A0604][AUTHOR_JUDGMENT][RULE][DEATH_REVIEW] Narrowing the death cause to one is not meant to claim that only that cause produced the death; it is a learning procedure for identifying the behavioral bottleneck expected to produce the largest immediate improvement and fixing the next practice target to one item.
+[A0605][AUTHOR_JUDGMENT][LIMIT][DIAG][DEATH_REVIEW] Even when multiple major mistakes are confirmed in one death, do not treat listing all of them as superior diagnosis; prioritize the one factor most likely to change the result or the current behavioral bottleneck as the next improvement target.
+[A0606][AUTHOR_JUDGMENT][PROC][PRACTICE][DEATH_REVIEW] After the chosen behavioral bottleneck improves, re-analyze subsequent deaths and move to the next dominant bottleneck. Treat repeated focus on one factor at a time as data collection that keeps it interpretable which improvement changed practical results.
+[A0607][CLAIM] The ability to understand concrete causes of defeat is a major learning asset that persists even when patches change.
+
+## Beginner Practice Order
+
+[A0608][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][DEFENSIVE_SEQUENCE] In the first stage of practice, make the primary goal that when you notice you are about to die, you stop attacking, first establish ブロック（Block）, and then move into the defensive sequence. Success is not required every time from the start; increase the number of times you notice danger and can switch from block into defense.
+[A0609][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 2, make increasing situations where you retain enough emergency スタミナ（Stamina） for one 打破（Break Free） or ロール回避（Roll Dodge） the primary goal. Continuous maintenance is not required from the start; recognize situations where you spent it all and improve in the next match.
+[A0610][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 3, aim to use obstacles to reduce the time you continue taking attacks from multiple enemies on open ground. Do not require continuous complete avoidance; treat partial reduction of exposure time as progress.
+[A0611][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 4, aim to increase situations where CC can be used as the signal to begin offense.
+[A0612][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 5, aim to combine multiple attacks after CC; do not require reproducing a complete combo every time from the start.
+[A0613][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 6, aim to try continuing offense when the opponent is forced into healing and reduce unnecessary offense when you are forced into healing.
+[A0614][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][ESCAPE_ROUTE] In Practice Stage 7, aim to gradually increase situations where you check ally positions and can think about both the direction to escape and the direction back toward allies.
+[A0615][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 8, aim to find one bottleneck in your build or operation and improve problems one at a time rather than trying to fix many at once.
+[A0616][AUTHOR_JUDGMENT][PRACTICE] Once you can perform basic controls, resource management, and battlefield attention without consciously thinking through each of them, make observing the opponent's state the next learning target.
+[A0617][AUTHOR_JUDGMENT][GOAL] Ideally, make learning the major attack effects and operating feel of every class a goal.
+[A0618][AUTHOR_JUDGMENT][PRACTICE] If learning every class is difficult, at least learn the major attack effects and operating feel of high-threat classes in the current environment.
+[A0619][CAUSE] Knowing the major attack effects and operating feel of an opponent's class greatly improves the accuracy of responses when facing that class.
+
+## Practical Decision Flow
+
+[A0620][AUTHOR_JUDGMENT][PROC][COND][DEFENSIVE_SEQUENCE] 1. Determine whether “I am about to die right now.” If yes, stop attacking, first establish ブロック（Block）, then proceed as needed to healing, switching to the defensive bar, LoS, creating distance, and similar recovery, and check remaining resources. If not, proceed to the next step.
+[A0621][AUTHOR_JUDGMENT][PROC][DIAG][COND] ② Determine “is the opponent ignoring my attacks and continuing to hit me?” If your attacks are being ignored, suspect insufficient pressure and review buffs, debuffs, Penetration, CC, and combo timing. If the opponent is healing or defending, there is a high chance your offensive turn has begun.
+[A0622][AUTHOR_JUDGMENT][PROC][COND] ③ Determine “are CC and burst ready?” If ready, engage at a moment when the opponent's defense becomes thin. If not, do not forcibly commit all major resources; maintain pressure while preparing.
+[A0623][AUTHOR_JUDGMENT][PROC][COND] ④ Determine “do I have enough スタミナ（Stamina） left for 打破（Break Free） and ロール回避（Roll Dodge）?” If not, do not overpursue; create distance, recover, and readjust. If yes, continue normal decision-making.
+[A0624][AUTHOR_JUDGMENT][PROC][COND] ⑤ Determine “am I being targeted by multiple enemies?” If yes, do not take every attack head-on; split pursuers using obstacles, distance, and CC, and counterattack when one becomes isolated. If not targeted by multiple enemies, continue normal offense and defense.
+[A0625][AUTHOR_JUDGMENT][PROC][COND][RULE] ⑥ Determine “has a long time passed without being able to kill the opponent?” If the fight is stalled, do not fixate on the same opponent; shift attention to another target, allies, or an objective, and treat disengaging as legitimate when the matchup is poor. If it is not stalled, continue the exchange.
+
+## Build-Adjustment Questions
+
+[A0626][AUTHOR_JUDGMENT][DIAG][RULE] Q1. Confirm the character's role and choose one most important job rather than “do everything.”
+[A0627][AUTHOR_JUDGMENT][DIAG][EX] Q2. Confirm how the build sends the opponent into a defensive turn. Candidates include single-hit damage, sustained pressure, delayed attacks, CC + burst, and focus with allies.
+[A0628][AUTHOR_JUDGMENT][DIAG][EX] Q3. Confirm how the build ends its own defensive turn. Candidates include healing over time, burst healing, shields, LoS, fast disengagement, CC, and ブロック（Block）.
+[A0629][AUTHOR_JUDGMENT][DIAG][PRIORITY] Q4. Confirm what resources are reserved for emergencies and maintain at least enough margin for 打破（Break Free） and ロール回避（Roll Dodge）.
+[A0630][AUTHOR_JUDGMENT][DIAG][EX] Q5. Confirm the current most important bottleneck. Candidates include damage, healing, durability, mobility, CC, resources, and execution load.
+[A0631][AUTHOR_JUDGMENT][DIAG][RULE] Q6. Confirm specifically what new equipment solves; verbalize the job it performs rather than relying on an impression that it “looks strong.”
+[A0632][AUTHOR_JUDGMENT][DIAG][EX] Q7. Confirm what must be given up to adopt the new equipment. Candidates include equipment slots, skill slots, ムンダス（Mundus）, traits, and ease of operation.
+[A0633][AUTHOR_JUDGMENT][DIAG][LIMIT] Q8. Confirm whether the new configuration is actually usable in real combat. Buffs that cannot be maintained and skills that cannot be pressed when needed do not function at theoretical value.
+[A0634][AUTHOR_JUDGMENT][DIAG][CLAIM] Q9. Confirm the battlefield and combat scale in which the build will be used. Duels, small-group combat, 8v8, large-scale field and keep battles in シロディール（Cyrodiil）, 帝都（Imperial City）, and similar environments require different capabilities and relationships with allies, and the same build can reverse from strong to weak or vice versa across them.
+[A0635][AUTHOR_JUDGMENT][DIAG][PRACTICE] Q10. Confirm that the build is not being judged from a single loss; when possible test it both in duels under matched conditions and in real combat.
+[A0636][AUTHOR_JUDGMENT][CLAIM][ROLE_BRUISER][RECOMMENDATION_SCOPE] A melee build with high performance in duels and small-group combat can fail to function sufficiently on the frontline of large-scale field combat, while a melee build with high performance in large-scale field combat can be disadvantaged in duels. Therefore, do not treat the strength of a melee build as a single performance value independent of combat scale.
+[A0637][AUTHOR_JUDGMENT][CLAIM][RANGE_COST][ROLE_BRUISER][RECOMMENDATION_SCOPE] A general-purpose ranged DD is less likely to lose its primary functions when moving from large-scale combat to personal combat and tends to retain a usable level of performance across multiple combat scales, while it tends to be disadvantaged in direct exchanges against an equally skilled melee build that concentrates frontal offense and defense on duels or small-group combat.
+[A0638][AUTHOR_JUDGMENT][CAUSE][PRACTICE][RECOMMENDATION_SCOPE] Entering the enemy frontline in large-scale field combat can often be avoided through positioning and role choice, while one-on-one and small direct fights can arise locally during PvP through movement, separation, pursuit, ally deaths, and similar events; therefore, insufficient personal-combat processing capability can spill over into multiple PvP environments.
+[A0639][AUTHOR_JUDGMENT][AI][RULE][RECOMMENDATION_SCOPE][EPISTEMIC_SEPARATION] When answering whether a build is strong or weak, first evaluate its strength or weakness in the battlefield, combat scale, and role specified by the question. Do not use general strengths in other use cases to offset a weakness confirmed in the current use case.
+[A0640][AUTHOR_JUDGMENT][AI][RULE][RECOMMENDATION_SCOPE] Do not compress duel performance, small-group performance, and large-scale field-combat performance into a single estimate of “PvP performance.” Evaluate separately the required capabilities, external support, density of incoming pressure, and number of targets for each.

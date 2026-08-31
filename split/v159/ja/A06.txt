@@ -1,0 +1,105 @@
+# ESO PvP Corpus A06 Learning Verification and Practical Application
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v159
+[PAGE_NAME] A06 Learning Verification and Practical Application
+[SECTION_SCOPE] v159 / A0572-A0640
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+
+# 第8部　学習・検証・実戦適用
+
+## 同一ビルドでも実戦結果は変わる
+
+[A0572][AUTHOR_JUDGMENT][DEF] ビルド画面は、キャラクターが「できること」の上限を示す。
+[A0573][CAUSE] 実戦性能は、バフ維持、継続攻撃、CC・ブロック（Block）・ロール回避（Roll Dodge）のタイミング、表裏バー切替、障害物利用、回復開始、攻撃ターンの見極め、リソース残量によって変化し、同じビルドでも性能の実際の利用率が変わる。
+[A0574][AUTHOR_JUDGMENT][CAUSE][PRACTICE][BUILD_GENERAL] キャラクターが多数の用途へ対応できる性能を持っていても、プレイヤーが各用途に必要な操作・判断を習得していなければ、その汎用性能のうち習熟済みの部分しか安定して実戦価値へ変換できない。
+[A0575][AUTHOR_JUDGMENT][CLAIM][PRACTICE][GROUP_CONTENT][RANGE_COST] シロディール（Cyrodiil）の大規模野戦・砦戦で後方遠距離DDとして攻撃を継続する運用は、それ自体で成立する一つのPvP仕事であり、その運用を反復すれば大規模集団への攻撃、射程管理、前線との位置関係等へ習熟し得る。
+[A0576][AUTHOR_JUDGMENT][CAUSE][PRACTICE][ROLE_BRUISER][RANGE_COST] 大規模戦の後方遠距離DDとして成果を得られることは、被フォーカス時の防御、攻防切替、対個人コンボ等の未習熟を必ずしも露出させず、個人戦技能の不足が残ったままでもその役割では成果を得られる場合がある。
+[A0577][AUTHOR_JUDGMENT][PRACTICE][ROLE_BRUISER][RANGE_COST] 大規模戦から少数戦まで対応する汎用遠距離DDを実際に汎用的に扱うには、射程の利益が十分に働かない状況でも、一人分の敵戦力に対して攻撃・防御・回復・CC・リソース判断を成立させる個人戦の基礎技能へ習熟する。
+[A0578][AUTHOR_JUDGMENT][PRACTICE][ROLE_BRUISER][RANGE_COST] 汎用遠距離DDの個人戦技能を練習する候補には、決闘、バトルグラウンド（Battlegrounds）の少人数直接戦、帝都（Imperial City）の局地戦等、対個人の防御・攻防切替・コンボ・リソース交換を大規模後衛戦より高密度に反復しやすい環境がある。
+[A0579][AUTHOR_JUDGMENT][CAUSE][PRACTICE][BUILD_GENERAL] 上手い汎用遠距離DDの装備・スキル構成をコピーしても、そのプレイヤーが個人戦・少数戦で身につけた攻防判断、コンボ精度、被フォーカス処理等のプレイヤースキルはコピーされない。
+[A0580][AUTHOR_JUDGMENT][DIAG][PRACTICE][RANGE_COST][ROLE_BRUISER][OPPORTUNITY_COST] シロディール（Cyrodiil）の大規模戦から小規模なバトルグラウンド（Battlegrounds）等へ移行した遠距離DDが少数戦向け近接との直接戦で反復して苦戦する場合、未習熟な個人戦技能と、射程へ支払った正面攻防性能の機会費用を分けて確認し、両方が同時に原因となり得ることを前提に診断する。
+[A0581][AUTHOR_JUDGMENT][CAUSE][PRACTICE][RANGE_COST] 得意な大規模遠距離運用だけでも十分な成果を得られることは、不足している個人戦技能を練習する必要性を感じにくくし、すでに高い技能だけをさらに反復して汎用化に必要な技能の習得が停滞する学習上の要因になり得る。
+[A0582][AUTHOR_JUDGMENT][AI][DIAG][RULE][PRACTICE][RANGE_COST][OPPORTUNITY_COST] シロディール（Cyrodiil）大規模戦経験の長い遠距離DDが少数戦で苦戦している場合、原因をプレイヤー技量だけ、またはビルド性能だけの一方へ即断せず、個人戦技能の習熟度と射程の機会費用を別々に診断する。
+[A0583][AUTHOR_JUDGMENT][AI][RULE][LIMIT][PRACTICE][EPISTEMIC_SEPARATION] 大規模戦で長く活動していることを、対個人戦・ブルーザー技能への同等の習熟証拠として扱わない。一方、少数戦技能の不足だけから大規模戦で培った射程管理・集団攻撃・前線把握等の技能まで低く評価しない。
+[A0584][AUTHOR_JUDGMENT][AI][DIAG][RULE][PRACTICE][BUILD_GENERAL] 個人戦技能が主要ボトルネックだと判断した場合、装備変更だけを反復する前に、その技能を高密度に要求する練習環境を改善候補として提示する。
+[A0585][AUTHOR_JUDGMENT][AI][RULE][PRACTICE][RANGE_COST][RECOMMENDATION_SCOPE] 汎用遠距離DDの改善相談では、遠距離ブルーザーとして正面戦能力を伸ばすのか、射程をスカーミッシャー・オフヒール・デバフ等の別価値へ変換するのか、大規模戦特化を維持するのかを区別して助言する。
+[A0586][AUTHOR_JUDGMENT][AI][RULE][PRACTICE][BUILD_GENERAL] キャラクターが理論上持つ汎用性を、そのままプレイヤーの実戦上の汎用性として評価せず、各機能を実戦で利用するための操作・判断習熟を別に確認する。
+[A0587][AUTHOR_JUDGMENT][AI][RULE][PRACTICE][ROLE_BRUISER][RANGE_COST] 不足技能が個人戦の知覚―行動ループにある場合、「さらにシロディール（Cyrodiil）の大規模戦を続ければ自然に習得する」と安易に推定せず、必要な判断頻度・時間圧・攻防負荷を高密度に再現する課題忠実度の高い練習を優先候補とする。
+[A0588][AUTHOR_JUDGMENT][DIAG] 同じ装備・スキルなのに相手だけ硬い、または高いダメージを出す場合、自分の弱さ全般へ即座に原因帰属しない。
+[A0589][AUTHOR_JUDGMENT][DIAG] 同じ装備やスキルで実戦結果に差がある場合、使用率やタイミングの差を一つずつ探す。
+
+## 決闘を実験室にする
+
+[A0590][AUTHOR_JUDGMENT][CLAIM][PRACTICE] BGやシロディール（Cyrodiil）は人数・地形・味方・ラグ・別方向からの攻撃等の変数が同時に存在して単独要素の検証条件として複雑なため、ビルド調整や仕様確認には知人との決闘が便利である。
+[A0591][AUTHOR_JUDGMENT][PRACTICE] ビルド調整には一度に変更する要素を一つにする比較検証が有用である。
+[A0592][AUTHOR_JUDGMENT][PRACTICE][BUILD_REGRESSION_CHECK] ビルドを複数回変更した後は、変更した部分だけでなく、変更前に成立していた主要機能が意図せず失われていないかを再確認する。
+[A0593][AUTHOR_JUDGMENT][DIAG][FUNCTION_LOSS] 火力・耐久等が理由不明で悪化した場合、数値不足だけでなく、調整過程で主要バフ・デバフ・CC・回復・移動・リソース供給等の役割が構成から脱落していないかを確認する。
+[A0594][AUTHOR_JUDGMENT][DIAG] 比較検証では、防御はHP減少量・HPを戻す行動回数・必要リソースを、攻撃は最大ダメージだけでなく相手へ回復を強要できたか、その回数、リソース切れまでに作れた攻撃機会を測る。
+
+## 表示と検証
+
+[A0595][AUTHOR_JUDGMENT][CAUSE][EX][RULE] PvPでは画面表示や体感だけから結果を誤認し得るため、「クリティカルが出ない」「効果が乗らない」「特定スキルだけ弱い」等の疑問は、可能なら戦闘ログ・記録ツール・決闘で反復確認し、一回の体感だけでビルド全体を捨てない。
+[A0596][COND] 実戦で何度試しても使いにくい場合、理論値が高くても自分に合わない可能性を考慮する。
+[A0597][AUTHOR_JUDGMENT][RULE] ビルド評価では数値と使用感の両方を見る。
+
+## 死亡原因の優先順位化・ボトルネック学習
+
+[A0598][AUTHOR_JUDGMENT][DIAG][PRACTICE] 死亡時は「自分が弱い」という総括だけで終わらせず、死亡原因を一つのカテゴリへ分類する。
+[A0599][AUTHOR_JUDGMENT][PRACTICE][DEATH_REVIEW] 死亡原因を分析する場合、可能なら死亡場面の直前を録画から見返し、自分の記憶だけで敗因を決めない。
+[A0600][AUTHOR_JUDGMENT][DIAG][DEATH_REVIEW] 録画を見返す場合、位置・リソース・バフ・防御行動・相手の攻撃予兆を確認してから死亡原因カテゴリを決定する。
+[A0601][EX] 死亡原因カテゴリの例には、CCを打破（Break Free）できなかった、スタミナ（Stamina）枯渇、回復開始遅延、継続回復切れ、表バー滞在過多、バーストへのブロック（Block）失敗、平地で複数人に捕まった、圧力不足、味方から離れる深追い、倒せない相手への過剰投資がある。
+[A0602][CAUSE][LIMIT] 死亡原因を一つ決めれば次の試合の具体的な練習対象を設定できるが、「全部ダメだった」という診断では次に何を直すか決めにくい。
+[A0603][CLAIM][DEATH_REVIEW] 一回の死亡には複数の重大な要因が同時に関与することが普通であり、初心者では打破（Break Free）遅延、ブロック（Block）失敗、回復開始遅延、不要な攻撃続行、位置取り、リソース不足など複数の問題が同じ死亡へ重なりやすい。
+[A0604][AUTHOR_JUDGMENT][RULE][DEATH_REVIEW] 死亡原因を一つへ絞るのは、その原因だけが死亡を生んだと断定するためではなく、直近の改善効果が最も大きいと見込まれる行動面のボトルネックを特定し、次の練習対象を一つに固定するための学習手順である。
+[A0605][AUTHOR_JUDGMENT][LIMIT][DIAG][DEATH_REVIEW] 一回の死亡に複数の重大なミスが確認できても、それらをすべて列挙することを優れた診断とみなさず、結果を最も変えやすい一要因または現在の行動ボトルネックを優先して次の改善対象にする。
+[A0606][AUTHOR_JUDGMENT][PROC][PRACTICE][DEATH_REVIEW] 選んだ行動ボトルネックが改善した後は、その後の死亡を再分析して次に支配的なボトルネックへ進む。一度に一要因へ注力する反復は、どの改善が実戦結果を変えたかを解釈可能な形で確認するためのデータ収集として扱う。
+[A0607][CLAIM] 敗因を具体的に理解する能力は、パッチが変わっても残る大きな学習資産である。
+
+## 初心者練習順序
+
+[A0608][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][DEFENSIVE_SEQUENCE] 練習第1段階では、死にそうだと気付いたときに攻撃をやめ、まずブロック（Block）を成立させてから防御シーケンスへ移ることを主要な練習目標とする。最初から毎回成功する必要はなく、危険に気付いてブロックから防御へ切り替えられる回数を増やす。
+[A0609][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第2段階では、打破（Break Free）またはロール回避（Roll Dodge）1回分の非常用スタミナ（Stamina）を残せる場面を増やすことを主要な練習目標とする。最初から常時維持できる必要はなく、使い切った場面を認識して次の試合で改善する。
+[A0610][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第3段階では、障害物を利用して平地で複数人から攻撃を受け続ける時間を減らすことを目標とし、完全に攻撃を避け続けることは要求せず、被攻撃時間を部分的に減らせれば進歩として扱う。
+[A0611][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第4段階では、CCを攻撃開始の合図として利用できる場面を増やすことを目標とする。
+[A0612][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第5段階では、CC後に複数の攻撃をまとめることを目標とし、最初から完全なコンボを毎回再現することは要求しない。
+[A0613][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第6段階では、相手が回復へ回った場面では攻撃継続を試し、自分が回復へ回らされた場面では無理な攻撃を減らすことを目標とする。
+[A0614][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][ESCAPE_ROUTE] 練習第7段階では、味方の位置を確認し、逃げる方向と味方へ戻る方向を考えられる場面を徐々に増やすことを目標とする。
+[A0615][AUTHOR_JUDGMENT][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第8段階では、自分のビルドまたは運用上のボトルネックを一つ見つけ、一度に多数の問題を修正しようとせず一つずつ改善することを目標とする。
+[A0616][AUTHOR_JUDGMENT][PRACTICE] 自分の基本操作、リソース管理、盤面への注意を一通り意識せず行えるようになったら、次の学習対象として相手の状態を見る。
+[A0617][AUTHOR_JUDGMENT][GOAL] 理想的には、全クラスの主要な攻撃エフェクトと操作感を知ることを目標にする。
+[A0618][AUTHOR_JUDGMENT][PRACTICE] 全クラスの学習が難しい場合、環境で脅威度が高いクラスだけでも主要な攻撃エフェクトと操作感を知る。
+[A0619][CAUSE] 相手クラスの主要な攻撃エフェクトと操作感を知っていると、そのクラスと対峙した際の対処精度が大きく向上する。
+
+## 実戦判断フロー
+
+[A0620][AUTHOR_JUDGMENT][PROC][COND][DEFENSIVE_SEQUENCE] ①「今、死にそうか」を判定する。死にそうなら攻撃を止め、まずブロック（Block）を成立させてから、必要な回復・防御バーへの移行・LoS・距離確保等へ進み、リソース残量を確認する。死にそうでなければ次へ進む。
+[A0621][AUTHOR_JUDGMENT][PROC][DIAG][COND] ②「相手が自分の攻撃を無視して殴ってきているか」を判定する。無視されるなら圧力不足を疑い、バフ・デバフ・貫通・CC・コンボタイミングを見直す。相手が回復・防御へ回っているなら、自分に攻撃ターンが来ている可能性が高い。
+[A0622][AUTHOR_JUDGMENT][PROC][COND] ③「CCとバーストの準備があるか」を判定する。準備があるなら相手の防御が薄くなる瞬間に仕掛け、ないなら主要資源を無理に全投入せず準備しながら圧力を維持する。
+[A0623][AUTHOR_JUDGMENT][PROC][COND] ④「打破（Break Free）・ロール回避（Roll Dodge）分のスタミナ（Stamina）が残っているか」を判定する。ないなら深追いせず距離を取り、回復して再調整し、あるなら通常判断を継続する。
+[A0624][AUTHOR_JUDGMENT][PROC][COND] ⑤「複数人に狙われたか」を判定する。狙われたら正面で全攻撃を受けず障害物・距離・CCで追跡者を分断し、一人が孤立したら反撃する。複数に狙われていなければ通常の攻防を継続する。
+[A0625][AUTHOR_JUDGMENT][PROC][COND][RULE] ⑥「相手を倒せないまま長時間経過しているか」を判定する。停滞しているなら同じ相手へ固執せず、他標的・味方・目的地点へ注意を移し、相性が悪ければ逃げることも正当な戦術とする。停滞していなければ攻防を継続する。
+
+## ビルド調整質問
+
+[A0626][AUTHOR_JUDGMENT][DIAG][RULE] Q1. キャラクターの役割を確認し、「何でもできる」ではなく最も重要な仕事を一つ決める。
+[A0627][AUTHOR_JUDGMENT][DIAG][EX] Q2. 相手を防御ターンへ送る方法を確認する。候補は単発火力、継続圧力、時間差攻撃、CC＋バースト、味方とのフォーカスである。
+[A0628][AUTHOR_JUDGMENT][DIAG][EX] Q3. 自分の防御ターンを終わらせる方法を確認する。候補は継続回復、瞬間回復、シールド、LoS、高速離脱、CC、ブロック（Block）である。
+[A0629][AUTHOR_JUDGMENT][DIAG][PRIORITY] Q4. 緊急時に残すリソースを確認し、最低でも打破（Break Free）・ロール回避（Roll Dodge）の余裕を考える。
+[A0630][AUTHOR_JUDGMENT][DIAG][EX] Q5. 現在の最重要ボトルネックを確認する。候補は火力、回復、耐久、機動、CC、リソース、操作量である。
+[A0631][AUTHOR_JUDGMENT][DIAG][RULE] Q6. 新しい装備が具体的に何を解決するかを確認し、「強そう」という印象ではなく担当する仕事を言語化する。
+[A0632][AUTHOR_JUDGMENT][DIAG][EX] Q7. 新しい装備を採用するために何を捨てるかを確認する。候補は装備枠、スキル枠、ムンダス（Mundus）、特性、操作の簡単さである。
+[A0633][AUTHOR_JUDGMENT][DIAG][LIMIT] Q8. 新構成が実戦で本当に使えるかを確認する。維持できないバフ、必要時に押せないスキルは理論値どおりには働かない。
+[A0634][AUTHOR_JUDGMENT][DIAG][CLAIM] Q9. ビルドをどの戦場・戦闘規模で使うかを確認する。決闘、少数戦、8v8、シロディール（Cyrodiil）の大規模野戦・砦戦、帝都（Imperial City）等では必要能力や味方との関係が異なり、同じビルドでも強弱が逆転し得る。
+[A0635][AUTHOR_JUDGMENT][DIAG][PRACTICE] Q10. 一回の敗北だけでビルドを判断していないか確認し、可能なら同条件の決闘と実戦の両方で試す。
+[A0636][AUTHOR_JUDGMENT][CLAIM][ROLE_BRUISER][RECOMMENDATION_SCOPE] 決闘・少数戦で高い性能を持つ近接ビルドが大規模野戦の最前線では十分に機能しないことと、大規模野戦で高い性能を持つ近接ビルドが決闘では不利になることは両立するため、近接ビルドの強さを戦闘規模から独立した単一性能として扱わない。
+[A0637][AUTHOR_JUDGMENT][CLAIM][RANGE_COST][ROLE_BRUISER][RECOMMENDATION_SCOPE] 汎用遠距離DDは大規模戦から個人戦まで主要機能を失いにくく、複数の戦闘規模で一定の性能を保ちやすい一方、決闘・少数戦へ正面攻防を集中した同等技量の近接ビルドとの直接交換では不利になりやすい。
+[A0638][AUTHOR_JUDGMENT][CAUSE][PRACTICE][RECOMMENDATION_SCOPE] 大規模野戦の敵最前線へ入ることは位置・役割選択で避けやすい一方、タイマン・少数直接戦は移動、分断、追撃、味方の死亡等からPvP中に局所的に発生しやすいため、個人戦処理能力の不足は複数のPvP環境へ波及しやすい。
+[A0639][AUTHOR_JUDGMENT][AI][RULE][RECOMMENDATION_SCOPE][EPISTEMIC_SEPARATION] ビルドが強いか弱いかを回答するときは、質問条件の戦場・戦闘規模・役割における強弱を先に評価し、別用途での一般的な長所を使って現在用途で確認された弱点を相殺しない。
+[A0640][AUTHOR_JUDGMENT][AI][RULE][RECOMMENDATION_SCOPE] 決闘性能、少数戦性能、大規模野戦性能を一つの「PvP性能」へ圧縮して推定せず、それぞれの必要能力、外部支援、被圧密度、標的数を分けて評価する。

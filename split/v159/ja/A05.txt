@@ -1,0 +1,181 @@
+# ESO PvP Corpus A05 Group Combat and Roles
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v159
+[PAGE_NAME] A05 Group Combat and Roles
+[SECTION_SCOPE] v159 / A0481-A0571
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+
+# 第7部　集団戦・ロール
+
+## ロール
+
+[A0481][AUTHOR_JUDGMENT][DEF][CLAIM] PvPの戦い方は大まかにタンク、ヒーラー／バッファー／デバッファー、ブルーザー、スカーミッシャー、ガンカー／ボマー等のロール傾向として整理でき、複数の傾向を兼ねる運用も普通に存在する。これらはすべてのプレイヤーを一つだけのロールへ排他的に分類するための区分ではない。
+[A0482][AUTHOR_JUDGMENT][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] グループコンテンツでグループへの実効的な貢献を評価する場合は、ロール名そのものより「自分がチームの何を解決するか」を重視する。
+[A0483][DEF][SCOPE] DD（Damage Dealer）は、主として敵へダメージを与える構成・役割を指す広い呼称であり、ESO PvP Corpusで区別するブルーザー、スカーミッシャー、ガンカー／ボマー等のPvPロール分類と一対一対応しない。
+[A0484][AUTHOR_JUDGMENT][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクの価値は単に死なないことだけではなく、敵に無視したくないと思わせ、敵の人数や攻撃を引き受けて味方側に局地的な人数有利を作ることにある。
+[A0485][AUTHOR_JUDGMENT][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／サポートの仕事はHP回復だけではなく、バフ、デバフ、CC、救援、相手ヒーラーへの圧力を含む。
+[A0486][AUTHOR_JUDGMENT][ROLE_BRUISER] ブルーザーは正面戦で相手へ圧力を継続する役であり、そのために殴り続けられる生存性を必要とする。
+[A0487][AUTHOR_JUDGMENT][DEF][ROLE_SKIRMISHER] スカーミッシャーは、高い機動力を利用して戦闘地点や交戦状態を柔軟に変更する遊撃的なロール傾向である。単独行動かグループ行動か、近距離主体か遠距離主体か、機動力を自己生存・攻撃・味方支援のどこへ使うかは参加コンテンツと運用目的によって異なり、遠距離主体DDであること自体をスカーミッシャーの一般要件としない。
+[A0488][AUTHOR_JUDGMENT][COND][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] グループコンテンツでグループへの実効的な貢献を優先してスカーミッシャーを運用する場合は、機動力を好きな場所へ移動する自由だけでなく、介入価値の高い地点へ早く到達する能力として利用する。
+[A0489][AUTHOR_JUDGMENT][EVAL][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ貢献型スカーミッシャーの介入性能は、単発の高速移動や散発的なヒット・アンド・ランだけで評価せず、必要な戦場へ移動してから実効的な攻撃・CC・救援・圧力を開始するまでの時間と、複数の戦闘地点へ有効介入を反復できる頻度を含めて評価する。
+[A0490][AUTHOR_JUDGMENT][AI][LIMIT][ROLE_SKIRMISHER][ROLE_BRUISER][RECOMMENDATION_SCOPE] ある運用がグループ貢献型またはB系列の上級競技スカーミッシャー条件を満たさないことから、その運用をスカーミッシャーではない、またはブルーザーであると自動的に結論しない。ロール傾向は、実際に行う戦闘行動と運用目的から個別に評価する。
+[A0491][AUTHOR_JUDGMENT][DEF][ROLE_GANKER] Gankとは、通常の正面交換を長時間継続することより、標的、位置、攻撃開始時点等を選び、短い攻撃機会から撃破を狙う行為である。隠密・透明化・近接攻撃はGankの必要条件ではない。
+[A0492][AUTHOR_JUDGMENT][RULE][STEALTH_MOBILITY_SEPARATION] 隠密性は敵から位置や行動意図に関する情報を隠す性能、機動力は短時間で実際の位置を変える性能として分離して評価し、隠密性が高いことを高機動と同一視しない。
+[A0493][AUTHOR_JUDGMENT][RULE][RECOMMENDATION_SCOPE] 特定ロールの適性は、そのロールの目的・必要行動・成功条件に直接関係する性能で評価し、ソロ総合力、別ロール、ガンカー性能等の評価を、その能力が当該ロール要件へ直接寄与する場合を除き、当該ロールの適性順位を決める根拠へ流用しない。
+
+## 隣接ロールへの複合化
+
+[A0494][AUTHOR_JUDGMENT][RULE][BUILD_GENERAL] クラスまたはビルドが主要ロールの直接競争で不利な場合、弱点を過剰投資で平均化することだけを改善策とせず、既存の長所を維持したまま競争力を得られる隣接ロールへの複合化を検討する。
+
+## 集団戦の有利生成と有利変換
+
+[A0495][AUTHOR_JUDGMENT][DEF][ADVANTAGE_CREATION_CONVERSION][GROUP_CONTENT][GROUP_CONTRIBUTION] 集団PvPでは、味方を有利な状態へ導く能力と、すでに味方が作った有利な状態を維持・拡大・撃破等の成果へ変換する能力を分けて評価する。
+[A0496][LIMIT][ALLY_DEPENDENCE][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方が圧力・CC・削り等を供給した状況で高い性能を示すことは、そのキャラクターが同じ有利状態を単独で作れることを意味しない。
+[A0497][LIMIT][SOLO_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION] 単独で有利状態を作る能力が低いことだけを理由に、味方が作った有利を高効率で成果へ変換できるビルドの集団戦価値まで低いと結論しない。
+
+## 対面外への波及価値
+
+[A0498][AUTHOR_JUDGMENT][RULE][GROUP_EFFECT][TARGET_LOCAL_EFFECT][GROUP_CONTENT][GROUP_CONTRIBUTION] 集団戦で二人が互いに拘束し合っているように見える場合でも、片方がHoT・範囲回復・バフ・デバフ・AoE・CC等を通じて他の味方や敵へ継続的に価値を出せるなら、両者を単純な1対1相殺として扱わず、拘束中に直接対面の外へ波及する価値の差を含めて評価する。
+
+## ヘイト価値
+
+[A0499][CLAIM][GROUP_CONTENT] 集団戦では敵側の攻撃行動は有限である。
+[A0500][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] 自分が生存しながら敵の注意を引き受けられるなら、その行為自体がチーム価値になる。
+[A0501][NOT_INITIAL_REQUIREMENT][AUTHOR_JUDGMENT][GOAL][LIMIT][COMBAT_PARTICIPATION_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 初心者は、固定人数の集団戦で隠密・待機等によって実質的な戦闘参加を減らす運用について、その時間に失う攻撃・CC・支援・被フォーカス分散等を機会費用として差し引き、後の介入がその損失を上回るか評価できることを将来的な目標とし、初期段階の必須要件とはしない。
+
+## 敵を引きつける逃走・戦線復帰
+
+[A0502][AUTHOR_JUDGMENT][CLAIM][GROUP_CONTENT][GROUP_CONTRIBUTION] BGでは自分が死なないことだけでは不十分な場合がある。
+[A0503][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] 「自分が死なないことだけでは不十分」という問題は、競技性の高い4v4で特に顕著である。
+[A0504][EX][GROUP_CONTENT][ESCAPE_ROUTE] 自分が敵2人に追われて主戦場から遠くへ逃げる状況が例示されている。
+[A0505][AUTHOR_JUDGMENT][COND][CLAIM][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 敵2人が自分を追跡し続ける間、その2人は味方を攻撃できず、味方側は主戦場で一時的な人数有利を得る。この人数有利には戦術的価値がある。
+[A0506][AUTHOR_JUDGMENT][COND][LIMIT][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 敵が追跡をやめて主戦場へ戻った後も自分だけ遠方に残ると、味方は自分不在で戦うことになり、敵を引きつけた価値は薄くなる。
+[A0507][RULE][ESCAPE_ROUTE] 「攻撃から逃げること」と「戦場から消えること」を区別する。
+[A0508][AUTHOR_JUDGMENT][PROC][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 理想的な逃走復帰では、相手の攻撃をいなす→味方またはヒーラーの近くへ戻る→可能なら追跡者も味方側へ連れてくる→立て直して戦闘へ復帰する。
+[A0509][AUTHOR_JUDGMENT][PRIORITY][ESCAPE_ROUTE] 逃走の最終目的地は「最も遠い安全地帯」ではなく「次に戦える場所」である。
+
+## 入門者級初心者の安全地帯常駐と戦闘参加
+
+[A0510][AUTHOR_JUDGMENT][COND][LIMIT][ENTRY_LEVEL_BEGINNER][GROUP_CONTENT][GROUP_CONTRIBUTION] 定員制の少人数グループコンテンツで入門者級初心者本人がチーム勝利・実効貢献を優先する場合、スポーン地点側の高台等の敵から攻撃されにくい位置から遠距離攻撃だけを続け、通常戦闘への参加を恒常的に避ける運用を標準推奨にしない。
+[A0511][AUTHOR_JUDGMENT][CAUSE][ENTRY_LEVEL_BEGINNER][PRACTICE] 敵から攻撃されにくい位置からの遠距離攻撃だけに依存すると、敵圧力下での防御移行、LoS、リソース管理、CC、味方との位置調整等を実戦で反復する機会が減るため、入門者級初心者の基礎学習手段としては限定的になる。
+
+## キル数評価
+
+[A0512][CLAIM] PvP結果画面ではキル数が目立ちやすい。
+[A0513][CAUSE] キル数は、最後の一撃、味方構成、相手の実力、ルール、マッチ人数、自分の役割、フォーカス対象、戦場位置に左右される。
+[A0514][EX][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー保護、敵複数人の長時間拘束、相手回復の崩し、瀕死の味方救援などの貢献は、キル数に完全には表れない。
+[A0515][AUTHOR_JUDGMENT][RULE] 自己評価ではキル数だけでなく、自分の役割を果たしたかを振り返る。
+[A0516][CAUSE] 自己評価で役割達成を基準に振り返る方が、キル数だけを見るより上達につながる。
+[A0517][NOT_INITIAL_REQUIREMENT][AUTHOR_JUDGMENT][GOAL][LIMIT][KILL_CONTRIBUTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 初心者は、撃破への貢献をKilling Blowの有無だけで評価せず、自分の介入がなければ相手が生存・回復・離脱できたかを比較し、自分がいなくても直後に撃破される相手への最後の一撃を大きな追加価値として数えない評価を将来的な目標とし、初期段階の必須要件とはしない。
+
+## タンク基本
+
+[A0518][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK] タンク設計では、付加価値を増やす前に、想定する敵圧力の中で継続して生存できる基礎を先に成立させる。
+[A0519][AUTHOR_JUDGMENT][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクが敵の有意な攻撃・注意を継続して引き受けながら生存し、その結果として味方への攻撃・防御負担を減らしている場合、防御ターンを終了せず生存し続けること自体をタンクの貢献として評価する。
+
+## タンク設計・運用の分岐
+
+[A0520][AUTHOR_JUDGMENT][RULE][ROLE_TANK][BLOCK_USAGE] タンクを評価・設計するときは、継続的なブロック（Block）維持を主防御とする常時ブロック型と、ブロック外の移動・行動を主要な生存手段として使う行動・機動型を区別し、両者へ同じ防御・サステイン・LoS・操作原則を一律に適用しない。
+[A0521][AUTHOR_JUDGMENT][RULE][SCOPE][ROLE_TANK][GROUP_CONTENT][RECOMMENDATION_SCOPE] PvPタンクへ要求する性能は、参加コンテンツの人数制限、戦闘規模、移動性、勝利条件、敵がタンクを無視できる程度によって変わるため、定員制上級少人数戦のタンク要求をシロディール（Cyrodiil）等の異なる戦場へ一律に一般化しない。
+[A0522][AUTHOR_JUDGMENT][RULE][ROLE_TANK][TIME_BUDGET] タンクはGCDを常時消費する必要はなく、追加行動の価値がない時間は何もキャストせず、必要な防御状態やブロック（Block）だけを維持して待つことを適切な運用として扱う。
+[A0523][AUTHOR_JUDGMENT][DEF][ROLE_TANK][ROLE_BRUISER] 高耐久のブルーザーと本職タンクは耐久値の大小だけで区別せず、生存後の性能予算を自分の攻撃圧力へ戻すことを主要目的とするか、被フォーカス・味方保護・バフ・デバフ・CC・妨害等の支援へ変換することを主要目的とするかで区別する。
+[A0524][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK] 本職タンクが攻撃面へ寄与する場合も、攻撃行動によって本来必要な防御・味方保護・支援を崩さないことを優先する。
+[A0525][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][BLOCK_USAGE][OPPORTUNITY_COST][GROUP_CONTRIBUTION] 本職タンクが生存に必要なブロック（Block）を解除して低価値な攻撃を追加し、その結果として死亡リスクまたは本来の仕事の喪失が増える場合、その攻撃のDPSが正でもタンク全体の貢献は低下し得る。ブロック中に使用できる行動は、必要なブロックを維持したまま行うことを優先候補とする。
+[A0526][AUTHOR_JUDGMENT][RULE][SCOPE][OVERRIDE][ROLE_TANK][BEGINNER_TANK][BLOCK_USAGE] 継続的なブロック（Block）維持を主防御とするタンクでは、特に初心者へLoSを主要防御として標準要求せず、まずブロック維持・回復・サステインを成立させる。ブロック外の移動を主要防御に含むタンクでは、障害物とLoSを積極的な生存手段として扱う。
+[A0527][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][BLOCK_USAGE][BLOCK_COST][SUSTAIN] 常時ブロック（Block）型タンクでは、ブロック軽減量だけでなくブロックコストを主要な成立条件として扱い、必要時間ブロックを維持できない場合は耐久値が高くても長時間耐久が成立したと評価しない。
+
+## タンク初心者の成立順序・成功評価
+
+[A0528][AUTHOR_JUDGMENT][PRIORITY][PRACTICE][ROLE_TANK][BEGINNER_TANK][SUSTAIN] 初心者タンクでは、最初の被圧力を生存できる最低限の耐久を確保した後、初回実戦前から防御・自己回復を継続できる最低限のサステイン補助を用意し、十分な生存時間を得てから、必要に応じて位置取り・ブロック（Block）判断・追加支援を段階的に学ぶ順序を基本とする。
+[A0529][AUTHOR_JUDGMENT][EVAL][GOAL][ROLE_TANK][BEGINNER_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 入門段階のタンクが複数の敵から継続して攻撃を受けながら一定時間生存できた場合、その生存自体を成功として評価する。CC・デバフ・引き寄せ等の追加支援は、コンテンツ上の必要性と本人の操作余裕に応じて段階的に学ぶ候補とし、生存成立後の必須義務として扱わない。
+[A0530][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][BEGINNER_TANK][BLOCK_USAGE][HEAVY_ARMOR][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] 常時ブロック（Block）型の初心者タンクでは主防御であるブロック性能を先に成立させ、ロール回避（Roll Dodge）コスト低減だけを理由に中装鎧（Medium Armor）の比率を増やしたり防具特性を変更したりして、ブロック耐久を大きく低下させる調整を標準推奨しない。他の明確な目的で防具構成を変える場合は別に評価する。
+
+## タンクの自己回復
+
+[A0531][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][HEALING][DEFENSIVE_DESIGN] 高最大体力のPvPタンクは、大きく失った自分のHPを自力で差し戻せる最大体力スケーリングのバースト自己回復を少なくとも一つ確保することを基本設計とする。
+[A0532][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][HEALING][TIME_BUDGET][SUSTAIN][DEFENSIVE_DESIGN] PvPタンクではバースト自己回復だけへ依存せず、平常被弾を継続的に相殺するHoTと組み合わせる。バースト回復の反復はリソースだけでなくGCD、移動、重攻撃その他の行動時間を消費するため、HoTは立て直し負担を減らす。
+
+## タンクの引き寄せ
+
+[A0533][AUTHOR_JUDGMENT][DEF][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクの引き寄せは、複数の敵を狭い範囲へ集約して味方の範囲攻撃・CCを通しやすくする用途と、敵を本来の位置から大きく移動させて射線・距離・隊形・位置取りを崩す用途を区別して評価する。
+
+## タンクの耐性
+
+[A0534][AUTHOR_JUDGMENT][PATCH][RULE][ROLE_TANK][DEFENSIVE_DESIGN] PvPタンクの耐性は、耐性による通常の軽減が上限へ達する表示値を超えたことだけで過剰と判定せず、敵の貫通や耐性低下を受けた後の実効耐性を基準に評価する。一方、耐性だけへ性能予算を集中させず、最大体力・割合軽減・ブロック（Block）・回復・サステイン等の複数防御層を維持する。
+
+## Shield Wall系
+
+[A0535][AUTHOR_JUDGMENT][PATCH][EVAL][ROLE_TANK][BLOCK_USAGE][SUSTAIN][OPPORTUNITY_COST] Shield Wall系は一定時間のブロック（Block）維持を自動化・無償化して手動ブロックから解放される性質を持つため、常時ブロック型タンクでは生存時間だけでなく、その時間に重攻撃等でリソースを再構築できる価値を含めて評価し、他の防御アルティメット（Ultimate）はこの低い運用機会費用との比較で評価する。
+
+## サポートの耐久設計
+
+[A0536][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーはタンク的なビルドになりやすい。
+[A0537][CAUSE][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーは味方に有益かつ敵に不利益であるため、敵から高優先度で狙われる。
+[A0538][AUTHOR_JUDGMENT][COND][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーを最前線に出す場合、最優先で狙われることを想定する。
+[A0539][LIMIT][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーは純粋なタンクへ全スペックを割り振ることができない。
+[A0540][AUTHOR_JUDGMENT][PRIORITY][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーでは、純タンクほど耐久へ割けない状態で優先フォーカスを受けても生き残る方法が最初の問題になる。
+
+## ヒール方式
+
+[A0541][DEF][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 回復方式の一つは、移動する味方へヒールを届ける方式である。
+[A0542][DEF][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 回復方式の一つは、定点へ回復エリアを形成する方式である。
+[A0543][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 多くのクラスでは、ヒーラー本来の性質として定点回復エリア方式を得意とする。
+[A0544][COND][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）野戦などでは移動対象へ届けるヒールが必須になる場面がある。
+[A0545][AUTHOR_JUDGMENT][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 最初から両方式を得意にしようとするより、どちらを重視するか先に決める方が使いやすい。
+[A0546][AUTHOR_JUDGMENT][COND][PRIORITY][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 移動対象へ回復を届ける方式を重視するヒーラーでは、対象へ付与後も継続するHoTやヒーラーと共に移動するHoTを、移動中も回復を継続できる手段として優先候補にする。
+[A0547][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラーの回復が届かない味方は存在する。
+[A0548][CLAIM][HEALING] ESOには「回復無効（Healing Immunity）」が正式なゲーム仕様として存在する。
+[A0549][AUTHOR_JUDGMENT][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 回復不能または回復無効（Healing Immunity）の味方に対しては、その状態中に無効な回復投入を繰り返さず、他の対象・行動へ切り替える判断を持つ。
+
+## 庇護（Guard）系
+
+[A0550][AUTHOR_JUDGMENT][PATCH][EVAL][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST] 庇護（Guard）系は高耐久プレイヤーが味方の被ダメージの一部を引き受ける強い支援手段として評価できる一方、両バーで維持する運用では複数スキル枠を占有し、リンク距離・移動同期・受け流した追加ダメージを処理できる耐久を要求するため、支援効果とビルド・立ち回りの自由度低下をまとめて評価する。
+
+## 入門者級初心者向けロール・ビルド
+
+[A0551][AUTHOR_JUDGMENT][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 入門者級初心者がロール選択に強い希望を持たない場合、重装鎧（Heavy Armor）と生存性重視の装備を中心にし、必要に応じてサステインを補強したPvPヒーラーを有力な初期候補とする。低い攻撃性能でも役割が成立し、自身への回復によってHPを高く維持しやすく、高度な攻撃コンボや移動中のエイムへの依存も小さくできるため、初期の操作要求に対する実戦貢献を得やすい。
+[A0552][AUTHOR_JUDGMENT][LIMIT][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 入門者級初心者に対する高耐久PvPヒーラーの高い推奨度を、上級者帯でも同じ構成が高性能または最適であるという評価へ拡張しない。
+[A0553][AUTHOR_JUDGMENT][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）で回復の杖（Restoration Staff）を使う入門者級初心者には、最初に一つ回復スキルを覚える場合の最優先候補として放射再生（Radiating Regeneration）を推奨する。エイムを要求せず複数の味方へ実効的な回復を付与でき、戦場への参加と同盟ポイント（Alliance Points／AP）取得へ結び付けやすい。
+[A0554][AUTHOR_JUDGMENT][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] 入門者級初心者がブルーザーを使用する場合、重装鎧（Heavy Armor）を主体とし、防御・生存性を主要機能とする5セット装備を最低一つ、攻撃性能を主要機能とする5セット装備を最低一つ確保する構成を初期候補とする。防御へ寄せすぎて攻撃能力を失う構成も、ブルーザーとしての実戦経験と学習を阻害し得る。
+[A0555][AUTHOR_JUDGMENT][COND][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] PvEの2バー操作にも十分慣れていない入門者級初心者ブルーザーでは、防御用5セットを裏バー限定で成立させる構成より、防御効果を常時利用できる構成を強く優先する。2バー操作に一定以上習熟している場合、この優先は必須としない。
+[A0556][AUTHOR_JUDGMENT][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] PvEにも不慣れな入門者級初心者ブルーザーには、強固（強）（Major Resolve）を確保する手段を必須級の初期推奨とする。初期段階では生存性と戦場で行動できる時間の確保を最優先し、Major Resolveによる耐性上昇はその目的へ大きく寄与する。
+
+## 初心者ヒーラー生存
+
+[A0557][AUTHOR_JUDGMENT][GOAL][PRACTICE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] PvP初心者のヒーラーは、敵から高優先度で狙われることを考慮し、まず一定の耐久性を確保したビルドで生存しながら回復する経験を積むことを目標とする。
+[A0558][AUTHOR_JUDGMENT][GOAL][PRACTICE][COND][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] PvP初心者のヒーラーが味方の人数が多い状況で戦う場合、最前線から少し離れた後方を基本位置として試し、そこで生存しながら回復を継続できる場面を増やすことを目標とし、最初から適切な距離を維持し続けられる必要はない。
+[A0559][AUTHOR_JUDGMENT][GOAL][COND][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] PvP初心者のヒーラーが味方の人数が多い状況で敵に狙われた場合、生存を優先して積極的に逃げる判断を試し、適切に離脱できる場面を増やすことを目標とする。
+[A0560][AUTHOR_JUDGMENT][LIMIT][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 生存のために逃走した結果、回復密度が低下したり味方への回復が一時停止したりすることはヒーラーの生存とのトレードオフとしてある程度許容し、初心者に最初から回復を止めずに生存し続けることを要求しない。
+
+## タンク初心者目標
+
+[A0561][AUTHOR_JUDGMENT][GOAL][ROLE_TANK][BEGINNER_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者タンクは、敵の注意や攻撃の一部を自分が引き受ける経験を積み、味方へ向かう圧力を減らせる場面を増やすことを目標の一つとする。
+
+## ヒーラー初心者目標
+
+[A0562][AUTHOR_JUDGMENT][GOAL][DIAG][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] 初心者ヒーラーは、回復が届かなかった場面を戦闘後に振り返り、原因誤認による不要な立ち回り・ビルド変更を避けるため、次回変更できる主要原因をまず一つ探すことを目標とする。最初から戦闘中の正確な原因判定や複数原因の同時分析は要求しない。
+[A0563][AUTHOR_JUDGMENT][GOAL][RULE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、自分の回復範囲から逃げ回る味方を無条件に追いかけない判断を徐々に身につけることを目標とする。
+[A0564][AUTHOR_JUDGMENT][GOAL][LIMIT][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは味方を回復する意思を持ち、助けられる範囲では助ける一方、味方の行動すべてに振り回されない線引きを徐々に身につけることを目標とする。
+[A0565][AUTHOR_JUDGMENT][GOAL][DEF][PRACTICE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、自分の周囲を回復圏として扱い、回り込みやすい障害物付近を基本位置として使う練習を行い、最初は位置を外れたり動きすぎたりしても経験に応じて不要な移動を減らしていくことを目標とする。
+[A0566][AUTHOR_JUDGMENT][GOAL][COND][PRIORITY][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、生存に必要なら大きく移動してよいことを理解し、その移動を味方の恒久的放棄ではなく数秒後に回復を再開するため今の死亡を避ける行為として徐々に判断できるようになることを目標とする。
+
+## ブルーザー初心者目標
+
+[A0567][AUTHOR_JUDGMENT][DEF][ROLE_BRUISER] ブルーザーは直接的な殴り合いをするロールである。
+[A0568][AUTHOR_JUDGMENT][GOAL][DEF][PRACTICE][BEGINNER_BRUISER][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者はブルーザーに純粋型と複合ロール型があることを理解し、まず純粋ブルーザーで正面戦の基本経験を積んでから複合型へ発展することを長期目標とし、最初から一定水準の習得を要求しない。
+
+## スカーミッシャー初心者目標：一般
+
+[A0569][AUTHOR_JUDGMENT][GOAL][PRACTICE][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者がスカーミッシャー的な運用を学ぶ場合は、まず機動力を使って戦闘地点や交戦状態を変える経験を積み、自分の機動手段でどこへ移動でき、どの程度安全に交戦・離脱・再介入できるかを徐々に理解することを目標とする。遠距離主体DDであること、ソーサラー（Sorcerer）やボルトエスケープ（Bolt Escape）／雷光（Streak）を使用すること、または最初から高度な戦況把握と最適な移動判断を行うことは要求しない。
+
+## スカーミッシャー初心者目標：定員制グループコンテンツで競技的グループ貢献を目指す場合
+
+[A0570][AUTHOR_JUDGMENT][COND][GOAL][PRACTICE][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 定員制グループコンテンツで、かつ初心者本人が個人の自由行動よりグループへの実効的な貢献を優先し、将来的に競技的なグループ貢献を目指す場合は、ほどほどの火力と自衛力、高い機動力を使って複数の戦闘へ介入するグループ貢献型スカーミッシャー運用を学習対象にできる。最初は機動力を使って別の戦闘へ介入する経験を積むことを目標とし、遠距離主体DD、ソーサラー（Sorcerer）、ボルトエスケープ（Bolt Escape）／雷光（Streak）、複数地点からの最適な介入先・タイミング判断を初期要件としない。
+[A0571][AUTHOR_JUDGMENT][AI][LIMIT][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION][RECOMMENDATION_SCOPE] A0570は、定員制グループコンテンツで将来的な競技的グループ貢献を目指す初心者向けの派生学習目標であり、初心者スカーミッシャー一般の定義・参加条件・標準要求として使用しない。また、B6で扱う遠距離主体適性、クラス適性、介入最適化、味方救援、ヘイト管理等の上級者基準をA0570の初期要求へ移植しない。

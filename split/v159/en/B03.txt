@@ -1,0 +1,41 @@
+# ESO PvP Corpus B03 Advanced Ganker and Bomber
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v159
+[PAGE_NAME] B03 Advanced Ganker and Bomber
+[SECTION_SCOPE] v159 / B0186-B0202
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+[ROUTER_RULE] Series B is additional advanced material; do not automatically apply it as beginner requirements, achievement conditions, failure criteria, or standard recommendations.
+[ROUTER_RULE] Preserve and interpret the proposition-level [ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT] constraints.
+
+
+## B7 Ganker / Bomber
+
+[B0186][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][CAUSE][ROLE_GANKER][GROUP_CONTENT] In BG 4v4, as the participants become more heavily composed of top-skilled players, targets execute defensive routines such as 打破（Break Free）, ブロック（Block）, ロール回避（Roll Dodge）, and large heals more quickly and maintain higher vigilance against ambushes; therefore Gankers / Bombers have more difficulty obtaining effective target states and attack-start opportunities, increasing participation difficulty.
+[B0187][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRIORITY][ROLE_GANKER][TARGET_TIMING_CONTROL][DEFENSIVE_SEQUENCE] When targeting an advanced PvP player for assassination, do not use merely being able to approach from stealth as the attack-start condition; prioritize moments when the target is less able to fully execute post-opening defensive routines such as 打破（Break Free）, ブロック（Block）, ロール回避（Roll Dodge）, or a large heal.
+[B0188][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][RULE][ROLE_GANKER][TARGET_TIMING_CONTROL] In assassinations against advanced players, situations that make a target vulnerable may also be predictable to that target as assassination opportunities, so evaluate the target's vulnerability separately from their vigilance toward the situation and do not equate an obvious opportunity with an unguarded opportunity.
+[B0189][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][SCOPE][ROLE_GANKER][TARGET_TIMING_CONTROL] When analyzing advanced Pure Ganker operation, assume that the necessary burst preparation and combo execution are already established, and place the primary evaluation on the attack-start decision of which target state and timing should receive that damage.
+[B0190][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][PRIORITY][ROLE_GANKER][TARGET_TIMING_CONTROL] If a Pure melee Ganker's maximum combo sufficiently exceeds the assumed durability range of its targets, prioritize securing attack-start conditions that allow the combo to land effectively over adding more damage.
+[B0191][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][EVAL][ROLE_GANKER][COUNTERFACTUAL_COMPARISON] Evaluate the specialization value of a Pure Ganker not only by successful assassinations against opponents that an ordinary PvP setup could also kill easily, but by the difference in extending the killable range to high-durability, high-self-defense targets that are difficult for ordinary setups to kill.
+[B0192][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][RULE][ROLE_GANKER][TARGET_TIMING_CONTROL] In environments such as 帝都（Imperial City） where target encounter frequency is low, a Pure Ganker should not assume it can select the best target from multiple candidates; decide whether to attack or pass based on whether the currently encountered target meets predetermined assassination-success conditions.
+[B0193][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][ROLE_GANKER][OPPORTUNITY_COST] A Pure Ganker that has heavily sacrificed damage tolerance and re-disengagement capability has difficulty surviving and retrying after a failed first assassination, so it requires a higher probability of success from each attack start than a high-mobility Ganker capable of disengaging again.
+[B0194][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][EVAL][ROLE_GANKER][OPPORTUNITY_COST][MOVEMENT_SPEED] Even if a high-mobility Ganker has a narrower single-attempt killable range than a Pure melee Ganker, it may have high practical value across the full assassination cycle if the time and losses required for searching, following, position formation, re-disengagement after failure, and retrying are lower.
+[B0195][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][ROLE_GANKER] If the effective burst of a ranged Ganker is lower than that of a Pure melee Ganker, it must filter whether a target is within its killable range before deciding to initiate, and therefore has stronger target restrictions based on durability than a Pure melee Ganker.
+[B0196][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][ROLE_GANKER][TARGET_TIMING_CONTROL][ADVANTAGE_CREATION_CONVERSION] If a target engaged continuously against a roughly equal opponent is already spending action opportunities and resources on offense, defense, healing, and positional adjustment in that existing fight, evaluate that target as an assassination candidate that can exploit the existing engagement.
+[B0197][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][EVAL][ROLE_GANKER][OPPORTUNITY_COST] In an environment such as 帝都（Imperial City） where the practical reward from one player kill is large, even a Pure Ganker with long preparation and waiting times and high losses on failure can more easily recover the opportunity cost of the assassination cycle, so the same assassination performance may have greater use suitability than on a battlefield where one kill yields little practical benefit.
+[B0198][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][SCOPE][LIMIT][ROLE_GANKER] In advanced Ganker operation in 帝都（Imperial City）, assume prior knowledge of the fundamental environment needed for continued combat there, such as major terrain, monsters, bosses, and movement routes, and do not treat learning that environment itself as an advanced Ganker-specific tactic.
+
+### B7.1 Additional Bomber Operation
+
+[B0199][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] Do not treat using one dedicated Bomber slot in advanced-player-centered 4v4 as a realistic win condition.
+[B0200][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CAUSE][BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION][TIME_BUDGET] Establishing sufficient offense as a Bomber normally requires preparation across multiple GCDs, while candidates for the initial kill begin defending before reaching a dangerous state and allies continue ordinary kill processing, so the effective detonation state is unlikely to remain until preparation is complete.
+[B0201][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CLAIM][BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST] In a fixed four-player composition, Bomber specialization imposes a large opportunity cost on ordinary combat power.
+[B0202][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][EVAL][BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] Do not highly rate a situation where the Bomber merely adds the final hit to a kill almost completed by allies and triggers surrounding damage as evidence that a dedicated Bomber is viable.

@@ -1,0 +1,140 @@
+# ESO PvP Corpus A03 Movement Resources Time and Execution
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v159
+[PAGE_NAME] A03 Movement Resources Time and Execution
+[SECTION_SCOPE] v159 / A0297-A0373
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+
+# Part 4 — Movement, Positioning, and Disengagement
+
+## LoS
+
+[A0297][AUTHOR_JUDGMENT][PRIORITY] LoS is a top-tier defensive asset.
+[A0298][DEF] LoS（Line of Sight） is the concept of whether there is a direct line of vision between you and the enemy; a representative use is employing fixed objects to make it harder for the opponent to target you directly.
+[A0299][LIMIT] The purpose of using obstacles is not to become permanently invulnerable.
+[A0300][AUTHOR_JUDGMENT][PRIORITY] The primary purpose of using obstacles is to reduce the amount of time you are exposed to enemy attacks.
+[A0301][EX] One example goal of using LoS is to reduce a situation where you would be attacked continuously for 10 seconds to roughly 5 seconds of actual exposure.
+[A0302][CAUSE] Time created by LoS during which you are not being attacked can be used for healing, recovering resources, refreshing buffs, regrouping with allies, or preparing the next attack.
+[A0303][CLAIM] Simply reducing the amount of time you are being attacked can greatly change combat difficulty.
+
+## Circling Obstacles
+
+[A0304][CLAIM] After learning LoS, players tend to want to keep circling continuously around obstacles.
+[A0305][CAUSE] If you begin a wide circle ahead of the opponent, the opponent can run the shorter inside route and catch up.
+[A0306][AUTHOR_JUDGMENT][RULE] When circling an obstacle, focus on shifting to the opposite side after the opponent moves.
+[A0307][AUTHOR_JUDGMENT][PRACTICE] In early obstacle-circling practice, do not require that the enemy can never catch you; treat even a partial reduction in the time the enemy can attack as an effective improvement.
+
+## Circling on Open Ground
+
+[A0308][AUTHOR_JUDGMENT][PRACTICE][FLAT_TERRAIN_COMBAT] Even on open ground without obstacles, consciously fight while moving around the opponent's flank or rear.
+[A0309][CAUSE][FLAT_TERRAIN_COMBAT] Skills that cannot activate unless the enemy is inside the crosshair can have their activation frequency reduced when the target moves outside the opponent's crosshair by circling around them.
+[A0310][CAUSE][FLAT_TERRAIN_COMBAT] If circling prevents the enemy from keeping the target in the crosshair and reduces the activation frequency of targeted offensive skills, an effective reduction in incoming attack frequency can be expected.
+[A0311][LIMIT][FLAT_TERRAIN_COMBAT] Circling play does not need to prevent every enemy attack from being activated.
+[A0312][CLAIM][FLAT_TERRAIN_COMBAT] Even reducing only part of the opponent's attack frequency through circling can make a large defensive contribution.
+[A0313][CLAIM][FLAT_TERRAIN_COMBAT] Because the opponent also moves to circle toward your flank or rear, aiming skill remains important even in obstacle-free melee combat.
+[A0314][AUTHOR_JUDGMENT][PRACTICE][FLAT_TERRAIN_COMBAT] To make circling on open ground practical, secure a certain level of movement speed that does not interfere with positioning.
+
+## Escape
+
+[A0315][RULE][ESCAPE_ROUTE] Do not equate “running away” in PvP with defeat.
+[A0316][CLAIM][ESCAPE_ROUTE] Leaving a dangerous situation to heal, recover resources, refresh buffs, regroup with allies, or move to favorable terrain is a normal combat action.
+[A0317][AUTHOR_JUDGMENT][RULE][ESCAPE_ROUTE] When targeted by multiple enemies, do not absorb every attack head-on in open ground; use distance, obstacles, and CC to spread out pursuers, and survive with ブロック（Block） and ロール回避（Roll Dodge）.
+
+## Movement Speed and Combat Initiative
+
+[A0318][CLAIM][LIMIT][COND][MOVEMENT_SPEED] The faster side tends to control when combat starts and ends, while the slower side may be unable to begin combat unless the opponent chooses to attack; this problem is especially pronounced for melee builds.
+[A0319][COND][CAUSE][MOVEMENT_SPEED] When one side has a one-sided advantage in both movement speed and attack range, the faster, longer-ranged side can disengage freely, rest and reset, and re-engage at timing favorable to itself more easily.
+[A0320][LIMIT][RULE][COND][MOVEMENT_SPEED] Do not make excessive investment in movement speed an objective by itself. Reducing speed enough to impair positioning risks losing control over engagement and disengagement, and this risk is especially large for melee builds.
+
+## 1vX
+
+[A0321][CLAIM] 1vX can visually appear to mean “killing multiple opponents while taking all of their attacks at once.”
+[A0322][AUTHOR_JUDGMENT][RULE] The foundation of stable survival in 1vX is to avoid fighting multiple opponents head-on at the same time.
+[A0323][AUTHOR_JUDGMENT][RULE] In 1vX, use obstacles to break line of sight.
+[A0324][AUTHOR_JUDGMENT][RULE] In 1vX, create distance.
+[A0325][AUTHOR_JUDGMENT][RULE] In 1vX, use movement speed to spread out the order in which pursuers reach you.
+[A0326][AUTHOR_JUDGMENT][RULE] In 1vX, use CC to stop one opponent.
+[A0327][AUTHOR_JUDGMENT][RULE] In 1vX, isolate one opponent who overextends in pursuit.
+[A0328][AUTHOR_JUDGMENT][RULE] In 1vX, identify opponents who are already damaged.
+[A0329][AUTHOR_JUDGMENT][RULE] In 1vX, disengage again when the situation becomes dangerous.
+[A0330][CAUSE] Combine obstacles, distance, movement speed, CC, isolation, target selection, and repeated disengagement to convert one-against-many into a sequence of brief situations closer to one-against-one.
+[A0331][AUTHOR_JUDGMENT][CLAIM] Being fully trapped by two equally capable opponents in a place with no escape route and receiving simultaneous attacks from both is an extremely difficult situation.
+[A0332][AUTHOR_JUDGMENT][COND][CLAIM] Even against multiple opponents, the lower their PvP preparation and skill, the lower the difficulty can become even when taking simultaneous attacks in a place with no escape route.
+[A0333][AUTHOR_JUDGMENT][LIMIT] Do not treat an example of defeating multiple underprepared or low-skill opponents head-on in a place with no escape route as evidence that you can similarly win when trapped head-on by two equally capable opponents.
+[A0334][AUTHOR_JUDGMENT][PRACTICE] Do not make video-style 1vX a minimum condition for PvP improvement.
+[A0335][AUTHOR_JUDGMENT][CLAIM] A non-negligible share of PvP videos include examples of defeating overwhelmingly weaker opponents to create an appearance of strength for spectacle or view count.
+[A0336][AUTHOR_JUDGMENT][PRACTICE][CLAIM][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] Stage early 1vX practice goals in the order: survive 5 seconds longer even when targeted by multiple enemies → return to the position of your allies → bring only one pursuer with you. Achieving these is sufficient progress.
+
+# Part 5 — Resources, Time, and Execution
+
+## Emergency Resource Margin
+
+[A0337][AUTHOR_JUDGMENT][PRIORITY][BEGINNER_ALL_ROLES] Even on builds that are not スタミナ（Stamina）-based, treat Stamina as a survival resource used for 打破（Break Free）, ロール回避（Roll Dodge）, ブロック（Block）, and スプリント（Sprint）.
+[A0338][AUTHOR_JUDGMENT][COND][DIAG] There are situations where you can survive at half HP if you still have enough スタミナ（Stamina） to 打破（Break Free）, while even at high HP you can die suddenly to CC into burst if Stamina is empty. Therefore, danger can begin not when a resource reaches zero, but when the margin reserved for safety actions has been exhausted.
+
+## Sustain
+
+[A0339][AUTHOR_JUDGMENT][DEF][RULE][SUSTAIN] Sustain is the ability to maintain resources required to continue fighting. Evaluate it not only by recovery values, but by how many practical cycles of offense, defense, healing, 打破（Break Free）, movement, and renewed offense can be continued. Sustain itself is not a defensive layer that directly reduces incoming damage or directly restores HP; treat it as an indirect combat resource that makes those actions sustainable.
+[A0340][COND] Even if resources are sufficient for attacking alone, practical sustain is insufficient if a single 打破（Break Free） from CC causes depletion.
+[A0341][COND] Even when recovery values appear low, a build may fight for a long time by dividing use across multiple resources, combining offense and healing in one action, or securing time to recover resources in a safe area.
+
+## Sustain Adjustment
+
+[A0342][AUTHOR_JUDGMENT][DIAG][PRACTICE][SUSTAIN][BUILD_GENERAL] If the primary resource remains substantially unused across multiple representative real fights while another clear bottleneck such as killing power remains, suspect that marginal investment in sustain may be excessive. Change small elements such as recovery enchantments one at a time toward other performance and re-evaluate. Stop reducing sustain at the point where you can no longer return to offense after 打破（Break Free）, healing, or disengagement.
+
+## Conditional Sustain and Deferred Effects
+
+[A0343][AUTHOR_JUDGMENT][RULE][CONDITIONAL_SUSTAIN] Treat conditional resource recovery as an additional effect that improves the economy of combat actions that were already tactically correct.
+[A0344][AUTHOR_JUDGMENT][LIMIT][CONDITIONAL_SUSTAIN] Be cautious with designs that cannot maintain the normal combat cycle without conditional resource recovery.
+[A0345][AUTHOR_JUDGMENT][LIMIT][GROUP_EFFECT][GROUP_CONTENT] In group PvP, do not depend on a sustain design that cannot maintain the normal combat cycle if resource supply from allies such as healers stops; treat external supply as an added effect that creates margin on top of sustain already established independently.
+[A0346][LIMIT][OPPONENT_DEPENDENT_SUSTAIN] If continuously required resource demand on your side is supported only by resource supply that strongly depends on the opponent's class, attack type, or action choices, sustain performance becomes highly unstable across opponents.
+[A0347][AUTHOR_JUDGMENT][PRIORITY][CONDITIONAL_SUSTAIN] Evaluate conditional resource recovery not only by its nominal amount but also by whether the timing when the effect occurs naturally aligns with the timing when the resource tends to become insufficient.
+[A0348][LIMIT][CAUSE][RESOURCE_RECOVERY] The effective amount of an immediate lump-sum resource restore is capped by the current deficit; any amount exceeding the maximum cannot be saved for later combat, so do not always treat the nominal restore amount as the effective value.
+[A0349][RULE][DEFERRED_EFFECT] Do not evaluate resources or アルティメット（Ultimate） gained only in a later stage of a combat cycle as resources that enabled the earlier stage of that same cycle.
+[A0350][AUTHOR_JUDGMENT][EVAL][DEFERRED_EFFECT] Evaluate resources or アルティメット（Ultimate） gained after an execute or kill primarily as effects that accelerate preparation for the next attack wave or the next target.
+[A0351][AUTHOR_JUDGMENT][RULE][STAGE_DEPENDENT_PERFORMANCE] Evaluate performance that provides value only in a later combat stage on the premise that the build can reliably reach that stage.
+[A0352][AUTHOR_JUDGMENT][PRIORITY][PRE_EXECUTE_PHASE] If you cannot reduce the opponent to an executable state with sufficient frequency, improve pressure, burst, CC, or similar tools that get the opponent into execute range before further strengthening execute performance.
+
+## GCD and Time Budget
+
+[A0353][AUTHOR_JUDGMENT][DEF][CLAIM] GCD（Global Cooldown） is the common short interval between successive skill uses, and in PvP not only skill slots but also the number of actions available within a short period is finite and valuable.
+[A0354][CAUSE] If every role must be prepared through a separate action, the opponent can act multiple times during that preparation.
+[A0355][AUTHOR_JUDGMENT][RULE][TIME_BUDGET] When one skill can perform multiple jobs such as offense + healing within the same GCD, it is more time-efficient than performing those jobs with separate skills, and this value is not visible from individual numerical performance alone.
+[A0356][EX] Offense + healing, healing + defensive buff, shield + another buff, and offense + debuff are examples of one action performing multiple jobs.
+[A0357][AUTHOR_JUDGMENT][PRIORITY][TIME_BUDGET] Evaluate the time efficiency of a skill or effect not only by the total number of GCDs required, but also by when in the combat cycle those GCDs must be paid.
+
+## Finite-Time Resources and Processing Capacity
+
+[A0358][AUTHOR_JUDGMENT][RULE][OPPORTUNITY_COST][TIME_BUDGET] When consuming a combat resource with an expiration time, simultaneous-hold cap, or generation rate requires GCDs, the resource can be generated faster than practical processing capacity. In that case, do not make consuming every resource the goal; intentionally discard low-marginal-value resources to preserve high-value GCDs for offense, defense, healing, positioning, and similar actions.
+
+## Skill-Slot Compression
+
+[A0359][LIMIT] The number of skill slots available in ESO is finite.
+[A0360][RULE] In build design, consider what job each skill slot is responsible for.
+[A0361][DEF] The idea of assigning multiple jobs to one skill slot is called “skill-slot compression.”
+[A0362][EX] Configurations that handle healing + defensive buff, offense + healing, movement + CC, offense + debuff, or buff + emergency healing in a single slot are examples of skill-slot compression.
+[A0363][CAUSE] Giving one slot multiple functions allows additional offensive or defensive capability to be placed in other freed slots.
+[A0364][LIMIT][RULE][ROLE_COMPRESSION_EVALUATION] Do not rate something as role compression, high efficiency, or high performance merely because multiple effects are listed. Verify whether each effect is needed, whether the desired timing of the effects is compatible, whether overlap with existing tools is small, and whether total efficiency is higher than strong alternatives for the same slot.
+[A0365][RULE][SAME_ROLE_SLOTS] When using multiple skills or pieces of equipment that perform the same primary role within one build, do not justify adoption merely because “both are useful.” Verify that each covers different tactical situations, ranges, timings, targets, costs, or similar dimensions, and that the second tool provides more value than the opportunity cost of losing that slot.
+[A0366][AUTHOR_JUDGMENT][LIMIT][DIAG][SKILL_SLOT_COMPRESSION] If freeing one slot merely moves its job into a valuable flexible slot on another multifunction skill, it is not necessarily a net gain in compression. Check not only the number of freed slots but also how many powerful effects the receiving side could otherwise have selected but lost.
+[A0367][LIMIT][PARTIAL_SUBSTITUTION] Even when equipment substitutes for part of a competing skill's function, it may not substitute for the other important effects that skill simultaneously provided; do not judge the entire competing skill unnecessary merely because of partial functional overlap.
+
+## Usability
+
+[A0368][LIMIT] Even a numerically strong skill cannot deliver that strength in practice if you forget to use it.
+[A0369][COND] Even if back-bar placement is theoretically more efficient, if putting a skill on the back bar causes you to forget it exists, front-bar placement can be stronger in practical combat.
+[A0370][AUTHOR_JUDGMENT][PRIORITY] In PvP, treat usability itself as build performance.
+[A0371][AUTHOR_JUDGMENT][RULE] In skill-layout design, evaluate ease of pressing, ease of remembering, whether it causes hesitation in emergencies, whether it can be used immediately after bar swapping, and compatibility with your own control habits.
+[A0372][COND] If fully copying an advanced-player layout leaves you unable to use required skills when needed, a layout with slightly lower theoretical output but reliable execution can be stronger in practice.
+
+## Complexity and Execution Cost
+
+[A0373][AUTHOR_JUDGMENT][RULE][CLASS_OPPORTUNITY_COST][BUILD_GENERAL] When comparing performance between classes or builds, subtract as execution cost not only their maximum-state numbers but also monitoring, positional adjustment, timing management, additional GCDs, special-resource management, and other tasks required beyond ordinary PvP actions to reach and maintain that state. If two configurations provide similar effective performance, the configuration that can produce it across broader conditions with less additional management has a practical advantage by that difference itself.

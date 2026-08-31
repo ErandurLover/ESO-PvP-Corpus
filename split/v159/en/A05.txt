@@ -1,0 +1,182 @@
+# ESO PvP Corpus A05 Group Combat and Roles
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v159
+[PAGE_NAME] A05 Group Combat and Roles
+[SECTION_SCOPE] v159 / A0481-A0571
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+
+# Part 7 — Group Combat and Roles
+
+## Roles
+
+[A0481][AUTHOR_JUDGMENT][DEF][CLAIM] PvP playstyles can be organized broadly into role tendencies such as tank, healer / buffer / debuffer, bruiser, skirmisher, ganker / bomber, and similar categories, and hybrid operation combining multiple tendencies is also common. These categories are not intended to classify every player exclusively into only one role.
+[A0482][AUTHOR_JUDGMENT][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] When evaluating effective contribution to the group in group content, focus more on “what problem do I solve for the team?” than on the role name itself.
+[A0483][DEF][SCOPE] DD（Damage Dealer） is a broad term for configurations or roles whose main function is dealing damage to enemies and does not correspond one-to-one with the PvP role categories distinguished in ESO PvP Corpus, such as bruiser, skirmisher, or ganker / bomber.
+[A0484][AUTHOR_JUDGMENT][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] A tank's value is not merely in refusing to die, but in making enemies feel they cannot ignore the tank, absorbing enemy numbers and attacks, and thereby creating local numerical advantage for allies.
+[A0485][AUTHOR_JUDGMENT][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] The job of a healer / support is not only HP restoration, but also buffs, debuffs, CC, rescue, and pressure on the enemy healer.
+[A0486][AUTHOR_JUDGMENT][ROLE_BRUISER] A bruiser continuously pressures opponents in front-line combat and therefore requires enough survivability to keep attacking.
+[A0487][AUTHOR_JUDGMENT][DEF][ROLE_SKIRMISHER] A skirmisher is a mobile role tendency that uses high mobility to flexibly change combat locations and engagement states. Whether it operates solo or with a group, focuses on close or long range, and uses mobility for self-survival, offense, or ally support depends on the participating content and operational objective; being a ranged-focused DD is not itself a general requirement for a skirmisher.
+[A0488][AUTHOR_JUDGMENT][COND][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] When operating a skirmisher in group content with priority on effective group contribution, use mobility not merely as freedom to move wherever desired but as the ability to reach high-intervention-value locations quickly.
+[A0489][AUTHOR_JUDGMENT][EVAL][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] Evaluate the intervention performance of a group-contribution skirmisher not only by single instances of fast movement or sporadic hit-and-run attacks, but by the time required after moving to the needed battlefield to begin effective offense, CC, rescue, or pressure and by how frequently effective intervention can be repeated across multiple combat locations.
+[A0490][AUTHOR_JUDGMENT][AI][LIMIT][ROLE_SKIRMISHER][ROLE_BRUISER][RECOMMENDATION_SCOPE] Do not automatically conclude that an operation is not skirmisher play or must be bruiser play merely because it does not satisfy the conditions of a group-contribution skirmisher or the advanced competitive skirmisher conditions in Series B. Evaluate role tendency individually from the combat actions actually performed and the operational objective.
+[A0491][AUTHOR_JUDGMENT][DEF][ROLE_GANKER] Gank means choosing the target, position, attack-start timing, or similar conditions and seeking a kill from a short offensive opportunity rather than maintaining a long ordinary front-line exchange. Stealth, invisibility, and melee attacks are not necessary conditions for a gank.
+[A0492][AUTHOR_JUDGMENT][RULE][STEALTH_MOBILITY_SEPARATION] Evaluate stealth and mobility separately: stealth hides information about position and intent from enemies, while mobility changes actual position rapidly. Do not equate high stealth with high mobility.
+[A0493][AUTHOR_JUDGMENT][RULE][RECOMMENDATION_SCOPE] Evaluate suitability for a specific role by performance directly related to that role's objective, required actions, and success conditions. Do not reuse evaluations of solo general performance, another role, ganker performance, or similar categories as grounds for ranking suitability in the role unless that performance directly contributes to the role's requirements.
+
+## Hybridization into Adjacent Roles
+
+[A0494][AUTHOR_JUDGMENT][RULE][BUILD_GENERAL] When a class or build is disadvantaged in direct competition for its primary role, do not make excessive investment to average out weaknesses the only improvement path; consider hybridizing into an adjacent role where competitiveness can be gained while preserving existing strengths.
+
+## Creating and Converting Advantage in Group Combat
+
+[A0495][AUTHOR_JUDGMENT][DEF][ADVANTAGE_CREATION_CONVERSION][GROUP_CONTENT][GROUP_CONTRIBUTION] In group PvP, evaluate separately the ability to lead allies into an advantageous state and the ability to maintain, expand, or convert an advantageous state already created by allies into results such as kills.
+[A0496][LIMIT][ALLY_DEPENDENCE][GROUP_CONTENT][GROUP_CONTRIBUTION] Showing high performance when allies have supplied pressure, CC, damage, or similar advantage does not mean the character can create the same advantageous state alone.
+[A0497][LIMIT][SOLO_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION] Do not conclude that a build has low group-combat value merely because it has low ability to create advantage by itself if it can convert advantage created by allies into results with high efficiency.
+
+## Spillover Value Beyond the Direct Matchup
+
+[A0498][AUTHOR_JUDGMENT][RULE][GROUP_EFFECT][TARGET_LOCAL_EFFECT][GROUP_CONTENT][GROUP_CONTRIBUTION] Even when two players in group combat appear to be mutually locking each other down, if one can continue providing value to other allies or enemies through HoTs, area healing, buffs, debuffs, AoE, CC, or similar effects, do not treat them as a simple one-for-one cancellation; include the difference in value spilling outside the direct matchup while they are occupied.
+
+## Aggro Value
+
+[A0499][CLAIM][GROUP_CONTENT] Enemy offensive actions are finite in group combat.
+[A0500][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] If you can survive while drawing enemy attention, that action itself can have team value.
+[A0501][NOT_INITIAL_REQUIREMENT][AUTHOR_JUDGMENT][GOAL][LIMIT][COMBAT_PARTICIPATION_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] As a future goal, beginners should become able to evaluate operation that reduces meaningful combat participation through stealth, waiting, or similar behavior in fixed-size group combat by subtracting the opportunity cost of offense, CC, support, focus distribution, and other contributions lost during that time and determining whether later intervention exceeds those losses; do not make this an initial-stage requirement.
+
+## Escape That Draws Enemies and Return to the Front
+
+[A0502][AUTHOR_JUDGMENT][CLAIM][GROUP_CONTENT][GROUP_CONTRIBUTION] In BG, merely not dying can be insufficient.
+[A0503][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] The problem that “merely not dying is insufficient” is especially pronounced in highly competitive 4v4.
+[A0504][EX][GROUP_CONTENT][ESCAPE_ROUTE] An example is a situation where two enemies chase you far away from the main battlefield.
+[A0505][AUTHOR_JUDGMENT][COND][CLAIM][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] While two enemies continue chasing you, those two cannot attack your allies, giving your side a temporary numerical advantage on the main battlefield. This numerical advantage has tactical value.
+[A0506][AUTHOR_JUDGMENT][COND][LIMIT][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] If the enemies stop chasing and return to the main battlefield while you alone remain far away, your allies must fight without you and the value gained by drawing the enemies away diminishes.
+[A0507][RULE][ESCAPE_ROUTE] Distinguish “escaping from attacks” from “disappearing from the battlefield.”
+[A0508][AUTHOR_JUDGMENT][PROC][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] An ideal escape-and-return sequence is: evade the opponent's attacks → return near allies or a healer → if possible bring pursuers back toward your allies as well → stabilize and re-enter combat.
+[A0509][AUTHOR_JUDGMENT][PRIORITY][ESCAPE_ROUTE] The final destination of escape is not “the farthest safe place” but “a place where you can fight next.”
+
+## Permanent Safe-Zone Positioning and Combat Participation for Entry-Level Beginners
+
+[A0510][AUTHOR_JUDGMENT][COND][LIMIT][ENTRY_LEVEL_BEGINNER][GROUP_CONTENT][GROUP_CONTRIBUTION] In fixed-capacity small-group content, when an entry-level beginner personally prioritizes team victory and effective contribution, do not make it a standard recommendation to remain in positions difficult for enemies to attack, such as high ground near the spawn side, and continue only ranged attacks while persistently avoiding participation in normal combat.
+[A0511][AUTHOR_JUDGMENT][CAUSE][ENTRY_LEVEL_BEGINNER][PRACTICE] Relying only on ranged attacks from positions difficult for enemies to attack reduces opportunities to repeat defensive transitions under enemy pressure, LoS, resource management, CC, positional adjustment with allies, and similar fundamentals in real combat, making it limited as a basic learning method for entry-level beginners.
+
+## Evaluating Kill Count
+
+[A0512][CLAIM] Kill count is visually prominent on PvP result screens.
+[A0513][CAUSE] Kill count depends on the final hit, allied composition, opponent skill, rules, match population, your role, focus target, and battlefield position.
+[A0514][EX][GROUP_CONTENT][GROUP_CONTRIBUTION] Contributions such as protecting a healer, occupying multiple enemies for a long period, breaking enemy healing, or rescuing a nearly dead ally are not fully reflected in kill count.
+[A0515][AUTHOR_JUDGMENT][RULE] In self-evaluation, review not only kill count but whether you fulfilled your role.
+[A0516][CAUSE] Reviewing role fulfillment in self-evaluation contributes more to improvement than looking only at kill count.
+[A0517][NOT_INITIAL_REQUIREMENT][AUTHOR_JUDGMENT][GOAL][LIMIT][KILL_CONTRIBUTION][GROUP_CONTENT][GROUP_CONTRIBUTION] As a future goal, beginners should learn to evaluate contribution to a kill not only by whether they received the Killing Blow, but by comparing whether the opponent could have survived, healed, or disengaged without their intervention and by not counting the final hit on an opponent who would have been killed immediately even without them as major additional value; do not make this an initial-stage requirement.
+
+## Tank Fundamentals
+
+[A0518][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK] In tank design, establish the foundation for sustained survival under the intended enemy pressure before increasing added value.
+[A0519][AUTHOR_JUDGMENT][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] When a tank survives while continuously absorbing meaningful enemy attacks and attention and thereby reduces the offensive or defensive burden on allies, evaluate continuing to survive without ending the defensive turn itself as tank contribution.
+
+## Branches in Tank Design and Operation
+
+[A0520][AUTHOR_JUDGMENT][RULE][ROLE_TANK][BLOCK_USAGE] When evaluating or designing a tank, distinguish a permanent-block type whose primary defense is continuous ブロック（Block） maintenance from an action/mobility type whose main survival tools include movement and actions outside block; do not apply identical defensive, sustain, LoS, and execution principles uniformly to both.
+[A0521][AUTHOR_JUDGMENT][RULE][SCOPE][ROLE_TANK][GROUP_CONTENT][RECOMMENDATION_SCOPE] Performance required of a PvP tank changes with participant limits, combat scale, mobility, victory conditions, and how easily enemies can ignore the tank. Do not generalize tank requirements from fixed-size advanced small-team combat uniformly to different battlefields such as シロディール（Cyrodiil）.
+[A0522][AUTHOR_JUDGMENT][RULE][ROLE_TANK][TIME_BUDGET] A tank does not need to consume GCDs constantly. When additional actions have no value, doing nothing and simply maintaining the required defensive state or ブロック（Block） is appropriate operation.
+[A0523][AUTHOR_JUDGMENT][DEF][ROLE_TANK][ROLE_BRUISER] Distinguish a high-durability bruiser from a dedicated tank not merely by durability values, but by whether the primary purpose after securing survival is to return performance budget into personal offensive pressure or to convert it into support such as absorbing focus, protecting allies, buffs, debuffs, CC, and disruption.
+[A0524][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK] Even when a dedicated tank contributes offensively, prioritize not breaking required defense, ally protection, or support through those offensive actions.
+[A0525][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][BLOCK_USAGE][OPPORTUNITY_COST][GROUP_CONTRIBUTION] If a dedicated tank releases ブロック（Block） required for survival to add low-value attacks and thereby increases death risk or loss of its primary job, the tank's total contribution can fall even when the attack adds positive DPS. Actions usable while blocking should be prioritized for execution while maintaining the required block.
+[A0526][AUTHOR_JUDGMENT][RULE][SCOPE][OVERRIDE][ROLE_TANK][BEGINNER_TANK][BLOCK_USAGE] For tanks whose primary defense is continuous ブロック（Block） maintenance, do not make LoS a standard primary defense requirement, especially for beginners; first establish block maintenance, healing, and sustain. For tanks that include movement outside block as a primary defense, treat obstacles and LoS as active survival tools.
+[A0527][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][BLOCK_USAGE][BLOCK_COST][SUSTAIN] For permanent ブロック（Block）-type Tanks, treat Block cost as a primary viability condition in addition to Block mitigation. If the Tank cannot maintain Block for the required duration, do not rate long-duration durability as established even if raw toughness is high.
+
+## Tank Beginner Viability Order and Success Evaluation
+
+[A0528][AUTHOR_JUDGMENT][PRIORITY][PRACTICE][ROLE_TANK][BEGINNER_TANK][SUSTAIN] For beginner tanks, first secure minimum durability sufficient to survive initial pressure, then prepare minimum sustain support that allows continued defense and self-healing before the first real match, obtain enough survival time, and only then learn positioning, ブロック（Block） judgment, and additional support progressively as needed.
+[A0529][AUTHOR_JUDGMENT][EVAL][GOAL][ROLE_TANK][BEGINNER_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] If an entry-stage tank can survive for a period while receiving continuous attacks from multiple enemies, evaluate that survival itself as success. Treat additional support such as CC, debuffs, or pulls as candidates for progressive learning according to content requirements and the player's execution margin, not as mandatory obligations immediately after survival becomes possible.
+[A0530][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][BEGINNER_TANK][BLOCK_USAGE][HEAVY_ARMOR][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] For beginner permanent-block tanks, first establish performance of the primary defense, ブロック（Block）, and do not standardly recommend increasing the share of 中装鎧（Medium Armor） or changing armor traits solely to reduce ロール回避（Roll Dodge） cost when doing so substantially lowers block durability. Evaluate armor changes for other clear objectives separately.
+
+## Tank Self-Healing
+
+[A0531][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][HEALING][DEFENSIVE_DESIGN] As a basic design principle, a high-Max-Health PvP tank should secure at least one burst self-heal scaling from Max Health that can independently rewind a large amount of its own lost HP.
+[A0532][AUTHOR_JUDGMENT][PRIORITY][ROLE_TANK][HEALING][TIME_BUDGET][SUSTAIN][DEFENSIVE_DESIGN] In PvP tanks, do not rely only on burst self-healing; combine it with HoTs that continuously offset ordinary incoming damage. Repeated burst healing consumes not only resources but GCDs, movement, Heavy Attacks, and other action time, so HoTs reduce the burden of recovery.
+
+## Tank Pulls
+
+[A0533][AUTHOR_JUDGMENT][DEF][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] Evaluate tank pulls separately for two uses: gathering multiple enemies into a narrow area to make allied AoE attacks and CC easier to land, and moving an enemy far from its original position to disrupt line of sight, distance, formation, or positioning.
+
+## Tank Resistance
+
+[A0534][AUTHOR_JUDGMENT][PATCH][RULE][ROLE_TANK][DEFENSIVE_DESIGN] Do not judge PvP tank resistance excessive merely because the displayed value exceeds the point where ordinary resistance mitigation reaches its cap; evaluate based on effective resistance after enemy Penetration and resistance reduction. At the same time, do not concentrate the entire performance budget into resistance alone; maintain multiple defensive layers such as Max Health, percentage mitigation, ブロック（Block）, healing, and sustain.
+
+## Shield Wall Line
+
+[A0535][AUTHOR_JUDGMENT][PATCH][EVAL][ROLE_TANK][BLOCK_USAGE][SUSTAIN][OPPORTUNITY_COST] Because the Shield Wall line automates and removes the cost of maintaining ブロック（Block） for a period, freeing the player from manual blocking, evaluate it for permanent-block tanks not only by survival time but also by the value of using that period to rebuild resources through Heavy Attacks or similar actions. Evaluate other defensive アルティメット（Ultimate） against this low operational opportunity cost.
+
+## Durability Design for Support
+
+[A0536][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] Healer / buffer / debuffer configurations tend to become tank-like builds.
+[A0537][CAUSE][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] Healers / buffers / debuffers are beneficial to allies and harmful to enemies, so enemies target them at high priority.
+[A0538][AUTHOR_JUDGMENT][COND][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] When placing a healer / buffer / debuffer on the front line, assume they will be targeted first.
+[A0539][LIMIT][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] A healer / buffer / debuffer cannot allocate its entire specification to being a pure tank.
+[A0540][AUTHOR_JUDGMENT][PRIORITY][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] For healers / buffers / debuffers, the first problem is how to survive priority focus while being unable to allocate as much performance to durability as a pure tank.
+
+## Healing Methods
+
+[A0541][DEF][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] One healing method is delivering heals to moving allies.
+[A0542][DEF][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] One healing method is creating a healing area at a fixed location.
+[A0543][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] Many classes naturally excel as healers at the fixed-area healing method.
+[A0544][COND][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] In situations such as open-field シロディール（Cyrodiil） combat, healing that can be delivered to moving targets can become necessary.
+[A0545][AUTHOR_JUDGMENT][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] Rather than trying to excel at both methods from the start, first decide which one to emphasize.
+[A0546][AUTHOR_JUDGMENT][COND][PRIORITY][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] For healers emphasizing delivery of healing to moving targets, prioritize HoTs that persist after being applied to the target or move with the healer as candidates for maintaining healing while moving.
+[A0547][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] Some allies can be outside the reach of the healer's healing.
+[A0548][CLAIM][HEALING] ESO formally includes “回復無効（Healing Immunity）” as a game mechanic.
+[A0549][AUTHOR_JUDGMENT][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] When an ally cannot be healed or has 回復無効（Healing Immunity）, do not repeatedly spend healing that is invalid during that state; switch to another target or action.
+
+## 庇護（Guard） Line
+
+[A0550][AUTHOR_JUDGMENT][PATCH][EVAL][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST] The 庇護（Guard） line can be evaluated as a strong support tool by which a high-durability player absorbs part of an ally's incoming damage. At the same time, maintaining it on both bars occupies multiple skill slots and requires link distance, movement synchronization, and enough durability to process the redirected additional damage; evaluate the support effect together with the loss of build and movement freedom.
+
+## Roles and Builds for Entry-Level Beginners
+
+[A0551][AUTHOR_JUDGMENT][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] When an entry-level beginner has no strong preference for role choice, treat a PvP healer centered on 重装鎧（Heavy Armor） and survivability-oriented equipment, with sustain reinforced as needed, as a strong initial candidate. The role can function even with low offensive performance, self-healing makes it easier to maintain high HP, and dependence on advanced offensive combos or aiming while moving can be reduced, making practical contribution easier to achieve relative to early execution demands.
+[A0552][AUTHOR_JUDGMENT][LIMIT][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] Do not expand the high recommendation priority of a durable PvP healer for entry-level beginners into an evaluation that the same configuration is also high-performance or optimal at advanced levels.
+[A0553][AUTHOR_JUDGMENT][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] For entry-level beginners using a 回復の杖（Restoration Staff） in シロディール（Cyrodiil）, recommend 放射再生（Radiating Regeneration） as the highest-priority candidate if learning only one healing skill first. It can apply effective healing to multiple allies without requiring aim and readily connects battlefield participation to earning 同盟ポイント（Alliance Points／AP）.
+[A0554][AUTHOR_JUDGMENT][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] When an entry-level beginner uses a bruiser, treat as an initial candidate a configuration based mainly on 重装鎧（Heavy Armor） with at least one five-piece set whose primary function is defense / survivability and at least one five-piece set whose primary function is offensive performance. A configuration that overinvests in defense and loses offensive capability can also interfere with practical bruiser experience and learning.
+[A0555][AUTHOR_JUDGMENT][COND][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] For an entry-level beginner bruiser who is not yet sufficiently comfortable with two-bar PvE operation, strongly prioritize configurations whose defensive effects are available continuously over configurations where the defensive five-piece set is active only on the back bar. Once the player has sufficient two-bar proficiency, this priority is not mandatory.
+[A0556][AUTHOR_JUDGMENT][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] For an entry-level beginner bruiser unfamiliar even with PvE, treat securing a source of 強固（強）（Major Resolve） as an effectively mandatory initial recommendation. In the initial stage, prioritize survivability and time available to act on the battlefield above all else, and the resistance increase from Major Resolve contributes greatly to that purpose.
+
+## Beginner Healer Survival
+
+[A0557][AUTHOR_JUDGMENT][GOAL][PRACTICE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] Considering that PvP beginner healers are targeted at high priority by enemies, make it a goal first to gain experience healing while surviving in a build with a certain level of durability.
+[A0558][AUTHOR_JUDGMENT][GOAL][PRACTICE][COND][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] When a PvP beginner healer fights in situations with many allies, have them try using a position somewhat behind the front line as the default and aim to increase situations in which they can continue healing while surviving there; they do not need to maintain appropriate distance continuously from the start.
+[A0559][AUTHOR_JUDGMENT][GOAL][COND][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] When a PvP beginner healer is targeted by enemies in situations with many allies, make it a goal to try actively disengaging with survival as the priority and gradually increase situations in which they can disengage appropriately.
+[A0560][AUTHOR_JUDGMENT][LIMIT][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] To some extent, accept reduced healing density or temporary interruption of healing to allies as a tradeoff for healer survival when escaping for survival; do not require beginners from the start to remain alive without ever stopping healing.
+
+## Beginner Tank Goals
+
+[A0561][AUTHOR_JUDGMENT][GOAL][ROLE_TANK][BEGINNER_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] As one goal, beginner tanks should gain experience taking part of the enemy's attention and attacks themselves and increase situations in which they can reduce pressure directed at allies.
+
+## Beginner Healer Goals
+
+[A0562][AUTHOR_JUDGMENT][GOAL][DIAG][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] Beginner healers should review situations after combat where healing did not reach an ally and make it a goal to first identify one major cause they can change next time, in order to avoid unnecessary positioning or build changes caused by misidentifying the reason. Do not require accurate causal diagnosis during combat or simultaneous analysis of multiple causes from the start.
+[A0563][AUTHOR_JUDGMENT][GOAL][RULE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] Beginner healers should aim to gradually learn the judgment not to chase allies unconditionally when those allies keep moving out of their healing range.
+[A0564][AUTHOR_JUDGMENT][GOAL][LIMIT][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] Beginner healers should intend to heal allies and help those within a realistically helpable range, while aiming to gradually learn boundaries that prevent being controlled by every action an ally takes.
+[A0565][AUTHOR_JUDGMENT][GOAL][DEF][PRACTICE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] Beginner healers should treat the area around themselves as a healing zone, practice using locations near obstacles that are easy to circle as their basic position, and aim to reduce unnecessary movement with experience even if they initially leave position or move too much.
+[A0566][AUTHOR_JUDGMENT][GOAL][COND][PRIORITY][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] Beginner healers should understand that they may make a large movement when required for survival and aim to gradually judge that movement not as permanently abandoning allies but as avoiding death now so healing can resume several seconds later.
+
+## Beginner Bruiser Goals
+
+[A0567][AUTHOR_JUDGMENT][DEF][ROLE_BRUISER] A bruiser is a role that engages in direct exchanges of blows.
+[A0568][AUTHOR_JUDGMENT][GOAL][DEF][PRACTICE][BEGINNER_BRUISER][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] Beginners should understand that bruisers can be pure-role or hybrid-role builds and set the long-term goal of first gaining basic front-line combat experience with a pure bruiser before developing into hybrids; do not require a fixed proficiency level from the start.
+
+## Beginner Skirmisher Goals: General
+
+[A0569][AUTHOR_JUDGMENT][GOAL][PRACTICE][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] When beginners learn skirmisher-style operation, first have them gain experience using mobility to change combat locations or engagement states and gradually understand where their movement tools can take them and how safely they can engage, disengage, and re-enter. Do not require being a ranged-focused DD, using ソーサラー（Sorcerer） or ボルトエスケープ（Bolt Escape）／雷光（Streak）, or making advanced battlefield reads and optimal movement decisions from the start.
+
+## Beginner Skirmisher Goals: When Seeking Competitive Group Contribution in Fixed-Capacity Group Content
+
+[A0570][AUTHOR_JUDGMENT][COND][GOAL][PRACTICE][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In fixed-capacity group content, when the beginner personally prioritizes effective group contribution over individual freedom of action and aims for competitive group contribution in the future, group-contribution skirmisher operation that uses moderate damage, self-defense, and high mobility to intervene in multiple fights can be a learning target. At first, make gaining experience using mobility to intervene in another fight the goal; do not make ranged-focused DD operation, ソーサラー（Sorcerer）, ボルトエスケープ（Bolt Escape）／雷光（Streak）, or optimal judgment of intervention destination and timing across multiple locations initial requirements.
+[A0571][AUTHOR_JUDGMENT][AI][LIMIT][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION][RECOMMENDATION_SCOPE] A0570 is a derivative learning goal for beginners who aim for future competitive group contribution in fixed-capacity group content. Do not use it as the general definition, participation condition, or standard requirement for beginner skirmishers. Also, do not transplant the advanced-player standards in B6 for ranged-focus suitability, class suitability, intervention optimization, ally rescue, aggro management, or similar topics into the initial requirements of A0570.

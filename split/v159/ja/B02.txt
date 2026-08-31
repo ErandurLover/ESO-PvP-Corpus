@@ -1,0 +1,113 @@
+# ESO PvP Corpus B02 Competitive Skirmisher High MMR 4v4
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v159
+[PAGE_NAME] B02 Competitive Skirmisher High MMR 4v4
+[SECTION_SCOPE] v159 / B0111-B0185
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+[ROUTER_RULE] B系列は上級者向け追加資料であり、初心者向けの要求水準・達成条件・失敗判定・標準推奨へ自動適用しない。
+[ROUTER_RULE] 命題レベルの [ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT] を保持して解釈する。
+
+## B6 定員制小規模グループPvPにおける競技的スカーミッシャー運用
+
+[B0111][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][AI][SCOPE][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] 以下のB6は、A系列で扱う一般的なスカーミッシャーというロール傾向そのものの定義ではなく、その一部を定員制の小規模グループPvPコンテンツでグループへの実効的な貢献を目的として上級者が競技的に最適化する場合の高度運用である。複数地点への高速介入、頻繁な戦場変更、味方救援、攻防継続を同時に扱うことを前提とし、B6の遠距離主体適性、クラス適性、ボルトエスケープ（Bolt Escape）／雷光（Streak）の評価、救援・ヘイト管理等を、ソロ、非定員制大規模戦、一般的・カジュアルなスカーミッシャー運用、または初心者の標準要求へ拡張しない。
+
+### B6.1 競技的スカーミッシャー：適性と機動手段
+
+[B0112][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PATCH][EVAL][ROLE_SKIRMISHER][NATIVE_CLASS_SUITABILITY][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111で定義した定員制小規模グループPvPの上級競技スカーミッシャー用途に限って、各クラスをピュアクラスとして使用する場合の適性は、ソーサラー（Sorcerer）を第1候補、ナイトブレイド（Nightblade）を次点と推定評価する。この順位を一般的なスカーミッシャー適性、初心者向け適性、PvP総合力、ソロ性能、ガンカー性能等の順位へ流用しない。
+[B0113][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][RULE][ROLE_SKIRMISHER][SUBCLASS_SUITABILITY][CLASS_OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー向けサブクラス構成は、移植したクラスライン単体の有用性だけで高適性と判定せず、ベースクラス固有能力との組み合わせ、移植によって失う選択肢、同用途の有力なピュアクラス候補に対する機会費用を含む構成全体で評価する。
+[B0114][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][EVAL][PATCH][ROLE_SKIRMISHER][NATIVE_CLASS_SUITABILITY][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー用途では、ソーサラー（Sorcerer）が移動先の自由度が高く反復使用可能な高速移動を実現するボルトエスケープ（Bolt Escape）系能力をピュアクラスで利用できることを高く評価する。
+[B0115][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][CLAIM][PATCH][ROLE_SKIRMISHER][NATIVE_CLASS_SUITABILITY][GROUP_CONTENT][GROUP_CONTRIBUTION] ボルトエスケープ系能力の同用途上の本質が大きく変化しない限り、ソーサラー（Sorcerer）はピュアクラス間で高い適性を維持すると予測し、その本質を変える具体的な仕様変更・根拠が出た場合に再評価する。
+[B0116][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][AI][LIMIT][ROLE_SKIRMISHER][NATIVE_CLASS_SUITABILITY][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の用途でボルトエスケープ（Bolt Escape）系能力を高く評価することを、一般的なスカーミッシャーや初心者にBolt Escape／雷光（Streak）を要求する根拠にはしない。
+[B0117][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRIORITY][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー向け高速移動では、頻繁な戦場変更と反復介入を成立させるため、移動先と再使用の制約が緩いことを重要視する。
+[B0118][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー用途では、クールタイム制約が厳しい高速移動スキルは用途適性が下がる。
+[B0119][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PATCH][EX][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー用途で適性が下がる、クールタイム制約が厳しい高速移動スキルの例としてアポクリファの門（Apocryphal Gate）がある。
+[B0120][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー用途では、訪れた場所にしか飛べない高速移動スキルは用途適性が下がる。
+[B0121][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PATCH][EX][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー用途で適性が下がる、訪れた場所にしか飛べない高速移動スキルの例としてシャドウイメージ（Shadow Image）がある。
+[B0122][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー用途では、仲間の位置にしか飛べない高速移動スキルは用途適性が下がる。
+[B0123][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PATCH][EX][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー用途で適性が下がる、仲間の位置にしか飛べない高速移動スキルの例として慰めの緑（Nature's Grasp）がある。
+[B0124][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PATCH][CLAIM][ROLE_SKIRMISHER][GROUP_CONTENT] ナイトブレイド（Nightblade）は戦闘離脱力が高い。
+[B0125][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PATCH][CAUSE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] ナイトブレイド（Nightblade）の高い戦闘離脱力は、B0111のように敵を振り切ってから別地点へ高速移動することを反復する上級競技スカーミッシャー運用への適性を高める。
+[B0126][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][PATCH][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT] ナイトブレイド（Nightblade）には、ボルトエスケープ（Bolt Escape）ほど制約の少ない高速移動手段がない。
+[B0127][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PATCH][CLAIM][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー用途では、高速移動手段の制約差によりナイトブレイド（Nightblade）はソーサラー（Sorcerer）より適性でかなり不利と評価する。この比較を一般的なスカーミッシャー、初心者、ソロ等へ流用しない。
+[B0128][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PATCH][RULE][NIGHTBLADE] A0804の対象範囲において、シャドウクローク（Shadow Cloak）または偽りの影（Shadowy Disguise）を上級者の正面戦闘で使用する場合、その用途を一瞬の視線切りとバフ取得に限定し、継続隠密や長距離離脱を主目的にしない。
+
+### B6.2 競技的スカーミッシャー：定員制小規模PvP上級者帯の射程・介入速度
+
+[B0129][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][SCOPE][ROLE_SKIRMISHER][RANGED_INTERVENTION][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111で定義した定員制小規模グループPvPの上級者帯で競技的スカーミッシャーを最適化する場合、適性は近距離主体のビルドより遠距離主体のビルドへ著しく偏る。これは近距離ビルドでは役割遂行が論理的に不可能という意味ではなく、介入速度と介入頻度を継続的に要求されるこの環境では、遠距離から実効的な戦闘参加を開始できることが大きな適性差を生むためである。この偏りを一般的なスカーミッシャーや初心者向けのビルド要件へ拡張しない。
+[B0130][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][DEF][ROLE_SKIRMISHER][RANGED_INTERVENTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節の上級競技用途でいう遠距離主体の適性は、単に射程の長いスキルを一つ以上スロットしていることではなく、離れた戦闘へ完全接近する前から低い準備条件で即時または短時間に実効的な攻撃・CC・支援等を開始でき、その介入を高頻度に反復できることを重視する。
+[B0131][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][ROLE_SKIRMISHER][RANGED_INTERVENTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 時間差発動、厳しい事前条件、長い再使用制約、特殊な発動状態等を必要とする遠距離能力は、通常のダメージディーラー（DD）ビルドでは高性能であっても、戦場状況によって介入タイミングを外部から要求される本節の上級競技スカーミッシャーでは即応用遠距離介入手段としての価値が下がる。
+[B0132][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CAUSE][ROLE_SKIRMISHER][RANGED_INTERVENTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節の上級競技用途で同じ移動時間を必要とする場合、実効射程へ到達するまで攻撃・CC・支援等を開始できない近距離主体構成は、遠距離から有効介入を開始できる構成より介入開始が遅れやすい。
+[B0133][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRIORITY][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節の定員制小規模PvPにおける上級者同士の競技的戦闘では、数秒の介入差でも局地的な攻防結果へ大きく影響し得るため、介入開始までの時間を高価値な戦術資源として扱う。
+[B0134][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][CLAIM][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] 定員制の小規模PvPでも、意味のある交戦が常に一地点だけへ集中するとは限らない。
+[B0135][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][CAUSE][ROLE_SKIRMISHER][RANGED_INTERVENTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節のように戦場変更を繰り返す上級競技運用では、一回の介入開始に必要な時間差が介入可能回数と有効参加時間の差として累積するため、射程差は介入速度だけでなく介入頻度にも影響する。
+[B0136][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][CLAIM][ROLE_SKIRMISHER][RANGED_INTERVENTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節の上級競技スカーミッシャーにおける遠距離介入は、到着前に一発だけ攻撃することを目的とせず、接近中から継続的な圧力・CC・支援等を発生させることを含む。
+[B0137][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][CLAIM][ROLE_SKIRMISHER][RANGED_INTERVENTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節の上級競技用途では、遠距離介入を開始した後、そのまま距離を維持して参加することも、必要に応じて接近して本格交戦・救援へ移行することもできる構成は、介入自由度を高める。
+[B0138][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][AI][LIMIT][SCOPE][ROLE_SKIRMISHER][RANGED_INTERVENTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節の射程評価から、一般的なスカーミッシャーや初心者は遠距離主体DDであるべき、すべてのPvPで遠距離ビルドが近距離ビルドより優れる、近距離ビルドはスカーミッシャーとして成立しない、ソーサラー（Sorcerer）やボルトエスケープ（Bolt Escape）／雷光（Streak）がスカーミッシャーの一般要件である、射程の長いスキルを一つ持てば遠距離主体ビルドと同等である、とは結論しない。評価を定員制・小規模・上級者帯・グループ貢献・頻繁な戦場変更を伴うB0111の競技的スカーミッシャー運用へ限定する。
+
+### B6.3 競技的スカーミッシャー：味方救援と戦場選択
+
+[B0139][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][DIAG][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー運用で、自分の安全だけを優先して遠距離を徘徊し、必要なグループ貢献を行わないことは失敗である。
+[B0140][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][DIAG][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー運用で、自分のキルだけを優先し、より高いグループ価値を持つ介入を継続的に逃す場合は、上級運用としての評価が上がりにくい。
+[B0141][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRIORITY][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーは、自分の安全や個人キルだけでなくチーム価値の高い地点への介入を優先し、介入可能な味方の危機を解消することを主要任務の一つとする。
+[B0142][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーは味方救援だけを行う役ではなく、キル目的の戦闘介入も行う。
+[B0143][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CLAIM][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用では、瀕死の敵へ追加のキル圧を加え、キル成立を助けることも正当なチーム貢献である。
+[B0144][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][RULE][ROLE_SKIRMISHER][DEFAULT][HEURISTIC][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で「もう少しで倒せる敵」と「もう少しで死ぬ味方」が同時に存在し、原則を破るだけの追加情報がない頻出二択では、味方救援をデフォルトとして優先する。
+[B0145][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CLAIM][CAUSE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で味方救援をデフォルトとする通常条件では、瀕死の味方が単独で危機状態から挽回することは、瀕死の敵を残された味方だけで処理することより難しい傾向があると判断する。
+[B0146][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CLAIM][CAUSE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で瀕死の味方の救援に成功して味方の戦力喪失を防ぐことは、その後の局地戦力を維持するうえで大きな戦術的価値を持つため、味方救援をデフォルトとする理由の一つになる。
+[B0147][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CLAIM][CAUSE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で瀕死の敵をキルする側では、すでに十分な味方戦力が投入されており、さらにスカーミッシャーが加わると追加介入の限界価値が小さくなる場合がある。
+[B0148][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CLAIM][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用では、瀕死の敵のキルをその場で完遂できなくても、それまで敵へ与えた戦術的圧力が直ちにすべて失われるとは限らない。
+[B0149][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][AI][LIMIT][ROLE_SKIRMISHER][HEURISTIC][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で味方救援を支持する理由命題は、その限定条件の通常局面でデフォルト原則を採用する実戦上の理由を示すものであり、一般的なスカーミッシャーの行動規範や、すべての局面で救援側の定量期待値が敵キル側を上回ることを証明する命題として扱わない。
+
+### B6.4 競技的スカーミッシャー：状況把握とヘイト管理
+
+[B0150][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で要求する高い戦況把握は、常に後ろを実際に振り返ることだけを意味しない。
+[B0151][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][DEF][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーに要求する状況把握には、直前の戦況を記憶しておくことが含まれる。
+[B0152][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][EX][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーの状況把握では、復活した敵プレイヤーがどこへ向かったかを記憶する。
+[B0153][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][EX][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーの状況把握では、味方がどこにいるかを記憶する。
+[B0154][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][EX][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーの状況把握では、各味方が誰と戦っているかを記憶する。
+[B0155][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][RULE][CAUSE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用では、現在位置だけでなく未来の移動を予測しながら戦況を把握し、未来予測を伴わない把握では対応力が大きく低下する。
+[B0156][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー運用では、グループ全体の圧力配分に参加するため、敵のヘイトを一定量引き受ける必要がある。
+[B0157][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][RULE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー運用では、敵のフォーカスが味方へ偏りすぎないよう、敵の注意と攻撃対象の配分を継続的に管理する。
+[B0158][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CAUSE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で敵フォーカスが味方へ集中して味方が崩れると、チーム全体が崩壊する。
+[B0159][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][CAUSE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用でチームが崩壊すれば、スカーミッシャー個人の勝利も失われる。
+[B0160][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][DIAG][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャー運用で、自分の安全を優先する結果として味方へ過大な危険を継続的に押し付けることは失敗である。
+
+### B6.5 競技的スカーミッシャー：近距離介入と要求技能
+
+[B0161][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーは常に遠距離だけで介入する役ではなく、必要な局面では近距離へ介入する。
+[B0162][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で必要な近距離介入では、CC・回復・シールドによる味方支援や、味方の代わりにダメージを受ける行動を行う場合がある。
+[B0163][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][DIAG][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で必要な近距離介入や味方支援を行うとすぐ死亡する場合、その高度運用は務まりにくい。
+[B0164][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技運用で味方から「駆けつけてくれて助かった」と評価されるには、相応の攻撃戦力と防御戦力が必要である。
+[B0165][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRACTICE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーにはPvP全体への習熟と、ブルーザー・タンク・ヒーラー視点の理解が必要である。
+[B0166][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRACTICE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーには優れた状況把握力が必要である。
+[B0167][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRACTICE][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] B0111の上級競技スカーミッシャーには、ブルーザーより低いスペックでも基準以上の攻撃と防御を成立させるプレイヤースキルが必要である。
+[B0168][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][LIMIT][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] 一般的・カジュアルなスカーミッシャー運用では機動力を自分の生存・攻撃・戦場選択へ使う余地があり、B0111の競技的なグループ戦力配分を標準要求としない。一方、定員制小規模グループPvPでグループ貢献を競技的に最適化するB0111の用途では要求水準が大きく上昇する。
+
+### B6A 高MMR帯4v4における雷光（Streak）運用
+
+[B0169][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][COND][SCOPE][ROLE_SKIRMISHER][HIGH_MMR_4V4][GROUP_CONTENT][GROUP_CONTRIBUTION] 以下のB6Aは、B0111で扱う上級競技スカーミッシャー運用のうち、バトルグラウンド（Battlegrounds）の高MMR帯4v4でソーサラー（Sorcerer）の嵐の召喚（Storm Calling）スキルラインと雷光（Streak）を利用できる構成を扱う、さらに限定された運用例である。ここでの雷光評価を一般的なSorcerer、一般的なスカーミッシャー、ソロ、または初心者の標準推奨へ拡張しない。
+[B0170][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRIORITY][HIGH_MMR_4V4][GROUP_CONTENT] 高MMR帯4v4では、攻撃スキル以上にシールド・ブロック（Block）・打破（Break Free）・回復・ロール回避（Roll Dodge）が重要になる。
+[B0171][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRIORITY][ROLE_SKIRMISHER][HIGH_MMR_4V4][GROUP_CONTENT][GROUP_CONTRIBUTION] B0169の高MMR帯4v4限定条件では、雷光（Streak）が競技的な戦力配分と戦闘復帰を成立させるうえで特に重要になる。
+[B0172][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][HIGH_MMR_4V4][GROUP_CONTENT] 高MMR帯4v4では、雷光（Streak）以外の基礎的要素を意識せず実行できる程度に習熟していることを前提とする。
+[B0173][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][SCOPE][REQUIREMENT][STREAK_USAGE_CONDITION][STREAK][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] 以下の雷光（Streak）判断は、ソーサラー（Sorcerer）の「嵐の召喚（Storm Calling）」を使用可能で雷光をスロットしているビルドにのみ適用し、B0169の高MMR帯4v4上級競技運用では雷光を状況に応じて適切に使えることが重要技能になる。雷光をスロットすること自体を一般的なスカーミッシャーや初心者の要件とはしない。
+[B0174][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][LIMIT][RULE][STREAK_RESOURCE][GROUP_CONTENT] 雷光（Streak）はマジカ（Magicka）を消費し、マジカが潤沢でないビルドでは連続使用回数が制限されるため、現在残量とその後の戦闘行動へ残すべきマジカを考慮して使用頻度を決める。
+[B0175][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][LIMIT][CAUSE][EVAL][UNDER_FOCUS][STREAK][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 被フォーカス時、雷光（Streak）は移動量が大きく反復使用できるため、敵の追跡を切ることだけを目的に連続使用すると自分だけ主戦場から過剰離脱しやすい。追跡者が主戦場へ戻った時点で自分だけ遠方に残る状態を避け、戦闘復帰可能な距離と経路を保つ。
+[B0176][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][PRIORITY][CAUSE][ENEMY_LURING][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 少なくとも1人、可能なら2人以上が自分を深追いし続けるなら雷光（Streak）で逃走を継続する価値がある。追跡者は主戦場へ参加できないため、その人数を維持できれば味方側の人数不利を防げる。
+[B0177][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][ALT][ENEMY_LURING][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 深追いした敵を一定時間引きつけた後、その敵を放置して雷光（Streak）で主戦場へ高速帰還する選択肢がある。
+[B0178][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][LIMIT][ENEMY_LURING][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 上級者は深追いによる人数不利を理解しているため、容易には長時間追跡してこない。
+[B0179][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][HIGH_MMR_4V4][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 高MMR帯4v4では、複数の敵から強く追われている場合でも、単純に敵から離れる方向へ逃げ続けることを基本としない。
+[B0180][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][4V4_DEATHMATCH][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 上級者が多い4v4デスマッチでは、複数の追跡者を突っ切る方向へ雷光（Streak）で移動することが重要になる。
+[B0181][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRIORITY][STREAK][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 被フォーカス時の雷光（Streak）は、敵から単に遠ざかることではなく、可能なら追跡者を伴ったまま味方の交戦圏へ復帰するために使用し、最終着地点を味方の交戦圏内、可能なら中心付近に設定する。
+[B0182][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRACTICE][ESCAPE_ROUTE][STREAK][GROUP_CONTENT][GROUP_CONTRIBUTION] 一時的に敵から離れる方向へ雷光（Streak）を使用する場合は、最終的に敵を突っ切って味方の交戦圏へ戻るための下準備として使う。
+[B0183][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRACTICE][ESCAPE_ROUTE][STREAK][GROUP_CONTENT][GROUP_CONTRIBUTION] 一時的に敵から離れる方向への雷光（Streak）を、敵の追跡方向を操作して復帰経路を作るためのフェイントとして使用する。
+[B0184][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][PRACTICE][STREAK][GROUP_CONTENT][ESCAPE_ROUTE] 敵を突っ切って移動する雷光（Streak）は、ブロック（Block）しながらキャストする。
+[B0185][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_JUDGMENT][COND][PRIORITY][LIMIT][CAUSE][HEALER_COORDINATION][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 有能なヒーラーがいる場合は逃走の最終着地点をヒール圏内にし、追跡者より先、少なくとも同時に主戦場へ復帰する。追跡者の方が先に戻ると、敵を引きつけた利益が失われる。

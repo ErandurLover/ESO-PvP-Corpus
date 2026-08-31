@@ -1,0 +1,116 @@
+# ESO PvP Corpus A10 Gank Ganker Bomber and Invisibility
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v159
+[PAGE_NAME] A10 Gank Ganker Bomber and Invisibility
+[SECTION_SCOPE] v159 / A0785-A0855
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v159/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+
+# 第12部　Gank・Ganker・Bomber・透明化
+
+## ガンカー運用評価
+
+[A0785][AUTHOR_JUDGMENT][EVAL][ROLE_GANKER][OPPORTUNITY_COST] 長い準備・探索・待機・再試行を必要とする純ガンカーの実用性は、一回の暗殺成功時の撃破性能だけでなく、成功で得る戦術的・経済的価値が、標的遭遇頻度、準備時間、失敗時損失を含む一連の暗殺サイクルの機会費用を上回るかで評価する。
+
+## ガンカー基本運用
+
+[A0786][AUTHOR_JUDGMENT][PRIORITY][ROLE_GANKER][GROUP_CONTENT] 隠密・待機によって有利な攻撃開始条件を選別する純ガンカーをBG4v4以外など適した場所で運用する場合、待つことは主要な技能の一つである。
+[A0787][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、倒しやすい標的状態へ攻撃時点を合わせるため、自分の存在・位置・意図を可能な範囲で秘匿する。
+[A0788][AUTHOR_JUDGMENT][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、発見した相手へ即座に攻撃することを標準とせず、自分の構成に有利な攻撃開始条件まで待つ。
+[A0789][AUTHOR_JUDGMENT][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、防御手順が十分に成立している相手を標準的な襲撃対象として高く評価しない。
+[A0790][AUTHOR_JUDGMENT][DEF][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーの理想状態では、敵がその場に自分が存在すると考えていないこと自体が、攻撃性能と防御性能の両方に大きく寄与する。
+[A0791][LIMIT][ROLE_GANKER] 攻撃スキル、しゃがみ、透明化はガンカー／ボマーの本質ではなく、目的達成のための手段である。
+[A0792][AUTHOR_JUDGMENT][CAUSE][ROLE_GANKER][BURST_COMPRESSION] 隠密から短時間だけ姿を現して奇襲・離脱する純ガンカーは、長時間の継続攻撃で火力を積み上げるほど隠密の利点を失いやすいため、必要な攻撃・CCを短い露出時間へ圧縮する必要がある。
+[A0793][COND][ROLE_GANKER] 状況が許さない場合、強引に遂行するより一度諦めることが重要な戦術になり得る。
+[A0794][AUTHOR_JUDGMENT][COND][ROLE_GANKER] 帝都（Imperial City）地上で、相手がボスを適切に誘導・配置してガンカーを近寄らせにくい状態を作っている場合、その相手への暗殺を一時的に諦めて様子見へ移る。
+[A0795][AUTHOR_JUDGMENT][PRACTICE][ROLE_GANKER][BEGINNER_GANKER][MOVEMENT_SPEED] 初心者の純ガンカーは、隠密中の徒歩移動が遅すぎて標的への追従や攻撃位置の形成に支障が出る場合、主要な攻撃性能を大きく損なわない範囲で移動速度を少し高めると運用しやすい。
+
+## ガンカー初心者目標
+
+[A0796][AUTHOR_JUDGMENT][GOAL][LIMIT][BEGINNER_GANKER][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、4v4では各プレイヤーがチーム戦力に占める割合が大きいため、攻撃機会待ちによって通常戦闘参加を減らすガンカー／ボマーは8v8より運用余地が狭くなりやすいことを段階的に理解する。参加者の防御準備、反応精度、耐久、密集傾向等によって実際の適性は変化する。
+[A0797][AUTHOR_JUDGMENT][GOAL][COND][BEGINNER_GANKER][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、参加者の防御性能・習熟度にばらつきがあり、集団密度や初回撃破機会が生じる8v8では、ガンカー／ボマーが攻撃機会を得られる余地が4v4より大きくなりやすいことを段階的に理解する。
+[A0798][AUTHOR_JUDGMENT][GOAL][CAUSE][BEGINNER_GANKER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] 初心者は、チャンスが来るまで隠れる運用が、その間の味方負担を高めることを理解することを目標とする。
+
+## ガンカー固有仕様
+
+[A0799][PATCH][CLAIM][DEF][ROLE_GANKER] 隠密近接初撃スタン（コミュニティ通称：スラムスタン／Slam Stun）は、隠密状態（Hidden）からの近接スニークアタックによって発生するスタンを指す。現行仕様確認の対象として扱う。
+[A0800][AUTHOR_JUDGMENT][EVAL][ROLE_GANKER] 隠密近接初撃スタン（スラムスタン／Slam Stun）は、Gankerの攻撃開始性能として高く評価する。
+[A0801][PATCH][ROLE_GANKER] 防御中の相手には、隠密状態からの近接スニークアタックによる隠密近接初撃スタンが付与されない。
+[A0802][PATCH][ROLE_GANKER] 防御中の相手には、防御無視性能を持たないCCスキルが実効しない。
+[A0803][AUTHOR_JUDGMENT][RULE][PATCH][ROLE_GANKER] 頭上に探知マークがある相手はハイド中の相手を探知できるため、ガンカーが基本的に襲撃対象へ選ばない。
+
+## ナイトブレイド（Nightblade）初心者向け注意
+
+[A0804][PATCH][SCOPE][NIGHTBLADE][STEALTH_COUNTER] シャドウクローク（Shadow Cloak）またはその透明化変異である偽りの影（Shadowy Disguise）の透明化運用を扱う命題は、透明化を失う変異ダーククローク（Dark Cloak）を対象としない。
+[A0805][AUTHOR_JUDGMENT][PATCH][GOAL][PRACTICE][BEGINNER_NIGHTBLADE][STEALTH_COUNTER][NOT_INITIAL_REQUIREMENT] A0804の対象範囲において、正面戦闘で透明化を使う初心者は、透明化を唯一の生存手段・離脱手段として依存せず、使用後すぐ再発見され得ることに加え、透明化中に自分由来の攻撃判定が発生すると透明化が解除され得ることも前提に、他の防御・回復・位置取りを併用する理解を身につけることを目標とする。
+
+## 透明化逃走と自己由来攻撃の競合
+
+[A0806][AUTHOR_JUDGMENT][PATCH][AI][RULE][LIMIT][NIGHTBLADE][STEALTH_COUNTER][ESCAPE_ROUTE] シャドウクロークまたはその透明化変異による透明化を主要な逃走手段とする用途では、自分由来の攻撃判定によって透明化を自発的に解除する効果を、逃走成立条件と重大に競合するものとして扱う。この競合を含む組み合わせは、透明化維持が主要な逃走成立条件である限り、原則として不適合または重大な欠陥を持つ組み合わせと評価する。
+[A0807][PATCH][CLAIM][NIGHTBLADE][STEALTH_COUNTER][ESCAPE_ROUTE] 透明化を開始する前に使用した攻撃、継続効果、遅延攻撃等でも、透明化開始後に自分由来の攻撃判定が発生し、その判定によって透明化が解除され得る場合がある。
+
+## Gank・Ganker・Bomberの定義と成立条件
+
+[A0808][AUTHOR_JUDGMENT][DEF][ROLE_GANKER] Gankerは、Gankによる撃破を主要な勝ち筋または反復する主要行動として運用するロール傾向である。通常DDが状況に応じて一度Gankを行ったことだけで、そのビルド全体をGankerと分類しない。
+[A0809][AUTHOR_JUDGMENT][DEF][ROLE_GANKER][OPPORTUNITY_COST] Pure Gankerは、通常の正面戦闘性能等の一部を交換して、標的選択、攻撃開始条件、撃破可能範囲、探索・追従・離脱・再試行等のGankサイクルへ強く専門化したGankerとして扱う。
+[A0810][AUTHOR_JUDGMENT][DEF][BOMBER][BURST_DESIGN] Bomberは、敵集団の密度を利用または形成し、短時間へ複数の範囲攻撃・CC・遅延攻撃等を同期して初回撃破または大きな集団損害を成立させ、その結果を周囲の追加撃破へ変換することを主要な勝ち筋とするロール傾向として扱う。残忍な死（Vicious Death）等の特定装備一つをBomberの定義条件としない。
+[A0811][AUTHOR_JUDGMENT][RULE][BOMBER][BURST_DESIGN] Bomberの実行可能性を評価するときは、主要な成立条件として、①攻撃価値のある敵集団密度、②対象環境の標準と比べて防御余力・防御準備・反応成立率が低いか、一時的に防御余力が低下して初回撃破を成立させやすい対象、③攻撃開始と主要打点の同期を成立させられる時間、を確認する。
+[A0812][AUTHOR_JUDGMENT][CAUSE][BOMBER][ROLE_GANKER][TIME_BUDGET] Pure Gankerは自分に有利な標的状態へ攻撃時点を合わせる機会選択の比重が高くなりやすい一方、Bomberは短時間だけ生じる集団密度・初回撃破機会へ準備済みの攻撃を間に合わせる機会対応の比重が高くなりやすい。
+[A0813][AUTHOR_JUDGMENT][CAUSE][BOMBER][TIME_BUDGET] Bomberが起爆前に必要とする複数GCDの準備コストは、攻撃機会を利用できる時間が長い戦場ほど吸収しやすい。シロディール（Cyrodiil）や帝都（Imperial City）では移動・位置形成・待機中に準備できる余地が比較的大きく、短時間で状況が変化するバトルグラウンド（Battlegrounds）では同じ事前GCDがより大きな機会損失になりやすい。
+[A0814][AUTHOR_JUDGMENT][RULE][BOMBER][TIME_BUDGET][BURST_DESIGN] BomberのGCD評価では、起爆を成立させる前に支払う準備GCDと、圧縮した初回攻撃後に生存者を処理する追撃GCDを分ける。準備GCDの削減は攻撃機会へ間に合う頻度を高め、追撃GCDは起爆後の成果拡張として評価する。
+[A0815][AUTHOR_JUDGMENT][AI][EVAL][BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方がほぼ撃破まで進めた敵へexecute等で最終打撃だけを加え、付随して残忍な死（Vicious Death）等の周囲損害が発動した場合、それだけでBomberとしての攻撃シーケンスが成立したとは評価しない。通常DDとしての直接貢献、初回撃破形成、集団への同期攻撃、周囲への撃破変換へ本人が生んだ差分を分けて評価する。
+[A0816][AUTHOR_JUDGMENT][PATCH][AI][LIMIT][BOMBER] Bomberの撃破・状態異常等から周囲へ損害を拡張する補助効果を説明するとき、残忍な死（Vicious Death）を代表例として扱ってよいが、その種の仕事を残忍な死だけに限定しない。疫病爆発（Plaguebreak）や戦闘系Champion Pointの一部等もパッチによって類似または補助的な役割を持ち得るため、具体例と効果は回答時点の現行仕様で再確認する。
+[A0817][AUTHOR_JUDGMENT][AI][RULE][BOMBER][ROLE_GANKER][RECOMMENDATION_SCOPE] GankerまたはBomberという名称だけから、長時間の隠密、透明化、近距離接近、単独行動を必要条件として補わない。遠距離型、高機動型、通常戦闘へ参加する型、グループ戦術へ組み込まれた型を含め、実際の勝ち筋と戦闘行動から分類する。
+
+## 8v8 Bomberの実戦設計
+
+[A0818][AUTHOR_JUDGMENT][DEF][SCOPE][BOMBER][GROUP_CONTENT] 本文でいう8v8 Bomberは、主としてカジュアルな8v8 バトルグラウンド（Battlegrounds）で、敵集団密度と初回撃破機会が現実的に生じ、Bomberとして継続して戦闘参加できる運用を指す。同様の条件が成立するカジュアル4v4にも、この設計思想を応用できる。
+[A0819][AUTHOR_JUDGMENT][PRACTICE][BOMBER][DEFENSIVE_DESIGN][GROUP_CONTENT] 8v8 Bomberは構成許容幅を広く取りつつ、シロディール（Cyrodiil）や帝都（Imperial City）の一回交換型Bomberより耐久・回復・再離脱へ性能を配分すると扱いやすい場合が多い。これは失敗しないことを参加条件にするためではなく、失敗後にも生存して次の攻撃機会を利用しやすくするための推奨傾向として扱う。
+[A0820][AUTHOR_JUDGMENT][EVAL][BOMBER][TIME_BUDGET][DEFENSIVE_DESIGN] 8v8 Bomberは一回の最大Bombだけで評価せず、攻撃試行、成功または失敗、生存、立て直し、アルティメット（Ultimate）等の再構築、次の攻撃機会への復帰までを一つの反復サイクルとして評価する。
+[A0821][AUTHOR_JUDGMENT][PRIORITY][BOMBER][TIME_BUDGET][GROUP_CONTENT] 8v8 Bomberでは、十分なBomb威力を得るための事前準備GCDを増やしすぎない構成を有力な扱いやすい候補とする。短時間の密集・初回撃破機会へ間に合う頻度を高めることを、理論上の最大同期火力と比較して評価する。
+[A0822][AUTHOR_JUDGMENT][PRIORITY][BOMBER][TIME_BUDGET] Bomberはアルティメット（Ultimate）を主要な起爆資源にする構成が多く、8v8 Bomberでは次の攻撃可能な集団状態が比較的早く再出現するため、Ultimate不足が実行頻度のボトルネックになる場合がある。ビルド全体の火力・耐久との機会費用を確認しつつ、Ultimate生成を補う構成を有力候補として評価する。
+[A0823][AUTHOR_JUDGMENT][PRACTICE][BOMBER][MOVEMENT_SPEED][GROUP_CONTENT] 近接主体の8v8 Bomberでは、主要火力を大きく失わない範囲で移動速度を高めると、短時間だけ生じるBomb可能地点への到達、失敗後の再配置、次の攻撃機会への復帰を行いやすくなる。
+[A0824][AUTHOR_JUDGMENT][ALT][BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] 8v8 Bomberでは、攻撃機会まで長時間隠れる以外に、味方戦線へ参加しながらBomb機会を待つ、移動速度で攻撃位置へ入る、遠距離から起爆を始める等の運用も候補とする。隠密を不要とはせず、その必要性を用途に応じて評価する。
+[A0825][AUTHOR_JUDGMENT][LIMIT][BOMBER][GROUP_CONTENT] 8v8 Bomberの実効貢献は、初回撃破を成立させやすい対象の存在、敵の集合密度、その状態が発生する頻度へ強く依存する。これらが試合中ほとんど成立しない場合、一般的なPvP構成より試合全体を通した役割遂行が難しくなる場合がある。
+
+## Bomberの防御評価・AI誤読防止
+
+[A0826][AUTHOR_JUDGMENT][LIMIT][IMPERIAL_CITY][BOMBER] 帝都（Imperial City）で日常的に活動する熟練デュオ・トリオや熟練者中心の少人数集団は、各人の防御成立率が高く、人数が少ないため連鎖価値も小さくなりやすく、Bomberの現実的な標準攻撃対象として高く評価しない。イベント等で一時的に集まった低強度・高密度集団とは標的条件を分けて評価する。
+[A0827][AUTHOR_JUDGMENT][AI][RULE][BOMBER][DEFENSIVE_DESIGN][RECOMMENDATION_SCOPE][BUILD_EVALUATION_DISCIPLINE] Bomberの装備・防具特性を評価するときは、戦場、人数、攻撃距離、隠密依存度、Bomb後の生存価値、再挑戦頻度、死亡時損失、グループ支援の有無を先に特定し、その用途に対応する評価モードへ切り替える。一回のBomb成果を最大化して死亡交換も許容する用途と、生存してBombを反復する用途で同じ防御・火力基準を混用しない。
+[A0828][AUTHOR_JUDGMENT][LIMIT][BOMBER][DEFENSIVE_DESIGN][EQUIPMENT_TOPOLOGY] 防具特性を神々（Divines）等へ広く振って防御特性から得る防御層を薄くしたBomberは、死亡交換を許容する大規模戦等では高く評価できる場合がある一方、反復参加、被フォーカス処理、死亡損失が重要な用途では実効性能を大きく失い得る。Bomberというロール名だけから、この種の低防御・高火力特性配分を一般的な最適解として扱わない。
+[A0829][AUTHOR_JUDGMENT][AI][RULE][BOMBER][ROLE_GANKER][GROUP_CONTENT][RECOMMENDATION_SCOPE] バトルグラウンド（Battlegrounds）の4v4を一律の実力環境として扱わず、参加者の防御準備、反応精度、耐久、密集、通常戦闘への習熟等の観察可能な戦闘条件からGanker／Bomberの実用性を評価する。
+[A0830][AUTHOR_JUDGMENT][AI][RULE][LIMIT][RECOMMENDATION_SCOPE] PvPの用途適性を評価するとき、複数の低確率条件が同時成立すれば理論上成功可能であることだけを、現実的な勝ち筋、推奨候補、または有意な実用性の根拠にしない。対象環境で通常期待できる成立頻度、失敗時損失、機会費用から実用性を判断する。
+[A0831][AUTHOR_JUDGMENT][AI][LIMIT][IMPERIAL_CITY][ROLE_BRUISER][BOMBER][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] 帝都（Imperial City）で継続的に活動する熟練ブルーザーの通常ビルドを想定するとき、残忍な死（Vicious Death）等、撃破後の周囲損害を主目的として5pc等の大きなビルド枠を割く構成を標準像として自動的に加えない。通常の直接交戦性能との機会費用を比較し、Bomber、対低強度集団特化、特定目的の1vX・撮影企画等での限定採用をブルーザー一般の通常像へ拡張しない。
+[A0832][AUTHOR_JUDGMENT][AI][LIMIT][BOMBER][GROUP_CONTENT][RECOMMENDATION_SCOPE] 上級者中心4v4における専用Bomberの実用的不成立判断を、初心者・カジュアル8v8・参加者の戦闘習熟度にばらつきがある4v4へ一般化しない。上級4v4の専用判断はB系列として扱い、初心者の参加条件・標準推奨・失敗判定へ流用しない。
+
+## 極端なラグ環境の歴史的参考
+
+[A0833][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG] 過去のシロディール（Cyrodiil）では、高負荷戦闘時のclient-server responsiveness低下によりアビリティやキャラクターが応答しにくくなる問題をZOSが公式に確認した。
+[A0834][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG] 後年には、多数の継続的なAOE処理が地域サーバープロセスを圧迫してサーバーが一時的にunresponsiveになる状況をZOSが公式に説明した。
+[A0835][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][LAG] 同じ公式フォーラム上には、武器切替等の戦闘入力が大幅に遅延または失敗する実戦報告がある。
+[A0836][REFERENCE_NOTE][AUTHOR_JUDGMENT][AI][LIMIT][PATCH_HISTORY][LAG] A0833からA0835の情報は歴史的・例外的な性能問題として保持し、現在の通常環境へ自動的に一般化しない。
+[A0837][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG] 根拠対象: A0833, A0835. ZOS / Jessica Folsom, “Game Performance in Cyrodiil”: https://forums.elderscrollsonline.com/en/discussion/140365/game-performance-in-cyrodiil/
+[A0838][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG] 根拠対象: A0834. ZOS / Rich Lambert, “Update on Cyrodiil Performance & Upcoming AOE Tests”: https://forums.elderscrollsonline.com/en/discussion/539136/update-on-cyrodiil-performance-upcoming-aoe-tests
+[A0839][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG][CC] Update 25直後、ZOSは、入力されたCC breakが直ちに発動しない問題を追跡し、積極的に調査していると公式フォーラム上で説明した。
+[A0840][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][ROLE_GANKER][LAG][CC] 過去のESO PvPでは、Gankによる短時間の先制攻撃を受けた側が打破（Break Free）等の防御反応を行う前に撃破され、ラグやdesyncによる打破・反応入力の遅延または不成立がその状況を悪化させたという複数の実戦報告がある。
+[A0841][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][NIGHTBLADE][LAG][CC] 過去のPvPでは、ラグまたはdesyncが発生している状況でSoul Tether等のCCを受けた際、打破（Break Free）が成立しない、またはスタン終了まで解除できなかったという複数の実戦報告がある。
+[A0842][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][BOMBER][LAG][CC] 過去のシロディール（Cyrodiil）の高ラグ時には、Bomberの攻撃がゲーム側の応答より先に成立し、その後のSoul Tetherによるスタンを打破（Break Free）できなかったという実戦報告がある。
+[A0843][REFERENCE_NOTE][AUTHOR_JUDGMENT][AI][CAUSE][EVAL][PATCH_HISTORY][ROLE_GANKER][BOMBER][LAG][CC] 防御側の打破（Break Free）その他の反応入力がラグまたは低応答によって遅延・不成立になる状況では、先手から短時間に攻撃を集中するGankerやBomberは、防御側が通常利用できる反応時間を実効的に失わせることで相対的な利益を得る場合がある。
+[A0844][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][BOMBER][LAG] 過去のシロディール（Cyrodiil）では、ラグまたは低応答によってSoul Tether等のBomber側の攻撃入力・発動自体が阻害されたという実戦報告もある。
+[A0845][REFERENCE_NOTE][AUTHOR_JUDGMENT][AI][LIMIT][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][BOMBER][LAG] A0844は、該当条件でBomber側にも不利益が生じた事例の証拠として扱う。その存在だけから、A0840からA0843で示す防御側の反応阻害によるGanker・Bomber側への相対的利益が相殺される、ラグの影響が攻防間で均等である、または全ビルドが同程度の影響を受けることの証拠として扱わない。
+[A0846][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG][CC] 根拠対象: A0839. ZOS / Jessica Folsom and community reports, “Delayed abilities and break free”: https://forums.elderscrollsonline.com/en-gb/discussion/514354/delayed-abilities-and-break-free/p5
+[A0847][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0840. ESO Official Forums / “PSA for Gankblades”: https://forums.elderscrollsonline.com/en/discussion/438875/psa-for-gankblades
+[A0848][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0840. ESO Official Forums / “what is wrong with me? 12.5k focused aim”: https://forums.elderscrollsonline.com/en/discussion/434540/what-is-wrong-with-me-12-5k-focused-aim
+[A0849][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0840. ESO Official Forums / “Dark Convergence Online”, page 4: https://forums.elderscrollsonline.com/en-gb/discussion/597438/dark-convergence-online/p4
+[A0850][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0840. ESO Official Forums / “Gankers are always nerfed”, page 2: https://forums.elderscrollsonline.com/en/discussion/546511/gankers-are-always-nerfed/p2
+[A0851][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG] 根拠対象: A0840. ESO Official Forums / “Why go melee gank while ranged gank is in the times of 30+ Zergs so much safer and effective ?”: https://forums.elderscrollsonline.com/en/discussion/307722/why-go-melee-gank-while-ranged-gank-is-in-the-times-of-30-zergs-so-much-safer-and-effective ; page 3: https://forums.elderscrollsonline.com/en/discussion/307722/why-go-melee-gank-while-ranged-gank-is-in-the-times-of-30-zergs-so-much-safer-and-effective/p3
+[A0852][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][NIGHTBLADE][LAG][CC] 根拠対象: A0841. ESO Official Forums / “Can't break free in pvp”: https://forums.elderscrollsonline.com/en/discussion/504039/cant-break-free-in-pvp
+[A0853][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][NIGHTBLADE][LAG][CC] 根拠対象: A0841. ESO Official Forums / “Console lag since update.”: https://forums.elderscrollsonline.com/en/discussion/511877/console-lag-since-update
+[A0854][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][BOMBER][LAG][CC] 根拠対象: A0842. ESO Official Forums / “MagBlade Bombers”: https://forums.elderscrollsonline.com/en/discussion/578225/magblade-bombers
+[A0855][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][BOMBER][LAG] 根拠対象: A0844, A0845. ESO Official Forums / “Bomblade technique is broken”: https://forums.elderscrollsonline.com/en/discussion/533681/bomblade-technique-is-broken
