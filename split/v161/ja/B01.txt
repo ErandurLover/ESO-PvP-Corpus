@@ -1,0 +1,187 @@
+# ESO PvP Corpus B01 Advanced Roles and Hybrid Roles
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v161
+[PAGE_NAME] B01 Advanced Roles and Hybrid Roles
+[SECTION_SCOPE] v161 / B0001-B0113
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+[ROUTER_RULE] B系列は上級者向け追加資料であり、初心者向けの要求水準・達成条件・失敗判定・標準推奨へ自動適用しない。
+[ROUTER_RULE] 命題レベルの [ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT] を保持して解釈する。
+
+================================================================
+B系列：上級者向け
+================================================================
+
+[SCOPE_NOTE] 以下のB系列全体は高度運用層である。[ADVANCED_ONLY]は上級運用向け、[NOT_FOR_BEGINNER_REQUIREMENT]は初心者への要求水準・達成条件・失敗判定・標準推奨として使用禁止を意味する。各B命題は部分検索・RAGで単独取得されてもこの制約を保持する。
+
+[TAG_NOTE][AUTHOR_VIEW] ゲーム仕様そのものではなく、本文が採用する評価・推奨・診断基準などの著者判断を示す。
+[TAG_NOTE][CORE_JUDGMENT] [AUTHOR_VIEW]のうち、Corpusの回答方針・判断体系を実質的に決める中核的な著者判断を示す。確信度の高さや例外不存在を意味せず、適用条件・SCOPE・LIMIT・PATCH等を維持して解釈する。
+
+## B1 全ロール・共通原則
+
+[B0001][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][REQUIREMENT][ALL_ROLES] 上級者向けの要求水準を適用する前提として、評価対象となるロール・用途に関連するA系列の基礎行動を安定して実行できることを求める。A系列の全ロール・全用途の初心者向け目標を一括して既習であることまでは要求しない。
+[B0002][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ単位でも機会費用を考える。
+[B0003][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ単位でも相手の自由時間を圧迫することを考える。
+[B0004][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ単位でも攻防ターンの概念を考える。
+[B0005][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ALL_ROLES] ブルーザー以外の全ロールは、純ブルーザーとして正面戦の役割を実際に遂行する経験によって能力向上が促進される。
+[B0006][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CAUSE][ROLE_BRUISER][ALL_ROLES] 純ブルーザーは、攻撃・防御・回復・CC・位置・リソース判断を高頻度に反復し、判断失敗が短時間で被圧・防御ターン・被撃破等の結果として返りやすく、自分の判断によって相手の行動が変化し、その反応をさらに自分が処理する知覚―行動ループを繰り返すため、各種テクニックと判断力への訓練曝露が高密度になりやすい。
+[B0007][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][CAUSE][ALL_ROLES] 他ロールは、そのロール固有の成功手段によって正面の攻防交換を避けたまま成果を得られる場合があるため、ブルーザーで要求される高密度な攻防負荷への学習曝露が少なくなる場合がある。これは他ロールの価値が低いことを意味せず、学習経路によってブルーザーで要求される負荷を十分に反復しない場合があることを示す。
+[B0008][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][REQUIREMENT][ALL_ROLES] このB系列が想定する上級者水準では、技量が存在するかではなく、必要な操作・判断の質が実戦の要求値を安定して上回るかを評価する。
+[B0009][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][REQUIREMENT][ROLE_BRUISER][ALL_ROLES] ブルーザーで正面戦の反復負荷を処理する技能が不足している場合、他ロールで部分的に高い技量を持っていても、総合的な上級PvP技能への到達を妨げやすい。
+[B0010][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][REQUIREMENT][ALL_ROLES] 最強のブルーザーになる必要はなく、上級者水準の学習上必要なのは、純ブルーザー実戦で要求される攻防・判断負荷を安定して処理できる基準を超えることである。
+[B0011][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ALL_ROLES] 正面戦を継続的に避ける学習経路では、高度なPvP運用に必要な攻防判断を十分に反復しにくい。
+[B0012][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][ALL_ROLES] このB系列が想定する上級者水準への学習では、ブルーザーの修練を積む。
+[B0013][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][EVAL][PRACTICE][ALL_ROLES] 技能転移を評価するときは、練習に同じ操作要素が含まれるかだけでなく、実戦と同じ知覚―行動ループ、判断頻度、時間圧、失敗フィードバック、攻防負荷をどの程度保持するかという課題忠実度（task fidelity）を重視する。
+[B0014][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][EVAL][ALL_ROLES][ROLE_BRUISER] 上級者水準の個人戦能力を伸ばす練習では、シロディール（Cyrodiil）大規模戦の総プレイ時間そのものより、相手一人または少人数が自分へ反応し続ける知覚―行動ループ、時間圧、攻防切替を高頻度に反復できる課題忠実度を重視する。
+[B0015][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][CLAIM][ROLE_BRUISER][ALL_ROLES] このB系列が求める上級者水準へ到達する最も直接的な方法は、純ブルーザーとして正面戦を成立させる実戦経験を反復することであり、ブルーザー実戦経験を避けたまま同等の操作・判断品質へ到達する経路は一般に迂遠かつ困難である。
+[B0016][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ROLE_BRUISER][ALL_ROLES] ブルーザー実戦経験を避けたまま同等の操作・判断品質へ到達しようとする場合、ブルーザー経験者との戦闘感覚・価値判断にも差が残りやすい。
+
+### B1A PvPvE環境第三者利用
+
+[B0017][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][TACTIC][THIRD_PARTY_ENVIRONMENT_USE] PvPvE環境では、モンスターや第三勢力からの攻撃を利用して、自分の被弾時効果またはシールド破壊時効果の発動タイミングを、敵プレイヤーだけでは制御できない状態へ変えられる場合がある。
+
+## B2 タンク
+
+[B0018][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][LIMIT][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][RECOMMENDATION_SCOPE] 定員制の上級少人数直接戦闘では、敵が純タンクを合理的に無視して味方を先に狙える場合、生存だけでなくヒール・バフ・デバフ・CC・位置妨害等によって、タンクを無視することにも敵側の損失を発生させる追加貢献の価値が高まる。この要求をシロディール（Cyrodiil）等の異なる戦場へ一律の必須条件として一般化しない。
+[B0019][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級タンクの拘束価値は、敵人数だけでなく拘束している敵の脅威度と役割価値を含めて評価する。低脅威の敵または少数の敵だけに固定されている間に敵主力が味方へ自由に攻撃できる場合、長時間生存していても高い戦力拘束とは評価しない。
+[B0020][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][ROLE_TANK][GROUP_CC][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級タンクのCCは短い行動窓や味方の攻撃機会を作れるが、本人の攻撃圧力が敵へ防御・回復を継続的に強要できない場合、CCを通したことだけからタンク本人が攻撃主導権を維持できるとは評価しない。
+[B0021][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][ROLE_TANK][ROLE_BRUISER][BLOCK][MOVEMENT_SPEED][GROUP_CONTENT][RECOMMENDATION_SCOPE] 機動性を活動の主要基盤とする最適化されたスモールスケール運用では、常時ブロック（Block）型の純タンクを標準的な前衛枠と前提にせず、ブロックを常用しない高耐久DD／ブルーザーが被フォーカス耐性や前線維持等のタンク的機能を部分的に兼任する構成を有力候補として評価する。
+[B0022][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][ROLE_TANK][HEALING][HEALING_GEAR][OPPORTUNITY_COST][DEFENSIVE_DESIGN] タンクが必要とするHoTを通常の攻撃・回復スケーリングだけでは十分に確保しにくく、ビルド枠が許す場合、最大体力等タンク側の主要能力を利用してHoTまたは類似の継続回復を発生させる装備を補完候補として評価する。
+[B0023][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRIORITY][ROLE_TANK][HEALING][HEALING_GEAR][OPPORTUNITY_COST][DEFENSIVE_DESIGN] 上級タンクの回復設計では、まずスキルで必要な回復機能を成立させ、その不足や効率を装備で補完する順序を優先する。複数の装備・スキル間シナジーへ依存しすぎて戦場変更や一部装備変更が困難になる場合、その調整自由度の低下も機会費用として評価する。
+[B0024][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒール・バフ・デバフの付加価値を持つタンクは、場所や条件に依存せず味方へ貢献しやすくなる。
+[B0025][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][ROLE_TANK][LIMIT][GROUP_CONTENT][GROUP_CONTRIBUTION] ルールオブジェクト占有はタンクが生存力を落とさず実現しやすい貢献だが、成功条件を要求し効果が限定的になり得る。
+[B0026][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][ROLE_TANK][LIMIT][GROUP_CONTENT][GROUP_CONTRIBUTION] 敵射線上への肉体的な割込みはタンクが生存力を落とさず実現しやすい貢献だが、成功条件を要求し効果が限定的になり得る。
+[B0027][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][ROLE_TANK] クラスラインに有用なスネアスキルがある場合、その使用を強く優先する。
+[B0028][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][CLAIM][ROLE_TANK] スネアはクラウドコントロール耐性を付与しない。
+[B0029][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] 敵前線へ最初に突入し、さらに追加の仕事まで担えることは高貢献タンクの要素である。
+[B0030][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][DIAG][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] 頻繁に死亡するタンクは、サポート意図があっても悪いタンクである。
+[B0031][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_TANK][OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級タンクが引き寄せを装備効果で確保する場合、能動スキルのGCD・リソース・操作を減らせる価値と、その装備枠へ置けた耐久・回復・サステイン・他支援を失う機会費用を同時に評価する。
+[B0032][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_TANK][PURGE][OPPORTUNITY_COST] 多人数からDoT・デバフを継続付与される上級タンクでは、個数制限付き解除スキルのGCD・リソース・解除速度だけで処理が追いつくかを確認し、追いつかない場合は一括解除系装備を有力候補として装備枠の機会費用込みで評価する。
+
+## B3 ヒーラー／バッファー／デバッファー・サポート
+
+
+### 少人数直接戦闘におけるサポート枠の機会費用
+
+[B0033][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][COND][RULE][ROLE_SUPPORT][OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者帯の4v4など、固定少人数で各1枠の責任が大きく、直接戦闘による圧力と撃破が主要な勝ち筋となる環境では、サポート1枠の採用価値を、その枠を同水準のブルーザーへ置き換えた場合の総合戦闘価値との差分で評価する。
+[B0034][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][REQUIREMENT][ROLE_SUPPORT][OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者帯の少人数直接戦闘でサポートを1枠採用する場合、そのサポートが生む総合価値は、採用によって失われる同水準のブルーザー1人分の総合戦闘価値と少なくとも同等であることを、1枠を使う価値を正当化する基準とする。
+[B0035][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ROLE_SUPPORT][ADVANTAGE_CREATION_CONVERSION][GROUP_CONTENT][GROUP_CONTRIBUTION] サポートの総合価値は本人の直接火力や回復量だけで評価せず、回復・バフ・デバフ・CC・リソース支援等によって、味方の自己防御GCDを減らした量、攻撃可能時間を増やした量、維持できた圧力、敵へ追加で要求した防御行動、撃破機会や人数有利へ変換できた差分を含めて評価する。
+[B0036][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][ROLE_SUPPORT][OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者帯の少人数直接戦闘では、サポートが味方を生存させていても、その生存が十分な攻撃機会・圧力・リソース余裕・CC優位・撃破機会等へ変換されず、ブルーザー1人を失う機会費用を埋められない場合、そのサポートは1人分の編成枠を使う価値を正当化できない。
+
+### 上級サポートの追加支援・複合ロール評価
+
+[B0037][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRIORITY][ROLE_SUPPORT][ROLE_TANK][OPPORTUNITY_COST][TIME_BUDGET][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／タンクが追加支援を組み込む場合、中核ロール行動に必要なGCD・リソースを圧迫する能動支援より、装備効果または本来必要な回復・防御・支援行動に付随する効果で十分成立するならそちらを優先し、装備枠を使う機会費用も同時に比較する。
+[B0038][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][ROLE_TANK][ROLE_COMPRESSION_EVALUATION][OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 本職ヒーラー／タンクをDD系ロール兼任と評価する場合、本職の回復・防御・支援機能を維持した上で、敵へ実効的な防御・回復行動を強要できる攻撃圧力まで成立していることを求める。攻撃スキルや小量のダメージを追加しただけではDD系ロール兼任と扱わない。
+[B0039][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_TANK][ROLE_COMPRESSION_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION] タンク／DDの複合ロール評価は想定する敵水準と戦闘環境を含めて行う。同一構成でも低耐久・低熟練の敵にはDD相当の撃破圧力を持ち得る一方、上級者相手に防御・回復を継続強要できないなら、攻撃部分はタンクの追加圧力として評価する。
+
+### 上級ヒーラー：回復圏・救援判断
+
+[B0040][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY][ROLE_SUPPORT][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者同士のグループ戦では、ヒーラーは個々の味方を追って全員の死亡を防ぐことより、味方が退避・回復・再突入できる高密度の回復圏を継続して成立させることを優先し、一人の救援のために回復圏全体を崩さない。
+[B0041][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRIORITY][ROLE_SUPPORT][HEALING][TIME_BUDGET][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者同士のグループ戦では、ヒーラーは継続回復で味方ブルーザーの平常被弾を肩代わりし、ブルーザーが自己回復へ使うGCDを減らして攻撃圧力を維持させることを主要な回復価値として扱う。
+[B0042][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][PRIORITY][ROLE_SUPPORT][HEALING][UNDER_FOCUS][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 上級ヒーラーが被フォーカス時に生存移動を行う場合、主戦場から遠く離れて回復供給を停止することを目的とせず、障害物・味方・移動中も機能する回復手段を利用して、自身の生存と味方への回復供給を両立できる移動経路を優先する。ただし、回復射線を維持したままでは死亡を回避できない場合は、回復供給の一時低下を受け入れて十分なLoSを行い、生存後の回復再開を優先する。
+[B0043][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][DIAG][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 離れた味方を救援するために主回復圏を離れるか判断するときは、その味方を救う利益が、現在の回復圏を弱めることで他の味方へ生じる損失を上回るかを評価する。
+[B0044][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][DIAG][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方が主回復圏から外れた場合は、対象が遠いという結果だけでなく、味方側と自分側の位置取り・運用のどちらが回復圏外化の主因かも確認する。
+[B0045][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][PRIORITY][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 離れた味方の個別救援では通常は回復圏全体の維持を優先し、個別救援へ移動するのはその優先を覆す具体的な理由がある場合とする。
+[B0046][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][DIAG][ROLE_SUPPORT][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級ヒーラーは味方死亡を直ちに味方側の自衛不足へ帰属せず、自身の回復範囲、HoT維持、支援停止時間、緊急回復の遅れ等を確認して、自分側で防げた死亡だったかを評価する。一方、自分側で防げない死亡までヒーラー責任へ一律に帰属しない。
+[B0047][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][LIMIT][CAUSE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 回復圏の設置場所選定には技術が必要であり、障害物は敵にもLoSへ利用されるが、回復圏を回り込みやすい障害物へ重ねると、味方が回復圏から大きく離れずに敵の射線を切って継続圧力を弱め、回復後に短距離で再交戦しやすくなり、味方が退避・回復・再突入する共通地点として主戦場を形成しやすいため、その利益が敵にも障害物を利用される不利益を上回ることが多い。
+
+### 上級ヒーラー：死亡分析・LoS
+
+[B0048][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][EX][RULE][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 開けた場所へ回復圏を置く方が強い状況もあり、周囲に障害物がないバトルグラウンド（Battlegrounds／BG）のオブジェクト地形が例になる。それでも基本はオブジェクト周辺の回り込みやすい場所を選び、障害物へ多少でも近い方が味方は回復圏を利用しやすい。
+[B0049][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CAUSE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラーが無駄に動きすぎると、味方を不安にさせ、敵に下手だと判断されて集中攻撃を招きやすくなる。
+[B0050][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級ヒーラーは、自身への敵射線を減らすためのLoSで味方への回復射線を不必要に切らず、敵から受ける射線を減らしながら味方への回復供給を維持できる程度の障害物利用を基本とする。
+[B0051][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][HEALING][TIME_BUDGET][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級ヒーラーは、敵圧力が高まってからすべての回復準備を始めるのではなく、平時から担当するHoT・重要バフ等を維持し、被弾増加時に緊急回復へ即座にGCDを割ける状態を作る。
+[B0052][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][HEALING][TIME_BUDGET][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級ヒーラーは、通常維持、敵バースト、防御的立て直し、味方の攻勢等の局面変化に応じてGCD優先順位を切り替え、固定したヒール回しだけを反復しない。
+
+### 上級ヒーラー：事前準備・GCD・リソース
+
+[B0053][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][HEALING][FUNCTION_LOSS][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級ヒーラービルドは、単一の強力なチャネル回復またはアルティメット（Ultimate）回復を唯一の回復基盤として依存せず、その回復を中断・使用不能になった局面でも通常スキルと事前HoTによる回復供給を継続できるようにする。
+[B0054][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][RULE][ROLE_SUPPORT][HEALING][TIME_BUDGET][GROUP_CONTENT][GROUP_CONTRIBUTION] 長時間ほかのスキル使用を制約する強力な回復へ入る場合、上級ヒーラーは可能な範囲で事前にHoT・必要バフ等を成立させ、チャネル中に通常の回復・支援GCDを使えないことによるグループ回復基盤の低下を抑える。
+[B0055][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][HEALING][SUSTAIN][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級グループヒーラーは、自身の未使用リソースを将来のグループ救援能力として扱い、不測の圧力増加を処理できる回復余力または迅速なリソース再構築手段を維持する。
+[B0056][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][LIMIT][ROLE_SUPPORT][HEALING][SUSTAIN][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級ヒーラーがマジカ（Magicka）等の主要回復リソースを意図的に低水準まで使う設計は、窮地で必要量を迅速かつ実用的に再構築できる別の確実な資産がある場合に限って成立候補とする。
+
+### プレメイド支援・対ヒーラー・解除
+
+[B0057][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][SUSTAIN][DEFENSIVE_DESIGN][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級ヒーラーは、通常運用としてスタミナ（Stamina）を意図的に枯渇させる設計を採用せず、少なくとも緊急の打破（Break Free）・ロール回避（Roll Dodge）等を実行できる余力を維持する。
+[B0058][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][RULE][GROUP_CC][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者同士のプレメイド戦でサポート役がバースト起点CCを担当する場合、打破（Break Free）までの短い拘束時間へ味方火力を重ねるため、音声連携等でCCとバースト開始を事前同期する。
+[B0059][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] プレメイドで継続的なデバフ担当が必要な場合、ブルーザーの攻撃GCD・スキル枠・装備枠を削る前にヒーラー／サポートへその仕事を集約できるか検討し、サポート側で十分成立するならブルーザーの圧力維持を優先する。
+[B0060][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRIORITY][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者同士のグループ戦でヒーラー対策を組む場合、CC単独を主手段とせず、フォーカスと回復阻害デバフを味方のバーストへ同期させることを主要手段として評価する。
+[B0061][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][LIMIT][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] 敵集団へ密集して突入し複数人が同時にDoT・デバフを受けるスモールスケール／ボールグループではグループ解除を高優先度で確保し、そのような接敵を避けるスモールスケールでは常時必須と扱わない。
+
+## B4 ブルーザー
+
+[B0062][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][REQUIREMENT][ROLE_PURE_BRUISER] 上級純ブルーザーの最低成立水準は、同水準の純ブルーザーとの正面戦で一方的に防御ターンへ送られ続けず、互角以上の圧力交換を成立させられることとする。
+[B0063][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][ROLE_HYBRID_BRUISER] 複合ロールのブルーザーは、攻防力の発揮において純粋なブルーザーに基本的に劣る。
+[B0064][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_HYBRID_BRUISER] 複合ロールのブルーザーは、複合先のロールが生む価値を含めた総合力で評価する。
+[B0065][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][REQUIREMENT][ROLE_HYBRID_BRUISER] 複合ロールのブルーザーには、純粋なブルーザーとの戦闘でも一定以上耐えながら圧迫を継続できることが必要である。
+[B0066][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][REQUIREMENT][ROLE_BRUISER] 上級ブルーザーには攻撃・防御・回復・CC・戦術すべてへの習熟が要求される。
+[B0067][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][REQUIREMENT][ROLE_BRUISER] 上級ブルーザーの習熟度は、各技能を「持っているか」ではなく、同水準相手との正面戦でそれらを高頻度に要求されても、操作・判断の質が実戦の要求値を安定して上回るかで評価し、その水準に達して初めて上級ブルーザーのスタート地点に立つ。
+[B0068][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][EVAL][PVE_PVP_INTERACTION][ROLE_BRUISER] 上級ブルーザーの操作習熟をPvE補助訓練で確認する目安の一つは、PvPビルドのままヴァテシュラン洞穴（Vateshran Hollows）ベテランを余裕を持って安定クリアできる程度である。
+[B0069][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][EVAL][PVE_PVP_INTERACTION][ROLE_BRUISER] PvPビルドでヴァテシュラン洞穴（Vateshran Hollows）ベテランを練習に用いる場合、クリアそのものをPvP実力の直接測定とせず、自己回復、リソース管理、位置管理、敵位置の把握、次に必要な行動の判断を維持しながら攻防を継続できる戦闘処理の安定性を確認する補助的な目安として扱う。
+[B0070][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][EVAL][PVE_PVP_INTERACTION][ROLE_BRUISER] PvPビルドでのソロアリーナ練習では、クラス・スキル・装備構成とPvE固有ギミックとの相性によって攻略適性が大きく変化し得るため、攻略速度・DPSチェックへの対応・クリア余裕の差を、そのままPvP実力差へ換算しない。
+[B0071][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][CAUSE][PVE_PVP_INTERACTION][ROLE_BRUISER] PvP上級者との戦闘はヴァテシュラン洞穴（Vateshran Hollows）より難しく、その主要因は、相手プレイヤーがこちらの攻撃・防御・位置・リソース状態等に応じて行動を変え、CC・圧力・バースト・防御・離脱等のタイミングを能動的に組み替えるため、固定的なPvEより知覚―判断―行動ループと時間圧が高負荷になることにある。
+[B0072][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY][RULE][ROLE_BRUISER] ブルーザーでは圧力を最重要要素とし、他ロールを兼任しても、敵を継続的に防御・回復へ追い込む圧力を失わない。
+[B0073][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRIORITY][RULE][ROLE_BRUISER][BUILD_GENERAL] 純粋・複合を問わずブルーザーを設計する場合、最も多用する主要攻撃が、想定する敵ブルーザーに対して十分な実効ダメージを持つ水準をまず確保する。多くの構成ではこれはスパム攻撃に当たり、他の攻撃要素は性能不足で無害に近い主要攻撃を実用水準まで代替補填するためではなく、十分な性能を持つ主要攻撃へ重ねて圧力を強化するものとして扱う。
+[B0074][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_BRUISER][PRESSURE_VS_FINISH] ブルーザーの脅威度は、実際のダメージによって敵へ防御・回復を強要できることを前提に評価し、低ダメージなのに敵が高火力だと誤認することを前提にしない。撃破できなくても十分な自衛頻度を強要できるなら圧力として価値を持つ。
+[B0075][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][DIAG][ROLE_BRUISER][PRESSURE_VS_FINISH] ブルーザー同士の正面1対1で、自分は高HPを維持するため頻繁な防御・回復を要求される一方、攻撃ターンを十分に遂行して主力攻撃を継続命中させても相手へ防御・回復をほとんど要求できない状態が続く場合、現在の正面攻防交換性能で大きく劣勢と診断する。
+[B0076][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][DIAG][RULE][ROLE_BRUISER][SUSTAIN] 相手のリソース枯渇を勝ち筋として評価する場合、ブロック（Block）、ロール回避（Roll Dodge）、打破（Break Free）、回復、攻撃、リソース回復行動等から支出・回復状況を推定する。自分の攻撃が相手へ大きな防御・回復支出をほとんど強要できていない場合、相手が枯渇寸前だという判断には、それを独立して示す特に強い観測根拠を要求する。
+[B0077][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_RANGED_BRUISER][RANGE_COST] 上級遠距離ブルーザーは、射程へ性能予算を割いた結果、似た近接ブルーザーより正面交換性能が低下する場合、純ブルーザー運用ではその不足を接敵前の圧力、追撃継続、安全な攻撃時間等の射程利益で回収できるかを評価する。その条件で射程利益を実戦上十分に回収できないなら、純ブルーザーとして不利になりやすい。
+[B0078][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][CAUSE][ROLE_BRUISER][GROUP_CONTENT][GROUP_CONTRIBUTION] ブルーザーを単独で敵陣へ突入してすべて解決するヒーローとして扱わず、一人で突入すれば周囲の味方へ負担を与えることを考慮する。
+[B0079][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ROLE_BRUISER] 一人分の戦力は基本的に一人分として扱う。
+[B0080][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ROLE_BRUISER] プレイヤー個々の戦力差は、上級者同士ほど極端になりにくい。
+[B0081][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][DIAG][CLAIM][ROLE_BRUISER] ボタン一つで複数人を容易に倒せても自分の圧倒的強さの証拠とせず、主因は相手が弱かったことである。上級者相手の戦闘はそのように単純ではない。
+[B0082][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][RULE][ROLE_BRUISER] 自分のスペックを上級者の何倍にもすることはシステム上不可能であるため、相手戦力を過小評価せず、一人分の敵には一人分に相当する警戒を配分し、その戦力を前提に戦術を組み立てる。
+
+### 上級ブルーザー：防御判断・グループ察知・練習
+
+[B0083][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][DEFENSIVE_SEQUENCE] 上級ブルーザーは、現在HPだけで防御シーケンスへの移行を決めず、現在HP、敵が短時間に成立させ得るバースト、敵の攻撃準備、自分の残存防御資源、位置、CC状態等から短時間後の危険化を予測する。致命圧力が成立する前には防御へ移行する一方、通常の防御・回復余力で処理できる軽度の被弾だけを理由に攻撃ターンを過早に放棄せず、安全余白が残る範囲では攻撃を継続する。
+[B0084][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][PRACTICE][ROLE_BRUISER][DEFENSIVE_SEQUENCE] 上級者は、主導権、残存する継続回復、敵の攻撃準備、残存防御資源等を読み、最大HP未満でも攻撃へ転じる場合がある。これは、最大HPまで回復するための時間を使わず攻撃機会を取る代わりに、HP余裕の減少を受け入れる上級者向けの状況判断として扱う。
+[B0085][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][DOT][ROLE_BRUISER][DEFENSIVE_SEQUENCE] 継続圧力の交換で不利でも、相手が低耐久で、既存DoT等を受けながら攻撃へ転じても自分が先に撃破されない具体的なキルウィンドウがある場合は、早期離脱だけでなく反撃による逆転を選択肢として評価する。
+[B0086][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][GROUP_CONTENT][GROUP_CONTRIBUTION][DEFENSIVE_SEQUENCE] 上級グループ戦では、被圧対象本人には自分の危険化を早期察知して自衛へ移行することを高い水準で期待する一方、味方が同じ危険化を事前察知して回復・シールド・CC・圧力分散等を先回りできた場合は高度な追加グループ貢献として評価する。本人と周囲へ同一の察知精度を要求しない。
+[B0087][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][PVE_PVP_INTERACTION][ROLE_BRUISER] PvPビルドでソロアリーナ等のPvEを行う練習は、単なる攻撃練習だけでなく、自分の危険化を予測して防御を成立させることを基盤にしながら、攻撃、周辺確認、後方確認、位置調整等の追加行動を状況に応じて並行処理する補助訓練として利用できる。
+[B0088][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][PVE_PVP_INTERACTION][ROLE_BRUISER][DEFENSIVE_SEQUENCE] PvPビルドでのソロアリーナ練習では、危険化を察知した段階から必要に応じて離脱・自己回復・防御・位置調整等を組み合わせて再び戦える状態へ戻す自衛シーケンスを反復し、切迫してから個々の操作を探す状態から、余裕のある段階で防御へ移行し、他の状況判断と並行しながら安定して実行できる状態へ近づけることを練習目的の一つとする。
+[B0089][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][PROGRESSIVE_LEARNING][PVE_PVP_INTERACTION][ROLE_BRUISER] PvPビルドでのソロアリーナ練習では、まず生存・回復・リソース・位置・周辺把握を崩さず戦闘を継続することを成立させ、処理余力が増えた段階でバースト等の追加操作を同じ戦闘負荷の中へ組み込み、基礎処理を維持したまま実行できる頻度を高める。
+[B0090][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][EVAL][PRACTICE][PVE_PVP_INTERACTION][ROLE_BRUISER][DEFENSIVE_SEQUENCE] PvPビルドでのソロアリーナで自衛シーケンスを安定して成立させられることだけを、上級PvPで同じ処理が成立する証拠とは扱わない。一方、予測可能性が高く対人より判断負荷の低いソロアリーナ環境でも、危険化からの自己回復・防御・離脱等を安定して処理できない場合は、上級者戦へ移る前に改善すべき自衛操作の基礎的な不足として扱う。
+[B0091][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][PVE_PVP_INTERACTION][ROLE_BRUISER] 固定的なPvE挙動では、相手プレイヤーが自分の判断に応じて行動を変え、その反応をさらに処理する知覚―行動ループ、対人の時間圧、失敗フィードバックを十分に再現できないため、上級ブルーザー実戦経験そのものの代替とは扱わない。
+
+## B5 上級固定少人数戦における遠距離DD・複合ロール評価
+
+
+### B5.1 遠距離純ブルーザー：射程コスト・被フォーカス・自衛床
+
+[B0092][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][DIAG][ROLE_RANGED_BRUISER][ROLE_PURE_BRUISER][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST][UNDER_FOCUS] 上級者帯の固定少人数戦で遠距離純ブルーザーを評価する場合、本人が射程によって被弾を減らしていても、その結果として敵フォーカスが味方へ偏り、本人の圧力も射程のために実際に失った正面交換性能を補えていないなら、個人の安全性だけを十分なグループ貢献として扱わない。
+[B0093][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_RANGED_BRUISER][ROLE_PURE_BRUISER][GROUP_CONTENT][GROUP_CONTRIBUTION][UNDER_FOCUS][ESCAPE_ROUTE] 上級者帯の固定少人数戦で遠距離純ブルーザーが距離・LoS・機動力を自衛へ利用する場合、自分へ向いた敵の時間・移動・攻撃を消費させながら実効的な戦闘参加を維持または速やかに再開し、主戦場から離れ続けることで味方へ過大な人数・被フォーカス負担を押し付けない。
+[B0094][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CAUSE][DIAG][GROUP_CONTENT][GROUP_CONTRIBUTION][UNDER_FOCUS][DEFENSIVE_DESIGN] 上級者帯の固定少人数戦で自衛を削ったDDが集中攻撃を短時間も処理できない水準まで低下すると、その弱点は単なる耐久性能の低下に留まらず、敵からの優先標的化、攻撃継続時間の喪失、強制離脱または死亡による味方の人数負担へ変換されるため、被フォーカス時の最低生存水準を独立して評価する。
+[B0095][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][DEFAULT][ROLE_RANGED_BRUISER][ROLE_PURE_BRUISER][GROUP_CONTENT][GROUP_CONTRIBUTION][DEFENSIVE_DESIGN][OPPORTUNITY_COST][ESCAPE_ROUTE] 上級4v4で、射程のために実際に支払った機会費用によって必要圧力と似た近接ブルーザー同等の正面耐久を同時に確保しにくい遠距離純ブルーザーでは、正面耐久を完全再現することより、必要な攻撃圧力を優先し、即座に撃破されない自衛水準と機動・LoSによって被圧時間を処理する設計を有力な基本解とする。
+
+### B5.2 複合ロール：役割圧縮・射程再評価
+
+[B0096][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][ROLE_COMPRESSION_EVALUATION][TIME_BUDGET][OPPORTUNITY_COST] 上級ビルドで、本来は別々のGCD・リソース・準備時間を必要とする複数の役割機能を、同じ行動、維持行動、装備効果等から実効的に得られる場合、その重複によって削減できる追加GCD・リソース・再構築時間と、維持できる主役割の稼働時間を役割圧縮の価値として評価する。複数の効果を持つこと自体ではなく、実戦で別個の支払いをどれだけ省けるかを評価する。
+[B0097][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_RANGED_BRUISER][ALTERNATIVE][OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者帯の遠距離DDで純ブルーザーとしての正面交換性能不足を補う費用が高い場合、純ブルーザー性能だけを無理に引き上げる以外に、スカーミッシャー、オフヒール、デバフ等、射程が直接グループ価値へ変換される役割または複合役割へ再設計することを有力候補とする。
+[B0098][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_RANGED_BRUISER][ALTERNATIVE][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] 上級遠距離DDが少数戦の正面交換性能不足へ到達した場合、遠距離ブルーザーとして個人戦能力と正面性能を高める、射程をスカーミッシャー・オフヒール・デバフ等の価値へ変換する、大規模戦特化として用途を限定する、という方向を目的と支払える機会費用に応じて選択する。
+[B0099][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ROLE_BRUISER][ROLE_RANGED_BRUISER][RANGE_COST][RECOMMENDATION_SCOPE] パッチ固有の極端な性能格差を除いた同等技量の決闘では、低から中程度の習熟帯ほど射程による距離管理と被攻撃時間の余裕が遠距離DDの操作負荷を下げやすく、双方の接敵・防御・攻防切替の習熟が高まるほどその余剰利益が減り、射程へ支払った正面攻防性能の差が勝敗へ表れやすい。
+[B0100][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PATCH][COND][BURST_DESIGN][RANGE_COST][ALTERNATIVE_REASONING] 近接主体のスキル構成は高い正面火力や短時間バーストを組み立てやすい方向へ性能配分される場合があるが、実際のバースト適性はクラス、利用可能なスキル、サブクラス構成、現行パッチによる差が大きいため個別に確認する。
+[B0101][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][EVAL][ROLE_COMPRESSION_EVALUATION][OPPORTUNITY_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級ビルドで主役割性能をすでに高水準まで確保している場合、同じ役割をさらに上積みする限界投資より、主役割を用途上必要な水準へ残したまま副役割の実効価値を追加する方が、同じ性能予算から高い総合グループ貢献を得やすい場合がある。
+[B0102][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_SUPPORT][ROLE_COMPRESSION_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST] 上級者帯の固定少人数戦でDDがオフヒール、デバフ等を兼任する場合、純ブルーザーと同じ直接圧力を必須とはせず、失った直接圧力を副役割による実効的なグループ価値で補えているかを評価する。副役割による差分回収が成立しない場合は、低い直接圧力を兼任の理由だけで正当化しない。
+[B0103][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CAUSE][RANGE_COST][RANGED_INTERVENTION][ROLE_SKIRMISHER][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] 遠距離スカーミッシャーまたは遠距離オフサポートでは、射程を介入開始時間、介入頻度、支援継続、敵が本人へ接近して処理するための時間・位置コストへ変換できるため、純ブルーザー比較では機会費用となっていた射程が、その役割では主要なグループ価値になり得る。
+[B0104][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_COMPRESSION_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者帯の固定少人数戦で「オフヒーラー」「デバッファー」「スカーミッシャー」等の複合ロールを評価する場合、ロール名称だけから要求性能を決めず、実際に担当する攻撃圧力、支援、位置取り、被フォーカス処理、GCD・リソース支払いを個別に評価する。
+
+### B5.3 生成AI：遠距離DD・複合ロールの誤読防止
+
+[B0105][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][SCOPE][LIMIT][ROLE_RANGED_BRUISER][RECOMMENDATION_SCOPE] 上級遠距離ブルーザーの正面交換上の不利を扱う命題から、「遠距離DD一般が弱い」「遠距離キャラクターには普遍的な戦闘力ペナルティがある」「近接は常に遠距離より優れる」と一般化しない。純ブルーザーという用途と、射程を得るために他性能を実際に失っている条件を維持し、別役割の適性は別途評価する。ただし、この一般化防止を、同じ用途で確認された遠距離側の正面交換上の不利を否定または弱める根拠として使用しない。
+[B0106][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][AI][RULE][ROLE_RANGED_BRUISER][ROLE_PURE_BRUISER][RANGE_COST][ALTERNATIVE_REASONING] 同じ用途の遠距離主体と近距離主体を比較し、射程の機会費用による遠距離側の正面交換上の不利が確認されている場面では、「遠距離にも長所がある」「遠距離も弱くない」等の一般論を付加して、その用途での弱点認識を薄めない。
+[B0107][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][AI][RULE][ROLE_RANGED_BRUISER][ROLE_PURE_BRUISER][RANGE_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級4v4の遠距離純ブルーザーを評価するとき、接敵前から攻撃できる射程利益と、機動力・LoS等を別途利用して距離を取り直す・カイトする利益を分離し、どちらかの存在だけで正面交換性能の不足を解消済みと扱わない。それぞれが実戦で圧力、敵の時間・注意消費、味方負担軽減等へ変換され、支払った機会費用をどの程度回収しているかを個別に確認する。
+[B0108][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][AI][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION][UNDER_FOCUS] 上級者帯の固定少人数戦では、本人の被ダメージが少ないことを、それだけで高い防御貢献または生存貢献と評価しない。敵から無視されることで味方へ攻撃・注意が偏っている場合、本人の個人安全性と、敵フォーカスの配分を含むグループ全体への実効貢献を分けて評価する。
+[B0109][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][AI][RULE][ROLE_SUPPORT][ROLE_COMPRESSION_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級固定少人数戦のDD兼オフサポートを評価するとき、純ブルーザーより直接火力が低いことだけで不適格とせず、副役割が生む実効価値を加えて評価する。一方、回復・デバフ等を所持していることだけで差分を補ったとみなさず、味方の防御GCD削減、攻撃時間増加、圧力維持、敵への追加負担等へ実際に変換された価値を確認する。
+[B0110][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][AI][DIAG][RULE][TRADEOFF][ALTERNATIVE_REASONING] 上級ビルドの明確な弱点を確認した場合、一般的な長所を列挙してその弱点自体を否定するのではなく、弱点が生じる原因、弱点が問題になる用途、別の性能・役割・運用条件へ交換できる余地を特定してから改善案を評価する。
+[B0111][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][AI][LIMIT][ROLE_SUPPORT][RANGE_COST][RECOMMENDATION_SCOPE] 遠距離スカーミッシャーや遠距離オフサポートで射程が高い価値を生むことから、近接オフヒーラー、近接デバッファー等の近接サポートDDが上級固定少人数戦で不適格または下位互換だと推定しない。各構成が実際に担当する仕事とその機会費用を個別に比較する。
+[B0112][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][AI][LIMIT][ROLE_COMPRESSION_EVALUATION][OPPORTUNITY_COST][PATCH][RECOMMENDATION_SCOPE] 特定のスキル、パッシブ、装備等によって攻撃と自衛またはその他の役割機能が例外的に高効率で圧縮された構成を、通常の遠距離ブルーザーでも火力と自衛の機会費用を容易に無視できる根拠として一般化しない。個別仕様へ依存する場合は現行パッチを確認する。
+[B0113][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][AI][LIMIT][GROUP_CONTRIBUTION][ROLE_COMPRESSION_EVALUATION] 上級少人数戦の説明で用いる「90対100」「80のDD＋30の支援」等の数値例は、編成枠価値と機会費用を説明する相対モデルとして扱い、ESO上の実測可能な共通スコアや単純加算可能な性能値として解釈しない。

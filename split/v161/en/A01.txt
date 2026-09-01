@@ -1,0 +1,103 @@
+# ESO PvP Corpus A01 Offensive Design and Pressure Creation
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v161
+[PAGE_NAME] A01 Offensive Design and Pressure Creation
+[SECTION_SCOPE] v161 / A0088-A0148
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+
+# Part 2 — Offensive Design and Pressure Formation
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+
+## CC
+
+[A0088][DEF][SCOPE] In this Corpus, CC（Crowd Control） refers to effects that incapacitate the opponent and are subject to 打破（Break Free）. 移動不能（Immobilize） and 減速（Snare） are not included in CC.
+[A0089][AUTHOR_VIEW][PRIORITY] In PvP, strong CC such as stuns and fears that stop the opponent's free actions is important.
+[A0090][CLAIM] CC that creates a period in which the opponent can neither heal nor attack is easy to understand as a trigger for beginning offense.
+[A0091][LIMIT] The period for which CC alone can secure initiative is short.
+[A0092][CAUSE] Continuing offensive actions after CC can create the possibility of maintaining initiative for several seconds or longer.
+[A0093][AUTHOR_VIEW][RULE] When attacking, create enough pressure that the opponent judges that prioritizing self-defense over counterattacking is necessary to avoid death.
+[A0094][AUTHOR_VIEW][CLAIM][RULE] Opponents also often initiate combos or rushes from CC, so anticipate this and either survive it through defensive actions or forcibly interrupt it with CC.
+[A0095][AUTHOR_VIEW][GOAL][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] Through attack practice, beginners should aim to gradually increase the situations in which they can move from “use a major attack because I want the kill” toward thinking “land CC and concentrate strong attacks into the short control window”; they do not need to create an appropriate CC opening every time from the start.
+[A0096][AUTHOR_VIEW][RULE] The main uses of CC are to begin your offense, interrupt the opponent's offense, interfere with healing immediately before a kill, and interfere with escape immediately before a kill.
+[A0097][CLAIM] A player affected by CC can remove it with 打破（Break Free）.
+[A0098][CLAIM] Immediately after using 打破（Break Free）, the player gains a buff granting CC immunity.
+[A0099][CLAIM] Immediately after using some skills, potions, or poisons, the player may gain a buff granting CC immunity.
+[A0100][AUTHOR_VIEW][RULE][GROUP_CC][GROUP_CONTENT][GROUP_CONTRIBUTION] When an ally needs an important CC to initiate burst, avoid applying your own CC first in a way that causes the opponent to 打破（Break Free） or gain CC immunity and prevents the ally's important CC from landing.
+[A0101][LIMIT] CC is not a universal tool that guarantees a kill.
+[A0102][CAUSE] Forcing the opponent to 打破（Break Free） also forces them to spend スタミナ（Stamina）.
+[A0103][CLAIM] CC therefore also applies pressure to the opponent's resources.
+
+## Burst
+
+[A0104][DEF] Burst means concentrating a large amount of damage into a short time window.
+[A0105][LIMIT] Even a single large hit may fail to secure a kill if the opponent can heal after each individual hit.
+[A0106][AUTHOR_VIEW][RULE] For burst, overlap delayed attacks, damage over time, debuffs, CC, strong regular attacks, アルティメット（Ultimate）, follow-up attacks, and executes within a short time window.
+[A0107][AUTHOR_VIEW][RULE][BURST_DESIGN] For primary attacks, CC, Ultimate, and similar tools whose counterplay becomes easier when their sequence is predictable, vary their timing within the limits that preserve the attack setup rather than using them from the same interval and the same preparatory pattern every time and allowing the opponent to resolve them with a fixed defensive routine.
+[A0108][CAUSE][BURST][BLOCK] If CC that cannot be prevented by ブロック（Block） is timed immediately before a delayed attack lands, it can prevent the opponent from receiving that hit while in block and make it easier to land heavy damage.
+[A0109][AUTHOR_VIEW][PRIORITY][RULE][BURST_DESIGN] In the basic form of an offensive sequence, when the properties of the CC and combo allow it, make the first design priority to place CC immediately before or at the point where maximum damage concentrates, reducing the time in which the opponent can freely answer that peak damage with defense or healing. Treat CC at the opener, during follow-up, during execute phases, and similar placements as branches used when they have a concrete purpose and effective result.
+[A0110][AUTHOR_VIEW][PRIORITY] What matters in burst is not merely using individually strong abilities in sequence, but creating multiple simultaneous problems that the opponent cannot easily resolve with a single heal.
+[A0111][AUTHOR_VIEW][PROC] For beginners, think of a burst sequence as preparation → CC → major attack → follow-up.
+[A0112][AUTHOR_VIEW][COND] If the opponent escapes or heals after the burst, continue with further follow-up attacks.
+[A0113][AUTHOR_VIEW][RULE][COND][CAUSE] Do not forcibly commit everything when burst conditions are not ready. Representative poor conditions include the opponent being completely healthy, your buffs being down, important debuffs not yet applied, insufficient resources, or CC being unavailable; even committing major resources in such a state is unlikely to produce results.
+[A0114][AUTHOR_VIEW][GOAL] The final objective of a burst combo is to reduce the opponent's health to zero and secure the kill.
+[A0115][AUTHOR_VIEW][REQUIREMENT] For a burst-combo kill to function as a win condition, at minimum your strongest-class combo must be capable of pushing the opponent close to death.
+[A0116][AUTHOR_VIEW][PRIORITY][PRACTICE][BURST_DESIGN] Do not make increasing the number of offensive-sequence patterns an objective in itself; first establish one strong basic combo that is a sufficient threat in real combat and can be executed reliably, then add effective branches that force the opponent to make different choices and predictions.
+[A0117][AUTHOR_VIEW][DIAG][RULE] If even your strongest-class combo cannot reduce the opponent's health enough, a win condition based on killing that opponent with a burst combo is unlikely to function; do not fixate on a burst kill and switch to another win condition.
+[A0118][AUTHOR_VIEW][CLAIM][ALTERNATIVE] When a burst kill is unlikely to function, alternative win conditions include gradually pushing the opponent down with sustained damage pressure, attacking their resources by forcing inefficient combat actions, or abandoning the fight early and disengaging.
+[A0119][AUTHOR_VIEW][DIAG][PRESSURE_VS_FINISH] When you fail to secure a kill, distinguish whether “you applied enough pressure to force defense, healing, or disengagement but lacked the final finishing tool” or “the pressure itself was insufficient, leaving the opponent able to continue attacking, applying CC, and adjusting position.”
+
+## Post-Burst Damage Trough and Pressure Between Kill Windows
+
+[A0120][AUTHOR_VIEW][EVAL][BURST_DESIGN][PRESSURE_VS_FINISH] Evaluate the killing power of a burst build not only by the instantaneous damage of its maximum combo, but also by the アルティメット（Ultimate）, special resources, primary attacks, debuffs, and follow-up capability that remain after the combo and the time required to rebuild them. A configuration whose damage falls sharply immediately after the maximum combo is survived can have lower actual killing power than its displayed maximum burst suggests.
+[A0121][AUTHOR_VIEW][RULE][BURST_DESIGN][PRESSURE_VS_FINISH] In a build whose primary finishing tools depend on アルティメット（Ultimate）, cooldowns, stacking conditions, or similar mechanics with long preparation times, evaluate not only the strength of the kill window but also whether ordinary pressure between windows can prevent the opponent from fully stabilizing. If the opponent can fully heal and fully prepare every time, merely surviving until the next kill window should not be counted as progress toward a kill.
+[A0122][AUTHOR_VIEW][PRACTICE][BURST_DESIGN][PRESSURE_VS_FINISH] Prepare an ordinary offensive sequence that does not use Ultimate and an enhanced form that adds Ultimate to increase finishing power. The ordinary form should still create enough pressure to require meaningful defense or healing, rather than making Ultimate the sole prerequisite for the offensive sequence to function.
+
+## Countering Kiting and Temporary Disengagement with DoTs
+
+[A0123][AUTHOR_VIEW][ADVANTAGE][DOT] A build with strong DoTs tends to have a countermeasure against play that uses kiting or temporary disengagement even when its direct offensive tools are purely melee attacks.
+[A0124][CAUSE][DOT] DoTs can leave part of the offensive pressure active during periods in which direct attack skills cannot be cast because the opponent is kiting or temporarily disengaging.
+[A0125][AUTHOR_VIEW][RULE][DOT][TIME_BUDGET] When an established DoT, persistent attack, or similar effect continues dealing damage without depending on your subsequent active offensive GCDs, evaluate its value not only by total damage but also by its ability to preserve pressure on the opponent while you spend GCDs on healing, defense, buff maintenance, movement, or similar actions.
+[A0126][AUTHOR_VIEW][CLAIM][DOT][ALTERNATIVE_REASONING] Layering DoTs on top of an active primary attack such as a spammable can increase sustained offensive pressure relative to repeating the primary attack alone.
+
+## Offensive Stat: Penetration
+
+[A0127][AUTHOR_VIEW][PATCH][PRIORITY][PENETRATION] Do not fix the priority order of offensive stats. Check the current mechanics at the time of the question and the opponent's amount of resistance. Because Penetration can have high expected damage value as long as it does not exceed the opponent's resistance, evaluate it as a priority candidate for increasing damage.
+[A0128][LIMIT][PENETRATION] Excess Penetration beyond the opponent's resistance contributes nothing to damage and is therefore completely wasted investment.
+[A0129][LIMIT][CAUSE][PENETRATION] Except for healing that depends on damage dealt, investment in Penetration does not directly increase ordinary healing power, so it is basically an investment directed one-way toward offensive performance.
+[A0130][AUTHOR_VIEW][EVAL][PENETRATION] Penetration can contribute greatly to damage, but it also depends heavily on the opponent's resistance amount and the combat situation.
+[A0131][AUTHOR_VIEW][COND][PENETRATION] If Penetration will not exceed the opponent's resistance and other offensive components are not required as conditions for the build to function, investment in Penetration is easily justified when the goal is to increase damage.
+[A0132][COND][PENETRATION] When the opponent combines resistance with mitigation buffs, they can maintain substantial toughness.
+[A0133][LIMIT][PENETRATION] When the opponent combines resistance with mitigation buffs, even securing sufficient Penetration does not remove the defensive effect of the mitigation buffs.
+[A0134][CLAIM][PENETRATION] Because of ESO's buff design, the number of layers of mitigation that can be maintained continuously, and the strongly time-limited nature of some buffs with substantial mitigation values, it is not possible to discard resistance entirely and maintain sufficient damage reduction at all times using mitigation buffs alone.
+
+## Conditional Offensive Performance and Defensive State
+
+[A0135][AUTHOR_VIEW][RULE][COND][CAUSE][BUILD_GENERAL] When your offensive modifier requires a condition such as a health differential, an advantageous state, or a maintained resource, enemy attacks can weaken not only your HP but also the condition that enables that offensive modifier. Because this structure can create a feedback loop of increased enemy pressure → reduced counteroffensive performance → further increased enemy pressure, do not evaluate conditional damage only by its maximum value.
+[A0136][AUTHOR_VIEW][RULE][COND][BUILD_GENERAL] In a configuration where damage dealt, Critical performance, or other offensive performance increases only while favorable combat states such as high self-health, a state advantage over the enemy, or maintenance of a specific buff are present, defensive investments such as Max Health, mitigation, or healing that make those states easier to maintain can also have indirect offensive value. In such cases, do not treat defensive investment as a simple one-way tradeoff against damage; include how much it increases the practical uptime of the offensive condition.
+
+## Effective Evaluation of Percentage Damage and Additional Attacks
+
+[A0137][AUTHOR_VIEW][RULE][MARGINAL_EFFECT_EVALUATION][DEFENSIVE_LAYER] Even when a damage effect is calculated from a fixed percentage of the target's Max Health as its base value, if that damage is subject to ordinary PvP mitigation, do not equate the displayed percentage with the percentage of the target's HP actually lost. Evaluate it by the effective damage after passing through PvP-specific modifiers, resistance, percentage mitigation, ブロック（Block）, and other defenses applicable to that damage.
+[A0138][AUTHOR_VIEW][RULE][MARGINAL_EFFECT_EVALUATION][ALTERNATIVE_REASONING] Even when the actual damage of an additional attack is small, if it has value as a trigger for another effect requiring conditions such as “an attack was made” or “an attack hit,” separate its direct damage contribution from its trigger contribution and do not double-count the trigger value as damage from that additional attack.
+
+## Range and Damage Scaling
+
+[A0139][PATCH][DEF][RANGE_CLASSIFICATION] Damage used by players has melee and ranged classifications.
+[A0140][AUTHOR_VIEW][PATCH][RULE][RANGE_SCALING] Using the official adjustment examples in A0141 and A0143 as common references, when comparing attacks of the same general purpose at melee and ranged distances without special modifiers, use a scaling baseline of 1.0 for the melee side and 0.9 for the ranged side. If an individual attack has an explicit additional modifier or exceptional scaling, prioritize that individual mechanic.
+[A0141][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][RANGE_SCALING] In the official PC/Mac patch notes for Update 28, all ranged Light Attack and Medium Attack damage was reduced by 10% to bring them in line with “ranged damage standards,” while Heavy Attacks were described as already meeting those standards.
+[A0142][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][RANGE_SCALING] Evidence target: A0141. ZOS / PC/Mac Patch Notes v6.2.5 - Markarth & Update 28: https://forums.elderscrollsonline.com/en/discussion/550927/pc-mac-patch-notes-v6-2-5-markarth-update-28
+[A0143][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][RANGE_SCALING] In the official patch notes for Update 35 PTS v8.1.0, the total damage of Crystal Weapon was described as being reduced by 41.5% when changing from “200% of a melee spammable” to “130% of a ranged spammable.”
+[A0144][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][RANGE_SCALING] Evidence target: A0143. ZOS / PTS Patch Notes v8.1.0 (Update 35): https://forums.elderscrollsonline.com/en/discussion/611025/pts-patch-notes-v8-1-0
+[A0145][PATCH][COND][RANGE_SCALING] If the scaling baseline in A0140 is still maintained in the current patch, then among same-type damage skills that receive no additional enhancement from special conditions, ranged skills are disadvantaged in base damage scaling relative to melee skills.
+[A0146][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][RANGE_COST] Range is itself combat performance: it creates benefits in starting attacks, maintaining attacks, and safety, while also carrying opportunity cost when other performance is paid to obtain that range. Therefore, do not evaluate melee and ranged comparisons by displayed damage alone.
+[A0147][AUTHOR_VIEW][PATCH][EVAL][RANGE_COST] If the current patch assigns lower damage scaling to the ranged side, then when comparing melee and ranged builds whose other major conditions are similar, evaluate that difference as performance budget allocated to range and include lower damage output on the ranged side as a premise.
+[A0148][AUTHOR_VIEW][COND][RANGE_COST] In a build that actually sacrifices other performance to obtain range, close-range combat where the range benefit cannot be used can prevent recovery of that opportunity cost and create an overall performance disadvantage.

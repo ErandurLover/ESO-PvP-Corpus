@@ -1,0 +1,43 @@
+# ESO PvP Corpus B03 Advanced Ganker and Bomber
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v161
+[PAGE_NAME] B03 Advanced Ganker and Bomber
+[SECTION_SCOPE] v161 / B0189-B0205
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+[ROUTER_RULE] B系列は上級者向け追加資料であり、初心者向けの要求水準・達成条件・失敗判定・標準推奨へ自動適用しない。
+[ROUTER_RULE] 命題レベルの [ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT] を保持して解釈する。
+
+[TAG_NOTE][AUTHOR_VIEW] ゲーム仕様そのものではなく、本文が採用する評価・推奨・診断基準などの著者判断を示す。
+[TAG_NOTE][CORE_JUDGMENT] [AUTHOR_VIEW]のうち、Corpusの回答方針・判断体系を実質的に決める中核的な著者判断を示す。確信度の高さや例外不存在を意味せず、適用条件・SCOPE・LIMIT・PATCH等を維持して解釈する。
+
+## B7 ガンカー／ボマー
+
+[B0189][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][CAUSE][ROLE_GANKER][GROUP_CONTENT] バトルグラウンド（Battlegrounds／BG）4v4では上位実力者が集まるほど、対象が打破（Break Free）・ブロック（Block）・ロール回避（Roll Dodge）・大回復等の防御手順を素早く実行し、奇襲への警戒も高くなるため、ガンカー／ボマーは有効な標的状態と攻撃開始機会を得にくくなり、参加難易度が上がる。
+[B0190][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY][ROLE_GANKER][TARGET_TIMING_CONTROL][DEFENSIVE_SEQUENCE] 上級PvPプレイヤーを暗殺対象にする場合、隠密状態（Hidden）から接近できることだけを攻撃開始条件とせず、初撃後の打破（Break Free）・ブロック（Block）・ロール回避（Roll Dodge）・大回復等の防御手順を相手が十分に実行しにくい瞬間を優先する。
+[B0191][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_GANKER][TARGET_TIMING_CONTROL] 上級者への暗殺では、対象が無防備になりやすい状況ほど暗殺好機として相手にも予測され得るため、対象の脆弱性とその状況に対する警戒度を別に評価し、明白な好機を無警戒な好機と同一視しない。
+[B0192][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][SCOPE][ROLE_GANKER][TARGET_TIMING_CONTROL] 上級純ガンカー運用を分析する場合、必要なバースト火力の準備とコンボ操作が成立していることを前提とし、主要な評価対象を、その火力をどの標的状態・時点で解放するかという攻撃開始判断へ置く。
+[B0193][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][PRIORITY][ROLE_GANKER][TARGET_TIMING_CONTROL] 純近接ガンカーの最大コンボが想定する標的の耐久範囲を十分に上回る場合、追加火力より、コンボを有効に通せる攻撃開始条件の確保を優先する。
+[B0194][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][EVAL][ROLE_GANKER][ALTERNATIVE_REASONING] 純ガンカーの特化価値は、通常のPvP構成でも容易に撃破できる相手への暗殺成功だけで評価せず、通常構成では撃破が難しい高耐久・高自衛対象まで撃破可能範囲を拡張できる差分で評価する。
+[B0195][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][RULE][ROLE_GANKER][TARGET_TIMING_CONTROL] 帝都（Imperial City）など標的遭遇頻度が低い環境では、純ガンカーは複数の候補から最善標的を選べることを前提にせず、現在遭遇している標的が事前に定めた暗殺成立条件を満たすかによって攻撃と見送りを判断する。
+[B0196][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][ROLE_GANKER][OPPORTUNITY_COST] 被弾耐久と再離脱能力を大きく捨てた純ガンカーでは、初回暗殺失敗後の生存・再試行が難しいため、再離脱可能な高機動ガンカーより一回の攻撃開始に高い成立確率を要求する。
+[B0197][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][EVAL][ROLE_GANKER][OPPORTUNITY_COST][MOVEMENT_SPEED] 高機動ガンカーは純近接ガンカーより単発の撃破可能範囲が狭くても、探索・追従・位置形成・失敗後の再離脱・再試行に必要な時間と損失が小さい場合、暗殺サイクル全体では高い実用性を持ち得る。
+[B0198][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][ROLE_GANKER] 遠距離ガンカーの実効バーストが純近接ガンカーより低い場合、攻撃開始判断の前に対象が自分の撃破可能範囲内かを選別する必要があり、純近接ガンカーより標的耐久による対象制限が強くなる。
+[B0199][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][ROLE_GANKER][TARGET_TIMING_CONTROL][ADVANTAGE_CREATION_CONVERSION] 同等程度の相手と継続交戦中の標的が攻撃・防御・回復・位置調整の行動機会やリソースを既存戦闘へ割いている場合、その既存交戦を利用できる暗殺候補として評価する。
+[B0200][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][COND][EVAL][ROLE_GANKER][OPPORTUNITY_COST] 帝都（Imperial City）のように一回のプレイヤー撃破から得られる実利が大きい環境では、長い準備・待機と高い失敗損失を持つ純ガンカーでも暗殺サイクルの機会費用を回収しやすくなり、同じ暗殺性能でも一回の撃破から得る実利が小さい戦場より用途適性が高まり得る。
+[B0201][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][SCOPE][LIMIT][ROLE_GANKER] 帝都（Imperial City）での上級ガンカー運用では、主要地形、モンスター、ボス、移動経路等の帝都で継続戦闘するための基礎的な環境知識を既習前提とし、その把握自体を上級ガンカー固有の戦術として扱わない。
+
+### B7.1 Bomber追加運用
+
+[B0202][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][LIMIT][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] 上級者中心の4v4で専用Bomberを1枠使用する運用は、現実的な勝ち筋として扱わない。
+[B0203][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CAUSE][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION][TIME_BUDGET] Bomberとして十分な攻撃を成立させるには通常複数GCDの準備が必要である一方、初回撃破候補となる相手は危険状態へ到達する前から防御を開始し、味方も通常の撃破処理を継続するため、有効な起爆状態が準備完了まで維持されにくい。
+[B0204][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST] 固定4人枠では、Bomber特化によって通常戦闘力へ生じる機会費用が大きい。
+[B0205][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][EVAL][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方がほぼ完成させた撃破へ最終打撃だけを加えて周囲損害を発生させる状況を、専用Bomberの成立根拠として高く評価しない。

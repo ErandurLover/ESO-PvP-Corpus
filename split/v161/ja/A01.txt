@@ -1,0 +1,102 @@
+# ESO PvP Corpus A01 Offensive Design and Pressure Creation
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v161
+[PAGE_NAME] A01 Offensive Design and Pressure Creation
+[SECTION_SCOPE] v161 / A0088-A0148
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+
+# 第2部　攻撃設計・圧力形成
+
+[TAG_NOTE][AUTHOR_VIEW] ゲーム仕様そのものではなく、本文が採用する評価・推奨・診断基準などの著者判断を示す。
+
+## CC
+
+[A0088][DEF][SCOPE] 本CorpusにおけるCC（Crowd Control）は、相手を行動不能にし、打破（Break Free）の対象となる効果を指す。移動不能（Immobilize）および減速（Snare）はCCに含めない。
+[A0089][AUTHOR_VIEW][PRIORITY] PvPでは、気絶や恐怖のように相手の自由行動を止める強いCCが重要である。
+[A0090][CLAIM] 相手が回復も攻撃もできない時間を作るCCは、攻撃開始の契機として理解しやすい。
+[A0091][LIMIT] CC単体で主導権を握れる時間は短い。
+[A0092][CAUSE] CC後に攻撃行動を継続することで、主導権を数秒またはそれ以上維持できる可能性が生じる。
+[A0093][AUTHOR_VIEW][RULE] 攻撃時は、敵に「反撃より自衛を優先しなければ死ぬ」と判断させる程度の圧力を作る。
+[A0094][AUTHOR_VIEW][CLAIM][RULE] 敵もCCを起点にコンボやラッシュを仕掛けることが多いため警戒し、防御行動でしのぐか、CCで強制中断する。
+[A0095][AUTHOR_VIEW][GOAL][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、攻撃練習を通じて「倒したいから大技を撃つ」状態から、「CCを通して短い拘束時間に強い攻撃をまとめる」と考えられる場面を徐々に増やすことを目標とし、最初から毎回適切なCC起点を作れる必要はない。
+[A0096][AUTHOR_VIEW][RULE] CCの主要用途は、自分の攻撃開始、相手の攻撃中断、仕留め直前の回復妨害、仕留め直前の逃走妨害である。
+[A0097][CLAIM] CCを受けた側は打破（Break Free）で解除できる。
+[A0098][CLAIM] 打破（Break Free）を使った直後はCC無効のバフを得る。
+[A0099][CLAIM] 一部のスキル・ポーション・毒を使った直後は、CC無効のバフを得る場合がある。
+[A0100][AUTHOR_VIEW][RULE][GROUP_CC][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方がバースト起点として重要なCCを必要とする局面では、自分のCCで先に相手へ打破（Break Free）またはCC無効を発生させ、味方の重要CCを通らなくすることを避ける。
+[A0101][LIMIT] CCは必ず敵を倒せる万能手段ではない。
+[A0102][CAUSE] 相手に打破（Break Free）を強要すると相手のスタミナ（Stamina）を消費させられる。
+[A0103][CLAIM] CCは相手のリソースにも圧力をかける。
+
+## バースト
+
+[A0104][DEF] バーストは短時間に大きなダメージを集中させることである。
+[A0105][LIMIT] 単発で大きなダメージを出しても、相手が一回ずつ回復できるなら撃破につながらないことがある。
+[A0106][AUTHOR_VIEW][RULE] バーストでは、時間差攻撃、継続ダメージ、デバフ、CC、強い通常攻撃、アルティメット（Ultimate）、追撃、処刑攻撃を短い時間帯へ重ねる。
+[A0107][AUTHOR_VIEW][RULE][BURST_DESIGN] 相手に対処手順を予測されやすい主要攻撃・CC・アルティメット（Ultimate）等は、攻撃成立条件を崩さない範囲で投入タイミングに緩急をつけ、毎回同じ間隔・同じ予備動作から使用して固定した防御手順で処理されることを避ける。
+[A0108][CAUSE][BURST][BLOCK] ブロック（Block）で防止できないCCを時間差攻撃の着弾直前へ重ねると、相手が着弾をブロック状態で迎えることを妨害し、大きなダメージを通しやすくなる。
+[A0109][AUTHOR_VIEW][PRIORITY][RULE][BURST_DESIGN] 攻撃シーケンスの基本形では、使用するCCとコンボの性質が許す限り、CCを最大火力が集中する直前またはその時点へ重ね、相手が最大火力へ自由に防御・回復で対応できる時間を減らすことを第一設計とする。初動・追撃・処刑局面等へCCを置く形は、具体的な目的と実効性がある場合の派生として扱う。
+[A0110][AUTHOR_VIEW][PRIORITY] バーストで重要なのは、個々の強技を順番に撃つことより、相手が一回の回復では整理しにくい複数問題を同時発生させることである。
+[A0111][AUTHOR_VIEW][PROC] 初心者向けバースト手順は、準備→CC→大きい攻撃→追撃の順で考える。
+[A0112][AUTHOR_VIEW][COND] バースト後に相手が逃走または回復する場合、さらに追撃する。
+[A0113][AUTHOR_VIEW][RULE][COND][CAUSE] バースト条件が整っていない時は無理に全投入しない。相手が完全に健康、自分のバフ切れ、重要デバフ未付与、リソース不足、CC使用不能などは代表的な悪条件であり、この状態で主要資源を全投入しても成果が出にくい。
+[A0114][AUTHOR_VIEW][GOAL] バーストコンボの最終目標は、相手の体力を全損させて撃破することである。
+[A0115][AUTHOR_VIEW][REQUIREMENT] バーストコンボによる撃破を勝ち筋とするには、少なくとも自分の最大級のコンボで相手を瀕死まで追い込めることが前提になる。
+[A0116][AUTHOR_VIEW][PRIORITY][PRACTICE][BURST_DESIGN] 攻撃シーケンスはパターン数を増やすこと自体を目標にせず、まず実戦で十分な脅威となる強い基本コンボを安定して成立させ、その後に相手へ異なる選択・予測を要求できる実効的な派生を増やす。
+[A0117][AUTHOR_VIEW][DIAG][RULE] 自分の最大級のコンボでも相手の体力を十分に減らせない場合、その相手をバーストコンボで倒す勝ち筋は成立しにくいため、バースト撃破へ固執せず別の勝ち筋へ切り替える。
+[A0118][AUTHOR_VIEW][CLAIM][ALTERNATIVE] バースト撃破が成立しにくい場合は、恒常的な火力圧力で徐々に押し込む、非効率な戦闘行動を強要してリソース面から攻める、戦闘を早めに諦めて離脱する、という別の勝ち筋がある。
+[A0119][AUTHOR_VIEW][DIAG][PRESSURE_VS_FINISH] 相手を撃破できなかった場合、「十分な圧力で防御・回復・離脱へ追い込めたが最後の撃破手段が不足した」のか、「相手が攻撃・CC・位置調整を継続できるほど圧力自体が不足した」のかを区別する。
+
+## バースト後の火力谷とキルウィンドウ間圧力
+
+[A0120][AUTHOR_VIEW][EVAL][BURST_DESIGN][PRESSURE_VS_FINISH] バースト型ビルドの撃破性能は最大コンボの瞬間火力だけでなく、コンボ後に残るアルティメット（Ultimate）・特殊リソース・主要攻撃・デバフ・追撃性能と、それらを再構築するまでの時間を含めて評価する。最大コンボを耐えられた直後に火力が大きく落ちる構成は、表示上の最大バーストより実際の撃破能力が低くなり得る。
+[A0121][AUTHOR_VIEW][RULE][BURST_DESIGN][PRESSURE_VS_FINISH] 長い再準備時間を持つアルティメット（Ultimate）・クールダウン・累積条件等を主要な撃破手段とするビルドでは、キルウィンドウの強さだけでなく、その間の通常圧力が相手の完全な立て直しを妨げられるかを評価する。相手が毎回全快・再準備できるなら、次のキルウィンドウまで生存できること自体を撃破へ向けた進展として数えない。
+[A0122][AUTHOR_VIEW][PRACTICE][BURST_DESIGN][PRESSURE_VS_FINISH] 攻撃シーケンスは、アルティメット（Ultimate）を使用しない通常形と、通常形へアルティメットを加えて撃破性能を高める強化形を準備する。通常形だけでも相手に実効的な防御・回復を要求できる圧力を成立させ、アルティメットを攻撃成立そのものの唯一の前提にしない。
+
+## DoTと回り込み・一時離脱への対抗
+
+[A0123][AUTHOR_VIEW][ADVANTAGE][DOT] DoTが強いビルドは、直接的な攻撃手段が純粋な近接攻撃だけでも、相手の回り込みや一時離脱を利用する立ち回りへの対抗策になりやすい。
+[A0124][CAUSE][DOT] DoTは、回り込みや一時離脱によって直接攻撃スキルをキャストできない時間にも、攻撃圧力の一部を残留させられる。
+[A0125][AUTHOR_VIEW][RULE][DOT][TIME_BUDGET] 一度成立したDoT・持続攻撃等が、その後の自分の能動攻撃GCDに依存せずダメージを継続する場合、その価値は総ダメージだけでなく、自分が回復・防御・バフ更新・移動等へGCDを使っている間にも敵への圧力を残せることを含めて評価する。
+[A0126][AUTHOR_VIEW][CLAIM][DOT][ALTERNATIVE_REASONING] スパム攻撃等の能動的な主要攻撃へDoTを重ねることで、主要攻撃だけを反復する場合より継続的な攻撃圧力を高められる。
+
+## 火力系ステータス：貫通
+
+[A0127][AUTHOR_VIEW][PATCH][PRIORITY][PENETRATION] 火力関連ステータスの優先順位を固定せず、質問時点の現行仕様と相手の耐性量を確認する。貫通は相手耐性を超えない範囲で高いダメージ期待値を持ち得るため、火力向上の優先候補として評価する。
+[A0128][LIMIT][PENETRATION] 相手の耐性を超える過剰な貫通は、火力へ寄与しないため完全に無駄な投資になる。
+[A0129][LIMIT][CAUSE][PENETRATION] 与ダメージ量に依存する回復を除き、貫通への投資は通常の回復力を直接増加させないため、基本的に攻撃性能へ一方向に寄せる投資になる。
+[A0130][AUTHOR_VIEW][EVAL][PENETRATION] 貫通は火力への寄与が高い一方、相手の耐性量と戦闘状況への依存性も高い。
+[A0131][AUTHOR_VIEW][COND][PENETRATION] 相手の耐性を超える貫通にならず、他の火力構成要素がビルド成立要件として要求されていない場合、火力向上が目的なら貫通への投資は正当化されやすい。
+[A0132][COND][PENETRATION] 相手が耐性と軽減バフを併用している場合、相手は十分な硬さを維持し得る。
+[A0133][LIMIT][PENETRATION] 相手が耐性と軽減バフを併用している場合、十分な貫通を確保しても軽減バフによる防御効果までは解消できない。
+[A0134][CLAIM][PENETRATION] ESOのバフ設計、恒常的に使用可能な軽減手段の層の数、および十分な軽減率を持つ一部のバフに強い時間限定性が課されているという性質から、耐性を完全に捨て、軽減系バフだけで常時十分なダメージカットを実現することはできない。
+
+## 条件付き攻撃性能と防御状態
+
+[A0135][AUTHOR_VIEW][RULE][COND][CAUSE][BUILD_GENERAL] 自分の攻撃補正が体力差・優勢状態・維持中の資源等を成立条件とする場合、敵の攻撃がHPを減らすだけでなく、その攻撃補正の成立条件まで弱めることがある。この構造では、敵の圧力増加→自分の反撃性能低下→さらに敵の圧力増加というフィードバックが生じ得るため、条件付き火力を最大値だけで評価しない。
+[A0136][AUTHOR_VIEW][RULE][COND][BUILD_GENERAL] 与ダメージ・クリティカル・その他の攻撃性能が、自分の高体力、敵との状態差、特定バフの維持等の有利な戦闘状態を条件として増加する構成では、その状態を維持しやすくする最大体力、軽減、回復等の防御投資も間接的な攻撃価値を持ち得る。この場合、防御投資を火力との単純な一方向トレードオフとして扱わず、攻撃条件の実戦成立時間がどの程度増えるかを含めて評価する。
+
+## 割合ダメージと追加攻撃の実効評価
+
+[A0137][AUTHOR_VIEW][RULE][MARGINAL_EFFECT_EVALUATION][DEFENSIVE_LAYER] 対象最大体力の一定割合を基礎値として算出するダメージ効果でも、そのダメージが通常のPvP軽減を受ける場合は、表示割合を対象HPの実損失割合と同一視せず、そのダメージに適用されるPvP固有補正・耐性・割合軽減・ブロック（Block）等を通過した実効ダメージで評価する。
+[A0138][AUTHOR_VIEW][RULE][MARGINAL_EFFECT_EVALUATION][ALTERNATIVE_REASONING] 追加攻撃の実ダメージが小さくても、「攻撃を行った」「攻撃が命中した」等を条件とする別効果のトリガーとして価値を持つ場合は、直接ダメージ寄与とトリガー寄与を分離して評価し、トリガー価値を当該追加攻撃の火力として二重計上しない。
+
+## 射程とダメージスケーリング
+
+[A0139][PATCH][DEF][RANGE_CLASSIFICATION] プレイヤーが扱うダメージには近接と遠距離の分類が存在する。
+[A0140][AUTHOR_VIEW][PATCH][RULE][RANGE_SCALING] A0141およびA0143の公式調整例を共通参照として、特別な補正がない同趣旨の攻撃を遠近で比較する場合は、近接側を1.0としたとき遠距離側を0.9とするスケーリング基準を用いる。個別の攻撃に明示的な追加補正または例外的なスケーリングがある場合は、その個別仕様を優先する。
+[A0141][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][RANGE_SCALING] Update 28の公式PC/Macパッチノートでは、すべての遠距離軽攻撃（Light Attack）および中攻撃（Medium Attack）のダメージを10%低下させて「ranged damage standards」に合わせ、重攻撃（Heavy Attack）は既にその基準を満たしていると説明した。
+[A0142][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][RANGE_SCALING] 根拠対象: A0141. ZOS / PC/Mac Patch Notes v6.2.5 - Markarth & Update 28: https://forums.elderscrollsonline.com/en/discussion/550927/pc-mac-patch-notes-v6-2-5-markarth-update-28
+[A0143][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][RANGE_SCALING] Update 35 PTS v8.1.0の公式パッチノートでは、クリスタル武器（Crystal Weapon）の合計ダメージを「melee spammableの200%」から「ranged spammableの130%」へ変更する際に41.5%低下させたと説明した。
+[A0144][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][RANGE_SCALING] 根拠対象: A0143. ZOS / PTS Patch Notes v8.1.0 (Update 35): https://forums.elderscrollsonline.com/en/discussion/611025/pts-patch-notes-v8-1-0
+[A0145][PATCH][COND][RANGE_SCALING] A0140のスケーリング基準が現行パッチでも維持されている場合、特殊な条件による追加強化を受けていない同種のダメージスキルでは、遠距離スキルは近接スキルより基礎的なダメージスケーリングで不利になる。
+[A0146][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][RANGE_COST] 射程はそれ自体が戦闘性能であり、攻撃開始・継続・安全性の利益を生む一方、射程を得るために他性能を支払う場合は機会費用も持つため、近接と遠距離の比較では表示ダメージだけで評価しない。
+[A0147][AUTHOR_VIEW][PATCH][EVAL][RANGE_COST] 現行パッチで遠距離側へ低いダメージスケーリングが設定されている場合、射程以外の主要条件が似通った近接ビルドと遠距離ビルドでは、その差を射程へ配分された性能予算として評価し、遠距離側のダメージ出力が低くなることを前提へ含める。
+[A0148][AUTHOR_VIEW][COND][RANGE_COST] 射程を得るために他性能を実際に失っているビルドでは、射程の利益を利用できない近距離戦になると、その機会費用を回収できず総合性能で不利になり得る。
