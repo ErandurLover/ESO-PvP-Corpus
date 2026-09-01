@@ -1,0 +1,86 @@
+# ESO PvP Corpus A08 Specific Gear Skills and Patch Dependent
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v160
+[PAGE_NAME] A08 Specific Gear Skills and Patch Dependent
+[SECTION_SCOPE] v160 / A0687-A0730
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v160/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v160/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+
+# Part 10 — Specific Equipment, Skills, and Patch-Dependent References
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+
+## Update 23 Changes to Former Self-Revive Equipment
+
+[A0687][REFERENCE_NOTE][PATCH_HISTORY][PATCH][HISTORICAL_EXAMPLE][PHOENIX][ETERNAL_WARRIOR][IMMORTAL_WARRIOR][SELF_RESURRECT] In Update 23（Scalebreaker）, 不死鳥（Phoenix）, 不滅の戦士（永遠なるヨケダ／Eternal Warrior）, and 不死身の戦士（不死なるヨケダ／Immortal Warrior） were changed from five-piece effects that allowed self-revival after death into effects that assist survival or defense at low HP before death, and they no longer function as equipment that revives the wearer from death by itself.
+[A0688][REFERENCE_NOTE][PATCH_HISTORY][PATCH][CLAIM][OFFICIAL_RATIONALE][SELF_RESURRECT] In the official Update 23 patch notes, ZOS collectively called 不死鳥（Phoenix）, 不滅の戦士（Eternal Warrior）, and 不死身の戦士（Immortal Warrior） “self-resurrect sets” and explained that the self-revive mechanic was removed because it underperformed expectations in many cases while becoming excessive in very limited situations. The theme of survival and defense was retained as effects that function before death rather than as self-revival after death.
+[A0689][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][SELF_RESURRECT] Evidence target: A0687, A0688. ZOS / PC/Mac Patch Notes v5.1.5 (Scalebreaker & Update 23): https://forums.elderscrollsonline.com/en/discussion/488626/pc-mac-patch-notes-v5-1-5-scalebreaker-update-23
+
+## シシスの凝視（Gaze of Sithis）
+
+[A0690][AUTHOR_VIEW][PATCH][EVAL][GAZE_OF_SITHIS] Given the shield mechanics in A0249, 神話装備（Mythic） シシスの凝視（Gaze of Sithis）, which does not use defensive mitigation from ブロック（Block）, has high compatibility with operation that uses shields as a primary self-defense tool.
+[A0691][AUTHOR_VIEW][PATCH][LIMIT][GAZE_OF_SITHIS] Even when combining シシスの凝視（Gaze of Sithis） with shields, ブロック（Block） remains important for handling crowd control that can be prevented by blocking and similar threats.
+[A0692][AUTHOR_VIEW][PATCH][CAUSE][GAZE_OF_SITHIS] When シシスの凝視（Gaze of Sithis） prevents use of ブロック（Block） damage mitigation, more blockable burst is taken directly through HP, potentially increasing the burden of healing actions and healing resources required to rewind health and recover from danger.
+[A0693][AUTHOR_VIEW][PATCH][PRACTICE][GAZE_OF_SITHIS] When beginners combine シシスの凝視（Gaze of Sithis） with shields, adopt it cautiously while accounting for the weakness that losing ブロック（Block） mitigation can increase HP damage taken and the burden of recovery.
+
+## ペイル騎士団の指輪（Ring of the Pale Order） and バトルグラウンド（Battlegrounds）
+
+[A0694][AUTHOR_VIEW][PATCH][RULE][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] As a rule, do not use ペイル騎士団の指輪（Ring of the Pale Order） in バトルグラウンド（Battlegrounds）.
+[A0695][PATCH][LIMIT][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] The on-damage self-healing of ペイル騎士団の指輪（Ring of the Pale Order） does not function when there are five or more other group members, meaning six or more total group members.
+[A0696][AUTHOR_VIEW][PATCH][COND][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] In 8v8 バトルグラウンド（Battlegrounds）, because the total group size is extremely likely to be six or more, treat the on-damage self-healing from ペイル騎士団の指輪（Ring of the Pale Order） as effectively zero by default.
+[A0697][PATCH][LIMIT][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] Even under the condition in A0695, the effect of ペイル騎士団の指輪（Ring of the Pale Order） that prevents healing from others does not disappear.
+[A0698][AUTHOR_VIEW][PATCH][COST][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] In 8v8 バトルグラウンド（Battlegrounds） or similar situations where on-damage self-healing effectively does not function and only rejection of healing from others remains, a large opportunity cost—the 神話装備（Mythic） slot—is paid for equipment with effectively no benefit and a strong disadvantage.
+[A0699][AUTHOR_VIEW][PATCH][PRACTICE][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] When using ペイル騎士団の指輪（Ring of the Pale Order） in バトルグラウンド（Battlegrounds）, evaluate together the effective value of its on-damage self-healing, rejection of healing from others, and opportunity cost of the 神話装備（Mythic） slot.
+
+## マラキャスの残忍なバンド（Malacath's Band of Brutality）
+
+[A0700][AUTHOR_VIEW][PATCH][EVAL][MALACATH][CRITICAL][BURST_DESIGN] Because マラキャスの残忍なバンド（Malacath's Band of Brutality） steadily increases normal damage dealt while greatly reducing critical damage, do not evaluate it only by long-duration average damage; evaluate how it changes maximum damage capable of crossing the kill threshold and the probability of securing a kill within the kill window before the opponent transitions to healing or defense.
+[A0701][AUTHOR_VIEW][PATCH][RULE][MALACATH][CRITICAL][OPPORTUNITY_COST] When using マラキャスの残忍なバンド（Malacath's Band of Brutality）, check not only the reduction in critical damage caused by the item itself, but also how much effects already used in the build—such as increased critical chance, increased critical damage, or increased critical damage taken by enemies—lose value, and evaluate the performance budget spent on the skills, equipment, passives, and other sources of those effects as opportunity cost as well.
+[A0702][AUTHOR_VIEW][PATCH][EVAL][MALACATH][CRITICAL][BURST_DESIGN] When evaluating マラキャスの残忍なバンド（Malacath's Band of Brutality） in a synchronized multi-hit burst setup, do not judge the loss from reduced critical damage to be small merely because the critical chance of each individual attack is low; compare it while including the chance that at least one important hit during the entire kill window critically strikes and the value of that high roll allowing the setup to cross the kill threshold.
+
+## Lightning Staff Heavy-Attack Builds
+
+[A0703][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] Lightning Staff heavy-attack builds are poorly able to use LoS as a defensive tool while channeling a heavy attack.
+[A0704][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] Lightning Staff heavy-attack builds can have their channeled attacks easily disrupted when the target breaks LoS.
+[A0705][AUTHOR_VIEW][PATCH][CLAIM][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] Lightning Staff heavy-attack builds tend to have thin offensive damage layering.
+[A0706][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] If self-defense actions are required while channeling a Lightning Staff heavy attack, the channeled attack is likely to be interrupted.
+[A0707][AUTHOR_VIEW][PATCH][LIMIT][ENTRY_LEVEL_BEGINNER][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD][RECOMMENDATION_SCOPE] Unless there are special circumstances or an explicit preference from the player, do not make Lightning Staff heavy-attack builds a high-priority standard PvP recommendation for entry-level beginners.
+[A0708][AUTHOR_VIEW][PATCH][CAUSE][ENTRY_LEVEL_BEGINNER][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD][PRACTICE] Because a Lightning Staff heavy-attack-centered setup has difficulty using LoS defensively while channeling and its offense is easily interrupted by self-defense demands, it may reduce opportunities for entry-level beginners to repeatedly practice LoS and switching between offense and defense.
+
+## Targeted Cast Attacks
+
+[A0709][AUTHOR_VIEW][LIMIT][CASTED_SPAMMABLE] A skill that requires a cast and is designed as the primary spammable is disadvantaged against interruption unless its resistance to interruption is robust.
+[A0710][AUTHOR_VIEW][LIMIT][CASTED_SPAMMABLE] A spammable that cannot begin casting without a target is more disadvantaged by interruption, is more susceptible to server desynchronization and network latency, and cannot begin casting while LoS to the target is broken.
+[A0711][AUTHOR_VIEW][LIMIT][CAUSE][CASTED_SPAMMABLE] Because a targeted cast attack cannot begin casting while LoS is broken, fighting around obstacles requires time spent exposing yourself in order to begin the cast, which tends to increase the time you are exposed to enemy attacks.
+[A0712][PATCH][CLAIM][UPPERCUT] アッパーカット（Uppercut） and its morphs are melee attack skills.
+[A0713][PATCH][CLAIM][SNIPE] スナイプ（Snipe） and its morphs are ranged attack skills.
+[A0714][PATCH][DEF][TARGETED_CAST_ATTACK][UPPERCUT] アッパーカット（Uppercut） and its morphs are targeted cast attack skills that require an attack target in order to begin casting.
+[A0715][PATCH][DEF][TARGETED_CAST_ATTACK][SNIPE] スナイプ（Snipe） and its morphs are targeted cast attack skills that require an attack target in order to begin casting.
+[A0716][AUTHOR_VIEW][PATCH][SCOPE][UPPERCUT] Apply to アッパーカット（Uppercut） and its morphs the cautions common to targeted cast attacks concerning interruption, target requirements, LoS, and network latency.
+[A0717][AUTHOR_VIEW][PATCH][SCOPE][SNIPE] Apply to スナイプ（Snipe） and its morphs the cautions common to targeted cast attacks concerning interruption, target requirements, LoS, network latency, and exposure time when using obstacles from range.
+
+## アッパーカット（Uppercut） and High-Ping / Lag Environments
+
+[A0718][AUTHOR_VIEW][PATCH][LIMIT][COND][UPPERCUT] Because アッパーカット（Uppercut） and its morphs become harder to land as network latency or server lag increases, operate under the assumption of increased hit difficulty in high-ping environments or during congestion.
+[A0719][AUTHOR_VIEW][PATCH][PRACTICE][UPPERCUT] When using アッパーカット（Uppercut） and its morphs in a laggy environment, moving close enough to be nearly touching the opponent before using them makes it easier to complete the cast.
+[A0720][PATCH][CAUSE][UPPERCUT] In a laggy environment, the opponent's current position on the server may not exactly match the current position rendered on your screen.
+[A0721][AUTHOR_VIEW][PATCH][CAUSE][UPPERCUT] In a laggy environment, using アッパーカット（Uppercut） and its morphs only after moving close enough to nearly touch the opponent tends to reduce the risk of losing the cast target because of divergence between the opponent's server position and rendered screen position.
+[A0722][AUTHOR_VIEW][PATCH][PRACTICE][UPPERCUT] In a laggy environment, one method is to use a visually short two-handed weapon style as a visual distance cue that reminds you that you need to move closer, making アッパーカット（Uppercut） and its morphs easier to land.
+[A0723][AUTHOR_VIEW][PATCH][RULE][UPPERCUT] On days with severe lag, avoid play that tries to use the maximum range of アッパーカット（Uppercut） and its morphs.
+
+## Permanent Combat Pets Requiring a Cast to Resummon
+
+[A0724][AUTHOR_VIEW][COND] If a permanent combat pet that requires a cast to resummon is central to the opponent's build and is expected to be easy to kill, kill it early in the fight.
+[A0725][AUTHOR_VIEW][PRIORITY] If a permanent combat pet that requires a cast to resummon is central to the opponent's build, is expected to be easy to kill, and also has healing capability, raise the priority of killing that pet early in the fight.
+[A0726][AUTHOR_VIEW][PROC][DIAG] First apply a certain amount of offense to the target permanent combat pet and evaluate both how difficult it is to kill and how much response burden that offense imposes on the opponent.
+[A0727][AUTHOR_VIEW][COND] If an opponent who loses a permanent combat pet suffers major impairment to combat actions unless they perform a casted resummon, killing that pet has value even if it is resummoned.
+[A0728][AUTHOR_VIEW][RULE] If losing a permanent combat pet that requires a cast to resummon causes major disruption to the opponent's combat actions and the pet is easy to kill, it may be killed repeatedly after each resummon.
+[A0729][AUTHOR_VIEW][PRIORITY] When possible, prioritize interrupting the resummon cast over killing the resummoned permanent combat pet again.
+[A0730][AUTHOR_VIEW][LIMIT] When a finite-health permanent combat pet that requires a cast to summon is central to a build, the user must accept the risks of the pet being repeatedly killed and of the resummon cast being interrupted.

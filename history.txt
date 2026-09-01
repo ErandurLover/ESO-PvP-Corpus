@@ -1,0 +1,64 @@
+ESO PvP Corpus — Version History
+Current version: v160
+
+================================================================
+v160 — Changes from v159
+================================================================
+
+Corpus size and proposition identity
+- Proposition IDs were preserved: 855 Series A propositions and 202 Series B propositions, 1057 total.
+- No proposition was added or removed.
+- Japanese and English proposition IDs and tag sequences remain synchronized.
+
+Japanese proposition text
+- Added or normalized English identification at the first occurrence of an ESO term or selected ESO-specific abbreviation in 32 Japanese propositions so each proposition remains identifiable when retrieved alone.
+- Updated IDs: A0137, A0139, A0176, A0186, A0187, A0280, A0282, A0444, A0476, A0480, A0502, A0535, A0590, A0691, A0692, A0693, A0732, A0775, A0777, A0779, A0780, A0782, A0786, A0801, A0806, A0841, A0842, A0844, B0048, B0115, B0186, B0187.
+- The Japanese Shield Wall section heading was normalized to 盾の壁（Shield Wall）系.
+
+Standalone-retrieval wording
+- Replaced section-relative wording with an explicit B0111 scope anchor in B0115, B0130, B0131, B0132, B0135, B0136, and B0137 so their intended advanced competitive Skirmisher scope remains identifiable when retrieved alone.
+- Expanded BG as Battlegrounds and IC as Imperial City where those abbreviations occur in proposition text or bibliographic records that may be retrieved alone; quoted source titles and URLs were preserved.
+
+Role-tag normalization
+- Replaced BOMBER with ROLE_BOMBER in 36 propositions.
+- Replaced RANGED_BRUISER with ROLE_RANGED_BRUISER in 10 propositions.
+- Role tags are standardized in principle with the ROLE_ prefix.
+
+Shield-tag reorganization
+- Consolidated the previous specialized shield tags into a smaller hierarchy.
+- Final shield categories: SHIELD (9 propositions), SHIELD_SKILL (4), SHIELD_GEAR (1).
+- Removed SHIELD_STACKING, SHIELD_EVALUATION, SHIELD_GCD_VALUE, SHIELD_ORDER, SHIELD_USAGE, NORMAL_SHIELD_DURATION, and SHIELD_BELOW_ONE_HIT.
+
+Alternative/comparison-tag reorganization
+- Consolidated ALTERNATIVE_COMPARISON, FEASIBLE_ALTERNATIVES, COUNTERFACTUAL_COMPARISON, CONTRASTIVE_SELECTION, and ALT.
+- Final categories: ALTERNATIVE_REASONING (26 propositions) and ALTERNATIVE (6).
+- SUBSTITUTE (2) and PARTIAL_SUBSTITUTION (1) were retained as distinct relations.
+
+Meta-tag reorganization
+- Replaced META_FIT and META_THREAT_FIT with AI_META_EVALUATION for AI reasoning about PvP meta conditions (6 propositions total).
+- Replaced META_TREND with PVP_META for propositions that present PvP meta information itself (3 propositions).
+
+Block-tag reorganization
+- Added BLOCK as the parent tag to all 29 block-related propositions so cross-cutting Block reasoning can be retrieved as one category.
+- Retained or introduced specialized subcategories only where independently useful: BLOCK_ACTION_COMPATIBILITY (7), BLOCK_COST (4), BLOCK_TIMING (2), and BLOCK_FAILURE (1).
+- Removed BLOCK_USAGE, BLOCK_DURING_ACTION, BLOCK_DISRUPTION, BLOCK_COST_PRESSURE, and BLOCK_VS_RECOVERY.
+- Specialized Block tags are used together with BLOCK.
+
+Author-judgment hierarchy
+- Replaced AUTHOR_JUDGMENT with AUTHOR_VIEW.
+- AUTHOR_VIEW is assigned to 905 propositions that express evaluations, recommendations, diagnostic criteria, operational standards, decision rules, or closely equivalent author judgments rather than game mechanics alone.
+- CORE_JUDGMENT is assigned to 65 propositions representing central judgments in the Corpus decision framework or author judgments with especially strong distinctive character.
+- CORE_JUDGMENT always co-occurs with AUTHOR_VIEW and does not mean higher factual certainty or absence of exceptions.
+- These assignments changed tags only; proposition IDs and proposition body text were not changed.
+
+Proposition-type coverage
+- Added a semantic proposition-type tag to 22 propositions that previously lacked one.
+- Added tags comprised 11 CLAIM, 3 RULE, 3 DEF, 3 REQUIREMENT, and 2 EVAL assignments.
+
+Series B document structure
+- Added an independent level-1 heading for Series B in both Full corpora so Series B is not hierarchically nested under the final Series A section.
+- Japanese heading: # B系列　上級者向け
+- English heading: # Series B — Advanced
+
+Version-fixed corpus files
+- Updated the version-fixed directories, CORPUS_VERSION metadata, manifests, Core150 metadata, Split metadata, and canonical Corpus URLs from v159 to v160.

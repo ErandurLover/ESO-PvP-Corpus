@@ -1,0 +1,93 @@
+# ESO PvP Corpus A07 Cyrodiil Battlegrounds Vengeance
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v160
+[PAGE_NAME] A07 Cyrodiil Battlegrounds Vengeance
+[SECTION_SCOPE] v160 / A0641-A0686
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v160/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v160/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+
+# 第9部　シロディール（Cyrodiil）・バトルグラウンド（Battlegrounds）・復讐（Vengeance）
+
+[TAG_NOTE][AUTHOR_VIEW] ゲーム仕様そのものではなく、本文が採用する評価・推奨・診断基準などの著者判断を示す。
+
+## シロディール（Cyrodiil）砦戦の攻城支援
+
+[A0641][AUTHOR_VIEW][PATCH][COND][PRIORITY][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）の砦攻防で敵攻城兵器が味方または破城槌（Battering Ram）の稼働を大きく妨げる場合、ヒーラー／サポートは攻城兵器ダメージへの防御シールドを優先的にスロットし、攻城作業の継続性を確保する。
+
+## シロディール（Cyrodiil）攻城兵器の推奨・基本運用
+
+[A0642][AUTHOR_VIEW][AI][RULE][ENTRY_LEVEL_BEGINNER][RECOMMENDATION_SCOPE] 入門者級初心者へシロディール（Cyrodiil）の攻城兵器を説明する場合、全種類の網羅や低評価兵器の列挙より、質問時点で用途に合う有力な少数候補を優先して提示する。
+[A0643][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者が通常入手できる対人攻城兵器を選ぶ場合、燃え盛る油（Flaming Oil）と肉袋カタパルト（Meatbag Catapult）を基本候補とする。
+[A0644][AUTHOR_VIEW][PATCH][COND][ENTRY_LEVEL_BEGINNER] 散弾カタパルト（Scattershot Catapult）は、同一地点へ肉袋カタパルト（Meatbag Catapult）の効果がすでに十分重なっている場合に、別の対人攻城効果を追加する補完候補として扱う。
+[A0645][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者が通常入手できる対城塞攻城兵器を選ぶ場合、バリスタ（Ballista）と石のトレビュシェット（Stone Trebuchet）を基本候補とする。
+[A0646][AUTHOR_VIEW][PATCH][PRIORITY] バリスタ（Ballista）は対人主力兵器としてではなく、主として城塞と敵攻城兵器への攻撃手段として扱う。
+[A0647][AUTHOR_VIEW][PATCH][CLAIM] 氷炎バリスタ（Cold Fire Ballista）は、攻城兵器の中でも高い対人性能を持つ有力な対人攻撃兵器として扱う。
+[A0648][AUTHOR_VIEW][PATCH][CLAIM] 氷炎バリスタ（Cold Fire Ballista）は敵攻城兵器への攻撃性能も高く、敵攻城兵器を破壊する用途でも高い実戦価値を持つ。
+[A0649][AUTHOR_VIEW][PATCH][CLAIM] 氷炎バリスタ（Cold Fire Ballista）は、着弾地点を予測しやすい弾道と扱いやすい発射テンポを持ち、攻城兵器に不慣れなプレイヤーでも継続的に攻撃へ参加しやすい。
+[A0650][AUTHOR_VIEW][PATCH][LIMIT] 氷炎バリスタ（Cold Fire Ballista）の城壁・城門等への対城塞性能は実用可能だが、対人性能・対敵攻城兵器性能ほど突出した長所として評価しない。
+[A0651][AUTHOR_VIEW][PATCH][CLAIM][LIMIT] 氷炎バリスタ（Cold Fire Ballista）は通常の基本攻城兵器より入手機会が限られるため、常時利用できる標準兵器として前提にしない。
+[A0652][AUTHOR_VIEW][PATCH][RULE][ALTERNATIVE_REASONING] 氷炎バリスタ（Cold Fire Ballista）を通常のバリスタ（standard Ballista）等と比較する場合、入手性の低さと戦闘性能を分離し、城壁への攻撃性能だけでなく、対人性能・対敵攻城兵器性能・操作性を含む実戦全体の役割で評価する。
+[A0653][AUTHOR_VIEW][PATCH][LIMIT][ENTRY_LEVEL_BEGINNER] 破城槌（Battering Ram）は門への主要攻城手段になり得る一方、門直下で敵の燃え盛る油（Flaming Oil）等に晒されやすいため、入門者級初心者へ最初に扱う攻城兵器の第一候補として強く推奨しない。
+[A0654][AUTHOR_VIEW][RULE] 対人攻城兵器では動く敵を照準で追い続けることを基本とせず、敵が通過・滞留しやすい地点へ照準を置いて待つ運用を基本とする。
+[A0655][AUTHOR_VIEW][RULE] 敵攻城兵器を攻撃する場合、兵器本体だけでなく操作者や周辺プレイヤーも同時に巻き込める着弾点を狙う。
+[A0656][AUTHOR_VIEW][RULE] カタパルト系は門前・破城口等の敵が集中して通過する地点へ複数台の着弾を重ね、進入地点へ継続的な危険を作る。
+[A0657][AUTHOR_VIEW][PATCH][RULE] 燃え盛る油（Flaming Oil）は敵が範囲へ入った一瞬だけを狙う単発使用より、使用可能な間隔で反復して下方範囲への立入リスクを継続させる運用を基本とする。
+[A0658][AUTHOR_VIEW][PATCH][COND][LIMIT][TACTIC] 城壁直下等の城壁上から直接狙われにくい位置では、トレビュシェットの弾道を利用して城壁上の攻城兵器やプレイヤーへ攻撃できる場合があるが、敵プレイヤーが城壁から飛び降りて接近できるため安全地帯とは扱わない。
+[A0659][AUTHOR_VIEW][PATCH][ADVANTAGE] 氷石トレビュシェット（Iceball Trebuchet）は、命中時の単発対人圧力が高く、城壁上等の移動余地が小さい対象へ大きな一撃を狙う用途で価値を持つ。
+[A0660][AUTHOR_VIEW][LIMIT][ENTRY_LEVEL_BEGINNER] 入門者級初心者には、ボールグループを標準的な攻撃対象として積極的に追わせない。
+[A0661][AUTHOR_VIEW][PATCH][COND][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者本人がボールグループへの攻撃を明示的に希望する場合、通常戦闘で接近するより攻城兵器による遠隔介入を優先候補とする。
+
+## シロディール（Cyrodiil）のタンク運用
+
+[A0662][AUTHOR_VIEW][COND][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）等の非対称・大規模戦では、高耐久タンクへ複数の敵が継続的に戦力を投入し、その結果として味方への圧力が減っている場合、追加支援が少なくても生存そのものの戦闘価値が大きくなり得る。
+[A0663][AUTHOR_VIEW][COND][ROLE_TANK][BLOCK][MOVEMENT_SPEED][GROUP_CONTENT] シロディール（Cyrodiil）のタンク適性は戦闘位置の固定性で変化し、高機動野戦では機動・追随性能の比重が上がる一方、資源周辺・城砦周辺等の位置固定または半固定戦では常時ブロック（Block）型の耐久を仕事へ変換しやすくなる。
+[A0664][AUTHOR_VIEW][ADVANTAGE][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] 高耐久は単なる被ダメージ耐性だけでなく、一般的なプレイヤーでは危険な位置での蘇生、敵シージへの直接介入、危険地点での作業・位置維持など、生存性が前提となる仕事を実行可能にする価値を持ち得る。
+
+## シロディール（Cyrodiil）のチャット情報
+
+[A0665][AUTHOR_VIEW][PRIORITY] シロディール（Cyrodiil）をソロで行動する場合、ゾーンチャット（Zone Chat）を戦況情報源として確認する。
+[A0666][PATCH][SCOPE] シロディール（Cyrodiil）のゾーンチャット（Zone Chat）はゾーン全体、叫び（Yell）は周辺の広い範囲へ届くため、両者を同じ情報範囲として扱わない。
+[A0667][AUTHOR_VIEW][PRACTICE] シロディール（Cyrodiil）の戦況チャットを利用するため、砦名・陣営名・inc・人数等の頻出略号を少数覚えることを優先し、高度な英語会話能力を利用条件として要求しない。
+
+## シロディール（Cyrodiil）の味方蘇生
+
+[A0668][AUTHOR_VIEW][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）で味方蘇生を試みる場合、自分が蘇生中に死亡する危険が高い局面では味方の蘇生より自分の生存を優先する。
+[A0669][AUTHOR_VIEW][COND][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）で安全に味方を蘇生できる場合、その場での蘇生は死亡者の長距離復帰を減らし、前線人数を早く回復しやすい。
+[A0670][AUTHOR_VIEW][COND][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）で近くに利用可能な復帰地点がない場合、安全に実行できる味方蘇生の優先度を高める。
+[A0671][AUTHOR_VIEW][PATCH][COND][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）で前線キャンプ（Forward Camp）付近の味方を安全に手動蘇生できる場合、前線キャンプを使用せず戦線復帰させることで、キャンプによる復帰機会を温存できる。
+
+## シロディール（Cyrodiil）洞窟（Delve）と混雑キャンペーン
+
+[A0672][PATCH][CLAIM] シロディール（Cyrodiil）の洞窟（Delve）は地上キャンペーンとは別インスタンスであり、洞窟から地上へ戻る遷移は地上キャンペーンへの再入場として処理される。
+[A0673][PATCH][COND][LIMIT] シロディール（Cyrodiil）の地上キャンペーンが人口上限へ達している場合、洞窟（Delve）から地上へ戻ろうとしても直ちに戻れず、空きが生じるまで再入場を待つ状態になることがある。
+[A0674][AUTHOR_VIEW][PATCH][RULE] イベント中や混雑時間帯など地上キャンペーンが人口上限へ達しやすい状況では、洞窟（Delve）ボス撃破による同盟ポイント（Alliance Points／AP）関連ボーナスや町デイリーの討伐対象等を目的にシロディール（Cyrodiil）の洞窟へ入る場合も、地上へ直ちに戻れないリスクを考慮する。
+
+## シロディール（Cyrodiil）の攻城兵器とタンク
+
+[A0675][AUTHOR_VIEW][PATCH][RULE][ROLE_TANK][GROUP_CONTENT] タンクでも回避可能な高威力AoE、とくに攻城兵器が作る持続ダメージ床へ位置維持の利益なく留まり続けず、範囲外へ移動して不要な継続被害を避ける。
+[A0676][AUTHOR_VIEW][PATCH][DIAG][ROLE_TANK][GROUP_CONTENT] シロディール（Cyrodiil）のタンク耐久を評価するときは、通常のプレイヤー攻撃に対する硬さと攻城兵器への対処を分けて確認し、対プレイヤー耐久が高いことだけで攻城兵器を含む生存設計が完成したと判断しない。
+
+## War Torte系と同盟戦争（Alliance War）育成
+
+[A0677][PATCH][CLAIM][FOOD] コロヴィアのウォートルテ（Colovian War Torte）等のWar Torte系は、実際に取得する同盟ポイント（Alliance Points／AP）量を増やさない一方、同盟ランク（Alliance Rank）と同盟戦争（Alliance War）スキルラインの進行速度を増加させる。
+[A0678][AUTHOR_VIEW][PATCH][RULE] 同盟戦争（Alliance War）関連の育成速度を評価するときは、取得同盟ポイント（Alliance Points／AP）・取得経験値そのものを増やす効果と、同盟ランク（Alliance Rank）・同盟戦争スキルラインの進行を直接増幅する効果を区別し、後者も育成時間を短縮する効果として評価する。
+
+## 復讐（Vengeance）：通常PvPとの評価・学習範囲の分離
+
+[A0679][AUTHOR_VIEW][PATCH][AI][RULE][SCOPE][RECOMMENDATION_SCOPE][VENGEANCE] 復讐（Vengeance）で得たクラス・ビルド・スキルの強弱評価を、通常シロディール（Cyrodiil）その他の通常PvPへ直接流用しない。Vengeanceではキャラクター性能、能力、ロードアウト等が通常キャンペーンと異なるため、その環境固有の調整を除いた後も成立する性能だけを一般化する。
+[A0680][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PROGRESSIVE_LEARNING][RECOMMENDATION_SCOPE][VENGEANCE] 復讐（Vengeance）を初心者へ勧める場合は、攻城、砦、資源、地図、集団移動等の戦場構造を学ぶ用途と、通常PvPのビルド設計・クラス性能・通常スキル運用を学ぶ用途を分けて評価し、一方の学習適性から他方の学習適性を自動的に推定しない。
+
+## バトルグラウンド（Battlegrounds）の蘇生・リスポーン
+
+[A0681][AUTHOR_VIEW][PATCH][DEFAULT][HEURISTIC][GROUP_CONTENT][GROUP_CONTRIBUTION] バトルグラウンド（Battlegrounds）で自力リスポーン可能な状態では、死者は味方の蘇生を待って死体のまま残るより、速やかに自力リスポーンすることをデフォルトとする。
+[A0682][AUTHOR_VIEW][PATCH][DEFAULT][HEURISTIC][GROUP_CONTENT][GROUP_CONTRIBUTION] バトルグラウンド（Battlegrounds）で自力リスポーンが通常可能な状況では、味方死者の手動蘇生を高優先行動とせず、自分の戦闘参加継続を優先する。
+[A0683][PATCH][CLAIM][4V4_DEATHMATCH][GROUP_CONTENT] 現行の4v4デスマッチはラウンド制と個人単位の有限ライフを用い、個人ライフを使い切るとそのラウンドでは再リスポーンできない。
+[A0684][AUTHOR_VIEW][RULE][GROUP_CONTENT][GROUP_CONTRIBUTION] バトルグラウンド（Battlegrounds）では、速やかに自力リスポーンすることと、リスポーン直後に一人で敵へ再突入することを別の判断として扱う。
+[A0685][AUTHOR_VIEW][COND][RULE][GROUP_CONTENT][GROUP_CONTRIBUTION] バトルグラウンド（Battlegrounds）でリスポーンした時点で味方が壊滅状態にある場合、単独で再突入せず、リスポーン地点側の高台等の再集合しやすい位置で復帰した味方と合流してから再投入する。
+[A0686][AUTHOR_VIEW][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] バトルグラウンド（Battlegrounds）で死体のまま味方蘇生を待つ状態と、リスポーン済みで味方との再集合を待つ状態を同じ戦闘不参加として扱わない。後者は味方に合わせて即時に再出撃できる。

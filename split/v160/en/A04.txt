@@ -1,0 +1,192 @@
+# ESO PvP Corpus A04 Build Design and Evaluation
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v160
+[PAGE_NAME] A04 Build Design and Evaluation
+[SECTION_SCOPE] v160 / A0374-A0480
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v160/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v160/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+
+# Part 6 — Build Design and Evaluation
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+[TAG_NOTE][CORE_JUDGMENT] Indicates a core author judgment within [AUTHOR_VIEW] that materially shapes the Corpus's decision framework or answer policy. It does not mean higher factual certainty or absence of exceptions; preserve applicable conditions and tags such as SCOPE, LIMIT, and PATCH.
+
+## Job-First Build Design
+
+[A0374][AUTHOR_VIEW][DIAG] Starting build design from “I want to wear a strong set” tends to produce an incoherent whole.
+[A0375][AUTHOR_VIEW][PRIORITY] In build design, first decide “what does this character do?”
+[A0376][EX] Character jobs include front-line fighting, ranged pressure, supporting allies through high-speed movement, healing, interfering with enemy healing, drawing enemy attention, and assassinating isolated targets.
+[A0377][AUTHOR_VIEW][CAUSE] Once the character's role is decided, required performance becomes easier to identify.
+[A0378][AUTHOR_VIEW][COND] If the character is responsible for front-line fighting, it needs offensive performance plus defense, healing, and sustain sufficient to continue that offense.
+[A0379][AUTHOR_VIEW][COND] If the character is responsible for ranged combat, it gains safety from distance but needs countermeasures for when melee opponents close the gap and enough pressure from range that it cannot simply be ignored.
+[A0380][AUTHOR_VIEW][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] If the character is responsible for healing, it needs sufficient healing output and enough self-defense not to die even when targeted first.
+[A0381][AUTHOR_VIEW][RULE][BUILD_SUBSYSTEM_EVALUATION] For a build composed of multiple elements, evaluate the core interaction, supporting elements, and the completed configuration separately; do not automatically expand the strength of one part into the strength of the completed whole.
+[A0382][AUTHOR_VIEW][LIMIT][BUILD_SUBSYSTEM_EVALUATION] Even when a build includes meta-level equipment or interaction as its core, if added elements create large opportunity costs, activation restrictions, or missing role functions, the completed build can rate lower than the core itself.
+
+## Front Bar / Back Bar and Equipment Topology
+
+[A0383][AUTHOR_VIEW][CLAIM][LIMIT][PRACTICE] In a general model that is easy for beginners to understand, the front bar handles offense and pressure while the back bar handles healing, buffs, defense, and recovery; this is not an absolute rule.
+[A0384][AUTHOR_VIEW][DIAG][RULE] Remaining on the offensive bar while the opponent is attacking strongly tends to be low-probability play, while continuing to prepare on the back bar while the opponent is occupied with healing misses an offensive turn. Determine whether the current time is for attacking or defending and connect that judgment to the roles of the bars.
+[A0385][AUTHOR_VIEW][CLAIM][EQUIPMENT_SLOT] In PvP, even when the same two equipment slots are used, opportunity cost can differ greatly depending on whether those slots are front-bar weapons or back-bar weapons; do not judge set adoption cost from slot count alone.
+[A0386][AUTHOR_VIEW][PRIORITY][FRONT_BAR_WEAPON] Because front-bar weapons are often used to complete a five-piece effect intended to be active during offensive turns, an アリーナ武器（Arena Weapon） occupying the front-bar weapon slots should be evaluated not merely as two equipment pieces but as competition with the front-bar five-piece-set structure.
+[A0387][AUTHOR_VIEW][CLAIM][EQUIPMENT_TOPOLOGY] The actual opportunity cost of changing equipment is determined not only by the number of replaced slots, but by the entire combination of five-piece sets, モンスターセット（Monster Set）, 神話装備（Mythic）, one-piece sets, and similar structures disrupted by that change.
+[A0388][AUTHOR_VIEW][RULE][EQUIPMENT_TOPOLOGY] When evaluating a two-bar equipment configuration, separately verify which 2- through 5-piece bonuses are actually active on the front and back bars. Do not count equipment bonuses inactive during offensive turns toward offense, or bonuses inactive during defensive turns toward defense.
+[A0389][AUTHOR_VIEW][DEF][TRIGGERED_EQUIPMENT] When evaluating an equipment effect, distinguish conditions required to trigger the effect from conditions required to maintain the effect after activation.
+[A0390][AUTHOR_VIEW][RULE][RAMP_UP_MAINTENANCE] For stacking or combat-duration effects, evaluate initial ramp-up on first engagement, maintenance during engagement, and rebuilding after full disengagement separately. If the effect can be maintained through normal combat actions, do not equate slow initial ramp-up with difficulty maintaining it.
+[A0391][ADVANTAGE][BACK_BAR_EQUIPMENT] Equipment whose effect persists after activation even when the five-piece condition is no longer met can complete the five-piece set on only one weapon bar and carry some or all of the effect over after switching to the opposite bar.
+[A0392][AUTHOR_VIEW][EVAL][EQUIPMENT_TOPOLOGY] Even under the same nominal five-piece structure, do not treat a static five-piece effect that disappears when leaving the bar as topologically equal in value to a triggered effect that persists for a period after leaving the activation bar.
+
+## Time-Investment Performance and Long Fights
+
+[A0393][AUTHOR_VIEW][RULE][BUILD_GENERAL][TIME_BUDGET] For configurations that pay an action now and recover its value several seconds later through delayed attacks, position-dependent resources, stacking effects, reuse through follow-up actions, or similar mechanics, evaluate not only maximum-state performance but how often the same local fight can be maintained until that investment is recovered. If disengagement, target switching, or battlefield movement repeatedly resets combat before recovery, effective performance can fall sharply because only the initial investment is repeatedly paid.
+[A0394][AUTHOR_VIEW][RULE][RAMP_UP_MAINTENANCE][ALTERNATIVE_REASONING] Do not equate merely being able to survive a long fight with being suited to long fights. If extending combat time also grows enemy DoTs, stacking effects, アルティメット（Ultimate）, resource loops, or similar advantages, compare both sides' time-dependent performance. Even when your win condition requires time, prolonging combat is not automatically beneficial if that same time strengthens the enemy more than it strengthens you.
+
+## Stat Scaling and Shared Resources
+
+[A0395][AUTHOR_VIEW][RULE][BUILD_GENERAL] When comparing different stats such as Max Resources and Weapon/Spell Damage that contribute to the same skill's base scaling, do not treat them as equal merely by a base conversion ratio; compare their final contribution in the practical state after each passes through applicable percentage buffs, passives, equipment effects, and similar modifiers.
+[A0396][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][BUILD_GENERAL][TIME_BUDGET] When an offensive combo and defensive actions share the same stacks, special resource, or similar value, spending it on defense carries not only the defensive skill's GCD and ordinary resource cost, but also the time required to rebuild that special resource before returning to the next offensive combo; evaluate this rebuilding time as opportunity cost.
+
+## Marginal Evaluation of Skill-Enhancing Equipment
+
+[A0397][AUTHOR_VIEW][RULE][MARGINAL_EFFECT_EVALUATION][ALTERNATIVE_REASONING] Evaluate equipment that enhances a skill relative to using the same skill without that equipment. Do not double-count performance already provided by the base skill; evaluate only the additional work actually created by the equipment.
+[A0398][AUTHOR_VIEW][LIMIT][PRIORITY][NATURAL_ACTION_TEST] Equipment triggered by actions you would tactically choose even without the effect is easier to justify. If activating the effect requires extra GCDs, resources, bar swaps, positioning, or similar actions solely for the proc, subtract them as explicit costs.
+[A0399][AUTHOR_VIEW][LIMIT][SLOT_VALUE_VS_CAST_VALUE] A skill can be strong merely by being slotted without also having high value when actively cast, so distinguish the two when evaluating equipment that requires active casting.
+[A0400][AUTHOR_VIEW][RULE][CAUSE][EFFECT_COVERAGE] If an effect applies only to some attacks, heals, or actions, do not treat it as performance across the entire build; consider the share of practical actions covered. Even a large effect on covered actions can make only a small effective contribution to the whole when coverage is low.
+[A0401][AUTHOR_VIEW][RULE][JOINT_EFFECT_COVERAGE] When value depends on multiple effects being active simultaneously, do not estimate combined performance from each effect's individual utilization rate alone; evaluate how often and for what time windows they are simultaneously active when needed.
+[A0402][AUTHOR_VIEW][RULE][TARGET_TIMING_CONTROL] When evaluating offensive enhancement, debuffs, or support effects, verify whether you can choose the required target and activation timing yourself. Effects whose target or timing depends heavily on opponent actions or accidental hits tend to have lower tactical value even with the same nominal performance.
+[A0403][AUTHOR_VIEW][RULE][TARGET_LOCAL_EFFECT] For effects whose value rises or falls based on a particular enemy's HP, state, taking damage, or similar target-local conditions, verify whether the same value can be carried over when switching targets; if not, include effective-value loss from target switching in multi-target combat.
+
+## Simultaneous Alignment of Multiple Position References
+
+[A0404][AUTHOR_VIEW][RULE][BUILD_GENERAL][TARGET_TIMING_CONTROL] In configurations whose offensive performance is distributed across multiple different positional references such as the target, yourself, a ground resource, or a moving delayed attack, evaluate the positional-adjustment cost required to align them simultaneously during the required window. Compared with configurations centered on effects applied to and following one target, multiple components are more likely to collapse in sequence during mobile combat.
+
+## Demand Timing of Conditional Effects
+
+[A0405][AUTHOR_VIEW][RULE][TARGET_TIMING_CONTROL] Evaluate conditional effects not only by proc rate, but by whether the situations in which the condition is met naturally align with the situations in which the effect is strongly needed.
+
+## Interactions Between Build Elements
+
+[A0406][AUTHOR_VIEW][AI][RULE][BUILD_GENERAL][SUSTAIN][OPPORTUNITY_COST] When rating a combination of multiple skills, equipment effects, and combat mechanics as high performance, do not simply add each element in isolation. Verify whether they can coexist as one practical combat cycle, including competition for shared resources, order of use, maintenance duration, reuse conditions, GCDs, and conditions under which one effect removes or interferes with another.
+[A0407][AUTHOR_VIEW][AI][RULE][BUILD_GENERAL] When combining effects that require specific states such as invisibility, stealth, defensive state, or movement state with other automatic, periodic, offensive, or movement effects, verify that activation of one does not remove, interfere with, or disable reuse of the other's state before evaluating them as synergy.
+
+## Opportunity Cost and Alternative Comparison
+
+[A0408][AUTHOR_VIEW][CORE_JUDGMENT][LIMIT][RULE][DEF][ALTERNATIVE_REASONING] Choice slots such as equipment slots, ムンダス（Mundus）, traits, and CP are finite, so “it has a useful effect” is not sufficient reason for adoption. Evaluate skills, equipment, and passives by their difference from the strongest realistic alternatives competing for the same slot, and include losing the opportunity to use a stronger choice among the primary disadvantages of a weaker option.
+[A0409][AUTHOR_VIEW][CORE_JUDGMENT][DIAG][RULE][BUILD_EVALUATION_DISCIPLINE] Evaluate build elements not by the number of tooltip effects or standalone performance, but by the slot's job and necessity, practical utilization rate, overlap with existing tools, activation cost, low-cost alternatives, what must be given up to adopt it, and marginal value relative to the strongest alternative for the same slot.
+[A0410][AUTHOR_VIEW][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] In groups, assigning different useful effects across multiple members can enable build design with higher slot efficiency than solo play.
+[A0411][AUTHOR_VIEW][RULE][GROUP_EFFECT][GROUP_CONTENT] For effects whose conditions require ally positioning or cooperation, evaluate effective value including how often allies actually satisfy those conditions, not only the theoretical maximum effect.
+
+## Identifying Adoption Reasons Through Comparison
+
+[A0412][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING] When explaining why an option should be adopted, do not treat a property shared by many realistic competitors as a sufficient reason unique to that option.
+[A0413][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING] A useful adoption reason identifies the required job and shows a relevant difference by which that option performs the job substantially better, more reliably, or at lower real cost than realistic competitors.
+[A0414][AUTHOR_VIEW][DIAG][ALTERNATIVE_REASONING] If replacing the recommended option's name with several realistic competitors leaves the explanation almost unchanged, the explanation likely fails to identify the actual reason for selection sufficiently.
+
+## General Combat Actions and Unique Value
+
+[A0415][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING] Do not award ブロック（Block）, ロール回避（Roll Dodge）, 打破（Break Free）, LoS, bar swapping, or other general combat actions broadly available to compared builds as unique performance of a specific build. Evaluate as unique value only the incremental mitigation, healing, input tolerance, resource efficiency, or other differences that equipment, skills, class traits, or similar elements add when performing the same general action.
+
+## Viability and Recommendation Scope
+
+[A0416][AUTHOR_VIEW][CORE_JUDGMENT][RULE][VIABILITY_VS_RECOMMENDATION][RECOMMENDATION_SCOPE] Treat “functions under specific conditions,” “is competitive for that use case,” and “deserves general standard recommendation” as separate evaluation stages. Do not infer general-use competitiveness or superiority over standard alternatives from examples that function only under limited conditions.
+[A0417][AUTHOR_VIEW][RULE][PREFERENCE_VS_PERFORMANCE] Personal preference can be a reason to adopt an option that is less performance-efficient than strong alternatives for the same objective, but that preference does not change the comparative performance evaluation itself.
+[A0418][AUTHOR_VIEW][RULE][CLASS_OPPORTUNITY_COST] When recommending a class-specific element for PvP, evaluate opportunity cost not only against competing options within the same class but also against the performance difference from choosing another class that can realistically perform the same role.
+[A0419][AUTHOR_VIEW][RULE][BEGINNER_CLASS_OPPORTUNITY_COST] Do not omit inter-class opportunity cost even for beginner recommendations; compare after adding the burden of proficiency, leveling, and equipment preparation required to switch to another class as a cost.
+[A0420][AUTHOR_VIEW][RULE][CLASS_OPPORTUNITY_COST][BUILD_GENERAL] In an environment where class-derived skill lines or abilities can be transplanted into another base class, evaluate separately the original class's own suitability, the suitability of the transplantable skill line or ability itself, and the suitability of the completed configuration. When another configuration adopts that ability and gains high performance, this supports the value of the ability itself while weakening the basis for counting it as an exclusive advantage of the original class.
+
+## Opportunity Cost of Transformation Form and Normal Form
+
+[A0421][AUTHOR_VIEW][PATCH][RULE][CLASS_OPPORTUNITY_COST][NATIVE_CLASS_SUITABILITY] When ウェアウルフ（Werewolf） form replaces the original class's active bars, do not infer that class's Werewolf suitability from the class's overall humanoid-form performance. Separately evaluate passives, class mastery, base modifiers, and similar benefits that remain active during transformation and the opportunity cost of major class assets that become unavailable because of the transformation.
+[A0422][AUTHOR_VIEW][RULE][ALTERNATIVE][OPPORTUNITY_COST] When evaluating a transformation form with a skill set, control system, or combat style different from the normal form, evaluate not only maximum performance while transformed but also the value of switching to a different win condition against combat conditions that are difficult for the normal form to handle. The more strongly the normal form depends on specific positioning, timing, preparation, complex resource loops, or similar conditions, the more a transformation form with less dependence on those conditions can have value not as a simple performance increase but as a tactical escape route around weaknesses.
+
+## Counter Equipment and Opponent-Dependent Effects
+
+[A0423][AUTHOR_VIEW][RULE][COUNTER_GEAR_EXPECTED_VALUE] Evaluate equipment that is especially strong against a specific attack type or class not only by its maximum effect against the ideal opponent, but approximately by “encounter rate of eligible opponents in the environment × effective proc frequency during a fight × value per proc.”
+[A0424][AUTHOR_VIEW][PRIORITY][AI_META_EVALUATION] When using counter equipment routinely, check not only the opponent it counters most strongly but also how dead the equipment becomes against high-frequency, high-threat opponents that should be prioritized in the current environment.
+
+## Specialized Configurations and Target Selection
+
+[A0425][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING][OPPORTUNITY_COST] A configuration that sacrifices general performance to specialize against a particular opponent or situation is not justified merely because it is effective against that target. Evaluate whether it creates a larger difference than strong realistic general-purpose alternatives in kill probability, time-to-process, GCD or resource pressure, battlefield advantage, or similar outcomes, and whether that difference exceeds the opportunity cost of lost general performance.
+[A0426][AUTHOR_VIEW][RULE][OPPORTUNITY_COST] Do not select an attack target only because “my configuration works well against that opponent.” Also evaluate the time required to process that opponent, the freedom of action granted to other enemies during that time, and the battlefield value gained by killing or removing the target. Even when matchup characteristics make it easy to deal damage, a long investment into a target that takes too long to process and leaves other high-threat enemies free can be a losing trade.
+[A0427][AUTHOR_VIEW][LIMIT][OPPONENT_FUELED_OFFENSE] Builds whose offense is fueled by the opponent's attacks, such as reflection or on-hit effects, tend to give the opponent denial options such as “do not attack,” “change the attack method,” “create distance,” or “target someone else.”
+[A0428][AUTHOR_VIEW][RULE][COUNTERPLAY_COST] When the opponent can deny, avoid, or nullify an effect, do not evaluate it only by the fact that counterplay exists; include the real cost the opponent pays to counter it, such as lost attack opportunities, position, resources, range, or target choice.
+[A0429][AUTHOR_VIEW][EVAL][COUNTERPLAY_COST] If executing the countermeasure restricts actions that would otherwise be strong for the opponent, include the fact that the restriction was forced as practical combat value.
+[A0430][AUTHOR_VIEW][RULE][COUNTER_LAYER_COVERAGE] Even for an effect that greatly invalidates a specific defensive layer, if the opponent's survivability is distributed across resistance, percentage mitigation, shields, healing, CC, mobility, LoS, and similar layers, verify the range of defensive layers the effect can actually influence and do not generalize it into “an answer to durable opponents in general.”
+[A0431][AUTHOR_VIEW][CLAIM][OFFENSIVE_USE_OF_DEFENSIVE_STAT] Investing heavily in a stat with inherently high defensive value such as Max Health and making that same stat the primary basis of offense are separate decisions.
+[A0432][AUTHOR_VIEW][LIMIT][OFFENSIVE_USE_OF_DEFENSIVE_STAT] Even when a stat is broadly useful as a defensive investment, converting it into offense through reflection or similar mechanics can greatly increase dependence of offensive performance on the opponent.
+
+## Bottlenecks
+
+[A0433][AUTHOR_VIEW][COND] Even with extremely high offensive power, if insufficient durability forces the build into a defensive turn before it can begin attacking, that damage is difficult to use.
+[A0434][AUTHOR_VIEW][LIMIT] Even a configuration with high offense and low durability can have use cases, such as assassination specialization, where low durability is accepted for the intended purpose.
+[A0435][AUTHOR_VIEW][COND] Even with extremely strong healing, if you cannot damage the opponent at all and can do nothing but continue healing, that may not lead to a win.
+[A0436][AUTHOR_VIEW][DEF][DIAG] A bottleneck is the narrowest part stopping the practical performance of the build as a whole; candidates include damage, healing, スタミナ（Stamina）, mobility, CC, execution load, and recovery after defense.
+[A0437][AUTHOR_VIEW][DIAG][RULE] When adjusting a build, ask “what is stopping practical performance the most?” rather than “what can I add more of?”
+
+## Weaknesses and Tradeoffs
+
+[A0438][CLAIM] Players tend to want high damage, durability, healing, speed, range, melee performance, resources, and ease of operation all at once.
+[A0439][AUTHOR_VIEW][LIMIT] It is normally impossible to maximize damage, durability, healing, speed, range, melee performance, resources, and ease of operation all at once; compromises are required somewhere.
+[A0440][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][BUILD_GENERAL] When allocating additional performance to functions outside pure frontal offense and defense, such as range, mobility, ally healing, or debuffs, evaluate as opportunity cost the damage, durability, healing, skill slots, GCDs, resources, and other performance lost to obtain those functions.
+[A0441][AUTHOR_VIEW][CORE_JUDGMENT][RULE][OPPORTUNITY_COST][RANGE_COST][ALTERNATIVE_REASONING] When comparing a melee-focused and a ranged-focused build that serve the same primary purpose and the ranged side actually pays performance budget to obtain range, begin from the premise that the ranged-focused side is disadvantaged in pure frontal offense and defense.
+[A0442][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][OPPORTUNITY_COST][RANGE_COST][RANGED_INTERVENTION] The opportunity cost paid for range is recovered only to the extent that the range is actually converted into value such as earlier attack initiation, intervention frequency, continued participation from safer positions, continued support, time and positional costs imposed on the enemy to approach, or target access.
+[A0443][AUTHOR_VIEW][CORE_JUDGMENT][RULE][RANGE_COST][ESCAPE_ROUTE] Evaluate separately the ability to make ranged attacks and the ability to maintain or recreate distance after contact or disengage from combat; do not infer kiting or disengagement capability from range alone.
+[A0444][AUTHOR_VIEW][RULE][MOVEMENT_SPEED][ESCAPE_ROUTE][OPPORTUNITY_COST] Melee builds can also allocate performance budget to movement speed, pursuit, disengagement, and handling slows or immobilization; therefore, do not treat kiting, disengagement, or distance play as privileges exclusive to ranged builds.
+[A0445][AUTHOR_VIEW][RULE][BUILD_GENERAL][RANGE_COST][MOVEMENT_SPEED][ESCAPE_ROUTE] When evaluating a build's distance-related performance, examine range, movement speed, pursuit capability, disengagement capability, ability to maintain or recreate distance, and frontal offense/defense as separate performance axes.
+[A0446][AUTHOR_VIEW][COND][CAUSE][RANGE_COST][ALTERNATIVE_REASONING] In open-ground combat without a frontline or effective obstacles, time for maintaining distance is less likely to be supplied externally by allies or terrain; therefore, in comparisons between ranged-focused and melee-focused builds serving the same primary purpose, the melee-focused side's advantage in frontal offense and defense tends to become more exposed.
+[A0447][AUTHOR_VIEW][CAUSE][RANGE_COST][GROUP_CONTENT] An allied frontline and terrain or LoS can be evaluated as factors that externally supply distance and time to the ranged side. On battlefields where that external support is lost, the effective benefit the same ranged build obtains from range may decrease.
+[A0448][AUTHOR_VIEW][AI][RULE][RANGE_COST][ESCAPE_ROUTE] Do not automatically infer mobility, distance-maintenance capability, kiting capability, or disengagement capability from the fact that a build has ranged attack capability.
+[A0449][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][MOVEMENT_SPEED][ESCAPE_ROUTE][ALTERNATIVE_REASONING] Allow the melee side to invest performance into pursuit, disengagement, and distance management; do not generate comparisons that grant the ranged side both range and mobility/disengagement for free.
+[A0450][AUTHOR_VIEW][RULE] Strong builds identify “weaknesses acceptable for the intended use” rather than aiming for “zero weaknesses.”
+[A0451][AUTHOR_VIEW][EX] Examples of tradeoffs include a configuration with long range but less performance available for frontal exchanges, a configuration with high mobility and strong disengagement but less performance available for frontal offense and defense, a configuration strong in frontal combat but only moderate in pursuit, and a configuration strong in healing support but slow at securing solo kills. Do not equate range itself with ease of escape.
+[A0452][AUTHOR_VIEW][CAUSE] Understanding tradeoffs makes it less likely that simply entering an unfavorable situation will be misdiagnosed as the entire build being broken.
+[A0453][AUTHOR_VIEW][EVAL][SURPLUS_PERFORMANCE] When a performance dimension already substantially exceeds the level required for the use case, losing part of that performance can cause less practical harm than losing the same amount from a dimension that is already insufficient.
+[A0454][AUTHOR_VIEW][RULE][TRADEOFF] When equipment or an effect reduces a strength of a class or build, do not immediately reject it because “it cancels the strength.” Compare whether the use case's required level is still met after the disadvantage is applied and what performance is gained in exchange.
+[A0455][AUTHOR_VIEW][EVAL][TRADEOFF] Do not treat a clear weakness that can be avoided or supplemented by changing the use case symmetrically with a clear strength that remains present across use cases. In use cases where the weakness can be accepted, a configuration with a sharp strength can be more competitive than a configuration that is average in every category but lacks a strength directly connected to its win condition.
+
+## Initial Builds and Preparation for Entry-Level Beginners
+
+[A0456][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] For entry-level beginners, before wins or maximum damage, use the ability to survive for a period on the battlefield and become familiar with the feel of PvP and basic controls as the main evaluation axis of initial builds and learning.
+[A0457][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] As a rule, verify that builds for entry-level beginners function in the order of ① survivability, ② practical sustain, ③ damage and other performance.
+[A0458][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PRACTICE] Unless the entry-level beginner themselves wants immediate participation, do not make “just join first even if you die repeatedly” the standard advice; first present a build that can absorb beginner mistakes more easily and minimum operational preparation.
+[A0459][AUTHOR_VIEW][PRACTICE][ENTRY_LEVEL_BEGINNER] An entry-level beginner unfamiliar with both PvP and two-bar PvE operation should equip the PvP build and, in an open-world area or similar environment, execute the skills on each bar, healing, defense, 打破（Break Free）, equipment effects, and similar mechanics at least once before entering real PvP as initial preparation.
+[A0460][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PRACTICE][RECOMMENDATION_SCOPE] Do not use simple operating steps or the fact that survival is possible with ideal judgment and positioning alone as evidence that a build or tactic is suitable for entry-level beginners. Evaluate survivability, practical sustain, tolerance for judgment and execution mistakes, and the margin to learn PvP fundamentals such as LoS, defensive transitions, CC, and switching between offense and defense during actual combat.
+[A0461][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][PRACTICE] For entry-level beginners, prioritize methods that reduce danger while allowing continued combat participation and experience with offense, defense, LoS, regrouping with allies, and similar fundamentals over methods that secure survival by persistently avoiding meaningful combat participation.
+
+## Sustain Adjustment for Entry-Level Beginners
+
+[A0462][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] For entry-level beginner builds based mainly on 重装鎧（Heavy Armor）, verify the practical sustain lost by relying heavily on Heavy Armor and, if necessary, compensate through monster masks, 神話装備（Mythic）, ムンダス（Mundus）, food, or similar sources. In the initial stage, prioritize recovery and resource maintenance over small increases in damage.
+[A0463][AUTHOR_VIEW][PROC][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] For sustain adjustment of entry-level beginners, as a rule consider ムンダス（Mundus） → food → equipment → jewelry enchantments in that order. If collection constraints prevent use of monster masks, 神話装備（Mythic）, or similar equipment, the equipment-adjustment stage may be skipped and jewelry enchantments considered next.
+[A0464][AUTHOR_VIEW][PRACTICE][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] When adjusting sustain through jewelry enchantments, do not change multiple pieces at once. As a rule, change one piece at a time, test it in practical combat for a meaningful period, and add further adjustment while confirming the required amount.
+
+## Beginner Build Copying and Evaluation
+
+[A0465][AUTHOR_VIEW][GOAL][PRACTICE][RULE][BUILD_GENERAL] When a PvP beginner is comfortable using another person's design, recommend using a completed beginner-oriented build that secures survivability and execution tolerance as the baseline for an entry-level beginner, and a completed experienced-player build suited to the intended use as the baseline for a more proficient beginner.
+[A0466][AUTHOR_VIEW][GOAL][PRACTICE][RULE][BUILD_GENERAL] When using a completed build as a baseline, reproduce skills, food, potions, traits, equipment slots, and armor weights as faithfully as practical, experience the original build's intent first, and only then move to custom modifications.
+[A0467][AUTHOR_VIEW][LIMIT][PRACTICE][NOT_INITIAL_REQUIREMENT][BUILD_GENERAL] Do not treat inability to reproduce a completed build perfectly as making practice with that build impossible.
+[A0468][AUTHOR_VIEW][RULE][BUILD_GENERAL] Builds have intended use cases, so read the usage explanation and verify that your own use case matches the intended one.
+[A0469][AUTHOR_VIEW][DIAG][BUILD_GENERAL] Do not take exaggerated wording by a build author or promotional examples showing only favorable video clips at face value as evidence of the build's general performance.
+[A0470][AUTHOR_VIEW][PRIORITY][DIAG][RULE][BUILD_GENERAL] Give weaknesses high priority in build descriptions; if they are not shown, consider them yourself, and do not use the build in use cases where known weaknesses become relevant.
+[A0471][AUTHOR_VIEW][PATCH][RULE][BUILD_GENERAL] When using a build from a past patch, verify how well it functions in the current environment.
+
+## Preference-Prioritized Choices and Performance Efficiency
+
+[A0472][AUTHOR_VIEW][PRACTICE][PROC][PRIORITY][PREFERENCE_BUILD] When adopting an element with lower performance efficiency than strong alternatives for the same objective because of personal preference, use a completed build of the same general type with sufficient performance efficiency or another high-efficiency candidate as the comparison baseline. As the standard workflow, introduce preference elements one at a time and verify viability and impact at each stage; when proposing concrete configuration changes, use this procedure as the first candidate.
+
+## Food-Buff Substitution and Cost Effectiveness for Beginners
+
+[A0473][AUTHOR_VIEW][LIMIT][FOOD] Even while a beginner is at the stage of faithfully copying a completed build, if the specified food has extremely poor cost effectiveness, it may exceptionally be substituted with a lower-cost food serving a similar role.
+[A0474][AUTHOR_VIEW][PATCH][CLAIM][SUBSTITUTE][FOOD] オーゾーガの熊の腰肉の燻製（Orzorga's Smoked Bear Haunch） can be substituted with 失政の宝石（Jewels of Misrule）.
+[A0475][AUTHOR_VIEW][PATCH][CLAIM][SUBSTITUTE][FOOD] クロックワークシトラスフィレ（Clockwork Citrus Filet） can be substituted with ウィッチマザーの強力醸造薬（Witchmother's Potent Brew）.
+[A0476][AUTHOR_VIEW][PATCH][COST][FOOD] オーゾーガの熊の腰肉の燻製（Orzorga's Smoked Bear Haunch） and クロックワークシトラスフィレ（Clockwork Citrus Filet） use 完ぺきな魚卵（Perfect Roe） as an ingredient, making their cost effectiveness poor for routine beginner practice.
+[A0477][AUTHOR_VIEW][PRACTICE][FOOD] During beginner practice, a low-cost substitute food serving a role close to the specified food is sufficient.
+[A0478][AUTHOR_VIEW][PRIORITY][FOOD] In beginner practice, explore optimization of combat actions before fine-tuning differences in food performance.
+[A0479][AUTHOR_VIEW][PATCH][ADVANTAGE][FOOD] 魔法のシュガースカル（Bewitched Sugar Skulls） has high cost effectiveness in its ingredients and a strong food effect, making it easy for beginners to use.
+[A0480][AUTHOR_VIEW][PATCH][PRACTICE][FOOD] If a build a beginner wants to use specifies 魔法のシュガースカル（Bewitched Sugar Skulls）, consider using it as specified.

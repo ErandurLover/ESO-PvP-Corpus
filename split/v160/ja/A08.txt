@@ -1,0 +1,85 @@
+# ESO PvP Corpus A08 Specific Gear Skills and Patch Dependent
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v160
+[PAGE_NAME] A08 Specific Gear Skills and Patch Dependent
+[SECTION_SCOPE] v160 / A0687-A0730
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v160/ja/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v160/ja/manifest.txt
+[ROUTER_RULE] 同一セッションですでにCore150を取得済みなら重複取得しない。
+[ROUTER_RULE] 本ページはCorpus全体ではない。
+[ROUTER_RULE] 関連Corpusへアクセスできない場合は未取得内容を推測しない。
+
+# 第10部　固有装備・スキル・パッチ依存リファレンス
+
+[TAG_NOTE][AUTHOR_VIEW] ゲーム仕様そのものではなく、本文が採用する評価・推奨・診断基準などの著者判断を示す。
+
+## 旧自己復帰装備のUpdate 23変更
+
+[A0687][REFERENCE_NOTE][PATCH_HISTORY][PATCH][HISTORICAL_EXAMPLE][PHOENIX][ETERNAL_WARRIOR][IMMORTAL_WARRIOR][SELF_RESURRECT] Update 23（Scalebreaker）で、不死鳥（Phoenix）、不滅の戦士（永遠なるヨケダ／Eternal Warrior）、不死身の戦士（不死なるヨケダ／Immortal Warrior）は、死亡後の自己復帰を可能にする5セット効果から、死亡前の低HP時に生存・防御を補助する効果へ変更され、自力での死亡復活を行う装備ではなくなった。
+[A0688][REFERENCE_NOTE][PATCH_HISTORY][PATCH][CLAIM][OFFICIAL_RATIONALE][SELF_RESURRECT] ZOSはUpdate 23の公式パッチノートで不死鳥（Phoenix）、不滅の戦士（Eternal Warrior）、不死身の戦士（Immortal Warrior）をまとめて「self-resurrect sets」と呼び、多くの場合は期待以下、非常に限定された状況では過剰に働く問題を理由として自己復帰機構を削除し、死亡後に自力で復帰する方向ではなく、生存・防御というテーマを死亡前に働く効果として残す方向へ変更したと説明した。
+[A0689][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][SELF_RESURRECT] 根拠対象: A0687, A0688. ZOS / PC/Mac Patch Notes v5.1.5 (Scalebreaker & Update 23): https://forums.elderscrollsonline.com/en/discussion/488626/pc-mac-patch-notes-v5-1-5-scalebreaker-update-23
+
+## シシスの凝視（Gaze of Sithis）
+
+[A0690][AUTHOR_VIEW][PATCH][EVAL][GAZE_OF_SITHIS] A0249のシールド仕様を前提とすると、ブロック（Block）による防御緩和を利用しない神話装備（Mythic）シシスの凝視（Gaze of Sithis）は、シールドを主要な自衛手段とする運用との親和性が高い。
+[A0691][AUTHOR_VIEW][PATCH][LIMIT][GAZE_OF_SITHIS] シシスの凝視（Gaze of Sithis）とシールドを組み合わせても、ブロック（Block）で防止できるクラウドコントロールへの対処などではブロックが依然として重要である。
+[A0692][AUTHOR_VIEW][PATCH][CAUSE][GAZE_OF_SITHIS] シシスの凝視（Gaze of Sithis）によってブロック（Block）のダメージ軽減を利用できない場合、ブロック可能なバーストをHPで受ける量が増え、窮地から体力を巻き戻して立て直すための回復行動・回復リソース負担が大きくなり得る。
+[A0693][AUTHOR_VIEW][PATCH][PRACTICE][GAZE_OF_SITHIS] 初心者がシシスの凝視（Gaze of Sithis）とシールドを組み合わせて用いる場合は、ブロック（Block）軽減を失うことでHPへの被ダメージと立て直し負担が増え得る弱点を考慮して慎重に採用する。
+
+## ペイル騎士団の指輪（Ring of the Pale Order）とバトルグラウンド（Battlegrounds）
+
+[A0694][AUTHOR_VIEW][PATCH][RULE][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] ペイル騎士団の指輪（Ring of the Pale Order）は、バトルグラウンド（Battlegrounds）では原則として使用しない。
+[A0695][PATCH][LIMIT][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] ペイル騎士団の指輪（Ring of the Pale Order）の攻撃時自己回復は、自分以外のグループメンバーが5人以上、すなわち合計グループメンバー数が6人以上では機能しない。
+[A0696][AUTHOR_VIEW][PATCH][COND][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] 8v8バトルグラウンド（Battlegrounds）では、合計グループメンバー数が6人以上になる可能性が極めて高いため、ペイル騎士団の指輪（Ring of the Pale Order）の攻撃時自己回復は基本的にゼロになるものとして扱う。
+[A0697][PATCH][LIMIT][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] A0695の条件下でも、ペイル騎士団の指輪（Ring of the Pale Order）による他者からの回復を拒絶する効果はなくならない。
+[A0698][AUTHOR_VIEW][PATCH][COST][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] 8v8バトルグラウンド（Battlegrounds）等で攻撃時自己回復が実質的に機能せず、他者からの回復拒絶だけが残る状態では、実質的なメリットがなく強いデメリットを持つ装備へ神話装備（Mythic）枠という大きな機会費用を支払うことになる。
+[A0699][AUTHOR_VIEW][PATCH][PRACTICE][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] バトルグラウンド（Battlegrounds）でペイル騎士団の指輪（Ring of the Pale Order）を採用する場合は、攻撃時自己回復の実効性、他者からの回復拒絶、神話装備（Mythic）枠の機会費用をまとめて確認する。
+
+## マラキャスの残忍なバンド（Malacath's Band of Brutality）
+
+[A0700][AUTHOR_VIEW][PATCH][EVAL][MALACATH][CRITICAL][BURST_DESIGN] マラキャスの残忍なバンド（Malacath's Band of Brutality）は、通常時の与ダメージを安定して増やす一方でクリティカルダメージを大きく低下させるため、長時間の平均ダメージだけで評価せず、相手が回復・防御へ移行する前のキルウィンドウで撃破閾値を越える最大火力と撃破確率がどう変化するかを評価する。
+[A0701][AUTHOR_VIEW][PATCH][RULE][MALACATH][CRITICAL][OPPORTUNITY_COST] マラキャスの残忍なバンド（Malacath's Band of Brutality）を採用する場合、同装備によるクリティカルダメージ低下だけでなく、ビルド内で既に採用しているクリティカル率上昇、クリティカルダメージ上昇、敵の被クリティカルダメージ増加等の効果がどの程度減価するかを確認し、それらへ使用したスキル・装備・パッシブ等の性能予算も機会費用として評価する。
+[A0702][AUTHOR_VIEW][PATCH][EVAL][MALACATH][CRITICAL][BURST_DESIGN] マラキャスの残忍なバンド（Malacath's Band of Brutality）を複数打点の同期バースト構成で評価する場合、個々の攻撃のクリティカル率が低いことだけを理由にクリティカルダメージ低下の損失を小さいと判断せず、キルウィンドウ全体で重要な打点のいずれかがクリティカルする可能性と、その上振れによって撃破閾値を越えられる価値を含めて比較する。
+
+## 雷杖重攻撃ビルド
+
+[A0703][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃ビルド（雷杖ヘビーアタックビルド）は、重攻撃のチャネリング中にLoSを防御手段として利用しにくい。
+[A0704][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃ビルドは、攻撃対象にLoSを切られることでチャネリング攻撃を容易に阻害される。
+[A0705][AUTHOR_VIEW][PATCH][CLAIM][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃ビルドは、攻撃時のダメージ層が薄くなりやすい。
+[A0706][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃のチャネリング中に自衛行動を要求された場合、チャネリング攻撃を中断させられやすい。
+[A0707][AUTHOR_VIEW][PATCH][LIMIT][ENTRY_LEVEL_BEGINNER][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD][RECOMMENDATION_SCOPE] 特別な事情または本人の明示的希望がない入門者級初心者には、雷杖重攻撃ビルドをPvPの高優先標準推奨にしない。
+[A0708][AUTHOR_VIEW][PATCH][CAUSE][ENTRY_LEVEL_BEGINNER][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD][PRACTICE] 雷杖重攻撃主体ではチャネリング中にLoSを防御へ使いにくく、自衛要求で攻撃が中断されやすいため、入門者級初心者がLoSと攻防切替を反復練習する機会を減らし得る。
+
+## 対象指定型詠唱攻撃
+
+[A0709][AUTHOR_VIEW][LIMIT][CASTED_SPAMMABLE] 主たるスパム攻撃として設計された詠唱を要するスキルは、詠唱妨害耐性が強固でない限り、詠唱妨害に対して不利になる。
+[A0710][AUTHOR_VIEW][LIMIT][CASTED_SPAMMABLE] 対象が存在しなければ詠唱を開始できないスパム攻撃は、詠唱妨害への不利が大きく、サーバーとの非同期・通信遅延の影響を受けやすく、対象へのLoSが切れている間は詠唱を開始できない。
+[A0711][AUTHOR_VIEW][LIMIT][CAUSE][CASTED_SPAMMABLE] 対象指定型詠唱攻撃はLoSが切れている間に詠唱を開始できないため、障害物を使いながら戦う場合は詠唱開始のために身を出す時間が必要となり、敵の攻撃に晒される時間が増えやすい。
+[A0712][PATCH][CLAIM][UPPERCUT] アッパーカット（Uppercut）およびその変異は近距離攻撃スキルである。
+[A0713][PATCH][CLAIM][SNIPE] スナイプ（Snipe）およびその変異は遠距離攻撃スキルである。
+[A0714][PATCH][DEF][TARGETED_CAST_ATTACK][UPPERCUT] アッパーカット（Uppercut）およびその変異は、詠唱開始に攻撃対象を必要とする対象指定型詠唱攻撃スキルである。
+[A0715][PATCH][DEF][TARGETED_CAST_ATTACK][SNIPE] スナイプ（Snipe）およびその変異は、詠唱開始に攻撃対象を必要とする対象指定型詠唱攻撃スキルである。
+[A0716][AUTHOR_VIEW][PATCH][SCOPE][UPPERCUT] アッパーカット（Uppercut）およびその変異には、対象指定型詠唱攻撃に共通する詠唱妨害、対象要求、LoS、通信遅延に関する注意点を適用する。
+[A0717][AUTHOR_VIEW][PATCH][SCOPE][SNIPE] スナイプ（Snipe）およびその変異には、対象指定型詠唱攻撃に共通する詠唱妨害、対象要求、LoS、通信遅延、遠距離から障害物を使う際の露出時間に関する注意点を適用する。
+
+## アッパーカット系と高Ping・ラグ環境
+
+[A0718][AUTHOR_VIEW][PATCH][LIMIT][COND][UPPERCUT] アッパーカット（Uppercut）およびその変異は通信遅延やサーバーラグが強いほど命中させにくくなるため、高Ping環境や混雑時は命中難易度上昇を前提に運用する。
+[A0719][AUTHOR_VIEW][PATCH][PRACTICE][UPPERCUT] ラグがある環境でアッパーカット（Uppercut）およびその変異を使う場合、相手へ密着する程度まで近づいて使用することで詠唱を完遂しやすくなる。
+[A0720][PATCH][CAUSE][UPPERCUT] ラグがある環境では、相手のサーバー上の現在位置と、自分の画面に描画されている現在位置が厳密に一致しない場合がある。
+[A0721][AUTHOR_VIEW][PATCH][CAUSE][UPPERCUT] ラグ環境でアッパーカット（Uppercut）およびその変異を相手へ密着する程度まで近づいて使う運用は、サーバー上の相手位置と画面上の描画位置のずれによって詠唱対象を外すリスクを減らしやすい。
+[A0722][AUTHOR_VIEW][PATCH][PRACTICE][UPPERCUT] ラグ環境では、外見上短い両手武器スタイルを「より近づく必要がある」と認識するための視覚的な距離感の補助として利用し、アッパーカット（Uppercut）およびその変異を命中させやすくする方法がある。
+[A0723][AUTHOR_VIEW][PATCH][RULE][UPPERCUT] ラグが強い日は、アッパーカット（Uppercut）およびその変異の射程を最大限に使う立ち回りを避ける。
+
+## 詠唱再召喚型永続ペット
+
+[A0724][AUTHOR_VIEW][COND] 再召喚に詠唱を要する永続戦闘用ペットが相手ビルドの軸であり、そのペットを容易に撃破できると予期される場合、戦闘の早い段階で撃破する。
+[A0725][AUTHOR_VIEW][PRIORITY] 再召喚に詠唱を要する永続戦闘用ペットが相手ビルドの軸で、容易に撃破できると予期され、さらに回復能力を持つ場合は、戦闘の早い段階でそのペットを撃破する優先度を高める。
+[A0726][AUTHOR_VIEW][PROC][DIAG] 対象の永続戦闘用ペットにはまず一定の攻撃を行い、撃破難易度と、その攻撃が相手へどの程度の対応負担を与えるかを評価する。
+[A0727][AUTHOR_VIEW][COND] 永続戦闘用ペットを失った相手が詠唱を伴う再召喚を行わなければ戦闘行動に大きな支障が出る場合、そのペットの撃破には再召喚されても価値がある。
+[A0728][AUTHOR_VIEW][RULE] 再召喚に詠唱を要する永続戦闘用ペットを失うと相手の戦闘行動に大きな支障が出て、かつペットの撃破難易度が低い場合は、再召喚後も繰り返し撃破してよい。
+[A0729][AUTHOR_VIEW][PRIORITY] 可能であれば、再召喚された永続戦闘用ペットを再び撃破するより、再召喚の詠唱を妨害することを優先する。
+[A0730][AUTHOR_VIEW][LIMIT] 召喚時に詠唱を要する有限体力の永続戦闘用ペットをビルドの軸にする場合、使用者はペットを繰り返し撃破されるリスクと再召喚詠唱を妨害されるリスクを承知する。
