@@ -8,7 +8,6 @@ v160 — Changes from v159
 Corpus size and proposition identity
 - Proposition IDs were preserved: 855 Series A propositions and 202 Series B propositions, 1057 total.
 - No proposition was added or removed.
-- Japanese and English proposition IDs and tag sequences remain synchronized.
 
 Japanese proposition text
 - Added or normalized English identification at the first occurrence of an ESO term or selected ESO-specific abbreviation in 32 Japanese propositions so each proposition remains identifiable when retrieved alone.
@@ -17,7 +16,7 @@ Japanese proposition text
 
 Standalone-retrieval wording
 - Replaced section-relative wording with an explicit B0111 scope anchor in B0115, B0130, B0131, B0132, B0135, B0136, and B0137 so their intended advanced competitive Skirmisher scope remains identifiable when retrieved alone.
-- Expanded BG as Battlegrounds and IC as Imperial City where those abbreviations occur in proposition text or bibliographic records that may be retrieved alone; quoted source titles and URLs were preserved.
+- Expanded BG as Battlegrounds and IC as Imperial City where those abbreviations occur in proposition text or bibliographic records that may be retrieved alone.
 
 Role-tag normalization
 - Replaced BOMBER with ROLE_BOMBER in 36 propositions.
@@ -32,7 +31,6 @@ Shield-tag reorganization
 Alternative/comparison-tag reorganization
 - Consolidated ALTERNATIVE_COMPARISON, FEASIBLE_ALTERNATIVES, COUNTERFACTUAL_COMPARISON, CONTRASTIVE_SELECTION, and ALT.
 - Final categories: ALTERNATIVE_REASONING (26 propositions) and ALTERNATIVE (6).
-- SUBSTITUTE (2) and PARTIAL_SUBSTITUTION (1) were retained as distinct relations.
 
 Meta-tag reorganization
 - Replaced META_FIT and META_THREAT_FIT with AI_META_EVALUATION for AI reasoning about PvP meta conditions (6 propositions total).
@@ -49,7 +47,6 @@ Author-judgment hierarchy
 - AUTHOR_VIEW is assigned to 905 propositions that express evaluations, recommendations, diagnostic criteria, operational standards, decision rules, or closely equivalent author judgments rather than game mechanics alone.
 - CORE_JUDGMENT is assigned to 65 propositions representing central judgments in the Corpus decision framework or author judgments with especially strong distinctive character.
 - CORE_JUDGMENT always co-occurs with AUTHOR_VIEW and does not mean higher factual certainty or absence of exceptions.
-- These assignments changed tags only; proposition IDs and proposition body text were not changed.
 
 Proposition-type coverage
 - Added a semantic proposition-type tag to 22 propositions that previously lacked one.
