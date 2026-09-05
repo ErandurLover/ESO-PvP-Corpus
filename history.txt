@@ -1,5 +1,50 @@
 ESO PvP Corpus — Version History
-Current version: v161
+Current version: v162
+
+
+================================================================
+v162 — Changes from v161
+================================================================
+
+Corpus size and proposition identity
+- Consolidated or removed 22 low-marginal-value or absorbed Series A propositions.
+- The retained content set contains 839 Series A propositions and 205 Series B propositions (1,044 total); Full additionally contains 64 numbered retrieval-control propositions, for 899 Series A and 209 Series B propositions (1,108 total).
+- Reassigned the retained Series A content propositions as A0001-A0839 and Series B content propositions as B0001-B0205 in finalized Full retrieval order, and synchronized internal proposition references; Full-only retrieval-control IDs remain A0840-A0899 and B0206-B0209.
+
+Demand-oriented classification and placement
+- Reorganized Full around a hierarchical retrieval map that selects one causal domain, places answer-ready core conclusions before reasons and diagnostics, and checks an explicit exit before another domain is added.
+- Divided large Full domains into narrow families and subcategories without duplicating or changing proposition text.
+- Kept role, location, proficiency, named-object, and advanced-context overlays separate so adjacent but unused information is not retrieved mechanically.
+- Separated universal fundamentals, proficiency and learning, role fundamentals, locations and modes, builds, and combat functions into independent retrieval domains.
+- Collected beginner and entry-level propositions in A02, organized them by onboarding, foundational skills, role, and battlefield, and retained general build, combat-function, role, and location principles in their substantive domains.
+- Moved beginner-specific complete-build copying, evaluation, and food-cost guidance from A03 into A02, and reorganized A03 as a design flow from purpose and diagnostic questions through bottlenecks, opportunity costs, general configuration, and limited-use design while preserving proposition text.
+- Reorganized A00 into functional retrieval groups for Corpus scope, proficiency-level application, patch and evidence verification, evaluation materials, user goals, feasible alternatives, and recommendation scope.
+- Moved Penetration and range/damage-scaling propositions from A04 into A03 build evaluation, retaining separate child headings under a shared offensive-performance evaluation group while preserving proposition text.
+- Moved defensive-layer selection, effective-defense baselines, Critical Resistance assumptions, sustain, mobility, skill-slot compression, usability, and execution-cost propositions into A03 so they are retrieved during build design and evaluation, while preserving proposition text.
+- Re-evaluated all 1,044 retained content propositions under a staged retrieval model and separated build evaluation, practical execution, role overlays, and context overlays without changing their IDs or text.
+- Added numbered Full retrieval controls for leaf-level acquisition, explicit-axis completion, bidirectional symptom-to-design routing, role and location overlays, and narrow specific-object evaluation exits.
+- Consolidated build-performance requirements in A03; narrowed A04-A06 to practical offense, defense and healing, and movement or disengagement respectively.
+- Separated advanced role operation into B02 and advanced combat-context operation into B03.
+- Added a Manifest staged retrieval path, a retrieval stop rule, and per-page PAGE_FLOW guidance so a model can retrieve one primary page and only the necessary overlays.
+- Moved the sustain-dependent-defense propositions into the A03 defensive-performance branch so defensive-design retrieval includes the requirement that sustain cannot substitute for sufficient damage mitigation and effective defense.
+- Clarified the negative feedback in which weak per-action defense consumes GCDs, reduces offensive pressure, increases incoming pressure and sustain demand, and further reduces the performance budget for direct defense and damage; also clarified the conditions under which very high sustain is a valid survival-focused specialization.
+- Grouped non-beginner Tank, Healer/Support, Bruiser, Skirmisher, Ganker, and Bomber fundamentals under the role domain, while centralizing beginner-specific role material in A02 and keeping location-specific general material in the location domains.
+- Separated Series B into advanced common principles, advanced role fundamentals, and context-specific or specialist operation while preserving the beginner-exclusion constraints.
+
+Proposition consolidation and revision
+- Corrected A0819 internal references so the relative-benefit statement points explicitly to A0818 and the supporting historical observations A0826-A0828.
+- Integrated the 1vX sequence into one actionable process and revised LoS propositions around exposure reduction and reusable terrain value.
+- Moved the finite skill-slot and one-second GCD premise into universal fundamentals and expressed both as finite combat resources.
+- Reframed build design around purpose and required work, including the selection of sets as means rather than starting points.
+- Consolidated group-pressure diversion, role-based self-evaluation, support-role focus and survival, and group-healing delivery methods.
+- Expanded the small-exchange sequence so each proposition independently exposes its examples, resource effects, pressure effects, and improvement target.
+- Expanded build usability evaluation to distinguish theoretical performance from practical operability and performance realization.
+- Moved the PvP defensive baseline into the defensive-value section and consolidated defensive-priority opportunity cost and beginner opponent assumptions.
+
+Retrieval documents
+- Updated Full, Split, Core150, and Manifest structure to the v162 demand-oriented placement; Core150 retains the selected 150 proposition identities and follows the finalized Full order.
+- Updated orthogonal routing rules, combination examples, demand cues, and contiguous single-range ID scopes in the Manifest and Split metadata; synchronized Split proposition placement to the finalized Full demand domains.
+- Reordered Core150 under the current page and heading structure and replaced deleted selections with the revised purpose-and-job build premise and consolidated beginner defensive premise while retaining 150 propositions.
 
 ================================================================
 v161 — Changes from v160

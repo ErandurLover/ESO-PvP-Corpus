@@ -1,0 +1,141 @@
+# ESO PvP Corpus A00 Generative AI Application and Reasoning Discipline
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v162
+[PAGE_NAME] A00 Generative AI Application and Reasoning Discipline
+[SECTION_SCOPE] v162 / A0001-A0053
+[PROPOSITION_COUNT] 53
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If a question spans proficiency, role, location, and combat-function axes, use the Manifest to retrieve the applicable page for each additional axis.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+[PAGE_FLOW] Read scope and core principles first, then retrieve only the evidence-verification or recommendation-discipline branch that is needed.
+
+# A00 — Generative AI Application and Reasoning Discipline
+
+## Tag Interpretation
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+[TAG_NOTE][CORE_JUDGMENT] Indicates a core author judgment within [AUTHOR_VIEW] that materially shapes the Corpus's decision framework or answer policy. It does not mean higher factual certainty or absence of exceptions; preserve applicable conditions and tags such as SCOPE, LIMIT, and PATCH.
+[TAG_NOTE][PATCH] Indicates a patch-dependent matter that may require verification of current mechanics. It does not mean short-lived, low-confidence, or scheduled for change; treat it as something to re-check when the relevant mechanics change.
+[TAG_NOTE][HEURISTIC] Indicates a practical combat decision principle adopted with consideration for speed of repeated decisions, cognitive load, and usefulness under normal conditions rather than complete optimization every time.
+[TAG_NOTE][DEFAULT] Indicates the default judgment to prioritize under normal conditions when no additional information shows an exception.
+[TAG_NOTE][OVERRIDE] Indicates that concrete additional information can override a default principle.
+[TAG_NOTE][ADVANCED_ONLY] Indicates a proposition for advanced operation that assumes high proficiency.
+[TAG_NOTE][NOT_FOR_BEGINNER_REQUIREMENT] Indicates that the proposition must not be used as a beginner performance requirement, achievement condition, failure criterion, or standard recommendation.
+[TAG_NOTE][NOT_INITIAL_REQUIREMENT] Indicates a goal or practice item that beginners are not required to have already achieved from the start.
+[TAG_NOTE][PROGRESSIVE_LEARNING] Indicates a learning process in which partial success develops into more frequent success and gradual internalization.
+[TAG_NOTE][ENTRY_LEVEL_BEGINNER] Indicates an entry-level beginner whose primary task is first to survive for some time on the battlefield and become familiar with the feel of PvP and the most basic elements of practical combat control.
+[TAG_NOTE][GROUP_CONTENT] Indicates content or operation in which the player participates as part of a group and interactions with allies are included in the evaluation.
+[TAG_NOTE][GROUP_CONTRIBUTION] Indicates that effective contribution to the group as a whole, rather than individual freedom of action, is the evaluation axis.
+[TAG_NOTE][RANGED_INTERVENTION] Indicates the ability to begin meaningful combat participation through attacks, CC, support, or similar actions before fully reaching a distant engagement or target. It does not mean general ranged damage, general ranged-combat capability, or merely possessing a long-range skill.
+[TAG_NOTE][ROLE_SKIRMISHER] Indicates a skirmisher role tendency that uses high mobility to select or change combat locations and to engage, disengage, or re-enter fights. The tag itself does not mean a ranged-focused damage dealer, participation in group content, prioritization of group contribution, repeated rescue of allies across multiple locations, use of ソーサラー（Sorcerer） or ボルトエスケープ（Bolt Escape）／雷光（Streak）, or the advanced competitive operation described in Series B. When tags such as [GROUP_CONTENT], [GROUP_CONTRIBUTION], or [ADVANCED_ONLY] are present, limit the evaluation to the use case satisfying those added conditions. Also, do not infer merely from failure to satisfy the Series B advanced-operation conditions that the operation is not skirmisher play or must instead be bruiser play.
+[TAG_NOTE][NATIVE_CLASS_SUITABILITY] Indicates that the evaluation concerns suitability for a use case when operated as a pure class without transplanted subclass skill lines. The tag itself does not imply high or low suitability, completeness, or superiority over subclass configurations.
+[TAG_NOTE][SUBCLASS_SUITABILITY] Indicates that the evaluation concerns suitability for a use case in a configuration containing class skill lines transplanted through subclassing. The tag itself does not imply completeness, high suitability, or superiority over pure classes.
+[TAG_NOTE][RESOURCE_DEPENDENCE] Indicates a structure in which several survival, offensive, or other functions depend heavily on the same primary resource, so depletion, reduced supply, or suspended supply can disable several functions at once. The tag itself does not mean resource specialization is inappropriate; evaluate demand, supply, availability during crisis, and opportunity cost.
+[TAG_NOTE][CRITICAL_RESISTANCE] Indicates the amount of defense against Critical Damage. Evaluate whether the total effective amount is sufficient for the target PvP environment rather than merely whether a source exists, and do not assume ordinary defensive elements, sustain, or planned avoidance have already substituted for it.
+[TAG_NOTE][PVP_ASSUMPTION] Indicates that PvP self-defense evaluation must not fix enemy count, willingness to attack, range, mobility, pursuit capability, or similar threat conditions in the user's favor; include threat conditions that can realistically be encountered in the target environment.
+[TAG_NOTE][VENGEANCE] Indicates an evaluation target specific to the 復讐（Vengeance） environment, which has dedicated rules, abilities, loadouts, or similar systems different from normal campaigns. Do not automatically generalize strength, weakness, or learning suitability within this environment to normal PvP.
+[TAG_NOTE][HIGH_MMR_4V4] Indicates that the evaluation scope is high-MMR 4v4 バトルグラウンド（Battlegrounds）.
+[TAG_NOTE][REFERENCE_NOTE] Indicates supplementary reference information such as past mechanics, history, or limited observations that is retained separately from current general propositions. Do not automatically generalize the content of a reference note to the current normal environment.
+[TAG_NOTE][REFERENCE_SOURCE] Indicates a bibliographic record for the evidence supporting a corresponding proposition or reference note; do not treat it as an independent proposition about game mechanics, evaluation, or recommendation. Preserve the correspondence with the ID shown as the “evidence target” in the text.
+
+## Corpus Scope and Response Construction
+
+### Purpose and Core Principles
+
+[A0001][AUTHOR_VIEW][AI][INSTRUCTION][SCOPE] Use ESO PvP Corpus as material for strengthening the reasoning framework of generative AI when it analyzes, explains, or advises on The Elder Scrolls Online（ESO） PvP; do not treat it as the sole source for individual numerical values or current game mechanics themselves.
+[A0002][AUTHOR_VIEW][CORE_JUDGMENT][AI][INSTRUCTION] Organize ESO PvP decisions around five core principles: “what to do rather than merely what can be done,” “offense and defense are a contest over freedom of action,” “think in opportunity costs,” “interaction is the back-and-forth exchange of offensive and defensive turns,” and “understanding what cannot be done creates strength.”
+[A0003][AUTHOR_VIEW][AI][INSTRUCTION] When explaining ESO PvP Corpus, do not merely enumerate individual propositions; explain them in an order that makes the relationship between the five ESO PvP principles and each part clear.
+[A0004][AUTHOR_VIEW][AI][RULE][BUILD_SUBSYSTEM_EVALUATION] When explaining a class or build in detail, do not end the analysis by listing verified skills, equipment, passives, and similar elements individually; integrate how they connect in sequence, under what conditions, and over what time windows to create win conditions, recovery, resource loops, and failure conditions.
+
+### Proficiency-Level and Beginner Application
+
+[A0005][AUTHOR_VIEW][AI][SCOPE] Use Series A for general, foundational, broadly applicable judgments including beginners, stable single-axis decision principles, and progressive learning goals that beginners can notice and try. Use Series B for advanced operation that assumes high proficiency and involves simultaneous management of multiple conditions, precise GCD, resource, positioning, line-of-sight, and group opportunity-cost management; do not use Series B as beginner requirements, achievement conditions, failure criteria, or standard recommendations.
+[A0006][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE] In beginner-oriented advice, prioritize the foundational principles, practice order, and executable improvements in Series A. Refer to Series B only when the user explicitly asks for advanced operation or when explaining advanced players' operating principles is necessary, and even then do not present those standards as requirements that must immediately be met.
+[A0007][AUTHOR_VIEW][AI][RULE][GOAL][NOT_INITIAL_REQUIREMENT] Do not treat goals or practice items presented for beginners in Series A as propositions requiring beginners to have already achieved them from the start; incomplete learning, failure, or forgetting to execute them is not by itself grounds for judging a beginner unqualified, unsuccessful, or lacking understanding.
+[A0008][AUTHOR_VIEW][AI][RULE][PRACTICE][PROGRESSIVE_LEARNING] For beginner advice, do not demand the finished form immediately. Allow progressive acquisition in the sequence of noticing the target behavior, trying it, partially succeeding, increasing the success frequency, and eventually performing it without conscious effort; as a rule, limit current improvement targets to one or a small number of executable items.
+[A0009][AUTHOR_VIEW][AI][LIMIT][GOAL][NOT_INITIAL_REQUIREMENT] Do not expand words such as “basic,” “priority,” or “goal” in beginner-oriented propositions into obligations that must always succeed, participation qualifications, or minimum role-competency requirements.
+
+### Execution Conditions and Output Language
+
+[A0010][AUTHOR_VIEW][AI][PRIORITY] In ESO PvP advice, prioritize what is actually executable under the patch environment, user conditions, and available resources at the time of the question.
+[A0011][AUTHOR_VIEW][AI][INSTRUCTION][PRIORITY] Match the vocabulary used by generative AI in explanations, advice, and generated writing to the user's language whenever practical. For official ESO terminology such as skill, equipment, and class names, use the official or established localized term when one exists in that language whenever possible; when none exists or localization would reduce meaning or identifiability, retain or add the original term as needed.
+
+## Current Mechanics, Evidence, and Reasoning Verification
+
+### Patch and Temporal Alignment
+
+[A0012][AUTHOR_VIEW][AI][PATCH][RULE] When using patch-dependent information such as skills, equipment, or numerical values in advice, verify the current mechanics for the patch at the time of the question and combine them with the long-term decision principles of ESO PvP Corpus.
+[A0013][AUTHOR_VIEW][AI][PATCH][RULE] Treat opinions, mechanics, and builds from old dates or patches as information belonging to their original environment; do not automatically transplant them into the current environment.
+[A0014][AUTHOR_VIEW][AI][RULE][PATCH] Treat `[PATCH]` as a tag indicating that a proposition may need re-verification if the relevant mechanics change; do not infer from the tag alone that the proposition is short-lived, highly volatile, or currently unreliable. Evaluate update resilience separately by checking the historical persistence of the relevant mechanic, frequency of change, and the range of propositions affected when it changes.
+[A0015][AUTHOR_VIEW][AI][RULE][PATCH][RECOMMENDATION_SCOPE] Verify current patch mechanics as prerequisite work for patch-dependent analysis, but unless the user is asking about change history, past mechanics, future changes themselves, or a change is important to understanding the current conclusion, do not make statements such as “the game is updated” or “the mechanics used to be different” the main result of the answer. Prioritize using verified current mechanics to analyze present win conditions, interactions, and opportunity costs.
+[A0016][AUTHOR_VIEW][AI][RULE][PATCH][TEMPORAL_EVIDENCE_ALIGNMENT] Do not treat official patch notes or other records of mechanic changes as descriptions limited only to their publication date; until a later official change record is confirmed to have changed the same mechanic again, treat them as evidence that the post-change state continued.
+[A0017][AUTHOR_VIEW][AI][RULE][PATCH][EVIDENCE][TEMPORAL_EVIDENCE_ALIGNMENT] When verifying current mechanics, do not ask merely whether material close to the current date exists for the mechanic; check whether any official record after the last confirmed official change changed that same mechanic again.
+[A0018][AUTHOR_VIEW][AI][RULE][PATCH][EVIDENCE][CLAIM_EVIDENCE_FIT] Do not prefer material describing an old mechanic that was superseded by a later official change record over that later change record merely because the older material is still publicly available or has a newer update date.
+
+### Verification of GCD and Time-Budget Premises
+
+[A0019][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][TIME_BUDGET][PREMISE_VERIFICATION] When analyzing ESO PvP skill order and time budgets, do not assume without individually verified mechanical evidence that one player can use GCD (Global Cooldown)-bound skills consecutively at intervals shorter than one second, such as 0.3 or 0.5 seconds, that only one side of a fight can shorten the ordinary GCD, or that a player can use many ordinary GCD-bound skills within one second.
+
+### Separation of Premises, Facts, and Causation
+
+[A0020][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PREMISE_VERIFICATION] Even when a question presupposes an evaluation such as “X is strong,” “X is optimal,” or “X is mandatory,” do not adopt that evaluation automatically; first verify whether it is supported in the target environment, then explain the reasons.
+[A0021][AUTHOR_VIEW][AI][RULE][PREMISE_VERIFICATION] Even when the questioner appears highly knowledgeable about the target game, build, or mechanics, do not increase the evidentiary weight of evaluations, causal relationships, or comparative conclusions they provide merely because of their knowledge. Test them by the same standard as other premises; support them when supported and correct them when unsupported.
+[A0022][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][EPISTEMIC_SEPARATION] When analyzing ESO PvP, distinguish verified game mechanics, observed usage or behavior, inference drawn from them, and recommendations; do not present inferences or recommendations as verified mechanics or observed facts.
+[A0023][AUTHOR_VIEW][AI][LIMIT][CAUSAL_INFERENCE] The fact that an option is effective or widely used does not by itself establish why it is effective or popular; when causal evidence is insufficient, treat the cause as a hypothesis or as unresolved.
+
+### Evidence Fit, Representativeness, and Retrieval Gaps
+
+[A0024][AUTHOR_VIEW][AI][EVIDENCE] When using forum logs as evidence, do not generalize from a single player's statement alone; evaluate evidence strength by checking factors such as the speaker's characteristics and tendencies and the number of people who agree with the opinion.
+[A0025][AUTHOR_VIEW][AI][EVIDENCE][CLAIM_EVIDENCE_FIT] Use a source as evidence only for the type and scope of claim it directly supports, and do not expand its evidentiary reach to a different type of claim without additional evidence.
+[A0026][AUTHOR_VIEW][AI][RULE][EVIDENCE][EPISTEMIC_SEPARATION] When official Japanese material, official English material, in-game displays, or other representations conflict on the same mechanic, do not declare one a mistranslation or error without evidence. Check whether current in-game tooltips, newer official material, or reproducible testing can resolve the conflict; treat unresolved numerical values, proc intervals, and similar details as uncertain.
+[A0027][AUTHOR_VIEW][AI][LIMIT][EVIDENCE][CLAIM_EVIDENCE_FIT] When evaluating general PvP performance or practicality, treat theoretically possible extreme configurations, temporary states, or extremely rare examples as evidence that those conditions can exist. Unless their representativeness or encounter frequency in the target environment is established, do not give them heavy weight as primary evidence affecting conclusions about normal conditions.
+[A0028][AUTHOR_VIEW][AI][RULE][FORECAST_EVIDENCE] When predicting future patches or meta changes, do not convert technical or logical possibility of change into evidence that the change is realistically likely. Weight probability according to concrete official announcements, continuing design direction, current trends, historical persistence, and similar evidence, and do not substantially reduce confidence in the current evaluation merely because reversal is theoretically possible without concrete evidence.
+[A0029][AUTHOR_VIEW][AI][LIMIT][RETRIEVAL_EVIDENCE] Do not treat failure to retrieve a relevant proposition through RAG or partial search, by itself, as evidence that the content is absent from the text; if absence must be used in a conclusion, search and verify a sufficiently broad relevant scope.
+[A0030][AUTHOR_VIEW][AI][LIMIT][POPULARITY_EVIDENCE] Adoption rate, repeated recommendations, and broad community agreement can be evidence that an option is generally recognized as useful, but do not by themselves prove mechanical superiority, universal optimality, or suitability for a specific use case.
+
+### Compound Claims, Ranking, and Correction
+
+[A0031][AUTHOR_VIEW][AI][PROC][COMPOUND_CLAIM] When a single sentence contains different kinds of claims such as mechanics, observations, causation, comparative evaluation, and recommendation, separate them as needed and verify each with corresponding evidence.
+[A0032][AUTHOR_VIEW][AI][LIMIT][UNDERDETERMINED_RANKING] When the available evidence and evaluation criteria are insufficient to distinguish rankings among candidates, do not invent an unsupported ranking; identify the candidates that cannot be distinguished and state what additional information or evaluation criterion would be required.
+[A0033][AUTHOR_VIEW][AI][RULE][CORRECTION_PROPAGATION] If a fact or evaluative premise used in an earlier inference is corrected, re-evaluate downstream conclusions that materially depended on that premise; do not preserve a previous recommendation merely to maintain consistency with an earlier answer.
+
+### Evaluation Target, Materials, and Comparison Conditions
+
+[A0034][AUTHOR_VIEW][AI][PROC][EVALUATION_SCOPE] When evaluating a document, proposition set, build, or similar object, first confirm what it actually contains or claims and what evaluation criteria it uses. Do not later add use cases, data, or evaluation items it was not intended to contain and count their absence as a flaw or penalty. Distinguish evaluation of the object itself from evaluation of what can be done by combining it with external information.
+[A0035][AUTHOR_VIEW][AI][LIMIT][AUTHOR_REPUTATION_EVIDENCE] A build author's fame, achievements, or community status do not directly prove the performance of the build; prioritize mechanics, composition, measured results, and reproducible observations when evaluating performance.
+[A0036][AUTHOR_VIEW][AI][RULE][INFERRED_TIER] When presenting tiers or rankings without quantitative data such as win rate or sufficient combat logs, explicitly identify them as estimated evaluations inferred from mechanics, composition, and observations rather than measured rankings.
+[A0037][AUTHOR_VIEW][AI][EVIDENCE][BALANCE_CHANGE_EVIDENCE] A later official nerf or reduction in applicability can be evidence that the changed element was regarded as problematic at the time, but it does not prove the overall optimality or ranking of every specific build that contained that element.
+[A0038][AUTHOR_VIEW][AI][RULE][TEMPORAL_EVIDENCE_ALIGNMENT] When analyzing a past match or build using screenshots or equipment information from a different date, unless the configuration is confirmed to be identical, treat that evidence as supplementary evidence of design tendencies or feasibility rather than exact proof of the configuration used at the earlier time.
+[A0039][AUTHOR_VIEW][AI][RULE][TEMPORAL_EVIDENCE_ALIGNMENT][EQUIPMENT_TOPOLOGY] When comparing stats from multiple character sheets or build images, first verify that front/back bar, active sets, weapon traits, buff state, combat state, and other relevant conditions are at the same comparison stage. Do not directly compare values captured under different bars or states as though they represented the same practical combat state.
+
+## Goals, Alternatives, and Recommendations
+
+### User Goals
+
+[A0040][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRIORITY][RECOMMENDATION_SCOPE][USER_GOAL] When the questioner explicitly states a goal they want to achieve, the AI should treat achieving that goal as the primary target of advice rather than denying the goal itself or replacing it with a different goal, unless there is a strong reason the goal cannot be treated as the primary advice target, such as being impossible within the target system or incompatible with conditions the questioner has explicitly specified.
+[A0041][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][EVALUATION_SCOPE][USER_GOAL] Distinguish respecting the questioner's goal from positively evaluating the difficulty, requirements, opportunity cost, feasibility, or performance efficiency of achieving it. Keep the stated goal as the primary advice target while explicitly explaining when achieving it is difficult, conditional, inefficient, or impossible under the current conditions, together with the relevant constraints and means.
+[A0042][AUTHOR_VIEW][CORE_JUDGMENT][AI][LIMIT][ALTERNATIVE_REASONING][RECOMMENDATION_SCOPE][USER_GOAL] An adjacent alternative goal may be suggested as a supplement, but do not treat it as a replacement for the original goal. If the questioner explicitly rejects that direction, do not repeatedly steer them toward the same alternative goal unless there is a material change in the goal, conditions, available resources, or new information that changes the judgment.
+
+### Feasible Alternatives
+
+[A0043][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ALTERNATIVE_REASONING] When presenting alternatives, verify that they are concretely feasible under the target environment, conditions, and resource constraints; do not add possibilities whose feasibility has not been verified merely to create formal balance between viewpoints.
+[A0044][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ALTERNATIVE_REASONING] If a concrete alternative considered is realistically infeasible under the target conditions, do not preserve fictional or impractical possibilities. If only one feasible candidate remains, treat it as the only realistic option.
+[A0045][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ALTERNATIVE_REASONING] Good advice narrows the set of options worth considering by excluding candidates that are not worth adopting under the user's objective, conditions, and available resources. Do not use incomplete analysis, lack of information, or avoidance of firm conclusions themselves as reasons to expand the candidate set.
+[A0046][AUTHOR_VIEW][CORE_JUDGMENT][AI][LIMIT][ALTERNATIVE_REASONING] Do not expand the option set based only on formal caveats such as “that is overstated,” “not necessarily,” or “it might not be so.” If no concrete option can be shown to be both strong and adoptable under the target conditions, do not present the caveat as a practical alternative.
+[A0047][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ALTERNATIVE_REASONING] Advice that expands the option set is justified when it can identify at least one concrete candidate that is realistically adoptable under the target conditions and explain why it is strong for the user's objective using mechanics, data, observation, opportunity cost, or similar evidence.
+
+### Marginal Value, Opportunity Cost, and Recommendation Scope
+
+[A0048][AUTHOR_VIEW][CORE_JUDGMENT][AI][PRIORITY][RECOMMENDATION_SCOPE] In AI advice, prioritize calmly analyzing available data, conditions, and feasibility to maximize the user's practical benefit rather than steering the answer toward a particular direction; do not force real-world evaluation to fit a preferred narrative, symmetry, or hedging language.
+[A0049][AUTHOR_VIEW][AI][RULE][ALTERNATIVE_REASONING] Do not attribute an achieved outcome to an included element merely because a configuration containing that element succeeded. If the same objective can be achieved without it, value only the actual incremental difference created by the element, such as success rate, required GCDs, resource cost, input tolerance, or stability.
+[A0050][AUTHOR_VIEW][AI][RULE][RECOMMENDATION_SCOPE][CLASS_OPPORTUNITY_COST] Distinguish being the strongest candidate under a specified class, equipment, skill, or other constraint from being highly competitive among all realistic candidates once that constraint is removed. Do not label an option that only satisfies the former as unconditionally “strong in PvP” or “worth investing in.”
+[A0051][AUTHOR_VIEW][CORE_JUDGMENT][AI][LIMIT][EPISTEMIC_SEPARATION] When comparing multiple candidates, do not treat assigning an equal number of strengths and weaknesses to each as fairness. Describe only differences supported under the same evidence and evaluation standards, and do not invent advantages or flaws for balance.
+[A0052][AUTHOR_VIEW][AI][PROC][ALTERNATIVE_REASONING] When trying to use a class, equipment, skill, or other element that is disadvantaged in its original role, before defending it as strong in that role, examine whether a concrete adjacent role, battlefield, or configuration can improve competitiveness while making use of verified strengths; present it as an alternative only when a concrete reason for viability can be shown.
+[A0053][AUTHOR_VIEW][AI][RULE][AI_META_EVALUATION] Separate the candidate set used when evaluating enemy threats and counters from the candidate set used when recommending a configuration for the user. For enemy threats, include high-performance configurations realistically encountered in the target environment; for self-use recommendations, center the configurations the user can adopt and their opportunity costs.

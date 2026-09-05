@@ -1,0 +1,147 @@
+=== START OF ESO PvP CORPUS MANIFEST ===
+
+# ESO PvP Corpus — AI Router / Manifest
+
+[CORPUS_NAME] ESO PvP Corpus
+[CURRENT_VERSION] v162
+[LANGUAGE] Japanese
+[TOTAL_A] 839
+[TOTAL_B] 205
+[TOTAL_PROPOSITIONS] 1044
+[PUBLIC_MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/manifest.txt
+[LOBBY_URL] https://note.com/ellen_in_skyrim/n/nc442cc632814
+[FULL_VERSION_URL] https://erandurlover.github.io/ESO-PvP-Corpus/full/v162/ja/corpus.txt
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/core150.txt
+
+## ROUTING RULES
+
+[ROUTER_RULE] A00で適用・推論規律を確認し、実戦判断ではA01を全ロール共通の基礎として使用する。
+[ROUTER_RULE] 習熟段階、戦闘機能、ロール、場所を別軸として扱い、質問に明示された軸だけを組み合わせる。
+[ROUTER_RULE] Core150またはSplitに存在しないこと、RAG・部分検索で取得できなかったことだけを、Full Corpus内の不存在の証拠にしない。
+[ROUTER_RULE] B系列は上級者向け追加資料であり、初心者の要求水準・失敗判定・標準推奨へ自動適用しない。
+[ROUTER_RULE] `[SCOPE]`、`[LIMIT]`、`[COND]`、`[RECOMMENDATION_SCOPE]` と本文上の用途条件を保持し、部分取得を理由に適用範囲を広げない。
+[ROUTER_RULE] Full・Core150・Splitは同じv162を使用し、異なるCorpus Versionを混在させない。
+[ROUTER_RULE] URLへアクセスできない場合、未取得内容を推測して補完しない。
+
+## STAGED RETRIEVAL PATH
+
+[STAGE_0] Manifestで質問の主軸を特定する。最初からFullまたは全Splitを取得しない。
+[STAGE_1] 概観質問ではCore150を取得する。対象分野が明確な質問ではCore150を省略して該当Splitへ直接進む。
+[STAGE_2] 主取得先を一つ選ぶ。ビルド設計=A03、攻撃=A04、防御・回復=A05、移動・離脱=A06、ロール=A07、シロディール・BG=A08、帝都=A09、固有・履歴=A10。
+[STAGE_3] 明示された横断条件だけを追加する。初心者=A02、ロール=A07、場所=A08またはA09。一般原則が結論を左右する場合だけA01を追加する。
+[STAGE_4] 上級者条件が明示された場合だけB系列を追加する。共通=B01、ロール=B02、戦闘環境=B03。
+[STOP_RULE] 質問へ必要な命題集合が揃った時点で取得を停止し、網羅目的で隣接ページを追加しない。
+
+# A SERIES
+
+## A00 生成AIの適用・推論規律
+[ID_SCOPE] A0001-A0053
+[COUNT] 53
+[ROUTE_WHEN] Corpus適用、現行仕様・証拠・推論の検証、質問者の目的、比較・推奨の規律
+[PAGE_FLOW] 使用範囲・中核原則を先に確認し、証拠検証または推奨規律の必要な枝だけを追加取得する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A00.txt
+
+## A01 全ロール共通のPvP基本原則
+[ID_SCOPE] A0054-A0089
+[COUNT] 36
+[ROUTE_WHEN] 全ロール共通の目的起点、判断原則、行動機会、攻防ターン、小さな収支
+[PAGE_FLOW] 目的・判断・行動機会を先に取得し、小さな収支は実戦差の診断時に追加する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A01.txt
+
+## A02 初心者向け導入・学習・診断・検証
+[ID_SCOPE] A0090-A0241
+[COUNT] 152
+[ROUTE_WHEN] 入門級初心者の初期導線、基本技能、ロール別・戦場別初心者情報、学習、診断、検証
+[PAGE_FLOW] 初期導線を先に取得し、質問に該当するロール・戦場・診断の小見出しだけを追加する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A02.txt
+
+## A03 ビルド設計・性能要件・比較調整
+[ID_SCOPE] A0242-A0475
+[COUNT] 234
+[ROUTE_WHEN] ビルドの目的・成立条件、攻撃・防御・サステイン・機動・操作の必要性能、構成要素、比較調整
+[PAGE_FLOW] 基本設計・評価手順を先に取得し、必要な性能要件を一枝だけ選ぶ。構成要素と用途限定情報は必要時だけ追加する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A03.txt
+
+## A04 攻撃・圧力・撃破の実戦運用
+[ID_SCOPE] A0476-A0513
+[COUNT] 38
+[ROUTE_WHEN] CC、バースト、継続圧力、撃破失敗の実戦診断
+[PAGE_FLOW] 攻撃成立の基本を先に取得し、撃破に失敗する場合だけ圧力継続・失敗診断を追加する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A04.txt
+
+## A05 防御・回復の実戦運用
+[ID_SCOPE] A0514-A0567
+[COUNT] 54
+[ROUTE_WHEN] 緊急防御、ブロック、立て直し、回復、継続圧力への対応、周囲警戒、対隠密
+[PAGE_FLOW] 緊急防御・立て直しを先に取得し、必要に応じて回復・継続圧力対応または対隠密を追加する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A05.txt
+
+## A06 移動・位置・離脱の実戦運用
+[ID_SCOPE] A0568-A0597
+[COUNT] 30
+[ROUTE_WHEN] LoS、地形利用、回り込み、逃走、1vX
+[PAGE_FLOW] LoS・地形利用を先に取得し、離脱または多人数対応が主題の場合だけ後半を追加する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A06.txt
+
+## A07 ロール別基本・集団貢献
+[ID_SCOPE] A0598-A0696
+[COUNT] 99
+[ROUTE_WHEN] ロール共通基本、対象ロールの基本、集団貢献
+[PAGE_FLOW] 共通基本と質問対象ロールだけを取得し、集団戦の質問に限って集団貢献応用を追加する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A07.txt
+
+## A08 シロディール・バトルグラウンド・復讐
+[ID_SCOPE] A0697-A0734
+[COUNT] 38
+[ROUTE_WHEN] シロディール、復讐、バトルグラウンド固有情報
+[PAGE_FLOW] シロディール、復讐、バトルグラウンドのうち質問対象の環境だけを取得する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A08.txt
+
+## A09 帝都
+[ID_SCOPE] A0735-A0774
+[COUNT] 40
+[ROUTE_WHEN] 帝都のテルバー、地形、地区、ボス、帰還、固有阻害
+[PAGE_FLOW] テルバー、地形、ボス、帰還のうち質問対象の枝だけを取得する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A09.txt
+
+## A10 固有装備・スキル・パッチ・歴史的リファレンス
+[ID_SCOPE] A0775-A0839
+[COUNT] 65
+[ROUTE_WHEN] 固有装備・スキル、過去変更、高Ping、極端なラグ環境の歴史的参照
+[PAGE_FLOW] 質問で明示された装備・スキル・履歴項目だけを取得する。
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/A10.txt
+
+# B SERIES
+
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+[TOTAL_B] 205
+
+## B01 上級者共通原則
+[ID_SCOPE] B0001-B0017
+[COUNT] 17
+[ROUTE_WHEN] 全上級ロールに共通する要求水準・判断原則
+[PAGE_FLOW] 上級者条件が明示された場合に、該当する共通原則だけを追加する。
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/B01.txt
+
+## B02 上級ロール別運用
+[ID_SCOPE] B0018-B0108
+[COUNT] 91
+[ROUTE_WHEN] 上級タンク、ヒーラー・サポート、ブルーザー、Ganker、Bomber
+[PAGE_FLOW] 上級者条件が明示された場合に、質問対象のロール一つだけを取得する。
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/B02.txt
+
+## B03 上級環境別運用
+[ID_SCOPE] B0109-B0205
+[COUNT] 97
+[ROUTE_WHEN] 固定少人数戦の遠距離・複合ロール、競技的スカーミッシャー、高MMR 4v4
+[PAGE_FLOW] 上級者条件が明示された場合に、質問対象の戦闘環境一つだけを取得する。
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/B03.txt
+
+=== END OF ESO PvP CORPUS MANIFEST ===

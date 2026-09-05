@@ -1,0 +1,60 @@
+# ESO PvP Corpus B01 Advanced Common Principles
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v162
+[PAGE_NAME] B01 Advanced Common Principles
+[SECTION_SCOPE] v162 / B0001-B0017
+[PROPOSITION_COUNT] 17
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If a question spans proficiency, role, location, and combat-function axes, use the Manifest to retrieve the applicable page for each additional axis.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+[ADVANCED_ONLY] Yes
+[NOT_FOR_BEGINNER_REQUIREMENT] Yes
+[ROUTER_RULE] Series B is additional advanced material; do not automatically apply it as beginner requirements, achievement conditions, failure criteria, or standard recommendations.
+[ROUTER_RULE] Preserve and interpret the proposition-level [ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT] constraints.
+
+[PAGE_FLOW] When an advanced condition is explicit, add only the applicable common advanced principle.
+
+# B01 — Advanced Common Principles
+
+[SCOPE_NOTE] The entire Series B below is an advanced-operation layer. [ADVANCED_ONLY] means intended for advanced operation, and [NOT_FOR_BEGINNER_REQUIREMENT] means it must not be used as a required standard, achievement condition, failure criterion, or standard recommendation for beginners. Every Series B proposition retains this constraint even when retrieved alone through partial search or RAG.
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+[TAG_NOTE][CORE_JUDGMENT] Indicates a core author judgment within [AUTHOR_VIEW] that materially shapes the Corpus's decision framework or answer policy. It does not mean higher factual certainty or absence of exceptions; preserve applicable conditions and tags such as SCOPE, LIMIT, and PATCH.
+[TAG_NOTE][ADVANCED_ONLY] Indicates a proposition for advanced operation that assumes high proficiency.
+[TAG_NOTE][NOT_FOR_BEGINNER_REQUIREMENT] Indicates that the proposition must not be used as a beginner performance requirement, achievement condition, failure criterion, or standard recommendation.
+[TAG_NOTE][GROUP_CONTENT] Indicates content or operation in which the player participates as part of a group and interactions with allies are included in the evaluation.
+[TAG_NOTE][GROUP_CONTRIBUTION] Indicates that effective contribution to the group as a whole, rather than individual freedom of action, is the evaluation axis.
+
+## B.0 Common Principles for All Roles
+
+### Series B Preconditions and Group Principles
+
+[B0001][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][REQUIREMENT][ALL_ROLES] As a prerequisite for applying advanced-player requirements, require stable execution of the Series A foundational behaviors relevant to the role and use being evaluated. Do not require prior mastery of every beginner-oriented goal in Series A across every role and use.
+[B0002][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] Consider opportunity cost at the group level as well.
+[B0003][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] At the group level as well, consider pressuring the opponent's free time.
+[B0004][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] At the group level as well, consider the concept of offensive and defensive turns.
+
+### Bruiser Experience and Task Fidelity of Advanced Skill
+
+[B0005][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ALL_ROLES] Every role other than Pure Bruiser can improve its capabilities through actual experience performing the frontal-combat role of a Pure Bruiser.
+[B0006][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CAUSE][ROLE_BRUISER][ALL_ROLES] A Pure Bruiser repeatedly performs offensive, defensive, healing, CC, positional, and resource decisions at high frequency; decision failures tend to return quickly as pressure received, defensive turns, being killed, or similar outcomes; and the player's own decisions change the opponent's actions, whose responses must then be processed in another perception-action loop. For these reasons, training exposure to various techniques and decision-making tends to be highly dense.
+[B0007][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][CAUSE][ALL_ROLES] Because other roles can sometimes produce results through role-specific success mechanisms while avoiding direct frontal offensive/defensive exchanges, they may receive less learning exposure to the high-density offensive/defensive load required of a bruiser. This does not mean those other roles have lower value; it means that some learning paths may not repeat the load required of a bruiser sufficiently.
+[B0008][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][REQUIREMENT][ALL_ROLES] At the advanced-player level assumed by Series B, evaluate not whether a skill exists at all, but whether the quality of required execution and decisions stably exceeds the demands of actual combat.
+[B0009][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][REQUIREMENT][ROLE_BRUISER][ALL_ROLES] If the skills required to process repeated frontal-combat load as a bruiser are insufficient, even a player with high skill in parts of another role may be hindered from reaching broad advanced PvP proficiency.
+[B0010][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][LIMIT][REQUIREMENT][ALL_ROLES] It is not necessary to become the strongest Bruiser; what is required for advanced-level learning is to exceed a standard at which the offensive, defensive, and decision load demanded in actual Pure Bruiser play can be handled stably.
+[B0011][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ALL_ROLES] A learning path that continually avoids frontal combat makes it difficult to repeat sufficiently the offensive and defensive judgments needed for advanced PvP operation.
+[B0012][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][ALL_ROLES] In learning toward the advanced-player level assumed by this Series B, train as a Bruiser.
+[B0013][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][EVAL][PRACTICE][ALL_ROLES] When evaluating skill transfer, emphasize 課題忠実度（task fidelity）: not merely whether practice contains the same execution elements, but how much it preserves the same perception-action loop, decision frequency, time pressure, failure feedback, and offensive-defense load as actual combat.
+[B0014][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][EVAL][ALL_ROLES][ROLE_BRUISER] When training personal-combat capability at an advanced-player level, place more weight on task fidelity that allows high-frequency repetition of the perception-action loop, time pressure, and offensive/defensive transitions in which one opponent or a small number of opponents continually react to you than on total playtime in large-scale シロディール（Cyrodiil） combat itself.
+[B0015][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][CLAIM][ROLE_BRUISER][ALL_ROLES] The most direct method of reaching the advanced-player level required by this Series B is to repeatedly gain practical experience establishing frontal combat as a Pure Bruiser; paths that avoid Bruiser combat experience while trying to reach equivalent execution and decision quality are generally indirect and difficult.
+[B0016][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ROLE_BRUISER][ALL_ROLES] When trying to reach equivalent execution and decision quality while avoiding Bruiser combat experience, differences in combat sense and value judgments relative to experienced Bruiser players also tend to remain.
+
+### Use of Third Parties in PvPvE
+
+[B0017][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][TACTIC][THIRD_PARTY_ENVIRONMENT_USE] In a PvPvE environment, attacks from monsters or third parties may be used to change the activation timing of your on-damage-taken effects or on-shield-break effects into a state that enemy players alone cannot control.

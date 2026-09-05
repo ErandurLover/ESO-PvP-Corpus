@@ -1,0 +1,135 @@
+# ESO PvP Corpus A05 Practical Defense and Healing
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v162
+[PAGE_NAME] A05 Practical Defense and Healing
+[SECTION_SCOPE] v162 / A0514-A0567
+[PROPOSITION_COUNT] 54
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If a question spans proficiency, role, location, and combat-function axes, use the Manifest to retrieve the applicable page for each additional axis.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+[PAGE_FLOW] Read emergency defense and recovery first, then add healing, sustained-pressure response, or anti-stealth only as needed.
+
+# A05 — Practical Defense and Healing
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+[TAG_NOTE][CORE_JUDGMENT] Indicates a core author judgment within [AUTHOR_VIEW] that materially shapes the Corpus's decision framework or answer policy. It does not mean higher factual certainty or absence of exceptions; preserve applicable conditions and tags such as SCOPE, LIMIT, and PATCH.
+[TAG_NOTE][PATCH] Indicates a patch-dependent matter that may require verification of current mechanics. It does not mean short-lived, low-confidence, or scheduled for change; treat it as something to re-check when the relevant mechanics change.
+[TAG_NOTE][HEURISTIC] Indicates a practical combat decision principle adopted with consideration for speed of repeated decisions, cognitive load, and usefulness under normal conditions rather than complete optimization every time.
+[TAG_NOTE][DEFAULT] Indicates the default judgment to prioritize under normal conditions when no additional information shows an exception.
+[TAG_NOTE][NOT_INITIAL_REQUIREMENT] Indicates a goal or practice item that beginners are not required to have already achieved from the start.
+[TAG_NOTE][PROGRESSIVE_LEARNING] Indicates a learning process in which partial success develops into more frequent success and gradual internalization.
+[TAG_NOTE][GROUP_CONTENT] Indicates content or operation in which the player participates as part of a group and interactions with allies are included in the evaluation.
+
+## A05.1 From Lethal-Damage Prevention to Recovery
+
+### A05.00 Initial Defense and Recovery Overview
+
+#### Core Conclusions to Retrieve First
+
+[A0514][AUTHOR_VIEW][PRIORITY][LETHAL_DAMAGE_PREVENTION] In situations with a possibility of lethal damage, prioritize reducing incoming damage and surviving without letting HP reach 0 over conserving resources.
+[A0515][AUTHOR_VIEW][CORE_JUDGMENT][PRACTICE][COMMON_DEFENSIVE_DECISION][DEFENSIVE_SEQUENCE][PRIORITY] In early practice, when you recognize danger and are in a state where you can choose your own defensive action, practice the reflexive basic sequence of first establishing ブロック（Block）, then moving into recovery such as switching to the defensive bar, healing, defensive skills, LoS, or creating distance.
+[A0516][AUTHOR_VIEW][PRACTICE][DEFENSIVE_SEQUENCE] As with an offensive burst sequence, when entering a defensive turn, first establish Block as the first voluntary defense, use that defensive time to connect healing, defense, and positional adjustment, and prepare in advance for each build a short recovery sequence that returns you to a state where you can fight again; practice it repeatedly. For an ordinary build, do not make increasing the number of emergency defensive-sequence patterns an objective in itself; narrow them to roughly one or two primary sequences that are effective and practice until they can be executed reflexively under severe pressure.
+
+#### Toughness, Healing, and Return to Offense
+
+[A0517][CLAIM][DEATH_STATE][HEALING_LIMIT] After HP reaches 0 and the character dies, ordinary healing skills cannot normally be used by that character to return themselves to a living state.
+[A0518][AUTHOR_VIEW][CAUSE][BLOCK] When a burst that can be ブロック（Block）ed can be blocked to reduce incoming damage, doing so tends to reduce the amount of HP rewind required and the associated burden of healing actions and healing resources compared with taking it unprotected and then healing the lost HP afterward.
+[A0519][CAUSE] Even if HP decreases slowly, if recovery requires many actions, you cannot attack during those actions.
+[A0520][CAUSE] Even if you are somewhat easier to damage, being able to recover a large amount with one or two actions can return you to the fight quickly.
+
+## A05.2 Block Establishment, Maintenance, and Recovery
+
+### A05.B Block Operation
+
+#### Short Block and Early Input
+
+[A0521][DEF][BLOCK] Distinguish long-duration blocking, which maintains the ブロック（Block） state continuously, from short-duration blocking used only briefly to handle a major attack.
+[A0522][AUTHOR_VIEW][RULE][BLOCK] Do not use the opportunity cost of long-duration blocking as a reason to avoid short-duration ブロック（Block） against major attacks that can be blocked.
+[A0523][AUTHOR_VIEW][PRACTICE][BLOCK][BLOCK_TIMING] Treat short-duration ブロック（Block） not as an input timed to a single instant of impact, but as an operation that establishes the block state before the expected impact and holds it until after impact so that the attack arrives during the block-state window.
+[A0524][AUTHOR_VIEW][COND][BLOCK][BLOCK_TIMING][LAG] In environments with strong network latency or server lag, account for the mismatch between ブロック（Block） input and the actual defensive check by allowing a longer hold margin before and after major attacks than usual.
+[A0525][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][TIME_BUDGET] ブロック（Block） is not constrained by the normal active-skill GCD and can be input to establish the block state even while a skill GCD is active.
+[A0526][AUTHOR_VIEW][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] Because the block state is maintained when bar swapping while holding ブロック（Block）, in an emergency you can establish block first and move to the defensive bar while maintaining that state.
+[A0527][AUTHOR_VIEW][PATCH][CAUSE][DEFENSIVE_SEQUENCE][TIME_BUDGET] Even when a healing skill must wait for the GCD during an emergency, ブロック（Block） can begin providing defensive value first; therefore, establishing block first tends to produce practical defensive benefit sooner than making healing the first action.
+
+#### Compatibility with CC, Break Free, Roll Dodge, and Skills
+
+[A0528][AUTHOR_VIEW][CAUSE][BLOCK][CC][DEFENSIVE_SEQUENCE] When a blockable CC can be blocked in advance, its value includes not only preventing the CC itself but also preventing upstream the unfavorable chain of the CC removing ブロック（Block）, spending スタミナ（Stamina） on 打破（Break Free）, exposure to the following burst, and rebuilding defense.
+[A0529][AUTHOR_VIEW][DIAG][SUSTAIN][DEFENSIVE_SEQUENCE][BLOCK][BLOCK_COST] A state in which the スタミナ（Stamina） margin needed for ブロック（Block） has been lost is not a general reason to place healing before block; diagnose it separately as a dangerous state in which the emergency Stamina reserve or practical-combat sustain has already been exhausted.
+[A0530][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] While incapacitated by CC that requires 打破（Break Free）, the ブロック（Block） state is removed.
+[A0531][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] During the 打破（Break Free） animation, the ブロック（Block） state can be established through block input.
+[A0532][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] During ロール回避（Roll Dodge）, the ブロック（Block） state can be established through block input.
+[A0533][AUTHOR_VIEW][PATCH][PRACTICE][DEFENSIVE_SEQUENCE] While already incapacitated by CC that requires 打破（Break Free）, treat Break Free as state recovery that must precede ordinary voluntary defensive choices. After CC removes the ブロック（Block） state, or when performing Break Free or ロール回避（Roll Dodge）, when possible begin block input during that action to reduce the time in which the immediately following burst or delayed attack can hit you while unprotected.
+[A0534][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY] Ordinary instant skills without casting or channeling can be used while maintaining ブロック（Block） input, and do not require releasing block to use the skill.
+
+#### Preventing Misreading in Beginner Guidance
+
+[A0535][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][CC][DEFENSIVE_SEQUENCE] Do not use the state of already being incapacitated by CC that requires 打破（Break Free） as a counterexample to the principle of initiating defense with ブロック（Block） first. Treat the CC state as one in which normal voluntary defensive choices are restricted, and explain state recovery through Break Free together with re-establishing block as early as possible.
+[A0536][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][BLOCK][BLOCK_COST][SUSTAIN][DEFENSIVE_SEQUENCE] Do not use having no スタミナ（Stamina） remaining for ブロック（Block） as grounds for making heal-first the standard beginner recommendation. Diagnose that state separately as depletion of the emergency resource reserve.
+[A0537][AUTHOR_VIEW][AI][RULE][PRIORITY][DEFENSIVE_SEQUENCE] When listing multiple emergency defensive actions for beginners, do not present them as unordered alternatives in a way that loses the opening priority of ブロック（Block）. In a context that deals with the initiation order during danger, explicitly place block first.
+[A0538][AUTHOR_VIEW][CORE_JUDGMENT][AI][LIMIT][BLOCK][DEFENSIVE_SEQUENCE] Do not use the existence of individual attacks that cannot be handled with ブロック（Block） as grounds for changing the general beginner emergency defensive sequence to heal-first. When asked how to handle a specific attack, explain the defense appropriate to that attack individually.
+[A0539][AUTHOR_VIEW][AI][PATCH][RULE][EPISTEMIC_SEPARATION][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] When explaining defensive order on the basis of mechanics such as ブロック（Block） not being constrained by the GCD, bar swapping while blocking, or using skills while blocking, verify the current mechanics at the time of the question and distinguish verified mechanics from the author judgment that beginners should use block as their first voluntary defense.
+
+#### Block Cost and Multi-Hit Attacks
+
+[A0540][PATCH][CAUSE][BLOCK][BLOCK_COST] ブロック（Block） cost increases according to the number of cost-collection checks that occur while blocking, not according to the amount of incoming damage. Therefore, attacks that hit repeatedly across the internal cooldown tend to pressure the opponent's block resource more than a single-hit attack.
+[A0541][AUTHOR_VIEW][LIMIT][BLOCK] Do not evaluate the value of multi-hit attacks only by ブロック（Block） cost pressure; normally treat it as secondary value added to primary functions such as damage, pressure formation, and accompanying effects.
+[A0542][AUTHOR_VIEW][PATCH][DIAG][BLOCK][BLOCK_FAILURE] Even when the character's ブロック（Block） animation or block effect is displayed, network latency or block-related faults can cause the actual defensive check not to be established. If you suspect block has failed while holding it for a long time, release the input once, input it again, and re-establish the block state.
+
+## A05.3 Restore and Retain HP
+
+### A05.H Healing Operation
+
+#### Core Conclusions to Retrieve First
+
+[A0543][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][RULE][HEALING][DEFENSIVE_DESIGN][PVP_BASELINE] In normal PvP, excluding specialized configurations that intentionally gain performance from the user's own low-HP state, make restoring current HP to maximum HP and maintaining maximum HP as much as practical a basic goal.
+[A0544][AUTHOR_VIEW][RULE][HEALING][DEFENSIVE_SEQUENCE] Aiming for maximum HP does not mean mechanically spamming burst heals until maximum HP is reached. Evaluate recovery as including the use of healing over time, ブロック（Block）, mitigation, LoS, distance, disengagement, and similar tools to return to a state in which restored HP can be retained.
+[A0545][AUTHOR_VIEW][EVAL][HEALING][DEFENSIVE_DESIGN] When evaluating healing performance, check not only whether a large amount of HP can be restored once, but also how well high HP can be retained after ordinary defensive and healing actions.
+
+#### Heal-over-Time and Emergency Healing
+
+[A0546][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT] In PvP, even when a healer is present, do not make it standard operation to abandon executable self-defense and self-healing and delegate your HP management entirely to the healer.
+[A0547][CLAIM] Healing over time continuously offsets small amounts of damage during combat.
+[A0548][AUTHOR_VIEW][COND][RULE][HEALING] Not only when a large amount of HP is lost at once, but also when healing over time (HoT) fails to keep up with ordinary incoming pressure and high HP begins to erode, insert the minimum necessary burst heal or direct heal before the situation becomes seriously dangerous and restore HP to a high level.
+[A0549][AUTHOR_VIEW][GOAL][PRACTICE][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] For beginner builds, treat a configuration with both healing over time that works routinely and a larger heal for danger as a basic candidate for early learning, and make it a goal to gradually increase the situations in which the beginner can distinguish and use both appropriately.
+[A0550][AUTHOR_VIEW][LIMIT][RULE] Effects that only increase healing done or healing received do not themselves restore HP, so maintain a means that actually restores HP separately from healing amplification.
+[A0551][AUTHOR_VIEW][CLAIM] Even having a single skill that can restore a large amount of HP with one press during danger can greatly change a beginner's survival time.
+[A0552][AUTHOR_VIEW][CORE_JUDGMENT][LIMIT][RULE][HEALING][RECOMMENDATION_SCOPE] Treat specialized configurations that intentionally gain offensive performance or other benefits from reductions in their own HP as exceptional operation separate from the normal-PvP principle of maintaining maximum HP; do not recommend maintaining low HP for general PvP builds merely because such configurations exist.
+
+## A05.4 Disengage from Sustained Pressure and Re-enter
+
+### A05.P Sustained-Pressure Response, Disengagement, and Re-entry
+
+#### Core Conclusions to Retrieve First
+
+[A0553][AUTHOR_VIEW][DIAG][DOT][HEALING][DEFENSIVE_SEQUENCE] Treat the typical pattern of losing to sustained pressure not as healing stopping at a particular HP value, but as repeatedly restoring to high HP and then being worn down again, with the HP level at which healing begins or ends gradually worsening through those repetitions.
+[A0554][AUTHOR_VIEW][DIAG][PRIORITY][HEALING][DOT][DEFENSIVE_DESIGN] Pressure so severe that HP barely increases even after using a large burst heal should not be treated as gradual sustained pressure from ordinary DoTs alone; treat it as a major danger state in which total incoming pressure over a short period is approaching the amount of the burst heal.
+[A0555][AUTHOR_VIEW][DEFAULT][PRIORITY][HEALING][ESCAPE_ROUTE][DEFENSIVE_SEQUENCE] If you cannot retain high HP after healing against sustained pressure and have no clear reversal condition, consider early disengagement while HP and emergency resources still remain sufficiently available.
+[A0556][AUTHOR_VIEW][RULE][HEALING][SUSTAIN][DEFENSIVE_SEQUENCE] Do not use reaching maximum HP as the only condition for returning to offense; separately verify an emergency スタミナ（Stamina） reserve needed for 打破（Break Free）, ブロック（Block）, ロール回避（Roll Dodge）, and similar actions.
+
+#### Sustained Pressure, Disengagement, and Re-engagement
+
+[A0557][AUTHOR_VIEW][DIAG][CAUSE][DOT][HEALING][TIME_BUDGET] If a pattern repeatedly occurs in which you restore to high HP through healing but are quickly worn down again, treat it as an unfavorable exchange in which the opponent's sustained pressure continues consuming your healing and defensive budget.
+[A0558][AUTHOR_VIEW][CAUSE][DOT][ESCAPE_ROUTE][DEFENSIVE_SEQUENCE] Persistent pressure such as already-applied DoTs does not disappear immediately merely because disengagement has begun; therefore, beginning disengagement while there is still margin in HP and defensive resources tends to preserve more safety margin than waiting until HP has fallen into a dangerous range.
+[A0559][AUTHOR_VIEW][AI][LIMIT][HEALING][DEFENSIVE_DESIGN][DEFENSIVE_SEQUENCE] Do not use A0338's defensive-performance evaluation of whether one can “return to near full” as grounds for claiming that beginners need not recover to maximum HP. Separate the evaluation axis for defensive performance from the beginner criterion for returning to offense.
+[A0560][AUTHOR_VIEW][AI][LIMIT][HEALING][SUSTAIN][DEFENSIVE_SEQUENCE] Do not use the diagnostic example in A0404 that “survival may be possible at low HP when emergency スタミナ（Stamina） remains” as grounds for returning to offense from low HP. Treat that proposition as an example showing the importance of emergency resource margin.
+[A0561][AUTHOR_VIEW][AI][RULE][HEALING][DEFENSIVE_SEQUENCE] Do not convert the goal of “maintaining maximum HP” into an instruction to mechanically spam burst heals until maximum HP is reached. Explain recovery including retention of restored HP, healing over time, defense, positioning adjustments, and disengagement when necessary.
+[A0562][AUTHOR_VIEW][AI][RULE][DOT][HEALING][DEFENSIVE_SEQUENCE] When explaining advantage or disadvantage under sustained pressure, do not establish a particular HP percentage as a “wall above which healing is impossible.” Evaluate whether restored HP can be retained and whether the subsequent HP trend improves or worsens.
+[A0563][AUTHOR_VIEW][AI][RULE][LIMIT][DOT][EPISTEMIC_SEPARATION] Do not generalize from the opponent's sustained pressure being superior in the current exchange to the enemy build being superior to your build in every capability and every situation. At the same time, do not obscure the fact that the current exchange is unfavorable by listing general strengths.
+[A0564][AUTHOR_VIEW][AI][LIMIT][HEALING][RECOMMENDATION_SCOPE] When explaining specialized equipment or skills that gain benefits at low HP, or special operation such as Ganker / Bomber play, do not generalize that operation to HP management in normal PvP; separate it as an intentional performance tradeoff.
+
+## A05.5 Awareness and Anti-Stealth
+
+### A05.S Awareness and Anti-Stealth
+
+#### Situational Awareness and Anti-Stealth
+
+[A0565][AUTHOR_VIEW][PRACTICE][HEURISTIC][SITUATIONAL_AWARENESS] Build situational awareness in PvP not by staring at the surroundings for long periods and stopping combat processing, but by using concepts of situational awareness, visual scanning, and attention switching to make it a habit of brief repeated scans compatible with combat, skill, and resource checks.
+[A0566][AUTHOR_VIEW][PATCH][LIMIT][STEALTH_COUNTER] After stealth has been revealed or removed, current re-stealth conditions, reuse restrictions, continuing reveal effects, or similar mechanics may prevent an immediate return to stealth or invisibility; do not assume that an enemy once detected can instantly return to full stealth.
+[A0567][AUTHOR_VIEW][PATCH][RULE][STEALTH_COUNTER] Anti-stealth effects include effects that continue revealing targets who enter stealth or invisibility and effects that prevent activation of stealth or invisibility itself for a period; do not treat the two as the same anti-stealth effect.
