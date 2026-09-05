@@ -1,0 +1,458 @@
+# ESO PvP Corpus A03 Build Design, Performance Requirements, Comparison, and Adjustment
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v162
+[PAGE_NAME] A03 Build Design, Performance Requirements, Comparison, and Adjustment
+[SECTION_SCOPE] v162 / A0242-A0475
+[PROPOSITION_COUNT] 234
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If a question spans proficiency, role, location, and combat-function axes, use the Manifest to retrieve the applicable page for each additional axis.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+[PAGE_FLOW] Read basic design and evaluation first, then select one required-performance branch. Add components and limited-use information only as needed.
+
+# A03 — Build Design, Performance Requirements, Comparison, and Adjustment
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+[TAG_NOTE][CORE_JUDGMENT] Indicates a core author judgment within [AUTHOR_VIEW] that materially shapes the Corpus's decision framework or answer policy. It does not mean higher factual certainty or absence of exceptions; preserve applicable conditions and tags such as SCOPE, LIMIT, and PATCH.
+[TAG_NOTE][PATCH] Indicates a patch-dependent matter that may require verification of current mechanics. It does not mean short-lived, low-confidence, or scheduled for change; treat it as something to re-check when the relevant mechanics change.
+[TAG_NOTE][GROUP_CONTENT] Indicates content or operation in which the player participates as part of a group and interactions with allies are included in the evaluation.
+[TAG_NOTE][GROUP_CONTRIBUTION] Indicates that effective contribution to the group as a whole, rather than individual freedom of action, is the evaluation axis.
+[TAG_NOTE][RANGED_INTERVENTION] Indicates the ability to begin meaningful combat participation through attacks, CC, support, or similar actions before fully reaching a distant engagement or target. It does not mean general ranged damage, general ranged-combat capability, or merely possessing a long-range skill.
+[TAG_NOTE][NATIVE_CLASS_SUITABILITY] Indicates that the evaluation concerns suitability for a use case when operated as a pure class without transplanted subclass skill lines. The tag itself does not imply high or low suitability, completeness, or superiority over subclass configurations.
+[TAG_NOTE][RESOURCE_DEPENDENCE] Indicates a structure in which several survival, offensive, or other functions depend heavily on the same primary resource, so depletion, reduced supply, or suspended supply can disable several functions at once. The tag itself does not mean resource specialization is inappropriate; evaluate demand, supply, availability during crisis, and opportunity cost.
+[TAG_NOTE][CRITICAL_RESISTANCE] Indicates the amount of defense against Critical Damage. Evaluate whether the total effective amount is sufficient for the target PvP environment rather than merely whether a source exists, and do not assume ordinary defensive elements, sustain, or planned avoidance have already substituted for it.
+[TAG_NOTE][PVP_ASSUMPTION] Indicates that PvP self-defense evaluation must not fix enemy count, willingness to attack, range, mobility, pursuit capability, or similar threat conditions in the user's favor; include threat conditions that can realistically be encountered in the target environment.
+[TAG_NOTE][REFERENCE_NOTE] Indicates supplementary reference information such as past mechanics, history, or limited observations that is retained separately from current general propositions. Do not automatically generalize the content of a reference note to the current normal environment.
+[TAG_NOTE][REFERENCE_SOURCE] Indicates a bibliographic record for the evidence supporting a corresponding proposition or reference note; do not treat it as an independent proposition about game mechanics, evaluation, or recommendation. Preserve the correspondence with the ID shown as the “evidence target” in the text.
+
+## A03.1 Design Start, Comparison, and Diagnosis
+
+### A03.10 Design Overview and Required Performance
+
+#### Core Conclusions to Retrieve First
+
+[A0242][AUTHOR_VIEW][PRIORITY][RULE][DIAG] In build design, do not start from wanting to equip a 'strong set.' First decide what the character will do, and choose equipment sets as means of supplying the performance required for that job.
+[A0243][AUTHOR_VIEW][CAUSE] Deciding the objective to accomplish with the character and the job it will perform for that objective makes it easier to identify the performance the build requires.
+[A0244][AUTHOR_VIEW][DIAG][RULE] When adjusting a build, ask “what is stopping practical performance the most?” rather than “what can I add more of?”
+[A0245][AUTHOR_VIEW][CORE_JUDGMENT][RULE][VIABILITY_VS_RECOMMENDATION][RECOMMENDATION_SCOPE] Treat “functions under specific conditions,” “is competitive for that use case,” and “deserves general standard recommendation” as separate evaluation stages. Do not infer general-use competitiveness or superiority over standard alternatives from examples that function only under limited conditions.
+
+#### Purpose-First Build Design
+
+[A0246][EX] Character jobs include front-line fighting, ranged pressure, supporting allies through high-speed movement, healing, interfering with enemy healing, drawing enemy attention, and assassinating isolated targets.
+[A0247][AUTHOR_VIEW][COND] If the character is responsible for front-line fighting, it needs offensive performance plus defense, healing, and sustain sufficient to continue that offense.
+[A0248][AUTHOR_VIEW][COND] If the character is responsible for ranged combat, it gains safety from distance but needs countermeasures for when melee opponents close the gap and enough pressure from range that it cannot simply be ignored.
+[A0249][AUTHOR_VIEW][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] If the character is responsible for healing, it needs sufficient healing output and enough self-defense not to die even when targeted first.
+[A0250][AUTHOR_VIEW][RULE][BUILD_SUBSYSTEM_EVALUATION] For a build composed of multiple elements, evaluate the core interaction, supporting elements, and the completed configuration separately; do not automatically expand the strength of one part into the strength of the completed whole.
+[A0251][AUTHOR_VIEW][LIMIT][BUILD_SUBSYSTEM_EVALUATION] Even when a build includes meta-level equipment or interaction as its core, if added elements create large opportunity costs, activation restrictions, or missing role functions, the completed build can rate lower than the core itself.
+
+#### Viability and Recommendation Scope
+
+[A0252][AUTHOR_VIEW][RULE][PREFERENCE_VS_PERFORMANCE] Personal preference can be a reason to adopt an option that is less performance-efficient than strong alternatives for the same objective, but that preference does not change the comparative performance evaluation itself.
+[A0253][AUTHOR_VIEW][RULE][CLASS_OPPORTUNITY_COST] When recommending a class-specific element for PvP, evaluate opportunity cost not only against competing options within the same class but also against the performance difference from choosing another class that can realistically perform the same role.
+[A0254][AUTHOR_VIEW][RULE][CLASS_OPPORTUNITY_COST][BUILD_GENERAL] In an environment where class-derived skill lines or abilities can be transplanted into another base class, evaluate separately the original class's own suitability, the suitability of the transplantable skill line or ability itself, and the suitability of the completed configuration. When another configuration adopts that ability and gains high performance, this supports the value of the ability itself while weakening the basis for counting it as an exclusive advantage of the original class.
+
+#### Evaluation by Battlefield and Combat Scale
+
+[A0255][AUTHOR_VIEW][CLAIM][ROLE_BRUISER][RECOMMENDATION_SCOPE] A melee build with high performance in duels and small-group combat can fail to function sufficiently on the frontline of large-scale field combat, while a melee build with high performance in large-scale field combat can be disadvantaged in duels. Therefore, do not treat the strength of a melee build as a single performance value independent of combat scale.
+[A0256][AUTHOR_VIEW][CLAIM][RANGE_COST][ROLE_BRUISER][RECOMMENDATION_SCOPE] A general-purpose ranged DD is less likely to lose its primary functions when moving from large-scale combat to personal combat and tends to retain a usable level of performance across multiple combat scales, while it tends to be disadvantaged in direct exchanges against an equally skilled melee build that concentrates frontal offense and defense on duels or small-group combat.
+[A0257][AUTHOR_VIEW][CAUSE][PRACTICE][RECOMMENDATION_SCOPE] Entering the enemy frontline in large-scale field combat can often be avoided through positioning and role choice, while one-on-one and small direct fights can arise locally during PvP through movement, separation, pursuit, ally deaths, and similar events; therefore, insufficient personal-combat processing capability can spill over into multiple PvP environments.
+[A0258][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][RECOMMENDATION_SCOPE][EPISTEMIC_SEPARATION] When answering whether a build is strong or weak, first evaluate its strength or weakness in the battlefield, combat scale, and role specified by the question. Do not use general strengths in other use cases to offset a weakness confirmed in the current use case.
+[A0259][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][RECOMMENDATION_SCOPE] Do not compress duel performance, small-group performance, and large-scale field-combat performance into a single estimate of “PvP performance.” Evaluate separately the required capabilities, external support, density of incoming pressure, and number of targets for each.
+
+#### Bottlenecks
+
+[A0260][AUTHOR_VIEW][COND] Even with extremely high offensive power, if insufficient durability forces the build into a defensive turn before it can begin attacking, that damage is difficult to use.
+[A0261][AUTHOR_VIEW][LIMIT] Even a configuration with high offense and low durability can have use cases, such as assassination specialization, where low durability is accepted for the intended purpose.
+[A0262][AUTHOR_VIEW][COND] Even with extremely strong healing, if you cannot damage the opponent at all and can do nothing but continue healing, that may not lead to a win.
+[A0263][AUTHOR_VIEW][DEF][DIAG] A bottleneck is the narrowest part stopping the practical performance of the build as a whole; candidates include damage, healing, スタミナ（Stamina）, mobility, CC, execution load, and recovery after defense.
+
+### A03.11 Comparison, Weaknesses, and Adjustment Diagnosis
+
+#### Core Conclusions to Retrieve First
+
+[A0264][AUTHOR_VIEW][CORE_JUDGMENT][LIMIT][RULE][DEF][ALTERNATIVE_REASONING] Choice slots such as equipment slots, ムンダス（Mundus）, traits, and CP are finite, so “it has a useful effect” is not sufficient reason for adoption. Evaluate skills, equipment, and passives by their difference from the strongest realistic alternatives competing for the same slot, and include losing the opportunity to use a stronger choice among the primary disadvantages of a weaker option.
+[A0265][AUTHOR_VIEW][CORE_JUDGMENT][DIAG][RULE][BUILD_EVALUATION_DISCIPLINE] Evaluate build elements not by the number of tooltip effects or standalone performance, but by the slot's job and necessity, practical utilization rate, overlap with existing tools, activation cost, low-cost alternatives, what must be given up to adopt it, and marginal value relative to the strongest alternative for the same slot.
+[A0266][AUTHOR_VIEW][DIAG][ALTERNATIVE_REASONING] If replacing the recommended option's name with several realistic competitors leaves the explanation almost unchanged, the explanation likely fails to identify the actual reason for selection sufficiently.
+
+#### Opportunity Cost and Alternative Comparison
+
+[A0267][AUTHOR_VIEW][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] In groups, assigning different useful effects across multiple members can enable build design with higher slot efficiency than solo play.
+[A0268][AUTHOR_VIEW][RULE][GROUP_EFFECT][GROUP_CONTENT] For effects whose conditions require ally positioning or cooperation, evaluate effective value including how often allies actually satisfy those conditions, not only the theoretical maximum effect.
+
+#### Identifying Adoption Reasons through Comparison
+
+[A0269][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING] When explaining why an option should be adopted, do not treat a property shared by many realistic competitors as a sufficient reason unique to that option.
+[A0270][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING] A useful adoption reason identifies the required job and shows a relevant difference by which that option performs the job substantially better, more reliably, or at lower real cost than realistic competitors.
+
+#### General Combat Actions and Unique Value
+
+[A0271][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING] Do not award ブロック（Block）, ロール回避（Roll Dodge）, 打破（Break Free）, LoS, bar swapping, or other general combat actions broadly available to compared builds as unique performance of a specific build. Evaluate as unique value only the incremental mitigation, healing, input tolerance, resource efficiency, or other differences that equipment, skills, class traits, or similar elements add when performing the same general action.
+
+#### Tradeoffs among Range, Mobility, and Frontal Combat
+
+[A0272][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][BUILD_GENERAL] When allocating additional performance to functions outside pure frontal offense and defense, such as range, mobility, ally healing, or debuffs, evaluate as opportunity cost the damage, durability, healing, skill slots, GCDs, resources, and other performance lost to obtain those functions.
+[A0273][AUTHOR_VIEW][CORE_JUDGMENT][RULE][OPPORTUNITY_COST][RANGE_COST][ALTERNATIVE_REASONING] When comparing a melee-focused and a ranged-focused build that serve the same primary purpose and the ranged side actually pays performance budget to obtain range, begin from the premise that the ranged-focused side is disadvantaged in pure frontal offense and defense.
+[A0274][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][OPPORTUNITY_COST][RANGE_COST][RANGED_INTERVENTION] The opportunity cost paid for range is recovered only to the extent that the range is actually converted into value such as earlier attack initiation, intervention frequency, continued participation from safer positions, continued support, time and positional costs imposed on the enemy to approach, or target access.
+[A0275][AUTHOR_VIEW][CORE_JUDGMENT][RULE][RANGE_COST][ESCAPE_ROUTE] Evaluate separately the ability to make ranged attacks and the ability to maintain or recreate distance after contact or disengage from combat; do not infer kiting or disengagement capability from range alone.
+[A0276][AUTHOR_VIEW][RULE][MOVEMENT_SPEED][ESCAPE_ROUTE][OPPORTUNITY_COST] Melee builds can also allocate performance budget to movement speed, pursuit, disengagement, and handling slows or immobilization; therefore, do not treat kiting, disengagement, or distance play as privileges exclusive to ranged builds.
+[A0277][AUTHOR_VIEW][RULE][BUILD_GENERAL][RANGE_COST][MOVEMENT_SPEED][ESCAPE_ROUTE] When evaluating a build's distance-related performance, examine range, movement speed, pursuit capability, disengagement capability, ability to maintain or recreate distance, and frontal offense/defense as separate performance axes.
+[A0278][AUTHOR_VIEW][COND][CAUSE][RANGE_COST][ALTERNATIVE_REASONING] In open-ground combat without a frontline or effective obstacles, time for maintaining distance is less likely to be supplied externally by allies or terrain; therefore, in comparisons between ranged-focused and melee-focused builds serving the same primary purpose, the melee-focused side's advantage in frontal offense and defense tends to become more exposed.
+[A0279][AUTHOR_VIEW][CAUSE][RANGE_COST][GROUP_CONTENT] An allied frontline and terrain or LoS can be evaluated as factors that externally supply distance and time to the ranged side. On battlefields where that external support is lost, the effective benefit the same ranged build obtains from range may decrease.
+[A0280][AUTHOR_VIEW][AI][RULE][RANGE_COST][ESCAPE_ROUTE] Do not automatically infer mobility, distance-maintenance capability, kiting capability, or disengagement capability from the fact that a build has ranged attack capability.
+[A0281][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][MOVEMENT_SPEED][ESCAPE_ROUTE][ALTERNATIVE_REASONING] Allow the melee side to invest performance into pursuit, disengagement, and distance management; do not generate comparisons that grant the ranged side both range and mobility/disengagement for free.
+
+#### Acceptable Weaknesses and Surplus Performance
+
+[A0282][AUTHOR_VIEW][RULE] Strong builds identify “weaknesses acceptable for the intended use” rather than aiming for “zero weaknesses.”
+[A0283][AUTHOR_VIEW][EX] Examples of tradeoffs include a configuration with long range but less performance available for frontal exchanges, a configuration with high mobility and strong disengagement but less performance available for frontal offense and defense, a configuration strong in frontal combat but only moderate in pursuit, and a configuration strong in healing support but slow at securing solo kills. Do not equate range itself with ease of escape.
+[A0284][AUTHOR_VIEW][CAUSE] Understanding tradeoffs makes it less likely that simply entering an unfavorable situation will be misdiagnosed as the entire build being broken.
+[A0285][AUTHOR_VIEW][EVAL][SURPLUS_PERFORMANCE] When a performance dimension already substantially exceeds the level required for the use case, losing part of that performance can cause less practical harm than losing the same amount from a dimension that is already insufficient.
+[A0286][AUTHOR_VIEW][RULE][TRADEOFF] When equipment or an effect reduces a strength of a class or build, do not immediately reject it because “it cancels the strength.” Compare whether the use case's required level is still met after the disadvantage is applied and what performance is gained in exchange.
+[A0287][AUTHOR_VIEW][EVAL][TRADEOFF] Do not treat a clear weakness that can be avoided or supplemented by changing the use case symmetrically with a clear strength that remains present across use cases. In use cases where the weakness can be accepted, a configuration with a sharp strength can be more competitive than a configuration that is average in every category but lacks a strength directly connected to its win condition.
+
+#### Build-Adjustment Questions
+
+[A0288][AUTHOR_VIEW][DIAG][RULE] Q1. Confirm the character's role and choose one most important job rather than “do everything.”
+[A0289][AUTHOR_VIEW][DIAG][EX] Q2. Confirm how the build sends the opponent into a defensive turn. Candidates include single-hit damage, sustained pressure, delayed attacks, CC + burst, and focus with allies.
+[A0290][AUTHOR_VIEW][DIAG][EX] Q3. Confirm how the build ends its own defensive turn. Candidates include healing over time, burst healing, shields, LoS, fast disengagement, CC, and ブロック（Block）.
+[A0291][AUTHOR_VIEW][DIAG][PRIORITY] Q4. Confirm what resources are reserved for emergencies and maintain at least enough margin for 打破（Break Free） and ロール回避（Roll Dodge）.
+[A0292][AUTHOR_VIEW][DIAG][EX] Q5. Confirm the current most important bottleneck. Candidates include damage, healing, durability, mobility, CC, resources, and execution load.
+[A0293][AUTHOR_VIEW][DIAG][RULE] Q6. Confirm specifically what new equipment solves; verbalize the job it performs rather than relying on an impression that it “looks strong.”
+[A0294][AUTHOR_VIEW][DIAG][EX] Q7. Confirm what must be given up to adopt the new equipment. Candidates include equipment slots, skill slots, ムンダス（Mundus）, traits, and ease of operation.
+[A0295][AUTHOR_VIEW][DIAG][LIMIT] Q8. Confirm whether the new configuration is actually usable in real combat. Buffs that cannot be maintained and skills that cannot be pressed when needed do not function at theoretical value.
+[A0296][AUTHOR_VIEW][DIAG][CLAIM] Q9. Confirm the battlefield and combat scale in which the build will be used. Duels, small-group combat, 8v8, large-scale field and keep battles in シロディール（Cyrodiil）, 帝都（Imperial City）, and similar environments require different capabilities and relationships with allies, and the same build can reverse from strong to weak or vice versa across them.
+[A0297][AUTHOR_VIEW][DIAG][PRACTICE] Q10. Confirm that the build is not being judged from a single loss; when possible test it both in duels under matched conditions and in real combat.
+
+## A03.2 Independent Evaluation of Required Performance
+
+### A03.O Offensive Performance Design
+
+#### Core Conclusions to Retrieve First
+
+[A0298][AUTHOR_VIEW][RULE][BURST_DESIGN][CRITICAL][DIRECT_DAMAGE] When evaluating burst performance based on direct damage in a normal PvP environment, treat Critical Damage as a central evaluation factor.
+[A0299][AUTHOR_VIEW][PATCH][PRIORITY][PENETRATION] Do not fix the priority order of offensive stats. Check the current mechanics at the time of the question and the opponent's amount of resistance. Because Penetration can have high expected damage value as long as it does not exceed the opponent's resistance, evaluate it as a priority candidate for increasing damage.
+[A0300][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][RANGE_SCALING] In the official PC/Mac patch notes for Update 28, all ranged Light Attack and Medium Attack damage was reduced by 10% to bring them in line with “ranged damage standards,” while Heavy Attacks were described as already meeting those standards.
+
+#### Critical-Burst and Damage-over-Time Environments
+
+[A0301][AUTHOR_VIEW][CLAIM][BURST_DESIGN][CRITICAL] Designing burst around Critical Damage is easy to structure and tends to produce high practical effectiveness.
+[A0302][AUTHOR_VIEW][CLAIM][PVP_META][CRITICAL_BURST] PvP environments in which burst through Critical Damage is dominant tend to arise readily in general.
+[A0303][AUTHOR_VIEW][CLAIM][BURST_DESIGN][CRITICAL][DIRECT_DAMAGE] In burst based on direct damage, Critical Damage is often a major component of damage formation.
+[A0304][AUTHOR_VIEW][COND][PVP_META][DOT][DIRECT_DAMAGE] In an environment where damage over time has an extremely large advantage over direct damage, the relative position of burst based on direct damage falls substantially.
+[A0305][AUTHOR_VIEW][COND][PVP_META][DOT][EXECUTION_DIFFICULTY] In an environment where damage over time is dominant, PvP execution difficulty generally decreases.
+
+#### Penetration, Resistance, and Percentage Mitigation
+
+[A0306][LIMIT][PENETRATION] Excess Penetration beyond the opponent's resistance contributes nothing to damage and is therefore completely wasted investment.
+[A0307][LIMIT][CAUSE][PENETRATION] Except for healing that depends on damage dealt, investment in Penetration does not directly increase ordinary healing power, so it is basically an investment directed one-way toward offensive performance.
+[A0308][AUTHOR_VIEW][EVAL][PENETRATION] Penetration can contribute greatly to damage, but it also depends heavily on the opponent's resistance amount and the combat situation.
+[A0309][AUTHOR_VIEW][COND][PENETRATION] If Penetration will not exceed the opponent's resistance and other offensive components are not required as conditions for the build to function, investment in Penetration is easily justified when the goal is to increase damage.
+[A0310][COND][PENETRATION] When the opponent combines resistance with mitigation buffs, they can maintain substantial toughness.
+[A0311][LIMIT][PENETRATION] When the opponent combines resistance with mitigation buffs, even securing sufficient Penetration does not remove the defensive effect of the mitigation buffs.
+[A0312][CLAIM][PENETRATION] Because of ESO's buff design, the number of layers of mitigation that can be maintained continuously, and the strongly time-limited nature of some buffs with substantial mitigation values, it is not possible to discard resistance entirely and maintain sufficient damage reduction at all times using mitigation buffs alone.
+
+#### Conditional Offense, Percentage Damage, and Additional Attacks
+
+[A0313][AUTHOR_VIEW][RULE][COND][CAUSE][BUILD_GENERAL] When your offensive modifier requires a condition such as a health differential, an advantageous state, or a maintained resource, enemy attacks can weaken not only your HP but also the condition that enables that offensive modifier. Because this structure can create a feedback loop of increased enemy pressure → reduced counteroffensive performance → further increased enemy pressure, do not evaluate conditional damage only by its maximum value.
+[A0314][AUTHOR_VIEW][RULE][COND][BUILD_GENERAL] In a configuration where damage dealt, Critical performance, or other offensive performance increases only while favorable combat states such as high self-health, a state advantage over the enemy, or maintenance of a specific buff are present, defensive investments such as Max Health, mitigation, or healing that make those states easier to maintain can also have indirect offensive value. In such cases, do not treat defensive investment as a simple one-way tradeoff against damage; include how much it increases the practical uptime of the offensive condition.
+[A0315][AUTHOR_VIEW][RULE][MARGINAL_EFFECT_EVALUATION][DEFENSIVE_LAYER] Even when a damage effect is calculated from a fixed percentage of the target's Max Health as its base value, if that damage is subject to ordinary PvP mitigation, do not equate the displayed percentage with the percentage of the target's HP actually lost. Evaluate it by the effective damage after passing through PvP-specific modifiers, resistance, percentage mitigation, ブロック（Block）, and other defenses applicable to that damage.
+[A0316][AUTHOR_VIEW][RULE][MARGINAL_EFFECT_EVALUATION][ALTERNATIVE_REASONING] Even when the actual damage of an additional attack is small, if it has value as a trigger for another effect requiring conditions such as “an attack was made” or “an attack hit,” separate its direct damage contribution from its trigger contribution and do not double-count the trigger value as damage from that additional attack.
+
+#### Range Classification, Damage Scaling, and Opportunity Cost
+
+[A0317][PATCH][DEF][RANGE_CLASSIFICATION] Damage used by players has melee and ranged classifications.
+[A0318][AUTHOR_VIEW][PATCH][RULE][RANGE_SCALING] Using the official adjustment examples in A0300 and A0320 as common references, when comparing attacks of the same general purpose at melee and ranged distances without special modifiers, use a scaling baseline of 1.0 for the melee side and 0.9 for the ranged side. If an individual attack has an explicit additional modifier or exceptional scaling, prioritize that individual mechanic.
+[A0319][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][RANGE_SCALING] Evidence target: A0300. ZOS / PC/Mac Patch Notes v6.2.5 - Markarth & Update 28: https://forums.elderscrollsonline.com/en/discussion/550927/pc-mac-patch-notes-v6-2-5-markarth-update-28
+[A0320][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][RANGE_SCALING] In the official patch notes for Update 35 PTS v8.1.0, the total damage of Crystal Weapon was described as being reduced by 41.5% when changing from “200% of a melee spammable” to “130% of a ranged spammable.”
+[A0321][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][RANGE_SCALING] Evidence target: A0320. ZOS / PTS Patch Notes v8.1.0 (Update 35): https://forums.elderscrollsonline.com/en/discussion/611025/pts-patch-notes-v8-1-0
+[A0322][PATCH][COND][RANGE_SCALING] If the scaling baseline in A0318 is still maintained in the current patch, then among same-type damage skills that receive no additional enhancement from special conditions, ranged skills are disadvantaged in base damage scaling relative to melee skills.
+[A0323][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][RANGE_COST] Range is itself combat performance: it creates benefits in starting attacks, maintaining attacks, and safety, while also carrying opportunity cost when other performance is paid to obtain that range. Therefore, do not evaluate melee and ranged comparisons by displayed damage alone.
+[A0324][AUTHOR_VIEW][PATCH][EVAL][RANGE_COST] If the current patch assigns lower damage scaling to the ranged side, then when comparing melee and ranged builds whose other major conditions are similar, evaluate that difference as performance budget allocated to range and include lower damage output on the ranged side as a premise.
+[A0325][AUTHOR_VIEW][COND][RANGE_COST] In a build that actually sacrifices other performance to obtain range, close-range combat where the range benefit cannot be used can prevent recovery of that opportunity cost and create an overall performance disadvantage.
+
+### A03.D0 Defense Overview and Major Failure Diagnosis
+
+#### Core Conclusions to Retrieve First
+
+[A0326][AUTHOR_VIEW][AI][RULE][LIMIT][DEFENSIVE_DESIGN][BUILD_GENERAL][PVP_BASELINE] Evaluate build survivability not by the presence or count of defensive elements, but by whether the combined effective defense provides sufficient damage mitigation, health margin, time to heal, and room to recover against burst and sustained pressure realistically encountered in the target PvP environment. Defensive skills, resistance buffs, healing, shields, and similar tools normally found in general PvP builds form a baseline that attackers also build their performance to overcome; therefore do not treat merely possessing them as evidence of sufficient self-defense or above-standard toughness.
+[A0327][AUTHOR_VIEW][AI][RULE][LIMIT][SUSTAIN][DEFENSIVE_DESIGN][BUILD_GENERAL] Before rating sustain as a survivability strength, require verification that sufficient damage mitigation and effective defense are established against incoming damage in the target PvP environment. Do not use high recovery values, Max Resources, resource-restoration capability, or the number of times escape actions can be repeated as evidence substituting for insufficient damage mitigation, health margin, Critical Resistance, or similar direct defenses. Do not rate a build with insufficient direct defense as highly survivable merely because it has many resources.
+[A0328][AUTHOR_VIEW][CAUSE][DIAG][SUSTAIN][DEFENSIVE_DESIGN][OPPORTUNITY_COST][TIME_BUDGET] When per-use damage mitigation, healing, shields, or similar defensive performance is weak, defensive actions must be reused more often and consume more GCDs, reducing pressure created through offense and CC. The opponent consequently gains more time to attack, which further increases the required frequency of self-defense, increases sustain investment needed to support it, and reduces the performance budget available for direct defense and damage; treat this cycle as negative feedback in defensive design.
+
+#### Layered Defense
+
+[A0329][AUTHOR_VIEW][CLAIM] PvP survivability is not determined by a single defensive stat.
+[A0330][CLAIM][DEFENSIVE_LAYER][SUSTAIN][DEFENSIVE_DESIGN] Elements that constitute PvP survivability include direct defensive layers such as Max Health, Physical and Spell Resistance, damage reduction, damage shields, healing over time, burst healing, ブロック（Block）, ロール回避（Roll Dodge）, and debuff cleansing, and indirect survival tools such as distance, movement speed, obstacles, CC, offensive pressure against the opponent, and resource reserve. Resource reserve is not itself a defensive layer that reduces incoming damage or restores HP; treat it as an indirect resource that sustains these actions.
+[A0331][AUTHOR_VIEW][RULE] Do not conclude that a build is safe merely because one defensive element has been maximized.
+[A0332][CAUSE] Even with high resistance, weak healing can prevent recovery of lost HP.
+[A0333][CAUSE] Even with strong healing, lack of mitigation at the instant of a burst can result in death before healing is possible.
+[A0334][CAUSE] Even with high Max Health, excessively expensive healing can exhaust resources in a long fight.
+[A0335][CAUSE][ESCAPE_ROUTE] Even with high movement speed, not knowing an escape route can still allow pursuers to catch you.
+[A0336][AUTHOR_VIEW][CLAIM] Strong builds often have structures in which multiple defensive tools cover each other's gaps rather than relying on one enormous defensive element.
+
+#### Effective-Defense Baseline and Defensive Value
+
+[A0337][AUTHOR_VIEW][RULE][CAUSE][DEFENSIVE_DECISION][OPPORTUNITY_COST] Enemy attacks differ in how valuable it is to answer them with a defensive action or Roll Dodge. Repeatedly using defensive actions against low-value attacks consumes resources, GCDs, and attack opportunities and reduces the margin available to answer high-value attacks; therefore determine priority by comparing the loss from taking the hit with the cost of defending.
+
+#### Evaluation of Toughness, Recovery, and Return to Offense
+
+[A0338][AUTHOR_VIEW][DEF][RULE] Evaluate defensive performance on two axes: “how difficult it is for HP to decrease” and “how lightly the burden is to restore reduced HP to near full.” Do not equate only one of those axes with high defensive performance.
+[A0339][AUTHOR_VIEW][RULE][CAUSE][DEFENSIVE_DESIGN] Defensive design should secure not only ordinary defensive performance but also a means to recover from danger back to a state where you can fight again. If this is insufficient, pressure that would normally be manageable is more likely to become a major threat.
+[A0340][AUTHOR_VIEW][EVAL][DEFENSIVE_DESIGN][SCOPE] For a build whose role requires returning to offense, evaluate self-defense not only by how many defensive actions can be repeated, but also by how often exchanges with equally capable enemies send the build into a defensive turn first and how many GCDs and how much time are lost before returning from defense to offense. Do not apply this evaluation uniformly to tanks whose job itself is to keep absorbing enemy pressure while maintaining a defensive state.
+
+#### Per-Action Defensive Value and Shared-Resource Dependence
+
+[A0341][AUTHOR_VIEW][EVAL][SUSTAIN][DEFENSIVE_DESIGN][SCOPE] The ability to repeat defensive actions for a long time through high sustain can support longer survival time, but do not infer from that alone that the build has strong offensive return capability or high combat initiative. Whether ending the defensive turn and returning to offense or disengagement is a required condition for a high rating depends on the build's role and win condition.
+[A0342][AUTHOR_VIEW][COND][CAUSE][LIMIT][DIAG][SUSTAIN][DEFENSIVE_DESIGN][TIME_BUDGET] In a configuration with abundant sustain but insufficient per-use defense or healing against enemy pressure in the target environment, do not judge survivability sufficient merely because large sustain allows many defensive actions to be repeated. If processing enemy pressure requires spending most GCDs on defense and prevents transition to offense, CC, movement, or recovery, the marginal value of additional sustain falls sharply; suspect insufficient effective performance per defensive action.
+[A0343][AUTHOR_VIEW][DIAG][RULE][SUSTAIN][DEFENSIVE_DESIGN] When diagnosing a self-defense build, separately examine “how many times defensive actions can be used” and “how many seconds or GCDs of safety or counterattack opportunity are gained from one defensive action.” If only the former is high and the latter is low, treat the problem as insufficient efficiency per defensive action rather than insufficient sustain.
+[A0344][AUTHOR_VIEW][CAUSE][LIMIT][SUSTAIN][DEFENSIVE_DESIGN] In a configuration that dies to enemy burst or sustained pressure before it can spend enough resources on defense, healing, disengagement, or similar actions, unused resources remaining at death do not function as survivability that could prevent that death.
+[A0345][AUTHOR_VIEW][DIAG][RULE][SUSTAIN][DEFENSIVE_DESIGN] Do not evaluate sustain only by the size of recovery values, Max Resources, or restoration amounts; compare supply against the actual resource demand generated by maintaining offense, defense, healing, 打破（Break Free）, movement, and similar actions under enemy pressure in the target environment. Even with high supply, do not rate practical sustain as high when demand is still greater.
+[A0346][AUTHOR_VIEW][AI][RULE][SUSTAIN][DEFENSIVE_DESIGN][RESOURCE_DEPENDENCE] The more a build concentrates most survival tools into one or a small number of actions consuming a specific resource, the higher the practical sustain level required for that resource becomes. Do not highly rate a build with strong dependence on a specific resource as highly survivable unless it is confirmed that the required amount of that resource can be maintained reliably.
+[A0347][AUTHOR_VIEW][AI][RULE][DEFENSIVE_DESIGN][RESOURCE_DEPENDENCE] When multiple survival tools depend strongly on the same resource, do not evaluate them as fully independent defensive layers. If using one causes the shared resource required by another to become insufficient, evaluate the common resource dependence as a single point of vulnerability.
+
+#### Crisis Supply, Excess Demand, and High-Sustain Specialization
+
+[A0348][AUTHOR_VIEW][AI][LIMIT][SUSTAIN][RESOURCE_DEPENDENCE] If regeneration or supply of the resource on which the primary defense depends is reduced or suspended while defending, moving, or in a specific state, do not treat high normal-state recovery values directly as crisis-state practical sustain.
+[A0349][AUTHOR_VIEW][AI][LIMIT][SUSTAIN][RESOURCE_DEPENDENCE] When an action relied upon for survival loses sustain efficiency with repeated use over a short period because of cost escalation, worsening supply conditions, or other reasons, do not estimate sustainable duration from the first-use cost or displayed recovery value alone.
+[A0350][AUTHOR_VIEW][DIAG][RULE][SUSTAIN][DEFENSIVE_DESIGN] For a build that requires extremely high sustain, before rating that sustain as a strength, diagnose whether the required amount itself has become excessive because of insufficient defensive strength, high-frequency reuse of defensive actions, dependence on a single resource, or similar causes.
+[A0351][AUTHOR_VIEW][EVAL][OPPORTUNITY_COST][SUSTAIN][DEFENSIVE_DESIGN] If extremely high sustain actually makes a particular defensive design function, do not deny that functionality itself. However, identify the resistance, damage reduction, Max Health, healing, damage, equipment slots, and other performance budget lost to obtain that sustain, and evaluate it as opportunity cost of the build as a whole.
+[A0352][AUTHOR_VIEW][LIMIT][SUSTAIN][DEFENSIVE_DESIGN][RESOURCE_DEPENDENCE] For a build that accepts reduced damage and makes continued survival itself a primary role or win condition, extremely high sustain can be a valid specialization. Require that damage mitigation and effective defense needed for the target environment are established separately, that the sustain reliably supports multiple effective actions such as defense, healing, 打破（Break Free）, and movement, and that other performance essential to the role remains at a practical level.
+
+#### Defensive Investment, Enemy Threats, and Effective Value
+
+[A0353][AUTHOR_VIEW][RULE][DEFENSIVE_DESIGN][SUSTAIN] When a primary defensive skill is central to a build, distinguish investment that increases the absorption, healing, or effective durability of one use of that skill from resource investment that only increases how many times it can be reused; verify that increasing only the latter has not left the defensive value of each use insufficient.
+[A0354][AUTHOR_VIEW][RULE][DEFENSIVE_DESIGN][TIME_BUDGET] For a defensive effect that is strong only immediately after activation and then becomes substantially weaker, do not treat the displayed total duration as safe time at the same strength. Evaluate how long the primary defensive strength is maintained and how many GCDs that one use allows before transitioning to the next attack, heal, CC, or similar action.
+[A0355][AUTHOR_VIEW][RULE][DEFENSIVE_DESIGN][SUSTAIN][TIME_BUDGET] Investment in resistance, incoming-damage reduction, shield amount, and similar defenses can save resources and GCDs by reducing the number of heals or shield recasts required. Therefore, when adjusting sustain, compare not only increases in recovery but also reductions in resource demand produced by stronger defense.
+[A0356][AUTHOR_VIEW][RULE][DEFENSIVE_DESIGN][MARGINAL_EFFECT_EVALUATION] When investment in a stat simultaneously increases not only unshielded durability but also shields or healing that scale with that stat, or the effective value of other defensive layers, evaluate the combined increments. Do not compare each defensive layer only as an independent investment.
+[A0357][AUTHOR_VIEW][DIAG][DEFENSIVE_DESIGN][EQUIPMENT_TOPOLOGY] A configuration that survives sufficiently on the back bar but sharply loses resistance, mitigation, healing, or similar defense immediately upon switching to the offensive bar and is forced back to the back bar at once by continuing enemy pressure has difficulty creating an effective offensive turn. Evaluate build durability not only on the defensive bar but also in the state after transitioning to the offensive bar.
+
+### A03.D1 Damage Environment, Critical Resistance, and Enemy Assumptions
+
+#### Core Conclusions to Retrieve First
+
+[A0358][AUTHOR_VIEW][RULE][AI_META_EVALUATION][DEFENSIVE_LAYER] When evaluating defensive layers, determine whether the primary damage environment leans toward Critical burst or damage over time, and change the relative value of Critical Resistance, resistance, debuff cleansing, healing, and similar defenses according to that environment.
+[A0359][AUTHOR_VIEW][AI][LIMIT][CRITICAL_RESISTANCE][DEFENSIVE_DESIGN] When evaluating Critical Resistance, evaluate whether the effective total from all sources is sufficient against Critical Damage in the target PvP environment, not merely whether any source exists. Do not treat merely having a small amount of Critical Resistance as evidence that sufficient defense against Critical burst has been established.
+[A0360][AUTHOR_VIEW][AI][RULE][PVP_ASSUMPTION][DEFENSIVE_DESIGN] When evaluating self-defense performance of a build active in PvP areas, do not implicitly assume favorable enemy conditions such as enemy players not attacking, having low pursuit capability, having no more mobility than you, or being unable to perform effective attacks or CC from range. Include enemy capabilities realistically encountered in the target environment.
+[A0361][AUTHOR_VIEW][AI][LIMIT][PVP_ASSUMPTION][DEFENSIVE_DESIGN] Except where participation count is explicitly limited by the system, such as in a duel, do not evaluate self-defense performance in PvP content under the assumption that there is always only one enemy. Evaluate survivability including the possibility of receiving pressure from multiple enemies within a short period.
+
+#### Defensive-Layer Selection
+
+[A0362][AUTHOR_VIEW][AI][RULE][DEFENSIVE_LAYER][CRITICAL_RESISTANCE][DEFENSIVE_DESIGN][BUILD_GENERAL] Except for full tank operation whose primary defensive requirement is maintaining continuous ブロック（Block）, before rating the self-defense performance of a build active in PvP areas highly, explicitly verify whether its total Critical Resistance is sufficient against the Critical burst used by enemy players in the target environment. Do not use a primary PvE purpose, lack of intent to initiate PvP, or a plan to avoid engagement with enemies as reasons to omit this verification.
+[A0363][AUTHOR_VIEW][COND][CLAIM][GEAR_POPULARITY][CRITICAL_RESISTANCE] In an environment where Critical burst is dominant, defensive sets that provide Critical Resistance tend to become popular among defensive equipment.
+[A0364][AUTHOR_VIEW][COND][LIMIT][DEFENSIVE_LAYER][DAMAGE_REDUCTION] Even in an environment where Critical burst is dominant, defensive equipment that provides resistance or damage reduction does not lose its value. Do not equate an increase in the relative value or adoption rate of Critical Resistance with other defensive layers becoming unnecessary.
+[A0365][AUTHOR_VIEW][CLAIM][SCARCITY][CRITICAL_RESISTANCE] Among equipment that provides Critical Resistance, items with practical overall performance are valuable and scarce.
+[A0366][AUTHOR_VIEW][COND][CLAIM][GEAR_POPULARITY][DOT] In an environment where damage over time is dominant, equipment providing resistance, debuff cleansing, or healing tends to become popular.
+
+#### Defensive Tools Against Undodgeable Damage
+
+[A0367][LIMIT][UNDODGEABLE_DAMAGE] Undodgeable damage cannot be avoided with ロール回避（Roll Dodge）.
+[A0368][EX][UNDODGEABLE_DAMAGE] Damage from damage-over-time effects already applied to you and from delayed attacks already applied to you are included among damage treated as undodgeable by ロール回避（Roll Dodge）.
+[A0369][AUTHOR_VIEW][COND][UNDODGEABLE_DAMAGE] In situations where responding to pressure from damage over time is important, the relative value of ロール回避（Roll Dodge） decreases.
+[A0370][AUTHOR_VIEW][PRIORITY][UNDODGEABLE_DAMAGE] In situations where responding to pressure from damage over time is important, the relative value of debuff cleansing, increased resistance, defensive buffs, healing buffs, and ブロック（Block） increases.
+[A0371][AUTHOR_VIEW][COND][PRIORITY][UNDODGEABLE_DAMAGE][DEFENSIVE_DESIGN] In situations where damage over time seriously threatens survival, first require that enough damage mitigation and effective defense exist to prevent damage over time from pushing you into lethal range within a short period. Then, if pressure from damage over time remains large or its impact must be actively reduced, treat debuff cleansing as a strong priority response.
+
+#### Critical Resistance, Enemy Assumptions, and Defensive Modifications
+
+[A0372][AUTHOR_VIEW][AI][RULE][CRITICAL_RESISTANCE][EQUIPMENT_TOPOLOGY][OPPORTUNITY_COST] Do not automatically reduce Critical Resistance previously obtained from armor traits or similar sources merely because Critical Resistance is also obtained from an equipment set or another effect. Shift that performance budget to other purposes only when data confirms that total Critical Resistance after the reduction remains sufficient for the target use case.
+[A0373][AUTHOR_VIEW][AI][RULE][DIAG][DEFENSIVE_DESIGN][BUILD_GENERAL] For a build whose original effective defense is substantially insufficient for the target PvP environment, do not judge the problem solved merely because one defensive element was added. Re-evaluate the entire modified build including resistance, mitigation, health, Critical Resistance, healing, shields, sustain, and available uptime; if effective defense remains insufficient, do not rate the modification highly.
+[A0374][AUTHOR_VIEW][AI][LIMIT][DEFENSIVE_DESIGN][BUILD_GENERAL] Do not treat the number of added defensive elements as the amount of increased defensive performance. One skill, one equipment effect, one armor trait, and similar elements differ in effective mitigation, healing, defendable time, activation condition, uptime, and opportunity cost; do not judge them as equivalent self-defense improvements merely because “one defensive element was added.”
+[A0375][AUTHOR_VIEW][AI][RULE][DEFENSIVE_DESIGN][EQUIPMENT_TOPOLOGY] Do not treat a defensive five-piece set and one defensive skill as comparable defensive investments merely because each is “one defensive element.” When judging that one ordinary defensive skill can replace defensive investment consuming dedicated equipment slots, actually compare effective defense before and after the change and verify that the replacement still establishes the defensive strength required by the target environment.
+[A0376][AUTHOR_VIEW][COND][LIMIT][DEFENSIVE_DESIGN][BUILD_GENERAL][RECOMMENDATION_SCOPE] A configuration without a defensive five-piece set can still establish effective defense for the target environment by securing sufficient resistance, mitigation, Critical Resistance, health, healing, shields, and other defenses. However, establishing this requires concrete data analysis, and configurations with higher operational or decision demands should not be standard recommendations for entry-level beginners.
+[A0377][AUTHOR_VIEW][AI][RULE][LIMIT][PVP_ASSUMPTION][DEFENSIVE_DESIGN][BUILD_GENERAL][RECOMMENDATION_SCOPE] For builds expected to operate in PvP areas for more than a short period, do not omit verification of effective defense against players because the player does not intend to initiate PvP, has PvE as the primary objective, plans to avoid enemies, or has high mobility or escape tools.
+[A0378][AUTHOR_VIEW][AI][RULE][PVP_ASSUMPTION][DEFENSIVE_DESIGN][BUILD_GENERAL] For a build used in a PvP area where enemy players can actually attack it, evaluate survivability when receiving realistic PvP burst in the target environment.
+[A0379][AUTHOR_VIEW][AI][LIMIT][PVP_ASSUMPTION][DEFENSIVE_DESIGN][BUILD_GENERAL][RECOMMENDATION_SCOPE] Do not rate a configuration whose sufficient effective defense has not been confirmed from data as safe or beginner-friendly merely because it plans to avoid combat, has mobility, sustain, or similar advantages.
+
+### A03.D2 Defensive Gear and Shield Evaluation
+
+#### Evaluation of Defensive Gear
+
+[A0380][AUTHOR_VIEW][PRIORITY][HEALING_GEAR] Evaluate healing equipment not only by the amount healed but also by whether the healing effect occurs at the required timing.
+[A0381][AUTHOR_VIEW][PRIORITY][RESISTANCE_GEAR] Evaluate resistance equipment not only by the amount of resistance gained but also by whether the resistance increase occurs at the required timing.
+[A0382][AUTHOR_VIEW][DIAG][HEALING_GEAR] When evaluating healing equipment, consider not only the displayed effect but also the effective cooldown.
+[A0383][AUTHOR_VIEW][RULE][HEALING_GEAR][GROUP_CONTENT][GROUP_CONTRIBUTION] A PvP healer should first establish baseline healing through skill rotation; evaluate healing equipment not as a substitute for baseline healing but as supplemental healing or added value such as buffs and debuffs.
+
+#### Shield Viability Conditions and Effective Amount
+
+[A0384][AUTHOR_VIEW][ADVANTAGE][LIMIT][SHIELD_GEAR] Equipment that grants shields is less likely than healing equipment to be wasted through overhealing, but it does not directly heal and rewind HP that has already been lost.
+[A0385][AUTHOR_VIEW][PRACTICE][GOAL][DEFENSIVE_GEAR] Use healing, resistance, and shield equipment not to replace active self-defense actions, but to support that self-defense, extend the time before death, and support active HP rewind.
+[A0386][AUTHOR_VIEW][DEF][SHIELD_SKILL] The primary purpose of shield stacking in PvP is not to extend the displayed duration of a shield, but to layer multiple separate shield durability values and increase the amount of damage and number of offensive actions required before the enemy can reach actual HP.
+[A0387][AUTHOR_VIEW][LIMIT][SHIELD_SKILL] When under continuous pressure from an equal or stronger opponent, normally assume that ordinary shields other than exceptions such as アルティメット（Ultimate） will disappear from durability depletion before their displayed duration expires; do not treat displayed duration as guaranteed safe time.
+[A0388][AUTHOR_VIEW][RULE][SHIELD_SKILL] Even for a shield granted by アルティメット（Ultimate）, do not group it together with ordinary shields; evaluate the skill effect and shield amount individually.
+
+#### Shield Order, GCDs, and Incoming Pressure
+
+[A0389][AUTHOR_VIEW][EVAL][SHIELD] When evaluating the defensive value of a shield, look not only at absorption amount but also at whether the shield can require an additional enemy attack GCD or how much HP debt it can prevent from arising during the 1 GCD you spend on another action.
+[A0390][AUTHOR_VIEW][LIMIT][SHIELD] Do not treat a shield clearly smaller than the general 1-GCD damage of an equal opponent as a shield that negates one enemy GCD.
+[A0391][AUTHOR_VIEW][ADVANTAGE][SHIELD] Even a shield clearly smaller than the general 1-GCD damage of an equal opponent can have value as supplemental defense that reduces HP debt when attached to an action serving another purpose.
+[A0392][AUTHOR_VIEW][RULE][SHIELD_SKILL] When multiple shields are used simultaneously and each shield has different additional effects when damaged or destroyed, which shield absorbs damage first also affects offensive or reflection effects; therefore, treat cast order itself as a tactic.
+[A0393][PATCH][CLAIM][SHIELD] Defensive mitigation from ブロック（Block） does not apply to damage dealt to shields.
+[A0394][PATCH][CLAIM][SHIELD] Critical Damage can occur against shields.
+
+#### Shield Gear and Alternative Defense
+
+[A0395][PATCH][CLAIM][SHIELD] Resistance and damage reduction from buffs apply to damage dealt to shields.
+[A0396][AUTHOR_VIEW][PATCH][SHIELD][RULE] Because shield damage-calculation mechanics depend on the patch environment, when treating the application of ブロック（Block） mitigation, Criticals, resistance, or incoming-damage reduction precisely, verify the current mechanics in official patch notes at the time of the question.
+[A0397][CLAIM][SHIELD] The shield damage-calculation mechanics in which ブロック（Block） mitigation does not apply, Criticals can occur, and resistance and incoming-damage reduction do apply have been maintained for a long period.
+[A0398][AUTHOR_VIEW][LIMIT][SHIELD] In PvP, shields alone may not always absorb everything; operate with the expectation that damage can reach health.
+
+#### Defensive Investment, Enemy Threats, and Effective Value
+
+[A0399][AUTHOR_VIEW][RULE][AI_META_EVALUATION] When evaluating the threat level of enemy classes, equipment, skills, or similar elements, do not represent them only by average or typically weak configurations. Include strong configurations that can realistically function and be encountered in the target environment, and do not generalize weakness in one specific role into denial of threats the same element can present in another practical role.
+[A0400][AUTHOR_VIEW][PATCH][EVAL][HEAVY_ARMOR][REINFORCED_TRAIT][DEFENSIVE_DESIGN] Evaluate the value of the 強化（Reinforced） trait on a 重装鎧（Heavy Armor） chest piece not only by the trait percentage, but also by the absolute resistance increase gained because the percentage modifier applies to the increased armor value of the high-base-armor chest piece after quality improvement.
+
+### A03.R Resource and Sustain Design
+
+#### Core Conclusions to Retrieve First
+
+[A0401][AUTHOR_VIEW][DEF][RULE][SUSTAIN] Sustain is the ability to maintain resources required to continue fighting. Evaluate it not only by recovery values, but by how many practical cycles of offense, defense, healing, 打破（Break Free）, movement, and renewed offense can be continued. Sustain itself is not a defensive layer that directly reduces incoming damage or directly restores HP; treat it as an indirect combat resource that makes those actions sustainable.
+[A0402][AUTHOR_VIEW][DIAG][PRACTICE][SUSTAIN][BUILD_GENERAL] If the primary resource remains substantially unused across multiple representative real fights while another clear bottleneck such as killing power remains, suspect that marginal investment in sustain may be excessive. Change small elements such as recovery enchantments one at a time toward other performance and re-evaluate. Stop reducing sustain at the point where you can no longer return to offense after 打破（Break Free）, healing, or disengagement.
+[A0403][AUTHOR_VIEW][PRIORITY][CONDITIONAL_SUSTAIN] Evaluate conditional resource recovery not only by its nominal amount but also by whether the timing when the effect occurs naturally aligns with the timing when the resource tends to become insufficient.
+
+#### Emergency Resource Margin
+
+[A0404][AUTHOR_VIEW][COND][DIAG] There are situations where you can survive at half HP if you still have enough スタミナ（Stamina） to 打破（Break Free）, while even at high HP you can die suddenly to CC into burst if Stamina is empty. Therefore, danger can begin not when a resource reaches zero, but when the margin reserved for safety actions has been exhausted.
+
+#### Sustain Baseline and Adjustment
+
+[A0405][AUTHOR_VIEW][COND] Even if resources are sufficient for attacking alone, practical sustain is insufficient if a single 打破（Break Free） from CC causes depletion.
+[A0406][AUTHOR_VIEW][COND] Even when recovery values appear low, a build may fight for a long time by dividing use across multiple resources, combining offense and healing in one action, or securing time to recover resources in a safe area.
+
+#### Conditional Sustain and Deferred Effects
+
+[A0407][AUTHOR_VIEW][RULE][CONDITIONAL_SUSTAIN] Treat conditional resource recovery as an additional effect that improves the economy of combat actions that were already tactically correct.
+[A0408][AUTHOR_VIEW][LIMIT][CONDITIONAL_SUSTAIN] Be cautious with designs that cannot maintain the normal combat cycle without conditional resource recovery.
+[A0409][AUTHOR_VIEW][LIMIT][GROUP_EFFECT][GROUP_CONTENT] In group PvP, do not depend on a sustain design that cannot maintain the normal combat cycle if resource supply from allies such as healers stops; treat external supply as an added effect that creates margin on top of sustain already established independently.
+[A0410][AUTHOR_VIEW][LIMIT][OPPONENT_DEPENDENT_SUSTAIN] If continuously required resource demand on your side is supported only by resource supply that strongly depends on the opponent's class, attack type, or action choices, sustain performance becomes highly unstable across opponents.
+[A0411][AUTHOR_VIEW][LIMIT][CAUSE][RESOURCE_RECOVERY] The effective amount of an immediate lump-sum resource restore is capped by the current deficit; any amount exceeding the maximum cannot be saved for later combat, so do not always treat the nominal restore amount as the effective value.
+[A0412][AUTHOR_VIEW][RULE][DEFERRED_EFFECT] Do not evaluate resources or アルティメット（Ultimate） gained only in a later stage of a combat cycle as resources that enabled the earlier stage of that same cycle.
+[A0413][AUTHOR_VIEW][EVAL][DEFERRED_EFFECT] Evaluate resources or アルティメット（Ultimate） gained after an execute or kill primarily as effects that accelerate preparation for the next attack wave or the next target.
+[A0414][AUTHOR_VIEW][RULE][STAGE_DEPENDENT_PERFORMANCE] Evaluate performance that provides value only in a later combat stage on the premise that the build can reliably reach that stage.
+[A0415][AUTHOR_VIEW][PRIORITY][PRE_EXECUTE_PHASE] If you cannot reduce the opponent to an executable state with sufficient frequency, improve pressure, burst, CC, or similar tools that get the opponent into execute range before further strengthening execute performance.
+
+### A03.M Mobility and Engagement Initiative
+
+#### Core Conclusions to Retrieve First
+
+[A0416][AUTHOR_VIEW][CLAIM][LIMIT][COND][MOVEMENT_SPEED] The faster side tends to control when combat starts and ends, while the slower side may be unable to begin combat unless the opponent chooses to attack; this problem is especially pronounced for melee builds.
+[A0417][AUTHOR_VIEW][LIMIT][RULE][COND][MOVEMENT_SPEED] Do not make excessive investment in movement speed an objective by itself. Reducing speed enough to impair positioning risks losing control over engagement and disengagement, and this risk is especially large for melee builds.
+
+#### Mobility Performance and Engagement Initiative
+
+[A0418][AUTHOR_VIEW][COND][CAUSE][MOVEMENT_SPEED] When one side has a one-sided advantage in both movement speed and attack range, the faster, longer-ranged side can disengage freely, rest and reset, and re-engage at timing favorable to itself more easily.
+
+### A03.X Executability and Action Economy
+
+#### Core Conclusions to Retrieve First
+
+[A0419][AUTHOR_VIEW][RULE][TIME_BUDGET] When one skill can perform multiple jobs such as offense + healing within the same GCD, it is more time-efficient than performing those jobs with separate skills, and this value is not visible from individual numerical performance alone.
+[A0420][AUTHOR_VIEW][PRIORITY][TIME_BUDGET] Evaluate the time efficiency of a skill or effect not only by the total number of GCDs required, but also by when in the combat cycle those GCDs must be paid.
+[A0421][AUTHOR_VIEW][LIMIT][RULE][ROLE_COMPRESSION_EVALUATION] Do not rate something as role compression, high efficiency, or high performance merely because multiple effects are listed. Verify whether each effect is needed, whether the desired timing of the effects is compatible, whether overlap with existing tools is small, and whether total efficiency is higher than strong alternatives for the same slot.
+[A0422][AUTHOR_VIEW][PRIORITY] In PvP, treat usability itself as build performance.
+[A0423][AUTHOR_VIEW][RULE][CLASS_OPPORTUNITY_COST][BUILD_GENERAL] When comparing performance between classes or builds, subtract as execution cost not only their maximum-state numbers but also monitoring, positional adjustment, timing management, additional GCDs, special-resource management, and other tasks required beyond ordinary PvP actions to reach and maintain that state. If two configurations provide similar effective performance, the configuration that can produce it across broader conditions with less additional management has a practical advantage by that difference itself.
+
+#### GCD, Time Budget, and Processing Capacity
+
+[A0424][CAUSE] If every role must be prepared through a separate action, the opponent can act multiple times during that preparation.
+[A0425][EX] Offense + healing, healing + defensive buff, shield + another buff, and offense + debuff are examples of one action performing multiple jobs.
+[A0426][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][TIME_BUDGET] When consuming a combat resource with an expiration time, simultaneous-hold cap, or generation rate requires GCDs, the resource can be generated faster than practical processing capacity. In that case, do not make consuming every resource the goal; intentionally discard low-marginal-value resources to preserve high-value GCDs for offense, defense, healing, positioning, and similar actions.
+
+#### Skill-Slot Compression
+
+[A0427][AUTHOR_VIEW][RULE] In build design, consider what job each skill slot is responsible for.
+[A0428][DEF] The idea of assigning multiple jobs to one skill slot is called “skill-slot compression.”
+[A0429][EX] Configurations that handle healing + defensive buff, offense + healing, movement + CC, offense + debuff, or buff + emergency healing in a single slot are examples of skill-slot compression.
+[A0430][CAUSE] Giving one slot multiple functions allows additional offensive or defensive capability to be placed in other freed slots.
+[A0431][AUTHOR_VIEW][RULE][SAME_ROLE_SLOTS] When using multiple skills or pieces of equipment that perform the same primary role within one build, do not justify adoption merely because “both are useful.” Verify that each covers different tactical situations, ranges, timings, targets, costs, or similar dimensions, and that the second tool provides more value than the opportunity cost of losing that slot.
+[A0432][AUTHOR_VIEW][LIMIT][DIAG][SKILL_SLOT_COMPRESSION] If freeing one slot merely moves its job into a valuable flexible slot on another multifunction skill, it is not necessarily a net gain in compression. Check not only the number of freed slots but also how many powerful effects the receiving side could otherwise have selected but lost.
+[A0433][AUTHOR_VIEW][LIMIT][PARTIAL_SUBSTITUTION] Even when equipment substitutes for part of a competing skill's function, it may not substitute for the other important effects that skill simultaneously provided; do not judge the entire competing skill unnecessary merely because of partial functional overlap.
+
+#### Usability
+
+[A0434][AUTHOR_VIEW][LIMIT] Even a numerically strong skill cannot deliver that strength in practice if you forget to use it.
+[A0435][AUTHOR_VIEW][COND] Even if back-bar placement is theoretically more efficient, if putting a skill on the back bar causes you to forget it exists, front-bar placement can be stronger in practical combat.
+[A0436][AUTHOR_VIEW][RULE] In skill-layout design, evaluate ease of pressing, ease of remembering, whether it causes hesitation in emergencies, whether it can be used immediately after bar swapping, and compatibility with your own control habits.
+[A0437][AUTHOR_VIEW][COND] If fully copying an advanced-player layout leaves you unable to use required skills when needed, a layout with slightly lower theoretical output but reliable execution can be stronger in practice.
+
+## A03.3 Components and Interactions
+
+### A03.C Components and Interactions
+
+#### Front-Bar / Back-Bar and Equipment Topology
+
+[A0438][AUTHOR_VIEW][CLAIM][PRACTICE] In a general model that is easy for beginners to understand, it is easier to build from a starting configuration that assigns offense and pressure to the front bar and healing, buffs, defense, and recovery to the back bar.
+[A0439][AUTHOR_VIEW][DIAG][RULE] Remaining on the offensive bar while the opponent is attacking strongly tends to be low-probability play, while continuing to prepare on the back bar while the opponent is occupied with healing misses an offensive turn. Determine whether the current time is for attacking or defending and connect that judgment to the roles of the bars.
+[A0440][AUTHOR_VIEW][CLAIM][EQUIPMENT_SLOT] In PvP, even when the same two equipment slots are used, opportunity cost can differ greatly depending on whether those slots are front-bar weapons or back-bar weapons; do not judge set adoption cost from slot count alone.
+[A0441][AUTHOR_VIEW][PRIORITY][FRONT_BAR_WEAPON] Because front-bar weapons are often used to complete a five-piece effect intended to be active during offensive turns, an アリーナ武器（Arena Weapon） occupying the front-bar weapon slots should be evaluated not merely as two equipment pieces but as competition with the front-bar five-piece-set structure.
+[A0442][AUTHOR_VIEW][CLAIM][EQUIPMENT_TOPOLOGY] The actual opportunity cost of changing equipment is determined not only by the number of replaced slots, but by the entire combination of five-piece sets, モンスターセット（Monster Set）, 神話装備（Mythic）, one-piece sets, and similar structures disrupted by that change.
+[A0443][AUTHOR_VIEW][RULE][EQUIPMENT_TOPOLOGY] When evaluating a two-bar equipment configuration, separately verify which 2- through 5-piece bonuses are actually active on the front and back bars. Do not count equipment bonuses inactive during offensive turns toward offense, or bonuses inactive during defensive turns toward defense.
+[A0444][AUTHOR_VIEW][DEF][TRIGGERED_EQUIPMENT] When evaluating an equipment effect, distinguish conditions required to trigger the effect from conditions required to maintain the effect after activation.
+[A0445][AUTHOR_VIEW][RULE][RAMP_UP_MAINTENANCE] For stacking or combat-duration effects, evaluate initial ramp-up on first engagement, maintenance during engagement, and rebuilding after full disengagement separately. If the effect can be maintained through normal combat actions, do not equate slow initial ramp-up with difficulty maintaining it.
+[A0446][ADVANTAGE][BACK_BAR_EQUIPMENT] Equipment whose effect persists after activation even when the five-piece condition is no longer met can complete the five-piece set on only one weapon bar and carry some or all of the effect over after switching to the opposite bar.
+[A0447][AUTHOR_VIEW][EVAL][EQUIPMENT_TOPOLOGY] Even under the same nominal five-piece structure, do not treat a static five-piece effect that disappears when leaving the bar as topologically equal in value to a triggered effect that persists for a period after leaving the activation bar.
+
+#### Time-Investment Performance and Long Fights
+
+[A0448][AUTHOR_VIEW][RULE][BUILD_GENERAL][TIME_BUDGET] For configurations that pay an action now and recover its value several seconds later through delayed attacks, position-dependent resources, stacking effects, reuse through follow-up actions, or similar mechanics, evaluate not only maximum-state performance but how often the same local fight can be maintained until that investment is recovered. If disengagement, target switching, or battlefield movement repeatedly resets combat before recovery, effective performance can fall sharply because only the initial investment is repeatedly paid.
+[A0449][AUTHOR_VIEW][RULE][RAMP_UP_MAINTENANCE][ALTERNATIVE_REASONING] Do not equate merely being able to survive a long fight with being suited to long fights. If extending combat time also grows enemy DoTs, stacking effects, アルティメット（Ultimate）, resource loops, or similar advantages, compare both sides' time-dependent performance. Even when your win condition requires time, prolonging combat is not automatically beneficial if that same time strengthens the enemy more than it strengthens you.
+
+#### Stat Scaling and Shared Resources
+
+[A0450][AUTHOR_VIEW][RULE][BUILD_GENERAL] When comparing different stats such as Max Resources and Weapon/Spell Damage that contribute to the same skill's base scaling, do not treat them as equal merely by a base conversion ratio; compare their final contribution in the practical state after each passes through applicable percentage buffs, passives, equipment effects, and similar modifiers.
+[A0451][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][BUILD_GENERAL][TIME_BUDGET] When an offensive combo and defensive actions share the same stacks, special resource, or similar value, spending it on defense carries not only the defensive skill's GCD and ordinary resource cost, but also the time required to rebuild that special resource before returning to the next offensive combo; evaluate this rebuilding time as opportunity cost.
+
+#### Marginal Evaluation of Skill-Altering Gear
+
+[A0452][AUTHOR_VIEW][RULE][MARGINAL_EFFECT_EVALUATION][ALTERNATIVE_REASONING] Evaluate equipment that enhances a skill relative to using the same skill without that equipment. Do not double-count performance already provided by the base skill; evaluate only the additional work actually created by the equipment.
+[A0453][AUTHOR_VIEW][LIMIT][PRIORITY][NATURAL_ACTION_TEST] Equipment triggered by actions you would tactically choose even without the effect is easier to justify. If activating the effect requires extra GCDs, resources, bar swaps, positioning, or similar actions solely for the proc, subtract them as explicit costs.
+[A0454][AUTHOR_VIEW][LIMIT][SLOT_VALUE_VS_CAST_VALUE] A skill can be strong merely by being slotted without also having high value when actively cast, so distinguish the two when evaluating equipment that requires active casting.
+[A0455][AUTHOR_VIEW][RULE][CAUSE][EFFECT_COVERAGE] If an effect applies only to some attacks, heals, or actions, do not treat it as performance across the entire build; consider the share of practical actions covered. Even a large effect on covered actions can make only a small effective contribution to the whole when coverage is low.
+[A0456][AUTHOR_VIEW][RULE][JOINT_EFFECT_COVERAGE] When value depends on multiple effects being active simultaneously, do not estimate combined performance from each effect's individual utilization rate alone; evaluate how often and for what time windows they are simultaneously active when needed.
+[A0457][AUTHOR_VIEW][RULE][TARGET_TIMING_CONTROL] When evaluating offensive enhancement, debuffs, or support effects, verify whether you can choose the required target and activation timing yourself. Effects whose target or timing depends heavily on opponent actions or accidental hits tend to have lower tactical value even with the same nominal performance.
+[A0458][AUTHOR_VIEW][RULE][TARGET_LOCAL_EFFECT] For effects whose value rises or falls based on a particular enemy's HP, state, taking damage, or similar target-local conditions, verify whether the same value can be carried over when switching targets; if not, include effective-value loss from target switching in multi-target combat.
+
+#### Simultaneous Satisfaction of Multiple Position Criteria
+
+[A0459][AUTHOR_VIEW][RULE][BUILD_GENERAL][TARGET_TIMING_CONTROL] In configurations whose offensive performance is distributed across multiple different positional references such as the target, yourself, a ground resource, or a moving delayed attack, evaluate the positional-adjustment cost required to align them simultaneously during the required window. Compared with configurations centered on effects applied to and following one target, multiple components are more likely to collapse in sequence during mobile combat.
+
+#### Demand Timing of Conditional Effects
+
+[A0460][AUTHOR_VIEW][RULE][TARGET_TIMING_CONTROL] Evaluate conditional effects not only by proc rate, but by whether the situations in which the condition is met naturally align with the situations in which the effect is strongly needed.
+
+#### Interactions among Build Elements
+
+[A0461][AUTHOR_VIEW][AI][RULE][BUILD_GENERAL][SUSTAIN][OPPORTUNITY_COST] When rating a combination of multiple skills, equipment effects, and combat mechanics as high performance, do not simply add each element in isolation. Verify whether they can coexist as one practical combat cycle, including competition for shared resources, order of use, maintenance duration, reuse conditions, GCDs, and conditions under which one effect removes or interferes with another.
+[A0462][AUTHOR_VIEW][AI][RULE][BUILD_GENERAL] When combining effects that require specific states such as invisibility, stealth, defensive state, or movement state with other automatic, periodic, offensive, or movement effects, verify that activation of one does not remove, interfere with, or disable reuse of the other's state before evaluating them as synergy.
+
+## A03.4 Limited-Use and Opponent-Dependent Design
+
+### A03.S Limited-Use and Opponent-Dependent Design
+
+#### Opportunity Cost between Transformation and Normal Forms
+
+[A0463][AUTHOR_VIEW][PATCH][RULE][CLASS_OPPORTUNITY_COST][NATIVE_CLASS_SUITABILITY] When ウェアウルフ（Werewolf） form replaces the original class's active bars, do not infer that class's Werewolf suitability from the class's overall humanoid-form performance. Separately evaluate passives, class mastery, base modifiers, and similar benefits that remain active during transformation and the opportunity cost of major class assets that become unavailable because of the transformation.
+[A0464][AUTHOR_VIEW][RULE][ALTERNATIVE][OPPORTUNITY_COST] When evaluating a transformation form with a skill set, control system, or combat style different from the normal form, evaluate not only maximum performance while transformed but also the value of switching to a different win condition against combat conditions that are difficult for the normal form to handle. The more strongly the normal form depends on specific positioning, timing, preparation, complex resource loops, or similar conditions, the more a transformation form with less dependence on those conditions can have value not as a simple performance increase but as a tactical escape route around weaknesses.
+
+#### Counter Gear and Opponent-Dependent Effects
+
+[A0465][AUTHOR_VIEW][RULE][COUNTER_GEAR_EXPECTED_VALUE] Evaluate equipment that is especially strong against a specific attack type or class not only by its maximum effect against the ideal opponent, but approximately by “encounter rate of eligible opponents in the environment × effective proc frequency during a fight × value per proc.”
+[A0466][AUTHOR_VIEW][PRIORITY][AI_META_EVALUATION] When using counter equipment routinely, check not only the opponent it counters most strongly but also how dead the equipment becomes against high-frequency, high-threat opponents that should be prioritized in the current environment.
+
+#### Specialized Builds and Target Selection
+
+[A0467][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING][OPPORTUNITY_COST] A configuration that sacrifices general performance to specialize against a particular opponent or situation is not justified merely because it is effective against that target. Evaluate whether it creates a larger difference than strong realistic general-purpose alternatives in kill probability, time-to-process, GCD or resource pressure, battlefield advantage, or similar outcomes, and whether that difference exceeds the opportunity cost of lost general performance.
+[A0468][AUTHOR_VIEW][RULE][OPPORTUNITY_COST] Do not select an attack target only because “my configuration works well against that opponent.” Also evaluate the time required to process that opponent, the freedom of action granted to other enemies during that time, and the battlefield value gained by killing or removing the target. Even when matchup characteristics make it easy to deal damage, a long investment into a target that takes too long to process and leaves other high-threat enemies free can be a losing trade.
+[A0469][AUTHOR_VIEW][LIMIT][OPPONENT_FUELED_OFFENSE] Builds whose offense is fueled by the opponent's attacks, such as reflection or on-hit effects, tend to give the opponent denial options such as “do not attack,” “change the attack method,” “create distance,” or “target someone else.”
+[A0470][AUTHOR_VIEW][RULE][COUNTERPLAY_COST] When the opponent can deny, avoid, or nullify an effect, do not evaluate it only by the fact that counterplay exists; include the real cost the opponent pays to counter it, such as lost attack opportunities, position, resources, range, or target choice.
+[A0471][AUTHOR_VIEW][EVAL][COUNTERPLAY_COST] If executing the countermeasure restricts actions that would otherwise be strong for the opponent, include the fact that the restriction was forced as practical combat value.
+[A0472][AUTHOR_VIEW][RULE][COUNTER_LAYER_COVERAGE] Even for an effect that greatly invalidates a specific defensive layer, if the opponent's survivability is distributed across resistance, percentage mitigation, shields, healing, CC, mobility, LoS, and similar layers, verify the range of defensive layers the effect can actually influence and do not generalize it into “an answer to durable opponents in general.”
+[A0473][AUTHOR_VIEW][CLAIM][OFFENSIVE_USE_OF_DEFENSIVE_STAT] Investing heavily in a stat with inherently high defensive value such as Max Health and making that same stat the primary basis of offense are separate decisions.
+[A0474][AUTHOR_VIEW][LIMIT][OFFENSIVE_USE_OF_DEFENSIVE_STAT] Even when a stat is broadly useful as a defensive investment, converting it into offense through reflection or similar mechanics can greatly increase dependence of offensive performance on the opponent.
+
+#### Preference-Prioritizing Choices and Performance Efficiency
+
+[A0475][AUTHOR_VIEW][PRACTICE][PROC][PRIORITY][PREFERENCE_BUILD] When adopting an element with lower performance efficiency than strong alternatives for the same objective because of personal preference, use a completed build of the same general type with sufficient performance efficiency or another high-efficiency candidate as the comparison baseline. As the standard workflow, introduce preference elements one at a time and verify viability and impact at each stage; when proposing concrete configuration changes, use this procedure as the first candidate.

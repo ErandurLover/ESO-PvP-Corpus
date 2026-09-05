@@ -1,0 +1,213 @@
+# ESO PvP Corpus A07 Role Fundamentals and Group Contribution
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v162
+[PAGE_NAME] A07 Role Fundamentals and Group Contribution
+[SECTION_SCOPE] v162 / A0598-A0696
+[PROPOSITION_COUNT] 99
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If a question spans proficiency, role, location, and combat-function axes, use the Manifest to retrieve the applicable page for each additional axis.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+[PAGE_FLOW] Read common fundamentals and only the target role; add group-contribution applications only for group-combat questions.
+
+# A07 — Role Fundamentals and Group Contribution
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+[TAG_NOTE][CORE_JUDGMENT] Indicates a core author judgment within [AUTHOR_VIEW] that materially shapes the Corpus's decision framework or answer policy. It does not mean higher factual certainty or absence of exceptions; preserve applicable conditions and tags such as SCOPE, LIMIT, and PATCH.
+[TAG_NOTE][PATCH] Indicates a patch-dependent matter that may require verification of current mechanics. It does not mean short-lived, low-confidence, or scheduled for change; treat it as something to re-check when the relevant mechanics change.
+[TAG_NOTE][NOT_INITIAL_REQUIREMENT] Indicates a goal or practice item that beginners are not required to have already achieved from the start.
+[TAG_NOTE][GROUP_CONTENT] Indicates content or operation in which the player participates as part of a group and interactions with allies are included in the evaluation.
+[TAG_NOTE][GROUP_CONTRIBUTION] Indicates that effective contribution to the group as a whole, rather than individual freedom of action, is the evaluation axis.
+[TAG_NOTE][ROLE_SKIRMISHER] Indicates a skirmisher role tendency that uses high mobility to select or change combat locations and to engage, disengage, or re-enter fights. The tag itself does not mean a ranged-focused damage dealer, participation in group content, prioritization of group contribution, repeated rescue of allies across multiple locations, use of ソーサラー（Sorcerer） or ボルトエスケープ（Bolt Escape）／雷光（Streak）, or the advanced competitive operation described in Series B. When tags such as [GROUP_CONTENT], [GROUP_CONTRIBUTION], or [ADVANCED_ONLY] are present, limit the evaluation to the use case satisfying those added conditions. Also, do not infer merely from failure to satisfy the Series B advanced-operation conditions that the operation is not skirmisher play or must instead be bruiser play.
+
+## A07.1 Identify the Problem Solved before the Role Label
+
+### A07.00 Common Role Fundamentals
+
+#### Core Conclusions to Retrieve First
+
+[A0598][AUTHOR_VIEW][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] When evaluating effective contribution to the group in group content, focus more on “what problem do I solve for the team?” than on the role name itself.
+[A0599][AUTHOR_VIEW][DEF][CLAIM] PvP playstyles can be organized broadly into role tendencies such as tank, healer / buffer / debuffer, bruiser, skirmisher, ganker / bomber, and similar categories, and hybrid operation combining multiple tendencies is also common. These categories are not intended to classify every player exclusively into only one role.
+[A0600][DEF][SCOPE] DD（Damage Dealer） is a broad term for configurations or roles whose main function is dealing damage to enemies and does not correspond one-to-one with the PvP role categories distinguished in ESO PvP Corpus, such as bruiser, skirmisher, or ganker / bomber.
+
+#### Role Boundaries and Hybridization
+
+[A0601][AUTHOR_VIEW][AI][LIMIT][ROLE_SKIRMISHER][ROLE_BRUISER][RECOMMENDATION_SCOPE] Do not automatically conclude that an operation is not skirmisher play or must be bruiser play merely because it does not satisfy the conditions of a group-contribution skirmisher or the advanced competitive skirmisher conditions in Series B. Evaluate role tendency individually from the combat actions actually performed and the operational objective.
+
+#### Role Classification and Evaluation
+
+[A0602][AUTHOR_VIEW][RULE][STEALTH_MOBILITY_SEPARATION] Evaluate stealth and mobility separately: stealth hides information about position and intent from enemies, while mobility changes actual position rapidly. Do not equate high stealth with high mobility.
+[A0603][AUTHOR_VIEW][RULE][RECOMMENDATION_SCOPE] Evaluate suitability for a specific role by performance directly related to that role's objective, required actions, and success conditions. Do not reuse evaluations of solo general performance, another role, ganker performance, or similar categories as grounds for ranking suitability in the role unless that performance directly contributes to the role's requirements.
+
+#### Role Boundaries and Hybridization
+
+[A0604][AUTHOR_VIEW][RULE][BUILD_GENERAL] When a class or build is disadvantaged in direct competition for its primary role, do not make excessive investment to average out weaknesses the only improvement path; consider hybridizing into an adjacent role where competitiveness can be gained while preserving existing strengths.
+[A0605][AUTHOR_VIEW][DEF][ROLE_TANK][ROLE_BRUISER] Distinguish a high-durability bruiser from a dedicated tank not merely by durability values, but by whether the primary purpose after securing survival is to return performance budget into personal offensive pressure or to convert it into support such as absorbing focus, protecting allies, buffs, debuffs, CC, and disruption.
+
+## A07.2 Role-Specific Fundamentals
+
+### A07.T Tank
+
+#### Fundamentals and Group Contribution
+
+[A0606][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] A tank's value is not merely in refusing to die, but in making enemies feel they cannot ignore the tank, absorbing enemy numbers and attacks, and thereby creating local numerical advantage for allies.
+[A0607][AUTHOR_VIEW][PRIORITY][ROLE_TANK] In tank design, establish the foundation for sustained survival under the intended enemy pressure before increasing added value.
+[A0608][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] When a tank survives while continuously absorbing meaningful enemy attacks and attention and thereby reduces the offensive or defensive burden on allies, evaluate continuing to survive without ending the defensive turn itself as tank contribution.
+
+#### Design and Operation
+
+[A0609][AUTHOR_VIEW][RULE][ROLE_TANK][BLOCK] When evaluating or designing a tank, distinguish a permanent-block type whose primary defense is continuous ブロック（Block） maintenance from an action/mobility type whose main survival tools include movement and actions outside block; do not apply identical defensive, sustain, LoS, and execution principles uniformly to both.
+[A0610][AUTHOR_VIEW][RULE][SCOPE][ROLE_TANK][GROUP_CONTENT][RECOMMENDATION_SCOPE] Performance required of a PvP tank changes with participant limits, combat scale, mobility, victory conditions, and how easily enemies can ignore the tank. Do not generalize tank requirements from fixed-size advanced small-team combat uniformly to different battlefields such as シロディール（Cyrodiil）.
+[A0611][AUTHOR_VIEW][RULE][ROLE_TANK][TIME_BUDGET] A tank does not need to consume GCDs constantly. When additional actions have no value, doing nothing and simply maintaining the required defensive state or ブロック（Block） is appropriate operation.
+[A0612][AUTHOR_VIEW][PRIORITY][ROLE_TANK] Even when a dedicated tank contributes offensively, prioritize not breaking required defense, ally protection, or support through those offensive actions.
+[A0613][AUTHOR_VIEW][PRIORITY][ROLE_TANK][BLOCK][OPPORTUNITY_COST][GROUP_CONTRIBUTION] If a dedicated tank releases ブロック（Block） required for survival to add low-value attacks and thereby increases death risk or loss of its primary job, the tank's total contribution can fall even when the attack adds positive DPS. Actions usable while blocking should be prioritized for execution while maintaining the required block.
+[A0614][AUTHOR_VIEW][PRIORITY][ROLE_TANK][BLOCK][BLOCK_COST][SUSTAIN] For permanent ブロック（Block）-type Tanks, treat Block cost as a primary viability condition in addition to Block mitigation. If the Tank cannot maintain Block for the required duration, do not rate long-duration durability as established even if raw toughness is high.
+
+#### Self-Healing
+
+[A0615][AUTHOR_VIEW][PRIORITY][ROLE_TANK][HEALING][DEFENSIVE_DESIGN] As a basic design principle, a high-Max-Health PvP tank should secure at least one burst self-heal scaling from Max Health that can independently rewind a large amount of its own lost HP.
+[A0616][AUTHOR_VIEW][PRIORITY][ROLE_TANK][HEALING][TIME_BUDGET][SUSTAIN][DEFENSIVE_DESIGN] In PvP tanks, do not rely only on burst self-healing; combine it with HoTs that continuously offset ordinary incoming damage. Repeated burst healing consumes not only resources but GCDs, movement, Heavy Attacks, and other action time, so HoTs reduce the burden of recovery.
+
+#### Pulls, Resistance, and Shield Wall
+
+[A0617][AUTHOR_VIEW][DEF][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] Evaluate tank pulls separately for two uses: gathering multiple enemies into a narrow area to make allied AoE attacks and CC easier to land, and moving an enemy far from its original position to disrupt line of sight, distance, formation, or positioning.
+[A0618][AUTHOR_VIEW][PATCH][RULE][ROLE_TANK][DEFENSIVE_DESIGN] Do not judge PvP tank resistance excessive merely because the displayed value exceeds the point where ordinary resistance mitigation reaches its cap; evaluate based on effective resistance after enemy Penetration and resistance reduction. At the same time, do not concentrate the entire performance budget into resistance alone; maintain multiple defensive layers such as Max Health, percentage mitigation, ブロック（Block）, healing, and sustain.
+[A0619][AUTHOR_VIEW][PATCH][EVAL][ROLE_TANK][BLOCK][SUSTAIN][OPPORTUNITY_COST] Because the Shield Wall line automates and removes the cost of maintaining ブロック（Block） for a period, freeing the player from manual blocking, evaluate it for permanent-block tanks not only by survival time but also by the value of using that period to rebuild resources through Heavy Attacks or similar actions. Evaluate other defensive アルティメット（Ultimate） against this low operational opportunity cost.
+
+### A07.H Healer and Support
+
+#### Role and Durability Design
+
+[A0620][AUTHOR_VIEW][DEF][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] The job of a healer / support is not only HP restoration, but also buffs, debuffs, CC, rescue, and pressure on the enemy healer.
+[A0621][AUTHOR_VIEW][CAUSE][COND][RULE][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] Healers, buffers, and debuffers sustain allied combat power and reduce enemy combat power, so enemies tend to target them at high priority. When operating on the front line in particular, design self-defense on the assumption that they will receive priority focus.
+[A0622][AUTHOR_VIEW][CAUSE][PRIORITY][RULE][OPPORTUNITY_COST][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] Healers, buffers, and debuffers must also allocate performance budget to support, so they cannot allocate all performance to durability like a pure Tank. Therefore, first establish durability design and self-defense tools that can survive priority focus while preserving support functions.
+
+#### Healing Methods and Guard Line
+
+[A0623][DEF][SCOPE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] This section divides ways of delivering healing to allies in group combat into a target-following method, which directly applies a burst heal to a moving target or applies Healing over Time (HoT) to the target itself, and a fixed-area method, which places and maintains a healing effect at a specific location to heal allies within its area.
+[A0624][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] Many classes naturally excel as healers at the fixed-area healing method.
+[A0625][AUTHOR_VIEW][COND][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] In situations such as open-field シロディール（Cyrodiil） combat, healing that can be delivered to moving targets can become necessary.
+[A0626][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] Rather than trying to excel at both methods from the start, first decide which one to emphasize.
+[A0627][AUTHOR_VIEW][COND][PRIORITY][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] For healers emphasizing delivery of healing to moving targets, prioritize HoTs that persist after being applied to the target or move with the healer as candidates for maintaining healing while moving.
+[A0628][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] Some allies can be outside the reach of the healer's healing.
+[A0629][CLAIM][HEALING] ESO formally includes “回復無効（Healing Immunity）” as a game mechanic.
+[A0630][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] When an ally cannot be healed or has 回復無効（Healing Immunity）, do not repeatedly spend healing that is invalid during that state; switch to another target or action.
+[A0631][AUTHOR_VIEW][PATCH][EVAL][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST] The 庇護（Guard） line can be evaluated as a strong support tool by which a high-durability player absorbs part of an ally's incoming damage. At the same time, maintaining it on both bars occupies multiple skill slots and requires link distance, movement synchronization, and enough durability to process the redirected additional damage; evaluate the support effect together with the loss of build and movement freedom.
+
+### A07.B Bruiser
+
+#### Bruiser
+
+[A0632][AUTHOR_VIEW][DEF][ROLE_BRUISER] A bruiser continuously pressures opponents in front-line combat and therefore requires enough survivability to keep attacking.
+[A0633][AUTHOR_VIEW][DEF][ROLE_BRUISER] A bruiser is a role that engages in direct exchanges of blows.
+
+### A07.S Skirmisher
+
+#### Skirmisher
+
+[A0634][AUTHOR_VIEW][DEF][ROLE_SKIRMISHER] A skirmisher is a mobile role tendency that uses high mobility to flexibly change combat locations and engagement states. Whether it operates solo or with a group, focuses on close or long range, and uses mobility for self-survival, offense, or ally support depends on the participating content and operational objective; being a ranged-focused DD is not itself a general requirement for a skirmisher.
+[A0635][AUTHOR_VIEW][COND][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] When operating a skirmisher in group content with priority on effective group contribution, use mobility not merely as freedom to move wherever desired but as the ability to reach high-intervention-value locations quickly.
+[A0636][AUTHOR_VIEW][EVAL][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] Evaluate the intervention performance of a group-contribution skirmisher not only by single instances of fast movement or sporadic hit-and-run attacks, but by the time required after moving to the needed battlefield to begin effective offense, CC, rescue, or pressure and by how frequently effective intervention can be repeated across multiple combat locations.
+
+### A07.GB Common Ganker and Bomber
+
+#### Definitions, Conditions, and Evaluation
+
+[A0637][AUTHOR_VIEW][DEF][ROLE_GANKER] Gank means choosing the target, position, attack-start timing, or similar conditions and seeking a kill from a short offensive opportunity rather than maintaining a long ordinary front-line exchange. Stealth, invisibility, and melee attacks are not necessary conditions for a gank.
+[A0638][AUTHOR_VIEW][DEF][ROLE_GANKER] Treat a Ganker as a role tendency that uses kills through Gank as a primary win condition or as a repeatedly performed primary action. Do not classify an entire build as a Ganker merely because an ordinary DD performs a single Gank when the situation permits.
+[A0639][AUTHOR_VIEW][DEF][ROLE_GANKER][OPPORTUNITY_COST] Treat a Pure Ganker as a Ganker that trades away some ordinary frontal-combat performance and similar capabilities in order to specialize heavily in the Gank cycle, including target selection, attack-start conditions, killable target range, searching, following, disengaging, and retrying.
+[A0640][AUTHOR_VIEW][DEF][ROLE_BOMBER][BURST_DESIGN] Treat a Bomber as a role tendency whose primary win condition is to exploit or create enemy-group density, synchronize multiple area attacks, CC, delayed attacks, and similar effects into a short period to secure an initial kill or major group damage, and convert that result into additional nearby kills. Do not make possession of one specific item such as 残忍な死（Vicious Death） a defining requirement for Bomber.
+[A0641][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ROLE_BOMBER][BURST_DESIGN] When evaluating Bomber feasibility, check as major conditions for success: ① enemy-group density worth attacking; ② targets whose defensive margin, defensive preparation, or successful reaction rate is low relative to the target environment's standard, or whose defensive margin has temporarily fallen enough to make the initial kill easier to secure; and ③ enough time to synchronize attack initiation and the major damage events.
+[A0642][AUTHOR_VIEW][CAUSE][ROLE_BOMBER][ROLE_GANKER][TIME_BUDGET] A Pure Ganker tends to place greater weight on opportunity selection—aligning its attack timing with a target state favorable to itself—whereas a Bomber tends to place greater weight on opportunity response—getting a prepared attack to a short-lived window of group density or an initial-kill opportunity in time.
+[A0643][AUTHOR_VIEW][CAUSE][ROLE_BOMBER][TIME_BUDGET] The preparation cost of multiple GCDs that a Bomber needs before detonation is easier to absorb on battlefields where attack opportunities remain usable for longer. In シロディール（Cyrodiil） and 帝都（Imperial City）, there is relatively more room to prepare while moving, forming position, or waiting, whereas in バトルグラウンド（Battlegrounds）, where situations change quickly, the same pre-attack GCDs tend to impose greater opportunity loss.
+[A0644][AUTHOR_VIEW][RULE][ROLE_BOMBER][TIME_BUDGET][BURST_DESIGN] In Bomber GCD evaluation, separate the preparation GCDs paid before successful detonation from the follow-up GCDs used to finish survivors after the compressed initial attack. Reducing preparation GCDs increases how often the Bomber reaches an attack opportunity in time, while follow-up GCDs are evaluated as expansion of the result after detonation.
+[A0645][AUTHOR_VIEW][AI][EVAL][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] If you only add the final hit, such as an execute, to an enemy that allies have already brought nearly to death and this incidentally triggers surrounding damage such as 残忍な死（Vicious Death）, do not evaluate that alone as a successful Bomber attack sequence. Separately evaluate the difference personally created through direct contribution as an ordinary DD, creation of the initial kill, synchronized attacks into the group, and conversion into surrounding kills.
+[A0646][AUTHOR_VIEW][PATCH][AI][LIMIT][ROLE_BOMBER] When explaining auxiliary effects that expand damage around a Bomber from kills, status effects, or similar triggers, 残忍な死（Vicious Death） may be used as a representative example, but do not limit that job to Vicious Death alone. 疫病爆発（Plaguebreak）, some combat Champion Point effects, and other elements may have similar or supporting roles depending on the patch, so recheck specific examples and effects under current mechanics at the time of the answer.
+[A0647][AUTHOR_VIEW][AI][RULE][ROLE_BOMBER][ROLE_GANKER][RECOMMENDATION_SCOPE] Do not infer long-duration stealth, invisibility, close-range approach, or solo play as requirements merely from the name Ganker or Bomber. Classify from the actual win condition and combat behavior, including ranged variants, high-mobility variants, variants that participate in ordinary combat, and variants incorporated into group tactics.
+
+### A07.G Ganker
+
+#### Basic Operation
+
+[A0648][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][ROLE_GANKER][OPPORTUNITY_COST] Evaluate the practical value of a Pure Ganker that requires long preparation, searching, waiting, and repeated attempts not only by its kill performance when one assassination succeeds, but by whether the tactical and economic value obtained from success exceeds the opportunity cost of the full assassination cycle, including target encounter frequency, preparation time, and losses on failure.
+[A0649][AUTHOR_VIEW][PRIORITY][ROLE_GANKER][GROUP_CONTENT] When operating a Pure Ganker that selects favorable attack-start conditions through stealth and waiting in a suitable environment such as outside Battlegrounds (BG) 4v4, waiting is one of its major skills.
+[A0650][AUTHOR_VIEW][RULE][ROLE_GANKER] For a Pure Ganker whose main tools are stealth and waiting, conceal your presence, position, and intent as much as possible so that the attack timing can be aligned with a target state that is easier to kill.
+[A0651][AUTHOR_VIEW][RULE][ROLE_GANKER] For a Pure Ganker whose main tools are stealth and waiting, do not make immediately attacking an opponent upon discovery the default; wait until attack-start conditions favor your setup.
+[A0652][AUTHOR_VIEW][RULE][ROLE_GANKER] For a Pure Ganker whose main tools are stealth and waiting, do not rate an opponent whose defensive routine is already well established as a highly desirable standard attack target.
+[A0653][AUTHOR_VIEW][DEF][ROLE_GANKER] In the ideal state for a Pure Ganker whose main tools are stealth and waiting, the fact that the enemy does not believe you are present there itself contributes greatly to both offensive and defensive performance.
+[A0654][AUTHOR_VIEW][LIMIT][ROLE_GANKER] Attack skills, crouching, and invisibility are not the essence of a Ganker / Bomber; they are means used to accomplish the objective.
+[A0655][AUTHOR_VIEW][CAUSE][ROLE_GANKER][BURST_COMPRESSION] A Pure Ganker that appears from stealth only briefly to ambush and disengage tends to lose the advantages of stealth the longer it tries to accumulate damage through sustained offense, so the necessary attacks and CC must be compressed into a short exposure period.
+[A0656][AUTHOR_VIEW][COND][ROLE_GANKER] When circumstances do not permit execution, giving up once rather than forcing the attempt can be an important tactic.
+[A0657][AUTHOR_VIEW][COND][ROLE_GANKER] On the surface of 帝都（Imperial City）, if an opponent has properly lured and positioned a boss to create a state that makes it difficult for a Ganker to approach, temporarily give up the assassination attempt against that opponent and switch to observing the situation.
+
+#### Specific Mechanics and Invisibility
+
+[A0658][PATCH][CLAIM][DEF][ROLE_GANKER] 隠密近接初撃スタン（コミュニティ通称：スラムスタン／Slam Stun） refers to the stun caused by a melee sneak attack from the 隠密状態（Hidden） state. Treat it as subject to current-mechanics verification.
+[A0659][AUTHOR_VIEW][EVAL][ROLE_GANKER] Rate 隠密近接初撃スタン（スラムスタン／Slam Stun） highly as attack-initiation performance for a Ganker.
+[A0660][PATCH][CLAIM][ROLE_GANKER] An opponent who is blocking is not affected by the stealth melee opening stun from a melee sneak attack from stealth.
+[A0661][PATCH][CLAIM][ROLE_GANKER] CC skills that do not have block-bypassing properties are not effective against an opponent who is blocking.
+[A0662][AUTHOR_VIEW][RULE][PATCH][ROLE_GANKER] Because an opponent with a detection marker overhead can detect hidden opponents, a Ganker generally does not select such an opponent as an attack target.
+[A0663][PATCH][SCOPE][NIGHTBLADE][STEALTH_COUNTER] Propositions that address invisibility operation with シャドウクローク（Shadow Cloak） or its invisibility morph 偽りの影（Shadowy Disguise） do not apply to the morph ダーククローク（Dark Cloak）, which loses invisibility.
+[A0664][AUTHOR_VIEW][PATCH][AI][RULE][LIMIT][NIGHTBLADE][STEALTH_COUNTER][ESCAPE_ROUTE] In uses where invisibility from シャドウクローク（Shadow Cloak） or its invisibility morph is a primary escape method, treat effects whose attack events originating from yourself voluntarily remove invisibility as materially conflicting with the conditions required for escape. As long as maintaining invisibility is a primary condition for successful escape, combinations containing this conflict should as a rule be evaluated as incompatible or as having a major flaw.
+[A0665][PATCH][CLAIM][NIGHTBLADE][STEALTH_COUNTER][ESCAPE_ROUTE] Even attacks, persistent effects, delayed attacks, and similar effects used before invisibility begins may produce an attack event originating from you after invisibility starts, and that event may remove invisibility.
+
+### A07.BM Bomber
+
+#### Practical 8v8 Design
+
+[A0666][AUTHOR_VIEW][DEF][SCOPE][ROLE_BOMBER][GROUP_CONTENT] In this text, an 8v8 Bomber refers mainly to operation in casual 8v8 バトルグラウンド（Battlegrounds） where enemy-group density and initial-kill opportunities realistically arise and the player can continue participating in combat as a Bomber. This design approach can also be applied to casual 4v4 when similar conditions are present.
+[A0667][AUTHOR_VIEW][PRACTICE][ROLE_BOMBER][DEFENSIVE_DESIGN][GROUP_CONTENT] While keeping a broad range of acceptable setups, an 8v8 Bomber is often easier to operate when more performance is allocated to durability, healing, and renewed disengagement than on one-exchange Bombers in シロディール（Cyrodiil） or 帝都（Imperial City）. Treat this as a recommended tendency for surviving after a failed attempt and making the next attack opportunity easier to use, not as a participation requirement that failure must never occur.
+[A0668][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][ROLE_BOMBER][TIME_BUDGET][DEFENSIVE_DESIGN] Do not evaluate an 8v8 Bomber only by the maximum size of one Bomb; evaluate attack attempt, success or failure, survival, recovery, rebuilding resources such as アルティメット（Ultimate）, and return to the next attack opportunity as one repeated cycle.
+[A0669][AUTHOR_VIEW][PRIORITY][ROLE_BOMBER][TIME_BUDGET][GROUP_CONTENT] In 8v8 Bomber design, treat setups that do not require too many preparation GCDs to obtain sufficient Bomb power as strong, easy-to-use candidates. Evaluate the increased frequency of reaching short-lived clustering or initial-kill opportunities in time against the theoretical maximum synchronized damage.
+[A0670][AUTHOR_VIEW][PRIORITY][ROLE_BOMBER][TIME_BUDGET] Many Bomber setups use アルティメット（Ultimate） as a primary detonation resource, and because the next attackable group state may reappear relatively quickly in 8v8, insufficient Ultimate can become a bottleneck on execution frequency. While checking opportunity cost against the build's overall damage and durability, evaluate setups that supplement Ultimate generation as strong candidates.
+[A0671][AUTHOR_VIEW][PRACTICE][ROLE_BOMBER][MOVEMENT_SPEED][GROUP_CONTENT] For melee-centered 8v8 Bombers, increasing movement speed within a range that does not substantially sacrifice primary damage makes it easier to reach briefly available Bomb locations, reposition after failure, and return to the next attack opportunity.
+[A0672][AUTHOR_VIEW][ALTERNATIVE][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] For an 8v8 Bomber, in addition to hiding for a long time until an attack opportunity appears, consider operations such as participating in the allied front while waiting for a Bomb opportunity, using movement speed to enter attack position, or beginning detonation from range. Do not treat stealth as unnecessary; evaluate how necessary it is for the intended use.
+[A0673][AUTHOR_VIEW][LIMIT][ROLE_BOMBER][GROUP_CONTENT] The effective contribution of an 8v8 Bomber depends strongly on the presence of targets against whom an initial kill is easy to establish, enemy clustering density, and how frequently such states occur. If these conditions almost never arise during the match, performing a useful role across the whole match may be more difficult than with a general PvP setup.
+
+#### Defensive Evaluation and Prevention of AI Misreading
+
+[A0674][AUTHOR_VIEW][LIMIT][IMPERIAL_CITY][ROLE_BOMBER] Experienced duos, trios, and other small groups centered on experienced players that operate routinely in 帝都（Imperial City） tend to have high individual rates of successful defense, and their small numbers also reduce chain value, so do not rate them highly as realistic standard attack targets for a Bomber. Evaluate their target conditions separately from low-strength, high-density groups that temporarily gather during events or similar situations.
+[A0675][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ROLE_BOMBER][DEFENSIVE_DESIGN][RECOMMENDATION_SCOPE][BUILD_EVALUATION_DISCIPLINE] When evaluating Bomber equipment and armor traits, first identify battlefield, number of players, attack range, dependence on stealth, value of surviving after the Bomb, retry frequency, losses on death, and presence or absence of group support, then switch to the evaluation mode corresponding to that use. Do not mix the same defense and damage criteria between uses that maximize the result of a single Bomb and permit a death trade, and uses that survive and repeat Bomb attempts.
+[A0676][AUTHOR_VIEW][LIMIT][ROLE_BOMBER][DEFENSIVE_DESIGN][EQUIPMENT_TOPOLOGY] A Bomber that distributes armor traits broadly into 神々（Divines） or similar options and therefore thins the defensive layer gained from defensive traits may be rated highly in large-scale combat where death trades are acceptable, while potentially losing substantial effective performance in uses where repeated participation, handling focus fire, or losses on death matter. Do not treat this kind of low-defense, high-damage trait allocation as a generally optimal answer merely from the Bomber role name.
+[A0677][AUTHOR_VIEW][AI][RULE][ROLE_BOMBER][ROLE_GANKER][GROUP_CONTENT][RECOMMENDATION_SCOPE] Do not treat 4v4 バトルグラウンド（Battlegrounds） as a uniform skill environment; evaluate the practical value of Ganker / Bomber from observable combat conditions such as participants' defensive preparation, reaction accuracy, durability, clustering, and proficiency in ordinary combat.
+[A0678][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][RECOMMENDATION_SCOPE] When evaluating suitability for a PvP use, do not use mere theoretical success if multiple low-probability conditions all occur simultaneously as evidence of a realistic win condition, recommended option, or meaningful practical value. Judge practical value from the success frequency normally expected in the target environment, losses on failure, and opportunity cost.
+[A0679][AUTHOR_VIEW][AI][LIMIT][IMPERIAL_CITY][ROLE_BRUISER][ROLE_BOMBER][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] When assuming an ordinary build for an experienced Bruiser that operates continuously in 帝都（Imperial City）, do not automatically add as part of the standard image a setup that spends a major build slot such as a 5pc primarily on post-kill surrounding damage like 残忍な死（Vicious Death）. Compare the opportunity cost against ordinary direct-engagement performance, and do not generalize limited use for Bomber, specialization against low-strength groups, specific-purpose 1vX, filming projects, or similar cases into the ordinary general image of a Bruiser.
+[A0680][AUTHOR_VIEW][AI][LIMIT][ROLE_BOMBER][GROUP_CONTENT][RECOMMENDATION_SCOPE] Do not generalize a judgment that a dedicated Bomber is practically nonviable in advanced-player-centered 4v4 to beginners, casual 8v8, or 4v4 with variation in participants' combat proficiency. Treat the dedicated judgment for advanced 4v4 as Series B material and do not reuse it as a beginner participation condition, standard recommendation, or failure criterion.
+
+## A07.3 Group Contribution, Return, and Self-Evaluation
+
+### A07.GRP Group-Contribution Applications
+
+#### Core Conclusions to Retrieve First
+
+[A0681][AUTHOR_VIEW][DEF][ADVANTAGE_CREATION_CONVERSION][GROUP_CONTENT][GROUP_CONTRIBUTION] In group PvP, evaluate separately the ability to lead allies into an advantageous state and the ability to maintain, expand, or convert an advantageous state already created by allies into results such as kills.
+[A0682][AUTHOR_VIEW][COND][RULE][CAUSE][TIME_BUDGET][GROUP_CONTENT][GROUP_CONTRIBUTION] In group combat, enemy GCDs, time, and positioning are finite; if you survive while drawing enemy attacks, CC, and pursuit and thereby reduce pressure on allies, evaluate that reduction as team value.
+[A0683][AUTHOR_VIEW][PRIORITY][ESCAPE_ROUTE] The final destination of escape is not “the farthest safe place” but “a place where you can fight next.”
+[A0684][AUTHOR_VIEW][RULE][CAUSE][EX][GROUP_CONTENT][GROUP_CONTRIBUTION] In PvP self-evaluation, do not use kill count alone; review the effective contribution produced through your role. Protecting a healer, occupying multiple enemies for a long time, disrupting enemy healing, and rescuing a near-death ally are not adequately represented by kill count, so evaluating role fulfillment makes concrete improvement targets easier to identify.
+
+#### Advantage Creation, Conversion, and Enemy-Time Diversion
+
+[A0685][AUTHOR_VIEW][LIMIT][ALLY_DEPENDENCE][GROUP_CONTENT][GROUP_CONTRIBUTION] Showing high performance when allies have supplied pressure, CC, damage, or similar advantage does not mean the character can create the same advantageous state alone.
+[A0686][AUTHOR_VIEW][LIMIT][SOLO_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION] Do not conclude that a build has low group-combat value merely because it has low ability to create advantage by itself if it can convert advantage created by allies into results with high efficiency.
+[A0687][AUTHOR_VIEW][RULE][GROUP_EFFECT][TARGET_LOCAL_EFFECT][GROUP_CONTENT][GROUP_CONTRIBUTION] Even when two players in group combat appear to be mutually locking each other down, if one can continue providing value to other allies or enemies through HoTs, area healing, buffs, debuffs, AoE, CC, or similar effects, do not treat them as a simple one-for-one cancellation; include the difference in value spilling outside the direct matchup while they are occupied.
+[A0688][NOT_INITIAL_REQUIREMENT][AUTHOR_VIEW][GOAL][LIMIT][COMBAT_PARTICIPATION_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] As a future goal, beginners should become able to evaluate operation that reduces meaningful combat participation through stealth, waiting, or similar behavior in fixed-size group combat by subtracting the opportunity cost of offense, CC, support, focus distribution, and other contributions lost during that time and determining whether later intervention exceeds those losses; do not make this an initial-stage requirement.
+
+#### Escape Value and Return to the Front
+
+[A0689][AUTHOR_VIEW][CLAIM][GROUP_CONTENT][GROUP_CONTRIBUTION] In Battlegrounds (BG), merely not dying can be insufficient.
+[A0690][AUTHOR_VIEW][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] The problem that “merely not dying is insufficient” is especially pronounced in highly competitive 4v4.
+[A0691][EX][GROUP_CONTENT][ESCAPE_ROUTE] An example is a situation where two enemies chase you far away from the main battlefield.
+[A0692][AUTHOR_VIEW][COND][CLAIM][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] While two enemies continue chasing you, those two cannot attack your allies, giving your side a temporary numerical advantage on the main battlefield. This numerical advantage has tactical value.
+[A0693][AUTHOR_VIEW][COND][LIMIT][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] If the enemies stop chasing and return to the main battlefield while you alone remain far away, your allies must fight without you and the value gained by drawing the enemies away diminishes.
+[A0694][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] Distinguish “escaping from attacks” from “disappearing from the battlefield.”
+[A0695][AUTHOR_VIEW][PROC][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] An ideal escape-and-return sequence is: evade the opponent's attacks → return near allies or a healer → if possible bring pursuers back toward your allies as well → stabilize and re-enter combat.
+
+#### Role-Achievement Self-Evaluation
+
+[A0696][NOT_INITIAL_REQUIREMENT][AUTHOR_VIEW][GOAL][LIMIT][KILL_CONTRIBUTION][GROUP_CONTENT][GROUP_CONTRIBUTION] As a future goal, beginners should learn to evaluate contribution to a kill not only by whether they received the Killing Blow, but by comparing whether the opponent could have survived, healed, or disengaged without their intervention and by not counting the final hit on an opponent who would have been killed immediately even without them as major additional value; do not make this an initial-stage requirement.

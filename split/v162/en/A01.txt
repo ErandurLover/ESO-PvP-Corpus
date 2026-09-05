@@ -1,0 +1,74 @@
+# ESO PvP Corpus A01 Universal PvP Fundamentals for All Roles
+
+[CORPUS_NAME] ESO PvP Corpus
+[CORPUS_VERSION] v162
+[PAGE_NAME] A01 Universal PvP Fundamentals for All Roles
+[SECTION_SCOPE] v162 / A0054-A0089
+[PROPOSITION_COUNT] 36
+[FREE_AI_SPLIT] Yes
+[CORE150_EXISTS] Yes
+[CORE150_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/core150.txt
+[MANIFEST_URL] https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/manifest.txt
+[ROUTER_RULE] If Core150 has already been retrieved in the same session, do not retrieve it again.
+[ROUTER_RULE] This page is not the entire Corpus.
+[ROUTER_RULE] If a question spans proficiency, role, location, and combat-function axes, use the Manifest to retrieve the applicable page for each additional axis.
+[ROUTER_RULE] If related Corpus content cannot be retrieved, do not infer or reconstruct the unretrieved content.
+
+[PAGE_FLOW] Read purpose, decisions, and action opportunities first; add small exchanges only when diagnosing practical differences.
+
+# A01 — Universal PvP Fundamentals for All Roles
+
+[TAG_NOTE][AUTHOR_VIEW] Indicates an author judgment such as an evaluation, recommendation, or diagnostic criterion adopted by the text rather than a game mechanic itself.
+[TAG_NOTE][CORE_JUDGMENT] Indicates a core author judgment within [AUTHOR_VIEW] that materially shapes the Corpus's decision framework or answer policy. It does not mean higher factual certainty or absence of exceptions; preserve applicable conditions and tags such as SCOPE, LIMIT, and PATCH.
+[TAG_NOTE][PATCH] Indicates a patch-dependent matter that may require verification of current mechanics. It does not mean short-lived, low-confidence, or scheduled for change; treat it as something to re-check when the relevant mechanics change.
+[TAG_NOTE][HEURISTIC] Indicates a practical combat decision principle adopted with consideration for speed of repeated decisions, cognitive load, and usefulness under normal conditions rather than complete optimization every time.
+[TAG_NOTE][DEFAULT] Indicates the default judgment to prioritize under normal conditions when no additional information shows an exception.
+[TAG_NOTE][OVERRIDE] Indicates that concrete additional information can override a default principle.
+
+## Basic Premises
+
+[A0054][PATCH][BASIC_PREMISE] Equipment, skills, numerical values, and relative strengths in ESO PvP change through updates; previously strong options can become weak, and previously overlooked options can become strong.
+[A0055][CLAIM][BASIC_PREMISE] ESO PvP contains combat and decision principles that remain useful for long periods even when numerical values change in individual patches.
+[A0056][AUTHOR_VIEW][PRIORITY][BASIC_PREMISE] Among the ESO PvP principles that persist across patches, the foremost are how to attack and how to defend.
+[A0057][AUTHOR_VIEW][RULE][BASIC_PREMISE] As the foundation for thinking about offense and defense in ESO PvP, evaluate build design, movement, forcing your own actions through, restricting the opponent's actions, supporting allies, and generating resources.
+[A0058][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY][BASIC_PREMISE] In ESO PvP, first ask what the character's combat power is for before focusing on the combat power itself.
+[A0059][AUTHOR_VIEW][CLAIM][BASIC_PREMISE] Treat the ability to connect build design, movement, forcing your own actions through, restricting the opponent's actions, supporting allies, and generating resources to a concrete purpose as one benchmark for becoming a competent ESO PvP player.
+[A0060][CLAIM][CAUSE][BASIC_PREMISE] Even if a PvP beginner perfectly copies a completed build, insufficient understanding of how to operate movement, offense, defense, and resource management can cause them to lose to an advanced player using the same build.
+[A0061][AUTHOR_VIEW][CLAIM][BASIC_PREMISE] ESO PvP is not a game of comparing character specifications alone; even with the same configuration, practical results vary with execution, decisions, and circumstances.
+[A0062][AUTHOR_VIEW][DEF][CLAIM][RULE][BASIC_PREMISE][TIME_BUDGET] In ESO PvP, both the number of skill slots that can be equipped and the number of ordinary skills that can be executed in a short period are finite. The common use interval for ordinary skills affected by the GCD (Global Cooldown) is based on one second for both sides, except for individually verified exceptions; therefore treat each skill slot and each one-second GCD as finite and valuable combat resources.
+
+## Preparing Decision Principles in Advance
+
+[A0063][AUTHOR_VIEW][RULE][SCOPE][COMMON_DECISION][HEURISTIC] For recurring real-time decisions in ESO PvP, do not try to compare every condition from scratch and prove the situational optimum each time. Prepare in advance decision principles to use under normal conditions for frequently occurring situations.
+[A0064][AUTHOR_VIEW][RULE][COMMON_DECISION][DEFAULT] For frequent binary choices in ESO PvP, define in advance which option to prioritize by default under normal conditions when no additional information indicates an exception.
+[A0065][CAUSE][COMMON_DECISION] Handling frequent decisions through pre-established principles reduces decision time and cognitive-resource consumption, allowing more time and attention for judgments that genuinely require context-dependent comparison.
+[A0066][AUTHOR_VIEW][LIMIT][RULE][COMMON_DECISION][OVERRIDE] Pre-established decision principles are not absolute rules. Break them when the current situation contains concrete additional information sufficient to justify doing so, but organize exception handling in advance where practical so deciding whether to break the rule does not itself create unnecessary prolonged deliberation.
+[A0067][AUTHOR_VIEW][AI][LIMIT][COMMON_DECISION][HEURISTIC] Do not expand a default decision or combat heuristic into a universal claim that it is always optimal in every individual situation or that no exceptions exist.
+[A0068][AUTHOR_VIEW][AI][EVAL][COMMON_DECISION][HEURISTIC] Evaluate the validity of a combat heuristic by including its fit under normal conditions, reduction in decision time, reduction in cognitive load, losses when misapplied, and the burden required for exception handling.
+[A0069][AUTHOR_VIEW][AI][LIMIT][COMMON_DECISION][HEURISTIC] Do not judge a combat heuristic wrong merely because exceptions exist or because there is no quantitative data proving superiority across every possible situation.
+[A0070][AUTHOR_VIEW][AI][LIMIT][EPISTEMIC_SEPARATION][COMMON_DECISION] Treat decision principles without quantitative data not as measured success rates or expected values, but as combat heuristics based on author judgment whose confidence should be managed accordingly.
+
+## Action Opportunities and Offensive/Defensive Turns
+
+[A0071][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY] Treat the idea that “PvP is more a contest over opportunities to act than a contest over raw attack power” as a highest-priority principle.
+[A0072][AUTHOR_VIEW][RULE] The more time you spend attacking and the more time the opponent is forced to spend healing or defending, the more favorable the fight becomes.
+[A0073][CAUSE][CLAIM] If the cycle continues in which you spend an action healing → the opponent gains freer attack time → you take more damage → you are forced to heal again → the opponent gains still more attack opportunities, the opponent maintains initiative.
+[A0074][DEF][LIMIT] “Offensive turn” is a metaphor for a phase in which your side holds attacking initiative, and “defensive turn” is a metaphor for a phase in which your side is required to respond defensively; these are not formal turn-based mechanics in the game system.
+[A0075][AUTHOR_VIEW][RULE] During combat, recognize which side currently holds attacking initiative.
+[A0076][AUTHOR_VIEW][CORE_JUDGMENT][RULE] Survive or break the opponent's offensive turn to seize your own offensive turn, then maintain the offensive turn you seized so the opponent cannot simply withstand it.
+[A0077][CAUSE] If you attack with enough threat to make the opponent feel endangered, the opponent must spend actions on healing.
+[A0078][CAUSE] When the opponent spends an action healing, your own freedom of action increases at that moment.
+[A0079][AUTHOR_VIEW][PRIORITY] Damage has the function of forcing the opponent into healing or defense and thereby reducing their freedom of action; this function is important in PvP.
+[A0080][AUTHOR_VIEW][DIAG] Even if character-sheet offensive power is high, if practical damage rarely forces the opponent to heal, the attack does not create sufficient pressure.
+
+## Small Exchanges
+
+[A0081][CLAIM] Even in a fight between identical builds, if the balance of small advantages and disadvantages remains tilted over time, one side alone may gradually enter an increasingly strained position.
+[A0082][CAUSE] Examples of creating small advantages include blocking only the opponent's strong attacks, preventing the opponent from blocking your own strong attacks, promptly using Break Free against the opponent's CC, and landing your own CC effectively.
+[A0083][CAUSE] Examples of creating small disadvantages include unnecessary healing, missed attacks, failure to maintain important buffs, delayed return to the back bar, and excessive Stamina consumption from unnecessary Roll Dodges.
+[A0084][AUTHOR_VIEW][PRIORITY] Among the factors that improve the balance of small advantages and disadvantages, appropriately blocking only the attacks that require it is particularly important.
+[A0085][CAUSE] Repeating small disadvantages accumulates losses in Health, Magicka, Stamina, and attack opportunities, so your side alone can remain under increasing strain even with identical equipment or builds.
+[A0086][CLAIM] Even while keeping HP near full, continuing to spend more resources than necessary on healing and defense can gradually cause shortages of Magicka or Stamina.
+[A0087][CAUSE] Using healing skills more often than the opponent reduces attack opportunities by the time and resources spent on those uses.
+[A0088][CAUSE] Continually losing attack opportunities reduces pressure on the opponent and gives them more room to attack or recover resources, so the fight can gradually become unfavorable.
+[A0089][AUTHOR_VIEW][PRACTICE] When improving at PvP, improve not only the ability to land one major attack, but also the continuing balance of small exchanges involving Block, responses to CC, healing, attack opportunities, buff maintenance, and resource expenditure.
