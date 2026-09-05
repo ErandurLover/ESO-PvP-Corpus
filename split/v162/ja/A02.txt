@@ -3,7 +3,7 @@
 [CORPUS_NAME] ESO PvP Corpus
 [CORPUS_VERSION] v162
 [PAGE_NAME] A02 初心者向け導入・学習・診断・検証
-[SECTION_SCOPE] v162 / A0090-A0241
+[SECTION_SCOPE] v162 / A0089-A0145,A0190,A0225-A0240,A0242-A0249,A0272,A0353,A0362,A0370,A0395-A0397,A0407-A0408,A0419,A0449-A0450,A0461-A0462,A0464,A0470,A0509,A0583,A0585-A0587,A0604-A0619,A0621-A0624,A0635-A0638,A0645,A0674-A0677,A0685,A0692-A0693,A0712,A0725-A0731,A0734-A0735,A0739,A0749-A0750,A0755-A0756,A0793-A0794
 [PROPOSITION_COUNT] 152
 [FREE_AI_SPLIT] Yes
 [CORE150_EXISTS] Yes
@@ -33,295 +33,231 @@
 [TAG_NOTE][PVP_ASSUMPTION] PvP自衛評価で敵の人数、攻撃意志、射程、機動力、追跡能力等を自分に都合よく固定せず、対象環境で現実的に遭遇し得る脅威条件を評価対象へ含めることを示す。
 [TAG_NOTE][VENGEANCE] 通常キャンペーンと異なる専用ルール・能力・ロードアウト等を持つ復讐（Vengeance）環境固有の評価対象を示す。このタグを持つ環境内の強弱・学習適性を通常PvPへ自動的に一般化しない。
 
-## A02.1 入門直後の成立条件
 
-### A02.10 入門・初期成功条件
-
-#### 先に取得する中核結論
-
-[A0090][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] 入門者級初心者では、勝敗や最大火力より先に、戦場で一定時間生存してPvPの空気感と基本操作に慣れられることを初期ビルド・学習の主要評価軸とする。
-[A0091][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] 入門者級初心者向けビルドは、原則として①生存性、②実戦サステイン、③火力その他の性能、の順で成立を確認する。
-[A0092][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PRACTICE][RECOMMENDATION_SCOPE] 入門者級初心者向けのビルド・戦術は、操作手順が単純であることや、理想的な判断・立ち回りを行えば生存できることだけを初心者適性の根拠にしない。生存性、実戦サステイン、判断・操作ミスへの許容度、およびLoS・防御移行・CC・攻防切替等のPvP基礎行動を実戦で学習できる余裕を含めて評価する。
-[A0093][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][PRACTICE] 入門者級初心者には、生存性を確保するために実質的な戦闘参加を恒常的に避ける方法より、危険を減らしながら戦闘参加を継続し、攻撃・防御・LoS・味方との合流等を経験できる方法を優先する。
-
-#### 初期目的・成功基準・戦闘参加
-
-[A0094][AUTHOR_VIEW][COND][LIMIT][ENTRY_LEVEL_BEGINNER][GROUP_CONTENT][GROUP_CONTRIBUTION] 定員制の少人数グループコンテンツで入門者級初心者本人がチーム勝利・実効貢献を優先する場合、スポーン地点側の高台等の敵から攻撃されにくい位置から遠距離攻撃だけを続け、通常戦闘への参加を恒常的に避ける運用を標準推奨にしない。
-[A0095][AUTHOR_VIEW][CAUSE][ENTRY_LEVEL_BEGINNER][PRACTICE] 敵から攻撃されにくい位置からの遠距離攻撃だけに依存すると、敵圧力下での防御移行、LoS、リソース管理、CC、味方との位置調整等を実戦で反復する機会が減るため、入門者級初心者の基礎学習手段としては限定的になる。
-[A0096][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PRACTICE] 入門者級初心者本人が即時参戦を望む場合を除き、「何度死んでもよいからまず参戦する」ことを標準助言にせず、初心者のミスを吸収しやすいビルドと最低限の操作準備を先に提示する。
-[A0097][AUTHOR_VIEW][PRACTICE][ENTRY_LEVEL_BEGINNER] PvPにもPvEの2バー操作にも不慣れな入門者級初心者は、PvP用ビルドを装備した状態でフィールド等を使い、各バーのスキル、回復、防御、打破（Break Free）、装備効果等を一通り実行してから実戦へ入ることを初期準備とする。
-
-#### 初期ビルド・サステイン・防御余力
-
-[A0098][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] 重装鎧（Heavy Armor）主体の入門者級初心者ビルドでは、重装鎧を主体とすることで不足する実戦サステインを確認し、必要ならモンスターマスク・神話装備（Mythic）・ムンダス（Mundus）・食事等で補う。初期段階では火力の微増より再生・リソース維持を優先候補にする。
-[A0099][AUTHOR_VIEW][PROC][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] 入門者級初心者のサステイン調整では、原則としてムンダス（Mundus）→食事→装備→アクセサリー付呪の順に検討する。モンスターマスクや神話装備（Mythic）等を利用できないなど装備収集状況に制約がある場合は、装備による調整段階を飛ばしてアクセサリー付呪へ進んでよい。
-[A0100][AUTHOR_VIEW][PRACTICE][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] アクセサリー付呪でサステインを調整する場合は、一度に複数箇所を変更せず、原則として1箇所ずつ変更して一定程度実戦で試し、必要量を確認しながら追加調整する。
-[A0101][AUTHOR_VIEW][AI][LIMIT][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL][DEFENSIVE_DESIGN][ESCAPE_ROUTE] 入門者級初心者には、生存性を十分に補わずリソースだけ、またはリソースと火力だけを大きく伸ばす構成を標準推奨にしない。初心者の生存成立を、敵の早期発見、危険予測、最適な位置取り・逃走経路選択、正確なリソース管理、短時間での適切な防御入力等を高精度で継続できることへ依存させず、判断や操作が遅れた場合にも一定のミスを吸収できる防御余力を確保する。理想的な事前察知・回避・逃走が成功する場合だけ生存できる低防御構成を、初心者向けの十分な生存性として扱わない。
-[A0102][AUTHOR_VIEW][AI][LIMIT][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL][MOVEMENT_SPEED][DEFENSIVE_DESIGN][ESCAPE_ROUTE] 入門者級初心者向けビルドでは、高い機動力または逃走能力があることだけを理由に、対象PvP環境に対する実効防御の不足を許容しない。機動力による生存は、危険の発見時点、位置取り、地形・経路、残存リソース、敵の追跡能力等に左右されるため、判断や操作が遅れた場合や逃走開始前に被弾した場合にも一定のミスを吸収できる防御余力を別に評価する。
-[A0103][AUTHOR_VIEW][AI][PRIORITY][ENTRY_LEVEL_BEGINNER][CRITICAL_RESISTANCE][DEFENSIVE_DESIGN][RECOMMENDATION_SCOPE] PvPエリアで活動する入門者級初心者では、クリティカル耐性を十分に確保したことをデータ上確認しないまま、防具特性をクリティカル耐性以外の性能へ大きく振る構成を標準推奨にしない。特に、敵の攻撃を事前察知して適切に防御できることを生存成立の前提にしない。
-[A0104][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][DEFENSIVE_DESIGN][EQUIPMENT_TOPOLOGY] 入門者級初心者向けビルドの実効防御が不足し、サステイン以外に防御を主要機能とする装備を持たない場合は、防御用5セット装備を少なくとも一つ導入することを有力な初期改善候補として強く検討する。単一の防御スキル追加だけで不足分を補えるとは推定しない。
-
-## A02.2 最初に身体化する実戦判断
-
-### A02.30 全ロール共通の初心者基本
-
-#### 八段階の初期練習
-
-[A0105][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][DEFENSIVE_SEQUENCE] 練習第1段階では、死にそうだと気付いたときに攻撃をやめ、まずブロック（Block）を成立させてから防御シーケンスへ移ることを主要な練習目標とする。最初から毎回成功する必要はなく、危険に気付いてブロックから防御へ切り替えられる回数を増やす。
-[A0106][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第2段階では、打破（Break Free）またはロール回避（Roll Dodge）1回分の非常用スタミナ（Stamina）を残せる場面を増やすことを主要な練習目標とする。最初から常時維持できる必要はなく、使い切った場面を認識して次の試合で改善する。
-[A0107][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第3段階では、障害物を利用して平地で複数人から攻撃を受け続ける時間を減らすことを目標とし、完全に攻撃を避け続けることは要求せず、被攻撃時間を部分的に減らせれば進歩として扱う。
-[A0108][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第4段階では、CCを攻撃開始の合図として利用できる場面を増やすことを目標とする。
-[A0109][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第5段階では、CC後に複数の攻撃をまとめることを目標とし、最初から完全なコンボを毎回再現することは要求しない。
-[A0110][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第6段階では、相手が回復へ回った場面では攻撃継続を試し、自分が回復へ回らされた場面では無理な攻撃を減らすことを目標とする。
-[A0111][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][ESCAPE_ROUTE] 練習第7段階では、味方の位置を確認し、逃げる方向と味方へ戻る方向を考えられる場面を徐々に増やすことを目標とする。
-[A0112][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第8段階では、自分のビルドまたは運用上のボトルネックを一つ見つけ、一度に多数の問題を修正しようとせず一つずつ改善することを目標とする。
-
-#### 相手状態・主要攻撃の学習
-
-[A0113][AUTHOR_VIEW][PRACTICE] 自分の基本操作、リソース管理、盤面への注意を一通り意識せず行えるようになったら、次の学習対象として相手の状態を見る。
-[A0114][AUTHOR_VIEW][GOAL] 理想的には、全クラスの主要な攻撃エフェクトと操作感を知ることを目標にする。
-[A0115][AUTHOR_VIEW][PRACTICE] 全クラスの学習が難しい場合、環境で脅威度が高いクラスだけでも主要な攻撃エフェクトと操作感を知る。
-[A0116][CAUSE] 相手クラスの主要な攻撃エフェクトと操作感を知っていると、そのクラスと対峙した際の対処精度が大きく向上する。
-
-#### 六段階の実戦判断フロー
-
-[A0117][AUTHOR_VIEW][PROC][COND][DEFENSIVE_SEQUENCE] ①「今、死にそうか」を判定する。死にそうなら攻撃を止め、まずブロック（Block）を成立させてから、必要な回復・防御バーへの移行・LoS・距離確保等へ進み、リソース残量を確認する。死にそうでなければ次へ進む。
-[A0118][AUTHOR_VIEW][PROC][DIAG][COND] ②「相手が自分の攻撃を無視して殴ってきているか」を判定する。無視されるなら圧力不足を疑い、バフ・デバフ・貫通・CC・コンボタイミングを見直す。相手が回復・防御へ回っているなら、自分に攻撃ターンが来ている可能性が高い。
-[A0119][AUTHOR_VIEW][PROC][COND] ③「CCとバーストの準備があるか」を判定する。準備があるなら相手の防御が薄くなる瞬間に仕掛け、ないなら主要資源を無理に全投入せず準備しながら圧力を維持する。
-[A0120][AUTHOR_VIEW][PROC][COND] ④「打破（Break Free）・ロール回避（Roll Dodge）分のスタミナ（Stamina）が残っているか」を判定する。ないなら深追いせず距離を取り、回復して再調整し、あるなら通常判断を継続する。
-[A0121][AUTHOR_VIEW][PROC][COND] ⑤「複数人に狙われたか」を判定する。狙われたら正面で全攻撃を受けず障害物・距離・CCで追跡者を分断し、一人が孤立したら反撃する。複数に狙われていなければ通常の攻防を継続する。
-[A0122][AUTHOR_VIEW][PROC][COND][RULE] ⑥「相手を倒せないまま長時間経過しているか」を判定する。停滞しているなら同じ相手へ固執せず、他標的・味方・目的地点へ注意を移し、相性が悪ければ逃げることも正当な戦術とする。停滞していなければ攻防を継続する。
-
-#### CCによる圧力・中断・リソース負荷
-
-[A0123][AUTHOR_VIEW][GOAL][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、攻撃練習を通じて「倒したいから大技を撃つ」状態から、「CCを通して短い拘束時間に強い攻撃をまとめる」と考えられる場面を徐々に増やすことを目標とし、最初から毎回適切なCC起点を作れる必要はない。
-
-#### 攻撃・防御・回復・非常用リソース
-
-[A0124][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][PVP_ASSUMPTION][BEGINNER_ALL_ROLES][DEFENSIVE_SEQUENCE][PRIORITY] 初心者向け防御設計では、敵プレイヤーが質問者の操作を待つ、同程度にもたつく、または攻撃機会を自発的に失うことを前提にせず、質問者より速く次の攻撃・CC・バーストを入力し得る相手を想定する。そのため、緊急初動には入力直後から防御価値が生じ、後続判断中にも機能する行動を優先し、ブロック（Block）を代表的な起動原則として扱う。
-[A0125][AUTHOR_VIEW][PRACTICE][PRIORITY][DEFENSIVE_SEQUENCE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者の緊急防御では、危険を認識したらまずブロック（Block）を成立させ、その状態を維持したまま必要なバー交換を行い、GCDが使用可能になり次第、回復・防御スキル等の立て直しへ進む起動順序を基本練習とする。
-[A0126][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][BEGINNER_ALL_ROLES][DEFENSIVE_SEQUENCE][PRIORITY] 初心者へ窮地の防御順序を説明するとき、「防御バーへ交換してから回復し、その後にブロック（Block）する」「回復してからブロックする」等を標準手順として生成せず、ブロックを最初の自発防御行動として示す。
-[A0127][AUTHOR_VIEW][RULE][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 初心者の攻撃復帰判断では、残存HPが見た目上十分に多いことを、最大HPまでの回復を途中で打ち切る一般的な理由として扱わない。
-[A0128][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][PRIORITY][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 初心者が防御ターンから攻撃へ復帰する場合は、原則として現在HPを最大HPまで戻し、打破（Break Free）等に必要な非常用スタミナ（Stamina）余白も確保してから攻撃復帰を判断する。
-[A0129][AUTHOR_VIEW][CAUSE][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 最大HP未満から次の攻防交換を始めると、未回復HPの分だけ次の被圧を受け止める体力余裕が減るため、初心者の標準的な攻撃復帰状態として扱わない。
-[A0130][AUTHOR_VIEW][AI][RULE][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 初心者の防御ターン終了・攻撃復帰基準として、「一定割合以上のHPが残っていれば十分」「最大HPまで戻さなくても十分」等の固定的なHP閾値を生成しない。
-[A0131][AUTHOR_VIEW][AI][LIMIT][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 中上級者が主導権・残存回復・敵の攻撃準備等を読んで最大HP未満から攻撃へ転じる状況判断を、初心者の標準的な防御終了・攻撃復帰手順へ一般化しない。
-[A0132][AUTHOR_VIEW][PRIORITY][BEGINNER_ALL_ROLES] スタミナ（Stamina）型でないビルドでも、スタミナは打破（Break Free）・ロール回避（Roll Dodge）・ブロック（Block）・スプリント（Sprint）に使用する生存リソースとして扱う。
-
-#### 対隠密の初期対策
-
-[A0133][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][STEALTH_COUNTER] 光輝く灯明（Radiant Magelight）は、スロット中に隠密攻撃由来のSlam Stunを防げるため、隠密ガンカーへの有力な防御策として初心者へ特に評価する。ただし、隠密状態（Hidden）から使用されたスキル自身が持つ固有CCまで無効化する効果とは扱わない。
-[A0134][AUTHOR_VIEW][PATCH][RULE][ENTRY_LEVEL_BEGINNER][STEALTH_COUNTER] 暴きの閃光（Revealing Flare）系を対隠密用途で使う場合、どこかに潜んでいる敵を探索する技能としてより、敵が隠密のまま接近・通過しにくい範囲を作るエリア拒否として評価し、初心者には持続範囲を作れる残存する閃光（Lingering Flare）を有力候補とする。
-
-## A02.3 学習・検証・死亡診断
-
-### A02.20 段階学習・実験
-
-#### 先に取得する中核結論
-
-[A0135][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][BUILD_GENERAL] キャラクターが理論上持つ汎用性を、そのままプレイヤーの実戦上の汎用性として評価せず、各機能を実戦で利用するための操作・判断習熟を別に確認する。
-[A0136][AUTHOR_VIEW][CORE_JUDGMENT][AI][DIAG][RULE][PRACTICE][RANGE_COST][OPPORTUNITY_COST] シロディール（Cyrodiil）大規模戦経験の長い遠距離DDが少数戦で苦戦している場合、原因をプレイヤー技量だけ、またはビルド性能だけの一方へ即断せず、個人戦技能の習熟度と射程の機会費用を別々に診断する。
-[A0137][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][ROLE_BRUISER][RANGE_COST] 不足技能が個人戦の知覚―行動ループにある場合、「さらにシロディール（Cyrodiil）の大規模戦を続ければ自然に習得する」と安易に推定せず、必要な判断頻度・時間圧・攻防負荷を高密度に再現する課題忠実度の高い練習を優先候補とする。
-
-#### 理論性能と実戦利用率
-
-[A0138][AUTHOR_VIEW][DEF] ビルド画面は、キャラクターが「できること」の上限を示す。
-[A0139][AUTHOR_VIEW][CAUSE] 実戦性能は、バフ維持、継続攻撃、CC・ブロック（Block）・ロール回避（Roll Dodge）のタイミング、表裏バー切替、障害物利用、回復開始、攻撃ターンの見極め、リソース残量によって変化し、同じビルドでも性能の実際の利用率が変わる。
-[A0140][AUTHOR_VIEW][CORE_JUDGMENT][CAUSE][PRACTICE][BUILD_GENERAL] キャラクターが多数の用途へ対応できる性能を持っていても、プレイヤーが各用途に必要な操作・判断を習得していなければ、その汎用性能のうち習熟済みの部分しか安定して実戦価値へ変換できない。
-
-#### 遠距離DDの経験範囲と個人戦技能
-
-[A0141][AUTHOR_VIEW][CLAIM][PRACTICE][GROUP_CONTENT][RANGE_COST] シロディール（Cyrodiil）の大規模野戦・砦戦で後方遠距離DDとして攻撃を継続する運用は、それ自体で成立する一つのPvP仕事であり、その運用を反復すれば大規模集団への攻撃、射程管理、前線との位置関係等へ習熟し得る。
-[A0142][AUTHOR_VIEW][CAUSE][PRACTICE][ROLE_BRUISER][RANGE_COST] 大規模戦の後方遠距離DDとして成果を得られることは、被フォーカス時の防御、攻防切替、対個人コンボ等の未習熟を必ずしも露出させず、個人戦技能の不足が残ったままでもその役割では成果を得られる場合がある。
-[A0143][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][RANGE_COST] 大規模戦から少数戦まで対応する汎用遠距離DDを実際に汎用的に扱うには、射程の利益が十分に働かない状況でも、一人分の敵戦力に対して攻撃・防御・回復・CC・リソース判断を成立させる個人戦の基礎技能へ習熟する。
-[A0144][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][RANGE_COST] 汎用遠距離DDの個人戦技能を練習する候補には、決闘、バトルグラウンド（Battlegrounds）の少人数直接戦、帝都（Imperial City）の局地戦等、対個人の防御・攻防切替・コンボ・リソース交換を大規模後衛戦より高密度に反復しやすい環境がある。
-[A0145][AUTHOR_VIEW][CAUSE][PRACTICE][BUILD_GENERAL] 上手い汎用遠距離DDの装備・スキル構成をコピーしても、そのプレイヤーが個人戦・少数戦で身につけた攻防判断、コンボ精度、被フォーカス処理等のプレイヤースキルはコピーされない。
-[A0146][AUTHOR_VIEW][DIAG][PRACTICE][RANGE_COST][ROLE_BRUISER][OPPORTUNITY_COST] シロディール（Cyrodiil）の大規模戦から小規模なバトルグラウンド（Battlegrounds）等へ移行した遠距離DDが少数戦向け近接との直接戦で反復して苦戦する場合、未習熟な個人戦技能と、射程へ支払った正面攻防性能の機会費用を分けて確認し、両方が同時に原因となり得ることを前提に診断する。
-[A0147][AUTHOR_VIEW][CAUSE][PRACTICE][RANGE_COST] 得意な大規模遠距離運用だけでも十分な成果を得られることは、不足している個人戦技能を練習する必要性を感じにくくし、すでに高い技能だけをさらに反復して汎用化に必要な技能の習得が停滞する学習上の要因になり得る。
-[A0148][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][PRACTICE][EPISTEMIC_SEPARATION] 大規模戦で長く活動していることを、対個人戦・ブルーザー技能への同等の習熟証拠として扱わない。一方、少数戦技能の不足だけから大規模戦で培った射程管理・集団攻撃・前線把握等の技能まで低く評価しない。
-[A0149][AUTHOR_VIEW][AI][DIAG][RULE][PRACTICE][BUILD_GENERAL] 個人戦技能が主要ボトルネックだと判断した場合、装備変更だけを反復する前に、その技能を高密度に要求する練習環境を改善候補として提示する。
-[A0150][AUTHOR_VIEW][AI][RULE][PRACTICE][RANGE_COST][RECOMMENDATION_SCOPE] 汎用遠距離DDの改善相談では、遠距離ブルーザーとして正面戦能力を伸ばすのか、射程をスカーミッシャー・オフヒール・デバフ等の別価値へ変換するのか、大規模戦特化を維持するのかを区別して助言する。
-
-#### 同一構成の実戦差を診断する
-
-[A0151][AUTHOR_VIEW][DIAG] 同じ装備・スキルなのに相手だけ硬い、または高いダメージを出す場合、自分の弱さ全般へ即座に原因帰属しない。
-[A0152][AUTHOR_VIEW][DIAG] 同じ装備やスキルで実戦結果に差がある場合、使用率やタイミングの差を一つずつ探す。
-
-#### 決闘を実験室にする
-
-[A0153][AUTHOR_VIEW][CLAIM][PRACTICE] バトルグラウンド（Battlegrounds／BG）やシロディール（Cyrodiil）は人数・地形・味方・ラグ・別方向からの攻撃等の変数が同時に存在して単独要素の検証条件として複雑なため、ビルド調整や仕様確認には知人との決闘が便利である。
-[A0154][AUTHOR_VIEW][PRACTICE] ビルド調整には一度に変更する要素を一つにする比較検証が有用である。
-[A0155][AUTHOR_VIEW][PRACTICE] 攻撃コンボの習得では、まず訓練ダミー（Target Dummy）を相手に入力順・バー交換・タイミングを安定して完遂できるまで反復し、その後に対人戦で相手の移動・防御反応へ合わせた途中変更・中断を加える。ダミー相手に基本手順を安定再現できない状態で、より変数の多い対人戦だけによる安定運用を前提にしない。
-[A0156][AUTHOR_VIEW][PRACTICE][BUILD_REGRESSION_CHECK] ビルドを複数回変更した後は、変更した部分だけでなく、変更前に成立していた主要機能が意図せず失われていないかを再確認する。
-[A0157][AUTHOR_VIEW][DIAG][FUNCTION_LOSS] 火力・耐久等が理由不明で悪化した場合、数値不足だけでなく、調整過程で主要バフ・デバフ・CC・回復・移動・リソース供給等の役割が構成から脱落していないかを確認する。
-[A0158][AUTHOR_VIEW][DIAG] 比較検証では、防御はHP減少量・HPを戻す行動回数・必要リソースを、攻撃は最大ダメージだけでなく相手へ回復を強要できたか、その回数、リソース切れまでに作れた攻撃機会を測る。
-
-#### 表示と検証
-
-[A0159][AUTHOR_VIEW][CAUSE][EX][RULE] PvPでは画面表示や体感だけから結果を誤認し得るため、「クリティカルが出ない」「効果が乗らない」「特定スキルだけ弱い」等の疑問は、可能なら戦闘ログ・記録ツール・決闘で反復確認し、一回の体感だけでビルド全体を捨てない。
-[A0160][AUTHOR_VIEW][COND] 理論上の性能や数値が高いビルドでも、実戦で繰り返し使用して操作しにくさや性能を発揮しにくい状態が続く場合は、自分のプレイスタイルや操作特性に合っていない可能性を考慮する。
-[A0161][AUTHOR_VIEW][RULE] ビルドを評価するときは、理論上の性能や数値だけで判断せず、実戦での操作性、性能の発揮しやすさ、使用感も合わせて評価する。
-
-### A02.21 失敗・死亡診断
-
-#### 先に取得する中核結論
-
-[A0162][AUTHOR_VIEW][CORE_JUDGMENT][RULE][DEATH_REVIEW] 死亡原因を一つへ絞るのは、その原因だけが死亡を生んだと断定するためではなく、直近の改善効果が最も大きいと見込まれる行動面のボトルネックを特定し、次の練習対象を一つに固定するための学習手順である。
-[A0163][AUTHOR_VIEW][LIMIT][DIAG][DEATH_REVIEW] 一回の死亡に複数の重大なミスが確認できても、それらをすべて列挙することを優れた診断とみなさず、結果を最も変えやすい一要因または現在の行動ボトルネックを優先して次の改善対象にする。
-[A0164][AUTHOR_VIEW][PROC][PRACTICE][DEATH_REVIEW] 選んだ行動ボトルネックが改善した後は、その後の死亡を再分析して次に支配的なボトルネックへ進む。一度に一要因へ注力する反復は、どの改善が実戦結果を変えたかを解釈可能な形で確認するためのデータ収集として扱う。
-
-#### 死亡原因の優先順位化・ボトルネック学習
-
-[A0165][AUTHOR_VIEW][DIAG][PRACTICE] 死亡時は「自分が弱い」という総括だけで終わらせず、死亡原因を一つのカテゴリへ分類する。
-[A0166][AUTHOR_VIEW][PRACTICE][DEATH_REVIEW] 死亡原因を分析する場合、可能なら死亡場面の直前を録画から見返し、自分の記憶だけで敗因を決めない。
-[A0167][AUTHOR_VIEW][DIAG][DEATH_REVIEW] 録画を見返す場合、位置・リソース・バフ・防御行動・相手の攻撃予兆を確認してから死亡原因カテゴリを決定する。
-[A0168][EX] 死亡原因カテゴリの例には、CCを打破（Break Free）できなかった、スタミナ（Stamina）枯渇、回復開始遅延、継続回復切れ、表バー滞在過多、バーストへのブロック（Block）失敗、平地で複数人に捕まった、圧力不足、味方から離れる深追い、倒せない相手への過剰投資がある。
-[A0169][AUTHOR_VIEW][CAUSE][LIMIT] 死亡原因を一つ決めれば次の試合の具体的な練習対象を設定できるが、「全部ダメだった」という診断では次に何を直すか決めにくい。
-[A0170][CLAIM][DEATH_REVIEW] 一回の死亡には複数の重大な要因が同時に関与することが普通であり、初心者では打破（Break Free）遅延、ブロック（Block）失敗、回復開始遅延、不要な攻撃続行、位置取り、リソース不足など複数の問題が同じ死亡へ重なりやすい。
-[A0171][AUTHOR_VIEW][CLAIM] 敗因を具体的に理解する能力は、パッチが変わっても残る大きな学習資産である。
-
-## A02.4 初心者のビルド準備
-
-### A02.40 初心者のビルド準備
-
-#### 完成済みビルドのコピーと評価
-
-[A0172][AUTHOR_VIEW][GOAL][PRACTICE][RULE][BUILD_GENERAL] PvP初心者が他者の設計を使うことに抵抗がない場合、入門者級初心者では生存性と操作許容度を確保した初心者向け完成済みビルドを、それより習熟した初心者では用途に合う熟練者向け完成済みビルドを基準として使う方法を推奨する。
-[A0173][AUTHOR_VIEW][GOAL][PRACTICE][RULE][BUILD_GENERAL] 完成済みビルドを基準として使う場合は、スキル、食事、ポーション、特性、装備部位、重量種別をできる範囲で忠実に再現し、まず元ビルドの意図を体験してから独自変更へ進むことを目標とする。
-[A0174][AUTHOR_VIEW][LIMIT][PRACTICE][NOT_INITIAL_REQUIREMENT][BUILD_GENERAL] 完成済みビルドを完全に再現できないことだけを理由に、そのビルドを用いた練習が不可能とは扱わない。
-[A0175][AUTHOR_VIEW][RULE][BUILD_GENERAL] ビルドには想定用途があるため、使用説明を読み、自分の用途と想定用途が合致することを確認する。
-[A0176][AUTHOR_VIEW][DIAG][BUILD_GENERAL] ビルド作者の大げさな表現や、動画で都合のよい場面だけを切り取ったアピールを、そのビルドの一般的性能を示す根拠としてそのまま信じない。
-[A0177][AUTHOR_VIEW][PRIORITY][DIAG][RULE][BUILD_GENERAL] ビルド説明では弱点を重視し、示されていなければ自分で検討し、既知の弱点が表面化する用途にはそのビルドを用いない。
-[A0178][AUTHOR_VIEW][PATCH][RULE][BUILD_GENERAL] 過去のパッチで用いられていたビルドを使う場合、現在の環境でどの程度機能するかを確認する。
-
-#### 食事バフの代替と初心者向け費用対効果
-
-[A0179][AUTHOR_VIEW][LIMIT][FOOD] 初心者が完成済みビルドを忠実にコピーする段階でも、指定食事の費用対効果が著しく悪い場合は例外として、近い役割を持つ低コストの食事へ代替してよい。
-[A0180][AUTHOR_VIEW][PATCH][CLAIM][SUBSTITUTE][FOOD] オーゾーガの熊の腰肉の燻製（Orzorga's Smoked Bear Haunch）は、失政の宝石（Jewels of Misrule）で代替できる。
-[A0181][AUTHOR_VIEW][PATCH][CLAIM][SUBSTITUTE][FOOD] クロックワークシトラスフィレ（Clockwork Citrus Filet）は、ウィッチマザーの強力醸造薬（Witchmother's Potent Brew）で代替できる。
-[A0182][AUTHOR_VIEW][PATCH][COST][FOOD] オーゾーガの熊の腰肉の燻製（Orzorga's Smoked Bear Haunch）とクロックワークシトラスフィレ（Clockwork Citrus Filet）は材料に完ぺきな魚卵（Perfect Roe）を使用するため、初心者が練習用に常用するには費用対効果が悪い。
-[A0183][AUTHOR_VIEW][PRACTICE][FOOD] 初心者の練習中は、指定食事と近い役割を持つ低コストの代替食でも十分である。
-[A0184][AUTHOR_VIEW][PRIORITY][FOOD] 初心者の練習では、食事性能の差を詰めることより、戦闘行動の最適化を先に探求する。
-[A0185][AUTHOR_VIEW][PATCH][ADVANTAGE][FOOD] 魔法のシュガースカル（Bewitched Sugar Skulls）は、材料の費用対効果と食事効果の両方が高く、初心者でも使いやすい。
-[A0186][AUTHOR_VIEW][PATCH][PRACTICE][FOOD] 初心者が使用したいビルドで魔法のシュガースカル（Bewitched Sugar Skulls）を指定されている場合、そのまま使用することを検討する。
-
-#### 初心者向けクラス比較
-
-[A0187][AUTHOR_VIEW][RULE][BEGINNER_CLASS_OPPORTUNITY_COST] 初心者向けでもクラス間の機会費用を省略せず、他クラスへの乗り換えに必要な習熟・育成・装備準備の負担をコストとして加えた上で比較する。
-
-#### 個別ビルドの初心者適性
-
-[A0188][AUTHOR_VIEW][PATCH][LIMIT][ENTRY_LEVEL_BEGINNER][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD][RECOMMENDATION_SCOPE] 特別な事情または本人の明示的希望がない入門者級初心者には、雷杖重攻撃（Heavy Attack）ビルドをPvPの高優先標準推奨にしない。
-[A0189][AUTHOR_VIEW][PATCH][CAUSE][ENTRY_LEVEL_BEGINNER][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD][PRACTICE] 雷杖重攻撃（Heavy Attack）主体ではチャネリング中にLoSを防御へ使いにくく、自衛要求で攻撃が中断されやすいため、入門者級初心者がLoSと攻防切替を反復練習する機会を減らし得る。
-
-## A02.5 ロール別初心者導線
-
-### A02.T 初心者タンク
-
-#### タンク
-
-[A0190][AUTHOR_VIEW][RULE][SCOPE][OVERRIDE][ROLE_TANK][BEGINNER_TANK][BLOCK] 継続的なブロック（Block）維持を主防御とするタンクでは、特に初心者へLoSを主要防御として標準要求せず、まずブロック維持・回復・サステインを成立させる。ブロック外の移動を主要防御に含むタンクでは、障害物とLoSを積極的な生存手段として扱う。
-[A0191][AUTHOR_VIEW][PRIORITY][PRACTICE][ROLE_TANK][BEGINNER_TANK][SUSTAIN] 初心者タンクでは、最初の被圧力を生存できる最低限の耐久を確保した後、初回実戦前から防御・自己回復を継続できる最低限のサステイン補助を用意し、十分な生存時間を得てから、必要に応じて位置取り・ブロック（Block）判断・追加支援を段階的に学ぶ順序を基本とする。
-[A0192][AUTHOR_VIEW][EVAL][GOAL][ROLE_TANK][BEGINNER_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 入門段階のタンクが複数の敵から継続して攻撃を受けながら一定時間生存できた場合、その生存自体を成功として評価する。CC・デバフ・引き寄せ等の追加支援は、コンテンツ上の必要性と本人の操作余裕に応じて段階的に学ぶ候補とし、生存成立後の必須義務として扱わない。
-[A0193][AUTHOR_VIEW][PRIORITY][ROLE_TANK][BEGINNER_TANK][BLOCK][HEAVY_ARMOR][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] 常時ブロック（Block）型の初心者タンクでは主防御であるブロック性能を先に成立させ、ロール回避（Roll Dodge）コスト低減だけを理由に中装鎧（Medium Armor）の比率を増やしたり防具特性を変更したりして、ブロック耐久を大きく低下させる調整を標準推奨しない。他の明確な目的で防具構成を変える場合は別に評価する。
-[A0194][AUTHOR_VIEW][GOAL][ROLE_TANK][BEGINNER_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者タンクは、敵の注意や攻撃の一部を自分が引き受ける経験を積み、味方へ向かう圧力を減らせる場面を増やすことを目標の一つとする。
-
-### A02.H 初心者ヒーラー・サポート
-
-#### ヒーラー／サポート
-
-[A0195][AUTHOR_VIEW][COND][PRIORITY][LIMIT][BEGINNER_HEALER][HEALING_GEAR][RECOMMENDATION_SCOPE][GROUP_CONTRIBUTION] PUGを含む大規模なグループに所属しない状態での稼働を想定した初心者ヒーラービルドでは、ヒーラー用装備として効果対象がグループメンバーだけに限定されない装備を優先評価し、効果対象がグループメンバーだけに限定される支援用装備は、支援目的の装備として推奨しない。
-
-#### 初心者サポートの初期仕事
-
-[A0196][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 入門者級初心者がロール選択に強い希望を持たない場合、重装鎧（Heavy Armor）と生存性重視の装備を中心にし、必要に応じてサステインを補強したPvPヒーラーを有力な初期候補とする。低い攻撃性能でも役割が成立し、自身への回復によってHPを高く維持しやすく、高度な攻撃コンボや移動中のエイムへの依存も小さくできるため、初期の操作要求に対する実戦貢献を得やすい。
-[A0197][AUTHOR_VIEW][LIMIT][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 入門者級初心者に対する高耐久PvPヒーラーの高い推奨度を、上級者帯でも同じ構成が高性能または最適であるという評価へ拡張しない。
-[A0198][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）で回復の杖（Restoration Staff）を使う入門者級初心者には、最初に一つ回復スキルを覚える場合の最優先候補として放射再生（Radiating Regeneration）を推奨する。エイムを要求せず複数の味方へ実効的な回復を付与でき、戦場への参加と同盟ポイント（Alliance Points／AP）取得へ結び付けやすい。
-
-#### 初心者ヒーラーの生存と回復圏
-
-[A0199][AUTHOR_VIEW][GOAL][PRACTICE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] PvP初心者のヒーラーは、敵から高優先度で狙われることを考慮し、まず一定の耐久性を確保したビルドで生存しながら回復する経験を積むことを目標とする。
-[A0200][AUTHOR_VIEW][GOAL][PRACTICE][COND][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] PvP初心者のヒーラーが味方の人数が多い状況で戦う場合、最前線から少し離れた後方を基本位置として試し、そこで生存しながら回復を継続できる場面を増やすことを目標とし、最初から適切な距離を維持し続けられる必要はない。
-[A0201][AUTHOR_VIEW][GOAL][COND][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] PvP初心者のヒーラーが味方の人数が多い状況で敵に狙われた場合、生存を優先して積極的に逃げる判断を試し、適切に離脱できる場面を増やすことを目標とする。
-[A0202][AUTHOR_VIEW][LIMIT][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 生存のために逃走した結果、回復密度が低下したり味方への回復が一時停止したりすることはヒーラーの生存とのトレードオフとしてある程度許容し、初心者に最初から回復を止めずに生存し続けることを要求しない。
-
-#### 初心者の支援継続と被フォーカス
-
-[A0203][AUTHOR_VIEW][GOAL][DIAG][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] 初心者ヒーラーは、回復が届かなかった場面を戦闘後に振り返り、原因誤認による不要な立ち回り・ビルド変更を避けるため、次回変更できる主要原因をまず一つ探すことを目標とする。最初から戦闘中の正確な原因判定や複数原因の同時分析は要求しない。
-[A0204][AUTHOR_VIEW][GOAL][RULE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、自分の回復範囲から逃げ回る味方を無条件に追いかけない判断を徐々に身につけることを目標とする。
-[A0205][AUTHOR_VIEW][GOAL][LIMIT][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは味方を回復する意思を持ち、助けられる範囲では助ける一方、味方の行動すべてに振り回されない線引きを徐々に身につけることを目標とする。
-[A0206][AUTHOR_VIEW][GOAL][DEF][PRACTICE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、自分の周囲を回復圏として扱い、回り込みやすい障害物付近を基本位置として使う練習を行い、最初は位置を外れたり動きすぎたりしても経験に応じて不要な移動を減らしていくことを目標とする。
-[A0207][AUTHOR_VIEW][GOAL][COND][PRIORITY][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、生存に必要なら大きく移動してよいことを理解し、その移動を味方の恒久的放棄ではなく数秒後に回復を再開するため今の死亡を避ける行為として徐々に判断できるようになることを目標とする。
-
-### A02.B 初心者ブルーザー
-
-#### ブルーザー
-
-[A0208][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] 入門者級初心者がブルーザーを使用する場合、重装鎧（Heavy Armor）を主体とし、防御・生存性を主要機能とする5セット装備を最低一つ、攻撃性能を主要機能とする5セット装備を最低一つ確保する構成を初期候補とする。防御へ寄せすぎて攻撃能力を失う構成も、ブルーザーとしての実戦経験と学習を阻害し得る。
-[A0209][AUTHOR_VIEW][COND][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] PvEの2バー操作にも十分慣れていない入門者級初心者ブルーザーでは、防御用5セットを裏バー限定で成立させる構成より、防御効果を常時利用できる構成を強く優先する。2バー操作に一定以上習熟している場合、この優先は必須としない。
-[A0210][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] PvEにも不慣れな入門者級初心者ブルーザーには、強固（強）（Major Resolve）を確保する手段を必須級の初期推奨とする。初期段階では生存性と戦場で行動できる時間の確保を最優先し、Major Resolveによる耐性上昇はその目的へ大きく寄与する。
-[A0211][AUTHOR_VIEW][GOAL][DEF][PRACTICE][BEGINNER_BRUISER][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者はブルーザーに純粋型と複合ロール型があることを理解し、まず純粋ブルーザーで正面戦の基本経験を積んでから複合型へ発展することを長期目標とし、最初から一定水準の習得を要求しない。
-
-### A02.S 初心者スカーミッシャー
-
-#### スカーミッシャー
-
-[A0212][AUTHOR_VIEW][GOAL][PRACTICE][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者がスカーミッシャー的な運用を学ぶ場合は、まず機動力を使って戦闘地点や交戦状態を変える経験を積み、自分の機動手段でどこへ移動でき、どの程度安全に交戦・離脱・再介入できるかを徐々に理解することを目標とする。遠距離主体DDであること、ソーサラー（Sorcerer）やボルトエスケープ（Bolt Escape）／雷光（Streak）を使用すること、または最初から高度な戦況把握と最適な移動判断を行うことは要求しない。
-[A0213][AUTHOR_VIEW][COND][GOAL][PRACTICE][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 定員制グループコンテンツで、かつ初心者本人が個人の自由行動よりグループへの実効的な貢献を優先し、将来的に競技的なグループ貢献を目指す場合は、ほどほどの火力と自衛力、高い機動力を使って複数の戦闘へ介入するグループ貢献型スカーミッシャー運用を学習対象にできる。最初は機動力を使って別の戦闘へ介入する経験を積むことを目標とし、遠距離主体DD、ソーサラー（Sorcerer）、ボルトエスケープ（Bolt Escape）／雷光（Streak）、複数地点からの最適な介入先・タイミング判断を初期要件としない。
-[A0214][AUTHOR_VIEW][AI][LIMIT][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION][RECOMMENDATION_SCOPE] A0213は、定員制グループコンテンツで将来的な競技的グループ貢献を目指す初心者向けの派生学習目標であり、初心者スカーミッシャー一般の定義・参加条件・標準要求として使用しない。また、B6で扱う遠距離主体適性、クラス適性、介入最適化、味方救援、ヘイト管理等の上級者基準をA0213の初期要求へ移植しない。
-
-### A02.G 初心者Ganker・Bomber・ナイトブレイド
-
-#### Ganker／Bomber
-
-[A0215][AUTHOR_VIEW][PRACTICE][ROLE_GANKER][BEGINNER_GANKER][MOVEMENT_SPEED] 初心者の純ガンカーは、隠密中の徒歩移動が遅すぎて標的への追従や攻撃位置の形成に支障が出る場合、主要な攻撃性能を大きく損なわない範囲で移動速度を少し高めると運用しやすい。
-[A0216][AUTHOR_VIEW][GOAL][LIMIT][BEGINNER_GANKER][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、4v4では各プレイヤーがチーム戦力に占める割合が大きいため、攻撃機会待ちによって通常戦闘参加を減らすガンカー／ボマーは8v8より運用余地が狭くなりやすいことを段階的に理解する。参加者の防御準備、反応精度、耐久、密集傾向等によって実際の適性は変化する。
-[A0217][AUTHOR_VIEW][GOAL][COND][BEGINNER_GANKER][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、参加者の防御性能・習熟度にばらつきがあり、集団密度や初回撃破機会が生じる8v8では、ガンカー／ボマーが攻撃機会を得られる余地が4v4より大きくなりやすいことを段階的に理解する。
-[A0218][AUTHOR_VIEW][GOAL][CAUSE][BEGINNER_GANKER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] 初心者は、チャンスが来るまで隠れる運用が、その間の味方負担を高めることを理解することを目標とする。
-
-#### ナイトブレイド（Nightblade）
-
-[A0219][AUTHOR_VIEW][PATCH][GOAL][PRACTICE][BEGINNER_NIGHTBLADE][STEALTH_COUNTER][NOT_INITIAL_REQUIREMENT] A0663の対象範囲において、正面戦闘で透明化を使う初心者は、透明化を唯一の生存手段・離脱手段として依存せず、使用後すぐ再発見され得ることに加え、透明化中に自分由来の攻撃判定が発生すると透明化が解除され得ることも前提に、他の防御・回復・位置取りを併用する理解を身につけることを目標とする。
-
-## A02.6 戦場別初心者導線
-
-### A02.C 初心者シロディール・BG・復讐
-
-#### シロディール・バトルグラウンド・復讐
-
-[A0220][AUTHOR_VIEW][AI][RULE][ENTRY_LEVEL_BEGINNER][RECOMMENDATION_SCOPE] 入門者級初心者へシロディール（Cyrodiil）の攻城兵器を説明する場合、全種類の網羅や低評価兵器の列挙より、質問時点で用途に合う有力な少数候補を優先して提示する。
-[A0221][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者が通常入手できる対人攻城兵器を選ぶ場合、燃え盛る油（Flaming Oil）と肉袋カタパルト（Meatbag Catapult）を基本候補とする。
-[A0222][AUTHOR_VIEW][PATCH][COND][ENTRY_LEVEL_BEGINNER] 散弾カタパルト（Scattershot Catapult）は、同一地点へ肉袋カタパルト（Meatbag Catapult）の効果がすでに十分重なっている場合に、別の対人攻城効果を追加する補完候補として扱う。
-[A0223][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者が通常入手できる対城塞攻城兵器を選ぶ場合、バリスタ（Ballista）と石のトレビュシェット（Stone Trebuchet）を基本候補とする。
-[A0224][AUTHOR_VIEW][PATCH][LIMIT][ENTRY_LEVEL_BEGINNER] 破城槌（Battering Ram）は門への主要攻城手段になり得る一方、門直下で敵の燃え盛る油（Flaming Oil）等に晒されやすいため、入門者級初心者へ最初に扱う攻城兵器の第一候補として強く推奨しない。
-[A0225][AUTHOR_VIEW][LIMIT][ENTRY_LEVEL_BEGINNER] 入門者級初心者には、ボールグループを標準的な攻撃対象として積極的に追わせない。
-[A0226][AUTHOR_VIEW][PATCH][COND][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者本人がボールグループへの攻撃を明示的に希望する場合、通常戦闘で接近するより攻城兵器による遠隔介入を優先候補とする。
-[A0227][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PROGRESSIVE_LEARNING][RECOMMENDATION_SCOPE][VENGEANCE] 復讐（Vengeance）を初心者へ勧める場合は、攻城、砦、資源、地図、集団移動等の戦場構造を学ぶ用途と、通常PvPのビルド設計・クラス性能・通常スキル運用を学ぶ用途を分けて評価し、一方の学習適性から他方の学習適性を自動的に推定しない。
-
-### A02.I 初心者帝都
-
-#### 帝都入門・テルバー保全
-
-[A0228][AUTHOR_VIEW][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][TEL_VAR_STONES][RECOMMENDATION_SCOPE] 帝都（Imperial City）でテルバー（Tel Var Stones）を所持した入門者級初心者が死亡した場合、味方への即時復帰を特に必要としないなら、そのまま再戦へ戻るより一度同盟基地へ戻って残存テルバーを銀行へ預けることを標準推奨とする。
-[A0229][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][TEL_VAR_STONES][OPPORTUNITY_COST] 入門者級初心者が所持テルバー（Tel Var Stones）倍率だけを目的に10,000テルバーを初期資金として持ち込むことを標準推奨せず、100または1,000程度の低い損失リスクから開始し、死亡リスクと損失許容度に応じて携行額を増やす。
-[A0230][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][STEALTH_COUNTER] 帝都（Imperial City）へ入る入門者級初心者には、地上・下水道を問わず、探知、露見、隠密・透明化阻害等の対隠密手段を少なくとも一種類準備することを優先的に推奨する。
-[A0231][AUTHOR_VIEW][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][ESCAPE_ROUTE][RECOMMENDATION_SCOPE] 帝都（Imperial City）で安全とテルバー（Tel Var Stones）保全を優先する入門者級初心者は、少人数でも明らかにPvPへ習熟した敵プレイヤーを発見した場合、人数有利だけを理由に交戦せず、視界と再接触を切れる距離または別地区まで早期離脱することを標準候補とする。
-[A0232][AUTHOR_VIEW][PRACTICE][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][TEL_VAR_STONES] 初めてテルバー（Tel Var Stones）を稼ぐ、または帝都（Imperial City）のPvPvE環境に慣れる入門者級初心者には、自同盟の下水道基地付近から出撃し、中央部へ深く進まない短い周回を安全寄りの初期練習として推奨し、この周回も敵対プレイヤーが侵入可能なため安全地帯とは扱わない。
-[A0233][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][ESCAPE_ROUTE] 帝都（Imperial City）へ出撃する入門者級初心者には、帝都撤退の印（Sigil of Imperial Retreat）を少なくとも一つ携行し、危険になってから退路を探すのではなく安全帰還手段を事前に確保することを推奨する。
-[A0234][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][PVE_PVP_INTERACTION][DEFENSIVE_DESIGN] 帝都（Imperial City）でPvEまたはテルバー（Tel Var Stones）獲得を主目的とする入門者級初心者向けビルドでも、PvE効率または移動性能を最大化するためにPvP被弾時の防御余力を大きく削る構成を標準推奨にしない。PvE戦闘中に敵プレイヤーから不意に圧力を受ける可能性を含めて生存余裕を確保する。
-
-#### 帝都の地形・旗・状況把握
-
-[A0235][AUTHOR_VIEW][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][BLOCK][STEALTH_COUNTER] 帝都（Imperial City）の地区旗で占領ゲージを進めている間はブロック（Block）を基本姿勢とし、必要に応じて探知効果を含む各種ポーションまたは探知系スキルを起動して、隠密接近への警戒を補う。
-[A0236][AUTHOR_VIEW][CAUSE][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][ROLE_BOMBER] イベント中など帝都（Imperial City）でプレイヤーが密集しやすい状況ではボンバーへの警戒を高め、自分への初撃を防いでも、残忍な死（Vicious Death）等によって近くの味方の死亡が追加爆発の起点となり、自分が巻き込まれ得ることを考慮する。
-[A0237][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][ESCAPE_ROUTE] 帝都（Imperial City）地上から下水道を経由して同盟基地へ帰還する場合、地区から下水道へ降りる地点と基地までの固定経路は通過者を予測しやすいため待ち伏せを警戒し、待ち伏せ役が隠密ガンカーではなく熟練者や複数人である可能性も考慮する。
-
-#### 帝都ボスの初心者判断
-
-[A0238][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][TEL_VAR_STONES][OPPORTUNITY_COST] インペリアルフィジカル（Imperial Physique）は高テルバー（Tel Var Stones）時に強い性能を得る一方、10,000テルバー級の携行と目立つ視覚効果によって損失・標的化リスクを増やすため、入門者級初心者へ標準的に推奨しない。
-[A0239][AUTHOR_VIEW][PATCH][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][PVE_PVP_INTERACTION] 帝都（Imperial City）下水道を巡回するコールドハーバーの精鋭衛兵（Coldharbour Elite Guard、通称Banner Boss／旗ボス）は、短時間で低リスクに撃破できる戦力がない入門者級初心者には標準的に交戦を勧めず、特徴的な接近音等を回避判断へ利用する。ただし下水道では狭い通路や曲がり角で視認前に近距離遭遇し得るため、接近音を必ず事前察知できることを安全成立の前提にしない。
-
-#### 帝都からの帰還準備
-
-[A0240][AUTHOR_VIEW][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][RECOMMENDATION_SCOPE] 帝都（Imperial City）地上デイリーを一つだけ安全性と簡単さを優先して入門者級初心者へ勧める場合、アリーナ地区（Arena District）を第一候補、樹木地区（Arboretum）を次候補とし、貴族地区（Nobles District）を有力な別候補として扱う。エルフの庭園地区（Elven Gardens）を最も簡単な標準候補とは扱わない。
-[A0241][AUTHOR_VIEW][LIMIT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][SITUATIONAL_AWARENESS] 帝都（Imperial City）のクエストや一部戦闘ではNPCの台詞・戦闘音が地形越しに周囲へ伝わり、プレイヤーの活動を間接的に知らせる場合があるため、姿を見られていないことだけを根拠に自分の存在が察知されていないと判断しない。
+## 入門者級初心者の初期導線
+
+### 初期目的・成功基準・戦闘参加
+
+[A0225][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] 入門者級初心者では、勝敗や最大火力より先に、戦場で一定時間生存してPvPの空気感と基本操作に慣れられることを初期ビルド・学習の主要評価軸とする。
+[A0226][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] 入門者級初心者向けビルドは、原則として①生存性、②実戦サステイン、③火力その他の性能、の順で成立を確認する。
+[A0227][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PRACTICE] 入門者級初心者本人が即時参戦を望む場合を除き、「何度死んでもよいからまず参戦する」ことを標準助言にせず、初心者のミスを吸収しやすいビルドと最低限の操作準備を先に提示する。
+[A0228][AUTHOR_VIEW][PRACTICE][ENTRY_LEVEL_BEGINNER] PvPにもPvEの2バー操作にも不慣れな入門者級初心者は、PvP用ビルドを装備した状態でフィールド等を使い、各バーのスキル、回復、防御、打破（Break Free）、装備効果等を一通り実行してから実戦へ入ることを初期準備とする。
+[A0229][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PRACTICE][RECOMMENDATION_SCOPE] 入門者級初心者向けのビルド・戦術は、操作手順が単純であることや、理想的な判断・立ち回りを行えば生存できることだけを初心者適性の根拠にしない。生存性、実戦サステイン、判断・操作ミスへの許容度、およびLoS・防御移行・CC・攻防切替等のPvP基礎行動を実戦で学習できる余裕を含めて評価する。
+[A0230][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][PRACTICE] 入門者級初心者には、生存性を確保するために実質的な戦闘参加を恒常的に避ける方法より、危険を減らしながら戦闘参加を継続し、攻撃・防御・LoS・味方との合流等を経験できる方法を優先する。
+[A0089][AUTHOR_VIEW][COND][LIMIT][ENTRY_LEVEL_BEGINNER][GROUP_CONTENT][GROUP_CONTRIBUTION] 定員制の少人数グループコンテンツで入門者級初心者本人がチーム勝利・実効貢献を優先する場合、スポーン地点側の高台等の敵から攻撃されにくい位置から遠距離攻撃だけを続け、通常戦闘への参加を恒常的に避ける運用を標準推奨にしない。
+[A0090][AUTHOR_VIEW][CAUSE][ENTRY_LEVEL_BEGINNER][PRACTICE] 敵から攻撃されにくい位置からの遠距離攻撃だけに依存すると、敵圧力下での防御移行、LoS、リソース管理、CC、味方との位置調整等を実戦で反復する機会が減るため、入門者級初心者の基礎学習手段としては限定的になる。
+
+### 初期ビルド・サステイン・防御余力
+
+[A0231][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] 重装鎧（Heavy Armor）主体の入門者級初心者ビルドでは、重装鎧を主体とすることで不足する実戦サステインを確認し、必要ならモンスターマスク・神話装備（Mythic）・ムンダス（Mundus）・食事等で補う。初期段階では火力の微増より再生・リソース維持を優先候補にする。
+[A0232][AUTHOR_VIEW][PROC][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] 入門者級初心者のサステイン調整では、原則としてムンダス（Mundus）→食事→装備→アクセサリー付呪の順に検討する。モンスターマスクや神話装備（Mythic）等を利用できないなど装備収集状況に制約がある場合は、装備による調整段階を飛ばしてアクセサリー付呪へ進んでよい。
+[A0233][AUTHOR_VIEW][PRACTICE][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] アクセサリー付呪でサステインを調整する場合は、一度に複数箇所を変更せず、原則として1箇所ずつ変更して一定程度実戦で試し、必要量を確認しながら追加調整する。
+[A0449][AUTHOR_VIEW][AI][LIMIT][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL][DEFENSIVE_DESIGN][ESCAPE_ROUTE] 入門者級初心者には、生存性を十分に補わずリソースだけ、またはリソースと火力だけを大きく伸ばす構成を標準推奨にしない。初心者の生存成立を、敵の早期発見、危険予測、最適な位置取り・逃走経路選択、正確なリソース管理、短時間での適切な防御入力等を高精度で継続できることへ依存させず、判断や操作が遅れた場合にも一定のミスを吸収できる防御余力を確保する。理想的な事前察知・回避・逃走が成功する場合だけ生存できる低防御構成を、初心者向けの十分な生存性として扱わない。
+[A0450][AUTHOR_VIEW][AI][LIMIT][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL][MOVEMENT_SPEED][DEFENSIVE_DESIGN][ESCAPE_ROUTE] 入門者級初心者向けビルドでは、高い機動力または逃走能力があることだけを理由に、対象PvP環境に対する実効防御の不足を許容しない。機動力による生存は、危険の発見時点、位置取り、地形・経路、残存リソース、敵の追跡能力等に左右されるため、判断や操作が遅れた場合や逃走開始前に被弾した場合にも一定のミスを吸収できる防御余力を別に評価する。
+[A0464][AUTHOR_VIEW][AI][PRIORITY][ENTRY_LEVEL_BEGINNER][CRITICAL_RESISTANCE][DEFENSIVE_DESIGN][RECOMMENDATION_SCOPE] PvPエリアで活動する入門者級初心者では、クリティカル耐性を十分に確保したことをデータ上確認しないまま、防具特性をクリティカル耐性以外の性能へ大きく振る構成を標準推奨にしない。特に、敵の攻撃を事前察知して適切に防御できることを生存成立の前提にしない。
+[A0470][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][DEFENSIVE_DESIGN][EQUIPMENT_TOPOLOGY] 入門者級初心者向けビルドの実効防御が不足し、サステイン以外に防御を主要機能とする装備を持たない場合は、防御用5セット装備を少なくとも一つ導入することを有力な初期改善候補として強く検討する。単一の防御スキル追加だけで不足分を補えるとは推定しない。
+
+### 完成済みビルドのコピーと評価
+
+[A0234][AUTHOR_VIEW][GOAL][PRACTICE][RULE][BUILD_GENERAL] PvP初心者が他者の設計を使うことに抵抗がない場合、入門者級初心者では生存性と操作許容度を確保した初心者向け完成済みビルドを、それより習熟した初心者では用途に合う熟練者向け完成済みビルドを基準として使う方法を推奨する。
+[A0235][AUTHOR_VIEW][GOAL][PRACTICE][RULE][BUILD_GENERAL] 完成済みビルドを基準として使う場合は、スキル、食事、ポーション、特性、装備部位、重量種別をできる範囲で忠実に再現し、まず元ビルドの意図を体験してから独自変更へ進むことを目標とする。
+[A0236][AUTHOR_VIEW][LIMIT][PRACTICE][NOT_INITIAL_REQUIREMENT][BUILD_GENERAL] 完成済みビルドを完全に再現できないことだけを理由に、そのビルドを用いた練習が不可能とは扱わない。
+[A0237][AUTHOR_VIEW][RULE][BUILD_GENERAL] ビルドには想定用途があるため、使用説明を読み、自分の用途と想定用途が合致することを確認する。
+[A0238][AUTHOR_VIEW][DIAG][BUILD_GENERAL] ビルド作者の大げさな表現や、動画で都合のよい場面だけを切り取ったアピールを、そのビルドの一般的性能を示す根拠としてそのまま信じない。
+[A0239][AUTHOR_VIEW][PRIORITY][DIAG][RULE][BUILD_GENERAL] ビルド説明では弱点を重視し、示されていなければ自分で検討し、既知の弱点が表面化する用途にはそのビルドを用いない。
+[A0240][AUTHOR_VIEW][PATCH][RULE][BUILD_GENERAL] 過去のパッチで用いられていたビルドを使う場合、現在の環境でどの程度機能するかを確認する。
+
+### 食事バフの代替と初心者向け費用対効果
+
+[A0242][AUTHOR_VIEW][LIMIT][FOOD] 初心者が完成済みビルドを忠実にコピーする段階でも、指定食事の費用対効果が著しく悪い場合は例外として、近い役割を持つ低コストの食事へ代替してよい。
+[A0243][AUTHOR_VIEW][PATCH][CLAIM][SUBSTITUTE][FOOD] オーゾーガの熊の腰肉の燻製（Orzorga's Smoked Bear Haunch）は、失政の宝石（Jewels of Misrule）で代替できる。
+[A0244][AUTHOR_VIEW][PATCH][CLAIM][SUBSTITUTE][FOOD] クロックワークシトラスフィレ（Clockwork Citrus Filet）は、ウィッチマザーの強力醸造薬（Witchmother's Potent Brew）で代替できる。
+[A0245][AUTHOR_VIEW][PATCH][COST][FOOD] オーゾーガの熊の腰肉の燻製（Orzorga's Smoked Bear Haunch）とクロックワークシトラスフィレ（Clockwork Citrus Filet）は材料に完ぺきな魚卵（Perfect Roe）を使用するため、初心者が練習用に常用するには費用対効果が悪い。
+[A0246][AUTHOR_VIEW][PRACTICE][FOOD] 初心者の練習中は、指定食事と近い役割を持つ低コストの代替食でも十分である。
+[A0247][AUTHOR_VIEW][PRIORITY][FOOD] 初心者の練習では、食事性能の差を詰めることより、戦闘行動の最適化を先に探求する。
+[A0248][AUTHOR_VIEW][PATCH][ADVANTAGE][FOOD] 魔法のシュガースカル（Bewitched Sugar Skulls）は、材料の費用対効果と食事効果の両方が高く、初心者でも使いやすい。
+[A0249][AUTHOR_VIEW][PATCH][PRACTICE][FOOD] 初心者が使用したいビルドで魔法のシュガースカル（Bewitched Sugar Skulls）を指定されている場合、そのまま使用することを検討する。
+
+### 初心者向けクラス比較
+
+[A0190][AUTHOR_VIEW][RULE][BEGINNER_CLASS_OPPORTUNITY_COST] 初心者向けでもクラス間の機会費用を省略せず、他クラスへの乗り換えに必要な習熟・育成・装備準備の負担をコストとして加えた上で比較する。
+
+## 初心者の基本技能・段階練習
+
+### 攻撃・防御・回復・非常用リソース
+
+[A0128][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][DEFENSIVE_SEQUENCE] 練習第1段階では、死にそうだと気付いたときに攻撃をやめ、まずブロック（Block）を成立させてから防御シーケンスへ移ることを主要な練習目標とする。最初から毎回成功する必要はなく、危険に気付いてブロックから防御へ切り替えられる回数を増やす。
+[A0129][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第2段階では、打破（Break Free）またはロール回避（Roll Dodge）1回分の非常用スタミナ（Stamina）を残せる場面を増やすことを主要な練習目標とする。最初から常時維持できる必要はなく、使い切った場面を認識して次の試合で改善する。
+[A0130][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第3段階では、障害物を利用して平地で複数人から攻撃を受け続ける時間を減らすことを目標とし、完全に攻撃を避け続けることは要求せず、被攻撃時間を部分的に減らせれば進歩として扱う。
+[A0131][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第4段階では、CCを攻撃開始の合図として利用できる場面を増やすことを目標とする。
+[A0132][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第5段階では、CC後に複数の攻撃をまとめることを目標とし、最初から完全なコンボを毎回再現することは要求しない。
+[A0133][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第6段階では、相手が回復へ回った場面では攻撃継続を試し、自分が回復へ回らされた場面では無理な攻撃を減らすことを目標とする。
+[A0134][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][ESCAPE_ROUTE] 練習第7段階では、味方の位置を確認し、逃げる方向と味方へ戻る方向を考えられる場面を徐々に増やすことを目標とする。
+[A0135][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 練習第8段階では、自分のビルドまたは運用上のボトルネックを一つ見つけ、一度に多数の問題を修正しようとせず一つずつ改善することを目標とする。
+[A0272][AUTHOR_VIEW][GOAL][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、攻撃練習を通じて「倒したいから大技を撃つ」状態から、「CCを通して短い拘束時間に強い攻撃をまとめる」と考えられる場面を徐々に増やすことを目標とし、最初から毎回適切なCC起点を作れる必要はない。
+[A0353][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][PVP_ASSUMPTION][BEGINNER_ALL_ROLES][DEFENSIVE_SEQUENCE][PRIORITY] 初心者向け防御設計では、敵プレイヤーが質問者の操作を待つ、同程度にもたつく、または攻撃機会を自発的に失うことを前提にせず、質問者より速く次の攻撃・CC・バーストを入力し得る相手を想定する。そのため、緊急初動には入力直後から防御価値が生じ、後続判断中にも機能する行動を優先し、ブロック（Block）を代表的な起動原則として扱う。
+[A0362][AUTHOR_VIEW][PRACTICE][PRIORITY][DEFENSIVE_SEQUENCE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者の緊急防御では、危険を認識したらまずブロック（Block）を成立させ、その状態を維持したまま必要なバー交換を行い、GCDが使用可能になり次第、回復・防御スキル等の立て直しへ進む起動順序を基本練習とする。
+[A0370][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][BEGINNER_ALL_ROLES][DEFENSIVE_SEQUENCE][PRIORITY] 初心者へ窮地の防御順序を説明するとき、「防御バーへ交換してから回復し、その後にブロック（Block）する」「回復してからブロックする」等を標準手順として生成せず、ブロックを最初の自発防御行動として示す。
+[A0395][AUTHOR_VIEW][RULE][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 初心者の攻撃復帰判断では、残存HPが見た目上十分に多いことを、最大HPまでの回復を途中で打ち切る一般的な理由として扱わない。
+[A0396][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][PRIORITY][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 初心者が防御ターンから攻撃へ復帰する場合は、原則として現在HPを最大HPまで戻し、打破（Break Free）等に必要な非常用スタミナ（Stamina）余白も確保してから攻撃復帰を判断する。
+[A0397][AUTHOR_VIEW][CAUSE][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 最大HP未満から次の攻防交換を始めると、未回復HPの分だけ次の被圧を受け止める体力余裕が減るため、初心者の標準的な攻撃復帰状態として扱わない。
+[A0407][AUTHOR_VIEW][AI][RULE][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 初心者の防御ターン終了・攻撃復帰基準として、「一定割合以上のHPが残っていれば十分」「最大HPまで戻さなくても十分」等の固定的なHP閾値を生成しない。
+[A0408][AUTHOR_VIEW][AI][LIMIT][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] 中上級者が主導権・残存回復・敵の攻撃準備等を読んで最大HP未満から攻撃へ転じる状況判断を、初心者の標準的な防御終了・攻撃復帰手順へ一般化しない。
+[A0509][AUTHOR_VIEW][PRIORITY][BEGINNER_ALL_ROLES] スタミナ（Stamina）型でないビルドでも、スタミナは打破（Break Free）・ロール回避（Roll Dodge）・ブロック（Block）・スプリント（Sprint）に使用する生存リソースとして扱う。
+
+### 対隠密の初期対策
+
+[A0461][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][STEALTH_COUNTER] 光輝く灯明（Radiant Magelight）は、スロット中に隠密攻撃由来のSlam Stunを防げるため、隠密ガンカーへの有力な防御策として初心者へ特に評価する。ただし、隠密状態（Hidden）から使用されたスキル自身が持つ固有CCまで無効化する効果とは扱わない。
+[A0462][AUTHOR_VIEW][PATCH][RULE][ENTRY_LEVEL_BEGINNER][STEALTH_COUNTER] 暴きの閃光（Revealing Flare）系を対隠密用途で使う場合、どこかに潜んでいる敵を探索する技能としてより、敵が隠密のまま接近・通過しにくい範囲を作るエリア拒否として評価し、初心者には持続範囲を作れる残存する閃光（Lingering Flare）を有力候補とする。
+
+## ロール別初心者情報
+
+### タンク
+
+[A0583][AUTHOR_VIEW][RULE][SCOPE][OVERRIDE][ROLE_TANK][BEGINNER_TANK][BLOCK] 継続的なブロック（Block）維持を主防御とするタンクでは、特に初心者へLoSを主要防御として標準要求せず、まずブロック維持・回復・サステインを成立させる。ブロック外の移動を主要防御に含むタンクでは、障害物とLoSを積極的な生存手段として扱う。
+[A0585][AUTHOR_VIEW][PRIORITY][PRACTICE][ROLE_TANK][BEGINNER_TANK][SUSTAIN] 初心者タンクでは、最初の被圧力を生存できる最低限の耐久を確保した後、初回実戦前から防御・自己回復を継続できる最低限のサステイン補助を用意し、十分な生存時間を得てから、必要に応じて位置取り・ブロック（Block）判断・追加支援を段階的に学ぶ順序を基本とする。
+[A0586][AUTHOR_VIEW][EVAL][GOAL][ROLE_TANK][BEGINNER_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 入門段階のタンクが複数の敵から継続して攻撃を受けながら一定時間生存できた場合、その生存自体を成功として評価する。CC・デバフ・引き寄せ等の追加支援は、コンテンツ上の必要性と本人の操作余裕に応じて段階的に学ぶ候補とし、生存成立後の必須義務として扱わない。
+[A0587][AUTHOR_VIEW][PRIORITY][ROLE_TANK][BEGINNER_TANK][BLOCK][HEAVY_ARMOR][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] 常時ブロック（Block）型の初心者タンクでは主防御であるブロック性能を先に成立させ、ロール回避（Roll Dodge）コスト低減だけを理由に中装鎧（Medium Armor）の比率を増やしたり防具特性を変更したりして、ブロック耐久を大きく低下させる調整を標準推奨しない。他の明確な目的で防具構成を変える場合は別に評価する。
+[A0614][AUTHOR_VIEW][GOAL][ROLE_TANK][BEGINNER_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者タンクは、敵の注意や攻撃の一部を自分が引き受ける経験を積み、味方へ向かう圧力を減らせる場面を増やすことを目標の一つとする。
+
+### ヒーラー／サポート
+
+[A0419][AUTHOR_VIEW][COND][PRIORITY][LIMIT][BEGINNER_HEALER][HEALING_GEAR][RECOMMENDATION_SCOPE][GROUP_CONTRIBUTION] PUGを含む大規模なグループに所属しない状態での稼働を想定した初心者ヒーラービルドでは、ヒーラー用装備として効果対象がグループメンバーだけに限定されない装備を優先評価し、効果対象がグループメンバーだけに限定される支援用装備は、支援目的の装備として推奨しない。
+[A0604][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 入門者級初心者がロール選択に強い希望を持たない場合、重装鎧（Heavy Armor）と生存性重視の装備を中心にし、必要に応じてサステインを補強したPvPヒーラーを有力な初期候補とする。低い攻撃性能でも役割が成立し、自身への回復によってHPを高く維持しやすく、高度な攻撃コンボや移動中のエイムへの依存も小さくできるため、初期の操作要求に対する実戦貢献を得やすい。
+[A0605][AUTHOR_VIEW][LIMIT][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 入門者級初心者に対する高耐久PvPヒーラーの高い推奨度を、上級者帯でも同じ構成が高性能または最適であるという評価へ拡張しない。
+[A0606][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）で回復の杖（Restoration Staff）を使う入門者級初心者には、最初に一つ回復スキルを覚える場合の最優先候補として放射再生（Radiating Regeneration）を推奨する。エイムを要求せず複数の味方へ実効的な回復を付与でき、戦場への参加と同盟ポイント（Alliance Points／AP）取得へ結び付けやすい。
+[A0610][AUTHOR_VIEW][GOAL][PRACTICE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] PvP初心者のヒーラーは、敵から高優先度で狙われることを考慮し、まず一定の耐久性を確保したビルドで生存しながら回復する経験を積むことを目標とする。
+[A0611][AUTHOR_VIEW][GOAL][PRACTICE][COND][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] PvP初心者のヒーラーが味方の人数が多い状況で戦う場合、最前線から少し離れた後方を基本位置として試し、そこで生存しながら回復を継続できる場面を増やすことを目標とし、最初から適切な距離を維持し続けられる必要はない。
+[A0612][AUTHOR_VIEW][GOAL][COND][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] PvP初心者のヒーラーが味方の人数が多い状況で敵に狙われた場合、生存を優先して積極的に逃げる判断を試し、適切に離脱できる場面を増やすことを目標とする。
+[A0613][AUTHOR_VIEW][LIMIT][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION] 生存のために逃走した結果、回復密度が低下したり味方への回復が一時停止したりすることはヒーラーの生存とのトレードオフとしてある程度許容し、初心者に最初から回復を止めずに生存し続けることを要求しない。
+[A0615][AUTHOR_VIEW][GOAL][DIAG][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] 初心者ヒーラーは、回復が届かなかった場面を戦闘後に振り返り、原因誤認による不要な立ち回り・ビルド変更を避けるため、次回変更できる主要原因をまず一つ探すことを目標とする。最初から戦闘中の正確な原因判定や複数原因の同時分析は要求しない。
+[A0616][AUTHOR_VIEW][GOAL][RULE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、自分の回復範囲から逃げ回る味方を無条件に追いかけない判断を徐々に身につけることを目標とする。
+[A0617][AUTHOR_VIEW][GOAL][LIMIT][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは味方を回復する意思を持ち、助けられる範囲では助ける一方、味方の行動すべてに振り回されない線引きを徐々に身につけることを目標とする。
+[A0618][AUTHOR_VIEW][GOAL][DEF][PRACTICE][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、自分の周囲を回復圏として扱い、回り込みやすい障害物付近を基本位置として使う練習を行い、最初は位置を外れたり動きすぎたりしても経験に応じて不要な移動を減らしていくことを目標とする。
+[A0619][AUTHOR_VIEW][GOAL][COND][PRIORITY][BEGINNER_HEALER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者ヒーラーは、生存に必要なら大きく移動してよいことを理解し、その移動を味方の恒久的放棄ではなく数秒後に回復を再開するため今の死亡を避ける行為として徐々に判断できるようになることを目標とする。
+
+### ブルーザー
+
+[A0607][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] 入門者級初心者がブルーザーを使用する場合、重装鎧（Heavy Armor）を主体とし、防御・生存性を主要機能とする5セット装備を最低一つ、攻撃性能を主要機能とする5セット装備を最低一つ確保する構成を初期候補とする。防御へ寄せすぎて攻撃能力を失う構成も、ブルーザーとしての実戦経験と学習を阻害し得る。
+[A0608][AUTHOR_VIEW][COND][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] PvEの2バー操作にも十分慣れていない入門者級初心者ブルーザーでは、防御用5セットを裏バー限定で成立させる構成より、防御効果を常時利用できる構成を強く優先する。2バー操作に一定以上習熟している場合、この優先は必須としない。
+[A0609][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][BEGINNER_BRUISER] PvEにも不慣れな入門者級初心者ブルーザーには、強固（強）（Major Resolve）を確保する手段を必須級の初期推奨とする。初期段階では生存性と戦場で行動できる時間の確保を最優先し、Major Resolveによる耐性上昇はその目的へ大きく寄与する。
+[A0621][AUTHOR_VIEW][GOAL][DEF][PRACTICE][BEGINNER_BRUISER][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者はブルーザーに純粋型と複合ロール型があることを理解し、まず純粋ブルーザーで正面戦の基本経験を積んでから複合型へ発展することを長期目標とし、最初から一定水準の習得を要求しない。
+
+### スカーミッシャー
+
+[A0622][AUTHOR_VIEW][GOAL][PRACTICE][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者がスカーミッシャー的な運用を学ぶ場合は、まず機動力を使って戦闘地点や交戦状態を変える経験を積み、自分の機動手段でどこへ移動でき、どの程度安全に交戦・離脱・再介入できるかを徐々に理解することを目標とする。遠距離主体DDであること、ソーサラー（Sorcerer）やボルトエスケープ（Bolt Escape）／雷光（Streak）を使用すること、または最初から高度な戦況把握と最適な移動判断を行うことは要求しない。
+[A0623][AUTHOR_VIEW][COND][GOAL][PRACTICE][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 定員制グループコンテンツで、かつ初心者本人が個人の自由行動よりグループへの実効的な貢献を優先し、将来的に競技的なグループ貢献を目指す場合は、ほどほどの火力と自衛力、高い機動力を使って複数の戦闘へ介入するグループ貢献型スカーミッシャー運用を学習対象にできる。最初は機動力を使って別の戦闘へ介入する経験を積むことを目標とし、遠距離主体DD、ソーサラー（Sorcerer）、ボルトエスケープ（Bolt Escape）／雷光（Streak）、複数地点からの最適な介入先・タイミング判断を初期要件としない。
+[A0624][AUTHOR_VIEW][AI][LIMIT][ROLE_SKIRMISHER][BEGINNER_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION][RECOMMENDATION_SCOPE] A0623は、定員制グループコンテンツで将来的な競技的グループ貢献を目指す初心者向けの派生学習目標であり、初心者スカーミッシャー一般の定義・参加条件・標準要求として使用しない。また、B6で扱う遠距離主体適性、クラス適性、介入最適化、味方救援、ヘイト管理等の上級者基準をA0623の初期要求へ移植しない。
+
+### Ganker／Bomber
+
+[A0635][AUTHOR_VIEW][PRACTICE][ROLE_GANKER][BEGINNER_GANKER][MOVEMENT_SPEED] 初心者の純ガンカーは、隠密中の徒歩移動が遅すぎて標的への追従や攻撃位置の形成に支障が出る場合、主要な攻撃性能を大きく損なわない範囲で移動速度を少し高めると運用しやすい。
+[A0636][AUTHOR_VIEW][GOAL][LIMIT][BEGINNER_GANKER][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、4v4では各プレイヤーがチーム戦力に占める割合が大きいため、攻撃機会待ちによって通常戦闘参加を減らすガンカー／ボマーは8v8より運用余地が狭くなりやすいことを段階的に理解する。参加者の防御準備、反応精度、耐久、密集傾向等によって実際の適性は変化する。
+[A0637][AUTHOR_VIEW][GOAL][COND][BEGINNER_GANKER][GROUP_CONTENT][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者は、参加者の防御性能・習熟度にばらつきがあり、集団密度や初回撃破機会が生じる8v8では、ガンカー／ボマーが攻撃機会を得られる余地が4v4より大きくなりやすいことを段階的に理解する。
+[A0638][AUTHOR_VIEW][GOAL][CAUSE][BEGINNER_GANKER][GROUP_CONTENT][GROUP_CONTRIBUTION][NOT_INITIAL_REQUIREMENT] 初心者は、チャンスが来るまで隠れる運用が、その間の味方負担を高めることを理解することを目標とする。
+
+### ナイトブレイド（Nightblade）
+
+[A0645][AUTHOR_VIEW][PATCH][GOAL][PRACTICE][BEGINNER_NIGHTBLADE][STEALTH_COUNTER][NOT_INITIAL_REQUIREMENT] A0644の対象範囲において、正面戦闘で透明化を使う初心者は、透明化を唯一の生存手段・離脱手段として依存せず、使用後すぐ再発見され得ることに加え、透明化中に自分由来の攻撃判定が発生すると透明化が解除され得ることも前提に、他の防御・回復・位置取りを併用する理解を身につけることを目標とする。
+
+## 戦場別初心者情報
+
+### シロディール・バトルグラウンド・復讐
+
+[A0674][AUTHOR_VIEW][AI][RULE][ENTRY_LEVEL_BEGINNER][RECOMMENDATION_SCOPE] 入門者級初心者へシロディール（Cyrodiil）の攻城兵器を説明する場合、全種類の網羅や低評価兵器の列挙より、質問時点で用途に合う有力な少数候補を優先して提示する。
+[A0675][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者が通常入手できる対人攻城兵器を選ぶ場合、燃え盛る油（Flaming Oil）と肉袋カタパルト（Meatbag Catapult）を基本候補とする。
+[A0676][AUTHOR_VIEW][PATCH][COND][ENTRY_LEVEL_BEGINNER] 散弾カタパルト（Scattershot Catapult）は、同一地点へ肉袋カタパルト（Meatbag Catapult）の効果がすでに十分重なっている場合に、別の対人攻城効果を追加する補完候補として扱う。
+[A0677][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者が通常入手できる対城塞攻城兵器を選ぶ場合、バリスタ（Ballista）と石のトレビュシェット（Stone Trebuchet）を基本候補とする。
+[A0685][AUTHOR_VIEW][PATCH][LIMIT][ENTRY_LEVEL_BEGINNER] 破城槌（Battering Ram）は門への主要攻城手段になり得る一方、門直下で敵の燃え盛る油（Flaming Oil）等に晒されやすいため、入門者級初心者へ最初に扱う攻城兵器の第一候補として強く推奨しない。
+[A0692][AUTHOR_VIEW][LIMIT][ENTRY_LEVEL_BEGINNER] 入門者級初心者には、ボールグループを標準的な攻撃対象として積極的に追わせない。
+[A0693][AUTHOR_VIEW][PATCH][COND][PRIORITY][ENTRY_LEVEL_BEGINNER] 入門者級初心者本人がボールグループへの攻撃を明示的に希望する場合、通常戦闘で接近するより攻城兵器による遠隔介入を優先候補とする。
+[A0712][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PROGRESSIVE_LEARNING][RECOMMENDATION_SCOPE][VENGEANCE] 復讐（Vengeance）を初心者へ勧める場合は、攻城、砦、資源、地図、集団移動等の戦場構造を学ぶ用途と、通常PvPのビルド設計・クラス性能・通常スキル運用を学ぶ用途を分けて評価し、一方の学習適性から他方の学習適性を自動的に推定しない。
+
+### 帝都
+
+[A0725][AUTHOR_VIEW][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][TEL_VAR_STONES][RECOMMENDATION_SCOPE] 帝都（Imperial City）でテルバー（Tel Var Stones）を所持した入門者級初心者が死亡した場合、味方への即時復帰を特に必要としないなら、そのまま再戦へ戻るより一度同盟基地へ戻って残存テルバーを銀行へ預けることを標準推奨とする。
+[A0726][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][TEL_VAR_STONES][OPPORTUNITY_COST] 入門者級初心者が所持テルバー（Tel Var Stones）倍率だけを目的に10,000テルバーを初期資金として持ち込むことを標準推奨せず、100または1,000程度の低い損失リスクから開始し、死亡リスクと損失許容度に応じて携行額を増やす。
+[A0727][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][STEALTH_COUNTER] 帝都（Imperial City）へ入る入門者級初心者には、地上・下水道を問わず、探知、露見、隠密・透明化阻害等の対隠密手段を少なくとも一種類準備することを優先的に推奨する。
+[A0728][AUTHOR_VIEW][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][ESCAPE_ROUTE][RECOMMENDATION_SCOPE] 帝都（Imperial City）で安全とテルバー（Tel Var Stones）保全を優先する入門者級初心者は、少人数でも明らかにPvPへ習熟した敵プレイヤーを発見した場合、人数有利だけを理由に交戦せず、視界と再接触を切れる距離または別地区まで早期離脱することを標準候補とする。
+[A0729][AUTHOR_VIEW][PRACTICE][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][TEL_VAR_STONES] 初めてテルバー（Tel Var Stones）を稼ぐ、または帝都（Imperial City）のPvPvE環境に慣れる入門者級初心者には、自同盟の下水道基地付近から出撃し、中央部へ深く進まない短い周回を安全寄りの初期練習として推奨し、この周回も敵対プレイヤーが侵入可能なため安全地帯とは扱わない。
+[A0730][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][ESCAPE_ROUTE] 帝都（Imperial City）へ出撃する入門者級初心者には、帝都撤退の印（Sigil of Imperial Retreat）を少なくとも一つ携行し、危険になってから退路を探すのではなく安全帰還手段を事前に確保することを推奨する。
+[A0731][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][PVE_PVP_INTERACTION][DEFENSIVE_DESIGN] 帝都（Imperial City）でPvEまたはテルバー（Tel Var Stones）獲得を主目的とする入門者級初心者向けビルドでも、PvE効率または移動性能を最大化するためにPvP被弾時の防御余力を大きく削る構成を標準推奨にしない。PvE戦闘中に敵プレイヤーから不意に圧力を受ける可能性を含めて生存余裕を確保する。
+[A0734][AUTHOR_VIEW][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][BLOCK][STEALTH_COUNTER] 帝都（Imperial City）の地区旗で占領ゲージを進めている間はブロック（Block）を基本姿勢とし、必要に応じて探知効果を含む各種ポーションまたは探知系スキルを起動して、隠密接近への警戒を補う。
+[A0735][AUTHOR_VIEW][CAUSE][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][ROLE_BOMBER] イベント中など帝都（Imperial City）でプレイヤーが密集しやすい状況ではボンバーへの警戒を高め、自分への初撃を防いでも、残忍な死（Vicious Death）等によって近くの味方の死亡が追加爆発の起点となり、自分が巻き込まれ得ることを考慮する。
+[A0739][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][ESCAPE_ROUTE] 帝都（Imperial City）地上から下水道を経由して同盟基地へ帰還する場合、地区から下水道へ降りる地点と基地までの固定経路は通過者を予測しやすいため待ち伏せを警戒し、待ち伏せ役が隠密ガンカーではなく熟練者や複数人である可能性も考慮する。
+[A0749][AUTHOR_VIEW][PATCH][PRIORITY][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][TEL_VAR_STONES][OPPORTUNITY_COST] インペリアルフィジカル（Imperial Physique）は高テルバー（Tel Var Stones）時に強い性能を得る一方、10,000テルバー級の携行と目立つ視覚効果によって損失・標的化リスクを増やすため、入門者級初心者へ標準的に推奨しない。
+[A0750][AUTHOR_VIEW][PATCH][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][PVE_PVP_INTERACTION] 帝都（Imperial City）下水道を巡回するコールドハーバーの精鋭衛兵（Coldharbour Elite Guard、通称Banner Boss／旗ボス）は、短時間で低リスクに撃破できる戦力がない入門者級初心者には標準的に交戦を勧めず、特徴的な接近音等を回避判断へ利用する。ただし下水道では狭い通路や曲がり角で視認前に近距離遭遇し得るため、接近音を必ず事前察知できることを安全成立の前提にしない。
+[A0755][AUTHOR_VIEW][DEFAULT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][RECOMMENDATION_SCOPE] 帝都（Imperial City）地上デイリーを一つだけ安全性と簡単さを優先して入門者級初心者へ勧める場合、アリーナ地区（Arena District）を第一候補、樹木地区（Arboretum）を次候補とし、貴族地区（Nobles District）を有力な別候補として扱う。エルフの庭園地区（Elven Gardens）を最も簡単な標準候補とは扱わない。
+[A0756][AUTHOR_VIEW][LIMIT][ENTRY_LEVEL_BEGINNER][IMPERIAL_CITY][SITUATIONAL_AWARENESS] 帝都（Imperial City）のクエストや一部戦闘ではNPCの台詞・戦闘音が地形越しに周囲へ伝わり、プレイヤーの活動を間接的に知らせる場合があるため、姿を見られていないことだけを根拠に自分の存在が察知されていないと判断しない。
+
+### 個別ビルドの初心者適性
+
+[A0793][AUTHOR_VIEW][PATCH][LIMIT][ENTRY_LEVEL_BEGINNER][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD][RECOMMENDATION_SCOPE] 特別な事情または本人の明示的希望がない入門者級初心者には、雷杖重攻撃（Heavy Attack）ビルドをPvPの高優先標準推奨にしない。
+[A0794][AUTHOR_VIEW][PATCH][CAUSE][ENTRY_LEVEL_BEGINNER][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD][PRACTICE] 雷杖重攻撃（Heavy Attack）主体ではチャネリング中にLoSを防御へ使いにくく、自衛要求で攻撃が中断されやすいため、入門者級初心者がLoSと攻防切替を反復練習する機会を減らし得る。
+
+## 学習・診断・検証
+
+### 同一ビルドでも実戦結果は変わる
+
+[A0091][AUTHOR_VIEW][DEF] ビルド画面は、キャラクターが「できること」の上限を示す。
+[A0092][AUTHOR_VIEW][CAUSE] 実戦性能は、バフ維持、継続攻撃、CC・ブロック（Block）・ロール回避（Roll Dodge）のタイミング、表裏バー切替、障害物利用、回復開始、攻撃ターンの見極め、リソース残量によって変化し、同じビルドでも性能の実際の利用率が変わる。
+[A0093][AUTHOR_VIEW][CORE_JUDGMENT][CAUSE][PRACTICE][BUILD_GENERAL] キャラクターが多数の用途へ対応できる性能を持っていても、プレイヤーが各用途に必要な操作・判断を習得していなければ、その汎用性能のうち習熟済みの部分しか安定して実戦価値へ変換できない。
+[A0094][AUTHOR_VIEW][CLAIM][PRACTICE][GROUP_CONTENT][RANGE_COST] シロディール（Cyrodiil）の大規模野戦・砦戦で後方遠距離DDとして攻撃を継続する運用は、それ自体で成立する一つのPvP仕事であり、その運用を反復すれば大規模集団への攻撃、射程管理、前線との位置関係等へ習熟し得る。
+[A0095][AUTHOR_VIEW][CAUSE][PRACTICE][ROLE_BRUISER][RANGE_COST] 大規模戦の後方遠距離DDとして成果を得られることは、被フォーカス時の防御、攻防切替、対個人コンボ等の未習熟を必ずしも露出させず、個人戦技能の不足が残ったままでもその役割では成果を得られる場合がある。
+[A0096][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][RANGE_COST] 大規模戦から少数戦まで対応する汎用遠距離DDを実際に汎用的に扱うには、射程の利益が十分に働かない状況でも、一人分の敵戦力に対して攻撃・防御・回復・CC・リソース判断を成立させる個人戦の基礎技能へ習熟する。
+[A0097][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][RANGE_COST] 汎用遠距離DDの個人戦技能を練習する候補には、決闘、バトルグラウンド（Battlegrounds）の少人数直接戦、帝都（Imperial City）の局地戦等、対個人の防御・攻防切替・コンボ・リソース交換を大規模後衛戦より高密度に反復しやすい環境がある。
+[A0098][AUTHOR_VIEW][CAUSE][PRACTICE][BUILD_GENERAL] 上手い汎用遠距離DDの装備・スキル構成をコピーしても、そのプレイヤーが個人戦・少数戦で身につけた攻防判断、コンボ精度、被フォーカス処理等のプレイヤースキルはコピーされない。
+[A0099][AUTHOR_VIEW][DIAG][PRACTICE][RANGE_COST][ROLE_BRUISER][OPPORTUNITY_COST] シロディール（Cyrodiil）の大規模戦から小規模なバトルグラウンド（Battlegrounds）等へ移行した遠距離DDが少数戦向け近接との直接戦で反復して苦戦する場合、未習熟な個人戦技能と、射程へ支払った正面攻防性能の機会費用を分けて確認し、両方が同時に原因となり得ることを前提に診断する。
+[A0100][AUTHOR_VIEW][CAUSE][PRACTICE][RANGE_COST] 得意な大規模遠距離運用だけでも十分な成果を得られることは、不足している個人戦技能を練習する必要性を感じにくくし、すでに高い技能だけをさらに反復して汎用化に必要な技能の習得が停滞する学習上の要因になり得る。
+[A0101][AUTHOR_VIEW][CORE_JUDGMENT][AI][DIAG][RULE][PRACTICE][RANGE_COST][OPPORTUNITY_COST] シロディール（Cyrodiil）大規模戦経験の長い遠距離DDが少数戦で苦戦している場合、原因をプレイヤー技量だけ、またはビルド性能だけの一方へ即断せず、個人戦技能の習熟度と射程の機会費用を別々に診断する。
+[A0102][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][PRACTICE][EPISTEMIC_SEPARATION] 大規模戦で長く活動していることを、対個人戦・ブルーザー技能への同等の習熟証拠として扱わない。一方、少数戦技能の不足だけから大規模戦で培った射程管理・集団攻撃・前線把握等の技能まで低く評価しない。
+[A0103][AUTHOR_VIEW][AI][DIAG][RULE][PRACTICE][BUILD_GENERAL] 個人戦技能が主要ボトルネックだと判断した場合、装備変更だけを反復する前に、その技能を高密度に要求する練習環境を改善候補として提示する。
+[A0104][AUTHOR_VIEW][AI][RULE][PRACTICE][RANGE_COST][RECOMMENDATION_SCOPE] 汎用遠距離DDの改善相談では、遠距離ブルーザーとして正面戦能力を伸ばすのか、射程をスカーミッシャー・オフヒール・デバフ等の別価値へ変換するのか、大規模戦特化を維持するのかを区別して助言する。
+[A0105][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][BUILD_GENERAL] キャラクターが理論上持つ汎用性を、そのままプレイヤーの実戦上の汎用性として評価せず、各機能を実戦で利用するための操作・判断習熟を別に確認する。
+[A0106][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][ROLE_BRUISER][RANGE_COST] 不足技能が個人戦の知覚―行動ループにある場合、「さらにシロディール（Cyrodiil）の大規模戦を続ければ自然に習得する」と安易に推定せず、必要な判断頻度・時間圧・攻防負荷を高密度に再現する課題忠実度の高い練習を優先候補とする。
+[A0107][AUTHOR_VIEW][DIAG] 同じ装備・スキルなのに相手だけ硬い、または高いダメージを出す場合、自分の弱さ全般へ即座に原因帰属しない。
+[A0108][AUTHOR_VIEW][DIAG] 同じ装備やスキルで実戦結果に差がある場合、使用率やタイミングの差を一つずつ探す。
+
+### 決闘を実験室にする
+
+[A0109][AUTHOR_VIEW][CLAIM][PRACTICE] バトルグラウンド（Battlegrounds／BG）やシロディール（Cyrodiil）は人数・地形・味方・ラグ・別方向からの攻撃等の変数が同時に存在して単独要素の検証条件として複雑なため、ビルド調整や仕様確認には知人との決闘が便利である。
+[A0110][AUTHOR_VIEW][PRACTICE] ビルド調整には一度に変更する要素を一つにする比較検証が有用である。
+[A0111][AUTHOR_VIEW][PRACTICE] 攻撃コンボの習得では、まず訓練ダミー（Target Dummy）を相手に入力順・バー交換・タイミングを安定して完遂できるまで反復し、その後に対人戦で相手の移動・防御反応へ合わせた途中変更・中断を加える。ダミー相手に基本手順を安定再現できない状態で、より変数の多い対人戦だけによる安定運用を前提にしない。
+[A0112][AUTHOR_VIEW][PRACTICE][BUILD_REGRESSION_CHECK] ビルドを複数回変更した後は、変更した部分だけでなく、変更前に成立していた主要機能が意図せず失われていないかを再確認する。
+[A0113][AUTHOR_VIEW][DIAG][FUNCTION_LOSS] 火力・耐久等が理由不明で悪化した場合、数値不足だけでなく、調整過程で主要バフ・デバフ・CC・回復・移動・リソース供給等の役割が構成から脱落していないかを確認する。
+[A0114][AUTHOR_VIEW][DIAG] 比較検証では、防御はHP減少量・HPを戻す行動回数・必要リソースを、攻撃は最大ダメージだけでなく相手へ回復を強要できたか、その回数、リソース切れまでに作れた攻撃機会を測る。
+
+### 表示と検証
+
+[A0115][AUTHOR_VIEW][CAUSE][EX][RULE] PvPでは画面表示や体感だけから結果を誤認し得るため、「クリティカルが出ない」「効果が乗らない」「特定スキルだけ弱い」等の疑問は、可能なら戦闘ログ・記録ツール・決闘で反復確認し、一回の体感だけでビルド全体を捨てない。
+[A0116][AUTHOR_VIEW][COND] 理論上の性能や数値が高いビルドでも、実戦で繰り返し使用して操作しにくさや性能を発揮しにくい状態が続く場合は、自分のプレイスタイルや操作特性に合っていない可能性を考慮する。
+[A0117][AUTHOR_VIEW][RULE] ビルドを評価するときは、理論上の性能や数値だけで判断せず、実戦での操作性、性能の発揮しやすさ、使用感も合わせて評価する。
+
+### 死亡原因の優先順位化・ボトルネック学習
+
+[A0118][AUTHOR_VIEW][DIAG][PRACTICE] 死亡時は「自分が弱い」という総括だけで終わらせず、死亡原因を一つのカテゴリへ分類する。
+[A0119][AUTHOR_VIEW][PRACTICE][DEATH_REVIEW] 死亡原因を分析する場合、可能なら死亡場面の直前を録画から見返し、自分の記憶だけで敗因を決めない。
+[A0120][AUTHOR_VIEW][DIAG][DEATH_REVIEW] 録画を見返す場合、位置・リソース・バフ・防御行動・相手の攻撃予兆を確認してから死亡原因カテゴリを決定する。
+[A0121][EX] 死亡原因カテゴリの例には、CCを打破（Break Free）できなかった、スタミナ（Stamina）枯渇、回復開始遅延、継続回復切れ、表バー滞在過多、バーストへのブロック（Block）失敗、平地で複数人に捕まった、圧力不足、味方から離れる深追い、倒せない相手への過剰投資がある。
+[A0122][AUTHOR_VIEW][CAUSE][LIMIT] 死亡原因を一つ決めれば次の試合の具体的な練習対象を設定できるが、「全部ダメだった」という診断では次に何を直すか決めにくい。
+[A0123][CLAIM][DEATH_REVIEW] 一回の死亡には複数の重大な要因が同時に関与することが普通であり、初心者では打破（Break Free）遅延、ブロック（Block）失敗、回復開始遅延、不要な攻撃続行、位置取り、リソース不足など複数の問題が同じ死亡へ重なりやすい。
+[A0124][AUTHOR_VIEW][CORE_JUDGMENT][RULE][DEATH_REVIEW] 死亡原因を一つへ絞るのは、その原因だけが死亡を生んだと断定するためではなく、直近の改善効果が最も大きいと見込まれる行動面のボトルネックを特定し、次の練習対象を一つに固定するための学習手順である。
+[A0125][AUTHOR_VIEW][LIMIT][DIAG][DEATH_REVIEW] 一回の死亡に複数の重大なミスが確認できても、それらをすべて列挙することを優れた診断とみなさず、結果を最も変えやすい一要因または現在の行動ボトルネックを優先して次の改善対象にする。
+[A0126][AUTHOR_VIEW][PROC][PRACTICE][DEATH_REVIEW] 選んだ行動ボトルネックが改善した後は、その後の死亡を再分析して次に支配的なボトルネックへ進む。一度に一要因へ注力する反復は、どの改善が実戦結果を変えたかを解釈可能な形で確認するためのデータ収集として扱う。
+[A0127][AUTHOR_VIEW][CLAIM] 敗因を具体的に理解する能力は、パッチが変わっても残る大きな学習資産である。
+
+### 次段階の学習
+
+[A0136][AUTHOR_VIEW][PRACTICE] 自分の基本操作、リソース管理、盤面への注意を一通り意識せず行えるようになったら、次の学習対象として相手の状態を見る。
+[A0137][AUTHOR_VIEW][GOAL] 理想的には、全クラスの主要な攻撃エフェクトと操作感を知ることを目標にする。
+[A0138][AUTHOR_VIEW][PRACTICE] 全クラスの学習が難しい場合、環境で脅威度が高いクラスだけでも主要な攻撃エフェクトと操作感を知る。
+[A0139][CAUSE] 相手クラスの主要な攻撃エフェクトと操作感を知っていると、そのクラスと対峙した際の対処精度が大きく向上する。
+
+### 実戦判断フロー
+
+[A0140][AUTHOR_VIEW][PROC][COND][DEFENSIVE_SEQUENCE] ①「今、死にそうか」を判定する。死にそうなら攻撃を止め、まずブロック（Block）を成立させてから、必要な回復・防御バーへの移行・LoS・距離確保等へ進み、リソース残量を確認する。死にそうでなければ次へ進む。
+[A0141][AUTHOR_VIEW][PROC][DIAG][COND] ②「相手が自分の攻撃を無視して殴ってきているか」を判定する。無視されるなら圧力不足を疑い、バフ・デバフ・貫通・CC・コンボタイミングを見直す。相手が回復・防御へ回っているなら、自分に攻撃ターンが来ている可能性が高い。
+[A0142][AUTHOR_VIEW][PROC][COND] ③「CCとバーストの準備があるか」を判定する。準備があるなら相手の防御が薄くなる瞬間に仕掛け、ないなら主要資源を無理に全投入せず準備しながら圧力を維持する。
+[A0143][AUTHOR_VIEW][PROC][COND] ④「打破（Break Free）・ロール回避（Roll Dodge）分のスタミナ（Stamina）が残っているか」を判定する。ないなら深追いせず距離を取り、回復して再調整し、あるなら通常判断を継続する。
+[A0144][AUTHOR_VIEW][PROC][COND] ⑤「複数人に狙われたか」を判定する。狙われたら正面で全攻撃を受けず障害物・距離・CCで追跡者を分断し、一人が孤立したら反撃する。複数に狙われていなければ通常の攻防を継続する。
+[A0145][AUTHOR_VIEW][PROC][COND][RULE] ⑥「相手を倒せないまま長時間経過しているか」を判定する。停滞しているなら同じ相手へ固執せず、他標的・味方・目的地点へ注意を移し、相性が悪ければ逃げることも正当な戦術とする。停滞していなければ攻防を継続する。

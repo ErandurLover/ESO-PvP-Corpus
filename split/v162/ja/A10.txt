@@ -3,7 +3,7 @@
 [CORPUS_NAME] ESO PvP Corpus
 [CORPUS_VERSION] v162
 [PAGE_NAME] A10 固有装備・スキル・パッチ・歴史的リファレンス
-[SECTION_SCOPE] v162 / A0775-A0839
+[SECTION_SCOPE] v162 / A0773-A0792,A0795-A0839
 [PROPOSITION_COUNT] 65
 [FREE_AI_SPLIT] Yes
 [CORE150_EXISTS] Yes
@@ -24,50 +24,47 @@
 [TAG_NOTE][REFERENCE_NOTE] 過去仕様・履歴・限定観測など、現行の一般命題と区別して保持する参照用補助情報を示す。参照注記の内容を現在の通常環境へ自動的に一般化しない。
 [TAG_NOTE][REFERENCE_SOURCE] 対応する命題・参照注記の根拠資料を示す書誌レコードであり、それ自体を独立したゲーム仕様・評価・推奨命題として扱わない。本文中の「根拠対象」に示したIDとの対応を維持する。
 
-## A10.1 固有装備
 
-### A10.G 固有装備
+## 固有装備
 
-#### 旧自己復帰装備のUpdate 23変更
+### 旧自己復帰装備のUpdate 23変更
 
-[A0775][REFERENCE_NOTE][PATCH_HISTORY][PATCH][HISTORICAL_EXAMPLE][PHOENIX][ETERNAL_WARRIOR][IMMORTAL_WARRIOR][SELF_RESURRECT] Update 23（Scalebreaker）で、不死鳥（Phoenix）、不滅の戦士（永遠なるヨケダ／Eternal Warrior）、不死身の戦士（不死なるヨケダ／Immortal Warrior）は、死亡後の自己復帰を可能にする5セット効果から、死亡前の低HP時に生存・防御を補助する効果へ変更され、自力での死亡復活を行う装備ではなくなった。
-[A0776][REFERENCE_NOTE][PATCH_HISTORY][PATCH][CLAIM][OFFICIAL_RATIONALE][SELF_RESURRECT] ZOSはUpdate 23の公式パッチノートで不死鳥（Phoenix）、不滅の戦士（Eternal Warrior）、不死身の戦士（Immortal Warrior）をまとめて「self-resurrect sets」と呼び、多くの場合は期待以下、非常に限定された状況では過剰に働く問題を理由として自己復帰機構を削除し、死亡後に自力で復帰する方向ではなく、生存・防御というテーマを死亡前に働く効果として残す方向へ変更したと説明した。
-[A0777][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][SELF_RESURRECT] 根拠対象: A0775, A0776. ZOS / PC/Mac Patch Notes v5.1.5 (Scalebreaker & Update 23): https://forums.elderscrollsonline.com/en/discussion/488626/pc-mac-patch-notes-v5-1-5-scalebreaker-update-23
+[A0773][REFERENCE_NOTE][PATCH_HISTORY][PATCH][HISTORICAL_EXAMPLE][PHOENIX][ETERNAL_WARRIOR][IMMORTAL_WARRIOR][SELF_RESURRECT] Update 23（Scalebreaker）で、不死鳥（Phoenix）、不滅の戦士（永遠なるヨケダ／Eternal Warrior）、不死身の戦士（不死なるヨケダ／Immortal Warrior）は、死亡後の自己復帰を可能にする5セット効果から、死亡前の低HP時に生存・防御を補助する効果へ変更され、自力での死亡復活を行う装備ではなくなった。
+[A0774][REFERENCE_NOTE][PATCH_HISTORY][PATCH][CLAIM][OFFICIAL_RATIONALE][SELF_RESURRECT] ZOSはUpdate 23の公式パッチノートで不死鳥（Phoenix）、不滅の戦士（Eternal Warrior）、不死身の戦士（Immortal Warrior）をまとめて「self-resurrect sets」と呼び、多くの場合は期待以下、非常に限定された状況では過剰に働く問題を理由として自己復帰機構を削除し、死亡後に自力で復帰する方向ではなく、生存・防御というテーマを死亡前に働く効果として残す方向へ変更したと説明した。
+[A0775][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][SELF_RESURRECT] 根拠対象: A0773, A0774. ZOS / PC/Mac Patch Notes v5.1.5 (Scalebreaker & Update 23): https://forums.elderscrollsonline.com/en/discussion/488626/pc-mac-patch-notes-v5-1-5-scalebreaker-update-23
 
-#### シシスの凝視（Gaze of Sithis）
+### シシスの凝視（Gaze of Sithis）
 
-[A0778][AUTHOR_VIEW][PATCH][EVAL][GAZE_OF_SITHIS] A0393のシールド仕様を前提とすると、ブロック（Block）による防御緩和を利用しない神話装備（Mythic）シシスの凝視（Gaze of Sithis）は、シールドを主要な自衛手段とする運用との親和性が高い。
-[A0779][AUTHOR_VIEW][PATCH][LIMIT][GAZE_OF_SITHIS] シシスの凝視（Gaze of Sithis）とシールドを組み合わせても、ブロック（Block）で防止できるクラウドコントロールへの対処などではブロックが依然として重要である。
-[A0780][AUTHOR_VIEW][PATCH][CAUSE][GAZE_OF_SITHIS] シシスの凝視（Gaze of Sithis）によってブロック（Block）のダメージ軽減を利用できない場合、ブロック可能なバーストをHPで受ける量が増え、窮地から体力を巻き戻して立て直すための回復行動・回復リソース負担が大きくなり得る。
-[A0781][AUTHOR_VIEW][PATCH][PRACTICE][GAZE_OF_SITHIS] 初心者がシシスの凝視（Gaze of Sithis）とシールドを組み合わせて用いる場合は、ブロック（Block）軽減を失うことでHPへの被ダメージと立て直し負担が増え得る弱点を考慮して慎重に採用する。
+[A0776][AUTHOR_VIEW][PATCH][EVAL][GAZE_OF_SITHIS] A0429のシールド仕様を前提とすると、ブロック（Block）による防御緩和を利用しない神話装備（Mythic）シシスの凝視（Gaze of Sithis）は、シールドを主要な自衛手段とする運用との親和性が高い。
+[A0777][AUTHOR_VIEW][PATCH][LIMIT][GAZE_OF_SITHIS] シシスの凝視（Gaze of Sithis）とシールドを組み合わせても、ブロック（Block）で防止できるクラウドコントロールへの対処などではブロックが依然として重要である。
+[A0778][AUTHOR_VIEW][PATCH][CAUSE][GAZE_OF_SITHIS] シシスの凝視（Gaze of Sithis）によってブロック（Block）のダメージ軽減を利用できない場合、ブロック可能なバーストをHPで受ける量が増え、窮地から体力を巻き戻して立て直すための回復行動・回復リソース負担が大きくなり得る。
+[A0779][AUTHOR_VIEW][PATCH][PRACTICE][GAZE_OF_SITHIS] 初心者がシシスの凝視（Gaze of Sithis）とシールドを組み合わせて用いる場合は、ブロック（Block）軽減を失うことでHPへの被ダメージと立て直し負担が増え得る弱点を考慮して慎重に採用する。
 
-#### ペイル騎士団の指輪（Ring of the Pale Order）とバトルグラウンド（Battlegrounds）
+### ペイル騎士団の指輪（Ring of the Pale Order）とバトルグラウンド（Battlegrounds）
 
-[A0782][AUTHOR_VIEW][PATCH][RULE][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] ペイル騎士団の指輪（Ring of the Pale Order）は、バトルグラウンド（Battlegrounds）では原則として使用しない。
-[A0783][PATCH][LIMIT][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] ペイル騎士団の指輪（Ring of the Pale Order）の攻撃時自己回復は、自分以外のグループメンバーが5人以上、すなわち合計グループメンバー数が6人以上では機能しない。
-[A0784][AUTHOR_VIEW][PATCH][COND][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] 8v8バトルグラウンド（Battlegrounds）では、合計グループメンバー数が6人以上になる可能性が極めて高いため、ペイル騎士団の指輪（Ring of the Pale Order）の攻撃時自己回復は基本的にゼロになるものとして扱う。
-[A0785][PATCH][LIMIT][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] A0783の条件下でも、ペイル騎士団の指輪（Ring of the Pale Order）による他者からの回復を拒絶する効果はなくならない。
-[A0786][AUTHOR_VIEW][PATCH][COST][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] 8v8バトルグラウンド（Battlegrounds）等で攻撃時自己回復が実質的に機能せず、他者からの回復拒絶だけが残る状態では、実質的なメリットがなく強いデメリットを持つ装備へ神話装備（Mythic）枠という大きな機会費用を支払うことになる。
-[A0787][AUTHOR_VIEW][PATCH][PRACTICE][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] バトルグラウンド（Battlegrounds）でペイル騎士団の指輪（Ring of the Pale Order）を採用する場合は、攻撃時自己回復の実効性、他者からの回復拒絶、神話装備（Mythic）枠の機会費用をまとめて確認する。
+[A0780][AUTHOR_VIEW][PATCH][RULE][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] ペイル騎士団の指輪（Ring of the Pale Order）は、バトルグラウンド（Battlegrounds）では原則として使用しない。
+[A0781][PATCH][LIMIT][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] ペイル騎士団の指輪（Ring of the Pale Order）の攻撃時自己回復は、自分以外のグループメンバーが5人以上、すなわち合計グループメンバー数が6人以上では機能しない。
+[A0782][AUTHOR_VIEW][PATCH][COND][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] 8v8バトルグラウンド（Battlegrounds）では、合計グループメンバー数が6人以上になる可能性が極めて高いため、ペイル騎士団の指輪（Ring of the Pale Order）の攻撃時自己回復は基本的にゼロになるものとして扱う。
+[A0783][PATCH][LIMIT][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] A0781の条件下でも、ペイル騎士団の指輪（Ring of the Pale Order）による他者からの回復を拒絶する効果はなくならない。
+[A0784][AUTHOR_VIEW][PATCH][COST][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] 8v8バトルグラウンド（Battlegrounds）等で攻撃時自己回復が実質的に機能せず、他者からの回復拒絶だけが残る状態では、実質的なメリットがなく強いデメリットを持つ装備へ神話装備（Mythic）枠という大きな機会費用を支払うことになる。
+[A0785][AUTHOR_VIEW][PATCH][PRACTICE][RING_OF_THE_PALE_ORDER][GROUP_CONTENT] バトルグラウンド（Battlegrounds）でペイル騎士団の指輪（Ring of the Pale Order）を採用する場合は、攻撃時自己回復の実効性、他者からの回復拒絶、神話装備（Mythic）枠の機会費用をまとめて確認する。
 
-#### マラキャスの残忍なバンド（Malacath's Band of Brutality）
+### マラキャスの残忍なバンド（Malacath's Band of Brutality）
 
-[A0788][AUTHOR_VIEW][PATCH][EVAL][MALACATH][CRITICAL][BURST_DESIGN] マラキャスの残忍なバンド（Malacath's Band of Brutality）は、通常時の与ダメージを安定して増やす一方でクリティカルダメージを大きく低下させるため、長時間の平均ダメージだけで評価せず、相手が回復・防御へ移行する前のキルウィンドウで撃破閾値を越える最大火力と撃破確率がどう変化するかを評価する。
-[A0789][AUTHOR_VIEW][PATCH][RULE][MALACATH][CRITICAL][OPPORTUNITY_COST] マラキャスの残忍なバンド（Malacath's Band of Brutality）を採用する場合、同装備によるクリティカルダメージ低下だけでなく、ビルド内で既に採用しているクリティカル率上昇、クリティカルダメージ上昇、敵の被クリティカルダメージ増加等の効果がどの程度減価するかを確認し、それらへ使用したスキル・装備・パッシブ等の性能予算も機会費用として評価する。
-[A0790][AUTHOR_VIEW][PATCH][EVAL][MALACATH][CRITICAL][BURST_DESIGN] マラキャスの残忍なバンド（Malacath's Band of Brutality）を複数打点の同期バースト構成で評価する場合、個々の攻撃のクリティカル率が低いことだけを理由にクリティカルダメージ低下の損失を小さいと判断せず、キルウィンドウ全体で重要な打点のいずれかがクリティカルする可能性と、その上振れによって撃破閾値を越えられる価値を含めて比較する。
+[A0786][AUTHOR_VIEW][PATCH][EVAL][MALACATH][CRITICAL][BURST_DESIGN] マラキャスの残忍なバンド（Malacath's Band of Brutality）は、通常時の与ダメージを安定して増やす一方でクリティカルダメージを大きく低下させるため、長時間の平均ダメージだけで評価せず、相手が回復・防御へ移行する前のキルウィンドウで撃破閾値を越える最大火力と撃破確率がどう変化するかを評価する。
+[A0787][AUTHOR_VIEW][PATCH][RULE][MALACATH][CRITICAL][OPPORTUNITY_COST] マラキャスの残忍なバンド（Malacath's Band of Brutality）を採用する場合、同装備によるクリティカルダメージ低下だけでなく、ビルド内で既に採用しているクリティカル率上昇、クリティカルダメージ上昇、敵の被クリティカルダメージ増加等の効果がどの程度減価するかを確認し、それらへ使用したスキル・装備・パッシブ等の性能予算も機会費用として評価する。
+[A0788][AUTHOR_VIEW][PATCH][EVAL][MALACATH][CRITICAL][BURST_DESIGN] マラキャスの残忍なバンド（Malacath's Band of Brutality）を複数打点の同期バースト構成で評価する場合、個々の攻撃のクリティカル率が低いことだけを理由にクリティカルダメージ低下の損失を小さいと判断せず、キルウィンドウ全体で重要な打点のいずれかがクリティカルする可能性と、その上振れによって撃破閾値を越えられる価値を含めて比較する。
 
-## A10.2 固有ビルド・スキル挙動
+## 固有ビルド・スキル挙動
 
-### A10.S 固有ビルド・スキル
+### 雷杖重攻撃ビルド
 
-#### 雷杖重攻撃ビルド
+[A0789][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃（Heavy Attack）ビルド（雷杖ヘビーアタックビルド）は、重攻撃のチャネリング中にLoSを防御手段として利用しにくい。
+[A0790][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃（Heavy Attack）ビルドは、攻撃対象にLoSを切られることでチャネリング攻撃を容易に阻害される。
+[A0791][AUTHOR_VIEW][PATCH][CLAIM][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃（Heavy Attack）ビルドは、攻撃時のダメージ層が薄くなりやすい。
+[A0792][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃（Heavy Attack）のチャネリング中に自衛行動を要求された場合、チャネリング攻撃を中断させられやすい。
 
-[A0791][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃（Heavy Attack）ビルド（雷杖ヘビーアタックビルド）は、重攻撃のチャネリング中にLoSを防御手段として利用しにくい。
-[A0792][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃（Heavy Attack）ビルドは、攻撃対象にLoSを切られることでチャネリング攻撃を容易に阻害される。
-[A0793][AUTHOR_VIEW][PATCH][CLAIM][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃（Heavy Attack）ビルドは、攻撃時のダメージ層が薄くなりやすい。
-[A0794][AUTHOR_VIEW][PATCH][LIMIT][LIGHTNING_STAFF_HEAVY_ATTACK_BUILD] 雷杖重攻撃（Heavy Attack）のチャネリング中に自衛行動を要求された場合、チャネリング攻撃を中断させられやすい。
-
-#### 対象指定型詠唱攻撃
+### 対象指定型詠唱攻撃
 
 [A0795][AUTHOR_VIEW][LIMIT][CASTED_SPAMMABLE] 主たるスパム攻撃として設計された詠唱を要するスキルは、詠唱妨害耐性が強固でない限り、詠唱妨害に対して不利になる。
 [A0796][AUTHOR_VIEW][LIMIT][CASTED_SPAMMABLE] 対象が存在しなければ詠唱を開始できないスパム攻撃は、詠唱妨害への不利が大きく、サーバーとの非同期・通信遅延の影響を受けやすく、対象へのLoSが切れている間は詠唱を開始できない。
@@ -79,7 +76,7 @@
 [A0802][AUTHOR_VIEW][PATCH][SCOPE][UPPERCUT] アッパーカット（Uppercut）およびその変異には、対象指定型詠唱攻撃に共通する詠唱妨害、対象要求、LoS、通信遅延に関する注意点を適用する。
 [A0803][AUTHOR_VIEW][PATCH][SCOPE][SNIPE] スナイプ（Snipe）およびその変異には、対象指定型詠唱攻撃に共通する詠唱妨害、対象要求、LoS、通信遅延、遠距離から障害物を使う際の露出時間に関する注意点を適用する。
 
-#### アッパーカット系と高Ping・ラグ環境
+### アッパーカット系と高Ping・ラグ環境
 
 [A0804][AUTHOR_VIEW][PATCH][LIMIT][COND][UPPERCUT] アッパーカット（Uppercut）およびその変異は通信遅延やサーバーラグが強いほど命中させにくくなるため、高Ping環境や混雑時は命中難易度上昇を前提に運用する。
 [A0805][AUTHOR_VIEW][PATCH][PRACTICE][UPPERCUT] ラグがある環境でアッパーカット（Uppercut）およびその変異を使う場合、相手へ密着する程度まで近づいて使用することで詠唱を完遂しやすくなる。
@@ -88,7 +85,7 @@
 [A0808][AUTHOR_VIEW][PATCH][PRACTICE][UPPERCUT] ラグ環境では、外見上短い両手武器スタイルを「より近づく必要がある」と認識するための視覚的な距離感の補助として利用し、アッパーカット（Uppercut）およびその変異を命中させやすくする方法がある。
 [A0809][AUTHOR_VIEW][PATCH][RULE][UPPERCUT] ラグが強い日は、アッパーカット（Uppercut）およびその変異の射程を最大限に使う立ち回りを避ける。
 
-#### 詠唱再召喚型永続ペット
+### 詠唱再召喚型永続ペット
 
 [A0810][AUTHOR_VIEW][COND] 再召喚に詠唱を要する永続戦闘用ペットが相手ビルドの軸であり、そのペットを容易に撃破できると予期される場合、戦闘の早い段階で撃破する。
 [A0811][AUTHOR_VIEW][PRIORITY] 再召喚に詠唱を要する永続戦闘用ペットが相手ビルドの軸で、容易に撃破できると予期され、さらに回復能力を持つ場合は、戦闘の早い段階でそのペットを撃破する優先度を高める。
@@ -98,41 +95,30 @@
 [A0815][AUTHOR_VIEW][PRIORITY] 可能であれば、再召喚された永続戦闘用ペットを再び撃破するより、再召喚の詠唱を妨害することを優先する。
 [A0816][AUTHOR_VIEW][LIMIT] 召喚時に詠唱を要する有限体力の永続戦闘用ペットをビルドの軸にする場合、使用者はペットを繰り返し撃破されるリスクと再召喚詠唱を妨害されるリスクを承知する。
 
-## A10.3 過去変更・高Ping・ラグ環境
+## ラグ環境の歴史的参照
 
-### A10.H 過去変更・高Ping・ラグ環境
+### 極端なラグ環境の歴史的参考
 
-#### 先に取得する中核結論
-
-[A0817][REFERENCE_NOTE][AUTHOR_VIEW][AI][LIMIT][PATCH_HISTORY][LAG] A0820からA0822の情報は歴史的・例外的な性能問題として保持し、現在の通常環境へ自動的に一般化しない。
-[A0818][REFERENCE_NOTE][AUTHOR_VIEW][AI][CAUSE][EVAL][PATCH_HISTORY][ROLE_GANKER][ROLE_BOMBER][LAG][CC] 防御側の打破（Break Free）その他の反応入力がラグまたは低応答によって遅延・不成立になる状況では、先手から短時間に攻撃を集中するGankerやBomberは、防御側が通常利用できる反応時間を実効的に失わせることで相対的な利益を得る場合がある。
-[A0819][REFERENCE_NOTE][AUTHOR_VIEW][AI][LIMIT][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][ROLE_BOMBER][LAG] A0829は、該当条件でBomber側にも不利益が生じた事例の証拠として扱う。その存在だけから、A0818およびA0826からA0828で示す防御側の反応阻害によるGanker・Bomber側への相対的利益が相殺される、ラグの影響が攻防間で均等である、または全ビルドが同程度の影響を受けることの証拠として扱わない。
-
-#### 過去のシロディール低応答記録
-
-[A0820][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG] 過去のシロディール（Cyrodiil）では、高負荷戦闘時のclient-server responsiveness低下によりアビリティやキャラクターが応答しにくくなる問題をZOSが公式に確認した。
-[A0821][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG] 後年には、多数の継続的なAOE処理が地域サーバープロセスを圧迫してサーバーが一時的にunresponsiveになる状況をZOSが公式に説明した。
-[A0822][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][LAG] 同じ公式フォーラム上には、武器切替等の戦闘入力が大幅に遅延または失敗する実戦報告がある。
-[A0823][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG] 根拠対象: A0820, A0822. ZOS / Jessica Folsom, “Game Performance in Cyrodiil”: https://forums.elderscrollsonline.com/en/discussion/140365/game-performance-in-cyrodiil/
-[A0824][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG] 根拠対象: A0821. ZOS / Rich Lambert, “Update on Cyrodiil Performance & Upcoming AOE Tests”: https://forums.elderscrollsonline.com/en/discussion/539136/update-on-cyrodiil-performance-upcoming-aoe-tests
-
-#### 過去の反応阻害とGanker・Bomberへの影響
-
-[A0825][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG][CC] Update 25直後、ZOSは、入力されたCC breakが直ちに発動しない問題を追跡し、積極的に調査していると公式フォーラム上で説明した。
-[A0826][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][ROLE_GANKER][LAG][CC] 過去のESO PvPでは、Gankによる短時間の先制攻撃を受けた側が打破（Break Free）等の防御反応を行う前に撃破され、ラグやdesyncによる打破・反応入力の遅延または不成立がその状況を悪化させたという複数の実戦報告がある。
-[A0827][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][NIGHTBLADE][LAG][CC] 過去のPvPでは、ラグまたはdesyncが発生している状況で魂の鎖（Soul Tether）等のCCを受けた際、打破（Break Free）が成立しない、またはスタン終了まで解除できなかったという複数の実戦報告がある。
-[A0828][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][ROLE_BOMBER][LAG][CC] 過去のシロディール（Cyrodiil）の高ラグ時には、Bomberの攻撃がゲーム側の応答より先に成立し、その後の魂の鎖（Soul Tether）によるスタンを打破（Break Free）できなかったという実戦報告がある。
-[A0829][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][ROLE_BOMBER][LAG] 過去のシロディール（Cyrodiil）では、ラグまたは低応答によって魂の鎖（Soul Tether）等のBomber側の攻撃入力・発動自体が阻害されたという実戦報告もある。
-[A0830][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG][CC] 根拠対象: A0825. ZOS / Jessica Folsom and community reports, “Delayed abilities and break free”: https://forums.elderscrollsonline.com/en-gb/discussion/514354/delayed-abilities-and-break-free/p5
-
-#### 歴史的参照資料
-
-[A0831][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0826. ESO Official Forums / “PSA for Gankblades”: https://forums.elderscrollsonline.com/en/discussion/438875/psa-for-gankblades
-[A0832][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0826. ESO Official Forums / “what is wrong with me? 12.5k focused aim”: https://forums.elderscrollsonline.com/en/discussion/434540/what-is-wrong-with-me-12-5k-focused-aim
-[A0833][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0826. ESO Official Forums / “Dark Convergence Online”, page 4: https://forums.elderscrollsonline.com/en-gb/discussion/597438/dark-convergence-online/p4
-[A0834][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0826. ESO Official Forums / “Gankers are always nerfed”, page 2: https://forums.elderscrollsonline.com/en/discussion/546511/gankers-are-always-nerfed/p2
-[A0835][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG] 根拠対象: A0826. ESO Official Forums / “Why go melee gank while ranged gank is in the times of 30+ Zergs so much safer and effective ?”: https://forums.elderscrollsonline.com/en/discussion/307722/why-go-melee-gank-while-ranged-gank-is-in-the-times-of-30-zergs-so-much-safer-and-effective ; page 3: https://forums.elderscrollsonline.com/en/discussion/307722/why-go-melee-gank-while-ranged-gank-is-in-the-times-of-30-zergs-so-much-safer-and-effective/p3
-[A0836][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][NIGHTBLADE][LAG][CC] 根拠対象: A0827. ESO Official Forums / “Can't break free in pvp”: https://forums.elderscrollsonline.com/en/discussion/504039/cant-break-free-in-pvp
-[A0837][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][NIGHTBLADE][LAG][CC] 根拠対象: A0827. ESO Official Forums / “Console lag since update.”: https://forums.elderscrollsonline.com/en/discussion/511877/console-lag-since-update
-[A0838][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_BOMBER][LAG][CC] 根拠対象: A0828. ESO Official Forums / “MagBlade Bombers”: https://forums.elderscrollsonline.com/en/discussion/578225/magblade-bombers
-[A0839][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_BOMBER][LAG] 根拠対象: A0829, A0819. ESO Official Forums / “Bomblade technique is broken”: https://forums.elderscrollsonline.com/en/discussion/533681/bomblade-technique-is-broken
+[A0817][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG] 過去のシロディール（Cyrodiil）では、高負荷戦闘時のclient-server responsiveness低下によりアビリティやキャラクターが応答しにくくなる問題をZOSが公式に確認した。
+[A0818][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG] 後年には、多数の継続的なAOE処理が地域サーバープロセスを圧迫してサーバーが一時的にunresponsiveになる状況をZOSが公式に説明した。
+[A0819][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][LAG] 同じ公式フォーラム上には、武器切替等の戦闘入力が大幅に遅延または失敗する実戦報告がある。
+[A0820][REFERENCE_NOTE][AUTHOR_VIEW][AI][LIMIT][PATCH_HISTORY][LAG] A0817からA0819の情報は歴史的・例外的な性能問題として保持し、現在の通常環境へ自動的に一般化しない。
+[A0821][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG] 根拠対象: A0817, A0819. ZOS / Jessica Folsom, “Game Performance in Cyrodiil”: https://forums.elderscrollsonline.com/en/discussion/140365/game-performance-in-cyrodiil/
+[A0822][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG] 根拠対象: A0818. ZOS / Rich Lambert, “Update on Cyrodiil Performance & Upcoming AOE Tests”: https://forums.elderscrollsonline.com/en/discussion/539136/update-on-cyrodiil-performance-upcoming-aoe-tests
+[A0823][REFERENCE_NOTE][PATCH_HISTORY][CLAIM][LAG][CC] Update 25直後、ZOSは、入力されたCC breakが直ちに発動しない問題を追跡し、積極的に調査していると公式フォーラム上で説明した。
+[A0824][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][ROLE_GANKER][LAG][CC] 過去のESO PvPでは、Gankによる短時間の先制攻撃を受けた側が打破（Break Free）等の防御反応を行う前に撃破され、ラグやdesyncによる打破・反応入力の遅延または不成立がその状況を悪化させたという複数の実戦報告がある。
+[A0825][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][NIGHTBLADE][LAG][CC] 過去のPvPでは、ラグまたはdesyncが発生している状況で魂の鎖（Soul Tether）等のCCを受けた際、打破（Break Free）が成立しない、またはスタン終了まで解除できなかったという複数の実戦報告がある。
+[A0826][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][ROLE_BOMBER][LAG][CC] 過去のシロディール（Cyrodiil）の高ラグ時には、Bomberの攻撃がゲーム側の応答より先に成立し、その後の魂の鎖（Soul Tether）によるスタンを打破（Break Free）できなかったという実戦報告がある。
+[A0827][REFERENCE_NOTE][AUTHOR_VIEW][AI][CAUSE][EVAL][PATCH_HISTORY][ROLE_GANKER][ROLE_BOMBER][LAG][CC] 防御側の打破（Break Free）その他の反応入力がラグまたは低応答によって遅延・不成立になる状況では、先手から短時間に攻撃を集中するGankerやBomberは、防御側が通常利用できる反応時間を実効的に失わせることで相対的な利益を得る場合がある。
+[A0828][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][ROLE_BOMBER][LAG] 過去のシロディール（Cyrodiil）では、ラグまたは低応答によって魂の鎖（Soul Tether）等のBomber側の攻撃入力・発動自体が阻害されたという実戦報告もある。
+[A0829][REFERENCE_NOTE][AUTHOR_VIEW][AI][LIMIT][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][ROLE_BOMBER][LAG] A0828は、該当条件でBomber側にも不利益が生じた事例の証拠として扱う。その存在だけから、A0824からA0827で示す防御側の反応阻害によるGanker・Bomber側への相対的利益が相殺される、ラグの影響が攻防間で均等である、または全ビルドが同程度の影響を受けることの証拠として扱わない。
+[A0830][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][LAG][CC] 根拠対象: A0823. ZOS / Jessica Folsom and community reports, “Delayed abilities and break free”: https://forums.elderscrollsonline.com/en-gb/discussion/514354/delayed-abilities-and-break-free/p5
+[A0831][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0824. ESO Official Forums / “PSA for Gankblades”: https://forums.elderscrollsonline.com/en/discussion/438875/psa-for-gankblades
+[A0832][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0824. ESO Official Forums / “what is wrong with me? 12.5k focused aim”: https://forums.elderscrollsonline.com/en/discussion/434540/what-is-wrong-with-me-12-5k-focused-aim
+[A0833][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0824. ESO Official Forums / “Dark Convergence Online”, page 4: https://forums.elderscrollsonline.com/en-gb/discussion/597438/dark-convergence-online/p4
+[A0834][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG][CC] 根拠対象: A0824. ESO Official Forums / “Gankers are always nerfed”, page 2: https://forums.elderscrollsonline.com/en/discussion/546511/gankers-are-always-nerfed/p2
+[A0835][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_GANKER][LAG] 根拠対象: A0824. ESO Official Forums / “Why go melee gank while ranged gank is in the times of 30+ Zergs so much safer and effective ?”: https://forums.elderscrollsonline.com/en/discussion/307722/why-go-melee-gank-while-ranged-gank-is-in-the-times-of-30-zergs-so-much-safer-and-effective ; page 3: https://forums.elderscrollsonline.com/en/discussion/307722/why-go-melee-gank-while-ranged-gank-is-in-the-times-of-30-zergs-so-much-safer-and-effective/p3
+[A0836][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][NIGHTBLADE][LAG][CC] 根拠対象: A0825. ESO Official Forums / “Can't break free in pvp”: https://forums.elderscrollsonline.com/en/discussion/504039/cant-break-free-in-pvp
+[A0837][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][NIGHTBLADE][LAG][CC] 根拠対象: A0825. ESO Official Forums / “Console lag since update.”: https://forums.elderscrollsonline.com/en/discussion/511877/console-lag-since-update
+[A0838][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_BOMBER][LAG][CC] 根拠対象: A0826. ESO Official Forums / “MagBlade Bombers”: https://forums.elderscrollsonline.com/en/discussion/578225/magblade-bombers
+[A0839][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][ROLE_BOMBER][LAG] 根拠対象: A0828, A0829. ESO Official Forums / “Bomblade technique is broken”: https://forums.elderscrollsonline.com/en/discussion/533681/bomblade-technique-is-broken

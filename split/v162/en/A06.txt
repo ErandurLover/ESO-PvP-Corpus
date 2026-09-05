@@ -3,7 +3,7 @@
 [CORPUS_NAME] ESO PvP Corpus
 [CORPUS_VERSION] v162
 [PAGE_NAME] A06 Practical Movement, Positioning, and Disengagement
-[SECTION_SCOPE] v162 / A0568-A0597
+[SECTION_SCOPE] v162 / A0476-A0496,A0500-A0508
 [PROPOSITION_COUNT] 30
 [FREE_AI_SPLIT] Yes
 [CORE150_EXISTS] Yes
@@ -22,69 +22,52 @@
 [TAG_NOTE][GROUP_CONTENT] Indicates content or operation in which the player participates as part of a group and interactions with allies are included in the evaluation.
 [TAG_NOTE][GROUP_CONTRIBUTION] Indicates that effective contribution to the group as a whole, rather than individual freedom of action, is the evaluation axis.
 
-## A06.1 Purpose of LoS and Fixed Obstacles
 
-### A06.L LoS Fundamentals
+## LoS and Terrain Use
 
-#### Core Conclusions to Retrieve First
+### LoS
 
-[A0568][AUTHOR_VIEW][PRIORITY] Indestructible terrain and fixed obstacles are defensive assets that can be used repeatedly without consuming resources or GCDs, and LoS using them is a top-tier defensive tool for both you and the enemy.
-[A0569][AUTHOR_VIEW][LIMIT] The purpose of using obstacles is not to become permanently invulnerable.
+[A0476][AUTHOR_VIEW][PRIORITY] Indestructible terrain and fixed obstacles are defensive assets that can be used repeatedly without consuming resources or GCDs, and LoS using them is a top-tier defensive tool for both you and the enemy.
+[A0477][DEF] LoS（Line of Sight） is the concept of whether there is a direct line of vision between you and the enemy; a representative use is employing fixed objects to make it harder for the opponent to target you directly.
+[A0478][AUTHOR_VIEW][LIMIT] The purpose of using obstacles is not to become permanently invulnerable.
+[A0479][AUTHOR_VIEW][PRIORITY] The primary purpose of using obstacles is to reduce the amount of time you are exposed to enemy attacks.
+[A0480][EX] One example goal of using LoS is to reduce a situation where you would be attacked continuously for 10 seconds to roughly 5 seconds of actual exposure.
+[A0481][CAUSE] Time created by LoS during which you are not being attacked can be used for healing, recovering resources, refreshing buffs, regrouping with allies, or preparing the next attack.
+[A0482][AUTHOR_VIEW][CLAIM] Simply reducing the amount of time you are being attacked can greatly change combat difficulty.
 
-#### LoS
+### Obstacle Circling
 
-[A0570][DEF] LoS（Line of Sight） is the concept of whether there is a direct line of vision between you and the enemy; a representative use is employing fixed objects to make it harder for the opponent to target you directly.
-[A0571][AUTHOR_VIEW][PRIORITY] The primary purpose of using obstacles is to reduce the amount of time you are exposed to enemy attacks.
-[A0572][EX] One example goal of using LoS is to reduce a situation where you would be attacked continuously for 10 seconds to roughly 5 seconds of actual exposure.
-[A0573][CAUSE] Time created by LoS during which you are not being attacked can be used for healing, recovering resources, refreshing buffs, regrouping with allies, or preparing the next attack.
-[A0574][AUTHOR_VIEW][CLAIM] Simply reducing the amount of time you are being attacked can greatly change combat difficulty.
+[A0483][AUTHOR_VIEW][RULE][DIAG] Evaluate obstacle circling not by the act of continuing to run around an obstacle itself, but by whether you keep the obstacle between yourself and the opponent and reduce the time you are exposed to enemy attacks.
+[A0484][CAUSE] If you begin a wide circle ahead of the opponent, the opponent can run the shorter inside route and catch up.
+[A0485][AUTHOR_VIEW][RULE] When circling an obstacle, focus on shifting to the opposite side after the opponent moves.
+[A0486][AUTHOR_VIEW][PRACTICE] In early obstacle-circling practice, do not require that the enemy can never catch you; treat even a partial reduction in the time the enemy can attack as an effective improvement.
 
-## A06.2 Obstacle Circling and Close Circling
+### Close Circling
 
-### A06.T Terrain Use and Circling
+[A0487][AUTHOR_VIEW][PRACTICE][FLAT_TERRAIN_COMBAT] Even on open ground without obstacles, consciously fight while moving around the opponent's flank or rear. When circling at close range, do not run widely without purpose; circle tightly near the opponent while remaining within your primary attack range, and create only as much distance as needed when there is a concrete need for defense, evasion, or stabilization.
+[A0488][CAUSE][FLAT_TERRAIN_COMBAT] Skills that cannot activate unless the enemy is inside the crosshair can have their activation frequency reduced when the target moves outside the opponent's crosshair by circling around them.
+[A0489][CAUSE][FLAT_TERRAIN_COMBAT] If circling prevents the enemy from keeping the target in the crosshair and reduces the activation frequency of targeted offensive skills, an effective reduction in incoming attack frequency can be expected.
+[A0490][AUTHOR_VIEW][LIMIT][FLAT_TERRAIN_COMBAT] Circling play does not need to prevent every enemy attack from being activated.
+[A0491][AUTHOR_VIEW][CLAIM][FLAT_TERRAIN_COMBAT] Even reducing only part of the opponent's attack frequency through circling can make a large defensive contribution.
+[A0492][AUTHOR_VIEW][CLAIM][FLAT_TERRAIN_COMBAT] Because the opponent also moves to circle toward your flank or rear, aiming skill remains important even in obstacle-free melee combat.
+[A0493][AUTHOR_VIEW][PRACTICE][FLAT_TERRAIN_COMBAT] To make circling on open ground practical, secure a certain level of movement speed that does not interfere with positioning.
 
-#### Obstacle Circling
+## Disengagement and Outnumbered Operation
 
-[A0575][AUTHOR_VIEW][RULE][DIAG] Evaluate obstacle circling not by the act of continuing to run around an obstacle itself, but by whether you keep the obstacle between yourself and the opponent and reduce the time you are exposed to enemy attacks.
-[A0576][CAUSE] If you begin a wide circle ahead of the opponent, the opponent can run the shorter inside route and catch up.
-[A0577][AUTHOR_VIEW][RULE] When circling an obstacle, focus on shifting to the opposite side after the opponent moves.
-[A0578][AUTHOR_VIEW][PRACTICE] In early obstacle-circling practice, do not require that the enemy can never catch you; treat even a partial reduction in the time the enemy can attack as an effective improvement.
+### Escape
 
-#### Close Circling
+[A0494][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] Do not equate “running away” in PvP with defeat.
+[A0495][AUTHOR_VIEW][CLAIM][ESCAPE_ROUTE] Leaving a dangerous situation to heal, recover resources, refresh buffs, regroup with allies, or move to favorable terrain is a normal combat action.
+[A0496][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] When targeted by multiple enemies, do not absorb every attack head-on in open ground; use distance, obstacles, and CC to spread out pursuers, and survive with ブロック（Block） and ロール回避（Roll Dodge）.
 
-[A0579][AUTHOR_VIEW][PRACTICE][FLAT_TERRAIN_COMBAT] Even on open ground without obstacles, consciously fight while moving around the opponent's flank or rear. When circling at close range, do not run widely without purpose; circle tightly near the opponent while remaining within your primary attack range, and create only as much distance as needed when there is a concrete need for defense, evasion, or stabilization.
-[A0580][CAUSE][FLAT_TERRAIN_COMBAT] Skills that cannot activate unless the enemy is inside the crosshair can have their activation frequency reduced when the target moves outside the opponent's crosshair by circling around them.
-[A0581][CAUSE][FLAT_TERRAIN_COMBAT] If circling prevents the enemy from keeping the target in the crosshair and reduces the activation frequency of targeted offensive skills, an effective reduction in incoming attack frequency can be expected.
-[A0582][AUTHOR_VIEW][LIMIT][FLAT_TERRAIN_COMBAT] Circling play does not need to prevent every enemy attack from being activated.
-[A0583][AUTHOR_VIEW][CLAIM][FLAT_TERRAIN_COMBAT] Even reducing only part of the opponent's attack frequency through circling can make a large defensive contribution.
-[A0584][AUTHOR_VIEW][CLAIM][FLAT_TERRAIN_COMBAT] Because the opponent also moves to circle toward your flank or rear, aiming skill remains important even in obstacle-free melee combat.
-[A0585][AUTHOR_VIEW][PRACTICE][FLAT_TERRAIN_COMBAT] To make circling on open ground practical, secure a certain level of movement speed that does not interfere with positioning.
+### 1vX
 
-## A06.3 Escape and Disengagement
-
-### A06.E Escape and Disengagement
-
-#### Escape
-
-[A0586][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] Do not equate “running away” in PvP with defeat.
-[A0587][AUTHOR_VIEW][CLAIM][ESCAPE_ROUTE] Leaving a dangerous situation to heal, recover resources, refresh buffs, regroup with allies, or move to favorable terrain is a normal combat action.
-[A0588][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] When targeted by multiple enemies, do not absorb every attack head-on in open ground; use distance, obstacles, and CC to spread out pursuers, and survive with ブロック（Block） and ロール回避（Roll Dodge）.
-
-## A06.4 Decompose 1vX into Short Local Fights
-
-### A06.X 1vX Operation
-
-#### Core Conclusions to Retrieve First
-
-[A0589][AUTHOR_VIEW][RULE] The foundation of stable survival in 1vX is to avoid fighting multiple opponents head-on at the same time.
-[A0590][AUTHOR_VIEW][RULE][CAUSE][PROC] In 1vX, break line of sight with obstacles, use distance and movement speed to stagger the pursuers' arrival order, and stop one opponent with CC to reduce simultaneous pressure. Focus attacks on an opponent isolated by overpursuing, or on a damaged opponent who can be attacked safely after the pursuers have been split; then disengage again before pressure from multiple opponents returns or when you become endangered, converting one-versus-many into a sequence of short situations resembling 1v1.
-[A0591][AUTHOR_VIEW][LIMIT] Do not treat an example of defeating multiple underprepared or low-skill opponents head-on in a place with no escape route as evidence that you can similarly win when trapped head-on by two equally capable opponents.
-
-#### 1vX
-
-[A0592][CLAIM] 1vX can visually appear to mean “killing multiple opponents while taking all of their attacks at once.”
-[A0593][AUTHOR_VIEW][CLAIM] Being fully trapped by two equally capable opponents in a place with no escape route and receiving simultaneous attacks from both is an extremely difficult situation.
-[A0594][AUTHOR_VIEW][COND][CLAIM] Even against multiple opponents, the lower their PvP preparation and skill, the lower the difficulty can become even when taking simultaneous attacks in a place with no escape route.
-[A0595][AUTHOR_VIEW][PRACTICE] Do not make video-style 1vX a minimum condition for PvP improvement.
-[A0596][AUTHOR_VIEW][CLAIM] A non-negligible share of PvP videos include examples of defeating overwhelmingly weaker opponents to create an appearance of strength for spectacle or view count.
-[A0597][AUTHOR_VIEW][PRACTICE][CLAIM][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] Stage early 1vX practice goals in the order: survive 5 seconds longer even when targeted by multiple enemies → return to the position of your allies → bring only one pursuer with you. Achieving these is sufficient progress.
+[A0500][CLAIM] 1vX can visually appear to mean “killing multiple opponents while taking all of their attacks at once.”
+[A0501][AUTHOR_VIEW][RULE] The foundation of stable survival in 1vX is to avoid fighting multiple opponents head-on at the same time.
+[A0502][AUTHOR_VIEW][RULE][CAUSE][PROC] In 1vX, break line of sight with obstacles, use distance and movement speed to stagger the pursuers' arrival order, and stop one opponent with CC to reduce simultaneous pressure. Focus attacks on an opponent isolated by overpursuing, or on a damaged opponent who can be attacked safely after the pursuers have been split; then disengage again before pressure from multiple opponents returns or when you become endangered, converting one-versus-many into a sequence of short situations resembling 1v1.
+[A0503][AUTHOR_VIEW][CLAIM] Being fully trapped by two equally capable opponents in a place with no escape route and receiving simultaneous attacks from both is an extremely difficult situation.
+[A0504][AUTHOR_VIEW][COND][CLAIM] Even against multiple opponents, the lower their PvP preparation and skill, the lower the difficulty can become even when taking simultaneous attacks in a place with no escape route.
+[A0505][AUTHOR_VIEW][LIMIT] Do not treat an example of defeating multiple underprepared or low-skill opponents head-on in a place with no escape route as evidence that you can similarly win when trapped head-on by two equally capable opponents.
+[A0506][AUTHOR_VIEW][PRACTICE] Do not make video-style 1vX a minimum condition for PvP improvement.
+[A0507][AUTHOR_VIEW][CLAIM] A non-negligible share of PvP videos include examples of defeating overwhelmingly weaker opponents to create an appearance of strength for spectacle or view count.
+[A0508][AUTHOR_VIEW][PRACTICE][CLAIM][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] Stage early 1vX practice goals in the order: survive 5 seconds longer even when targeted by multiple enemies → return to the position of your allies → bring only one pursuer with you. Achieving these is sufficient progress.

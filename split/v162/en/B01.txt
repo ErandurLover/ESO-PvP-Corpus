@@ -31,17 +31,13 @@
 [TAG_NOTE][GROUP_CONTENT] Indicates content or operation in which the player participates as part of a group and interactions with allies are included in the evaluation.
 [TAG_NOTE][GROUP_CONTRIBUTION] Indicates that effective contribution to the group as a whole, rather than individual freedom of action, is the evaluation axis.
 
-## B.0 Common Principles for All Roles
 
-### Series B Preconditions and Group Principles
+## B1 All Roles / Common Principles
 
 [B0001][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][REQUIREMENT][ALL_ROLES] As a prerequisite for applying advanced-player requirements, require stable execution of the Series A foundational behaviors relevant to the role and use being evaluated. Do not require prior mastery of every beginner-oriented goal in Series A across every role and use.
 [B0002][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] Consider opportunity cost at the group level as well.
 [B0003][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] At the group level as well, consider pressuring the opponent's free time.
 [B0004][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] At the group level as well, consider the concept of offensive and defensive turns.
-
-### Bruiser Experience and Task Fidelity of Advanced Skill
-
 [B0005][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ALL_ROLES] Every role other than Pure Bruiser can improve its capabilities through actual experience performing the frontal-combat role of a Pure Bruiser.
 [B0006][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CAUSE][ROLE_BRUISER][ALL_ROLES] A Pure Bruiser repeatedly performs offensive, defensive, healing, CC, positional, and resource decisions at high frequency; decision failures tend to return quickly as pressure received, defensive turns, being killed, or similar outcomes; and the player's own decisions change the opponent's actions, whose responses must then be processed in another perception-action loop. For these reasons, training exposure to various techniques and decision-making tends to be highly dense.
 [B0007][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][CAUSE][ALL_ROLES] Because other roles can sometimes produce results through role-specific success mechanisms while avoiding direct frontal offensive/defensive exchanges, they may receive less learning exposure to the high-density offensive/defensive load required of a bruiser. This does not mean those other roles have lower value; it means that some learning paths may not repeat the load required of a bruiser sufficiently.
@@ -55,6 +51,6 @@
 [B0015][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][CLAIM][ROLE_BRUISER][ALL_ROLES] The most direct method of reaching the advanced-player level required by this Series B is to repeatedly gain practical experience establishing frontal combat as a Pure Bruiser; paths that avoid Bruiser combat experience while trying to reach equivalent execution and decision quality are generally indirect and difficult.
 [B0016][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ROLE_BRUISER][ALL_ROLES] When trying to reach equivalent execution and decision quality while avoiding Bruiser combat experience, differences in combat sense and value judgments relative to experienced Bruiser players also tend to remain.
 
-### Use of Third Parties in PvPvE
+### B1A Use of Third Parties in PvPvE Environments
 
 [B0017][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][TACTIC][THIRD_PARTY_ENVIRONMENT_USE] In a PvPvE environment, attacks from monsters or third parties may be used to change the activation timing of your on-damage-taken effects or on-shield-break effects into a state that enemy players alone cannot control.

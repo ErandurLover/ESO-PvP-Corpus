@@ -3,7 +3,7 @@
 [CORPUS_NAME] ESO PvP Corpus
 [CORPUS_VERSION] v162
 [PAGE_NAME] A09 帝都
-[SECTION_SCOPE] v162 / A0735-A0774
+[SECTION_SCOPE] v162 / A0719-A0724,A0732-A0733,A0736-A0738,A0740-A0748,A0751-A0754,A0757-A0772
 [PROPOSITION_COUNT] 40
 [FREE_AI_SPLIT] Yes
 [CORE150_EXISTS] Yes
@@ -23,98 +23,72 @@
 [TAG_NOTE][REFERENCE_NOTE] 過去仕様・履歴・限定観測など、現行の一般命題と区別して保持する参照用補助情報を示す。参照注記の内容を現在の通常環境へ自動的に一般化しない。
 [TAG_NOTE][REFERENCE_SOURCE] 対応する命題・参照注記の根拠資料を示す書誌レコードであり、それ自体を独立したゲーム仕様・評価・推奨命題として扱わない。本文中の「根拠対象」に示したIDとの対応を維持する。
 
-## A09.1 テルバー・資産保全
 
-### A09.T テルバー・資産保全
+## テルバー・資産保全
 
-#### テルバー（Tel Var Stones）損失・初心者資産保全
+### テルバー（Tel Var Stones）損失・初心者資産保全
 
-[A0735][PATCH][CLAIM][IMPERIAL_CITY][TEL_VAR_STONES] 帝都（Imperial City）の地上および下水道では、PvE死亡・PvP死亡のいずれでも所持テルバー（Tel Var Stones）の50%を失う死亡リスクを前提とする。
-[A0736][AUTHOR_VIEW][AI][RULE][IMPERIAL_CITY][TEL_VAR_STONES][RECOMMENDATION_SCOPE] 質問者がテルバー（Tel Var Stones）収集を目的にしていると推察されるときは特に、死亡回数だけでなく現在の所持テルバーから推測される損失額も重大な死亡リスクとして取り扱い、テルバー損失の仕様を軽視しない。
-[A0737][REFERENCE_NOTE][PATCH][CLAIM][PATCH_HISTORY][IMPERIAL_CITY][TEL_VAR_STONES] 公式PC/Macパッチノートv2.4.5では、帝都（Imperial City）での死亡時テルバー（Tel Var Stones）損失がPvE死亡10%・PvP死亡80%から、PvE死亡・PvP死亡とも50%へ変更された。
-[A0738][REFERENCE_NOTE][AUTHOR_VIEW][AI][RULE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][TEL_VAR_STONES] ESO Support Answer 30730にはPvP死亡時80%という旧記述が残っているため、現行仕様を判断する根拠として同回答を公式PC/Macパッチノートv2.4.5より優先しない。
-[A0739][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][TEL_VAR_STONES] 根拠対象: A0735, A0737, A0738. Official PC/Mac Patch Notes v2.4.5: https://forums.elderscrollsonline.com/en/discussion/268496/pc-mac-patch-notes-v2-4-5
-[A0740][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][TEL_VAR_STONES] 根拠対象: A0738. ESO Support Answer 30730（旧80%記述が残存）: https://help.elderscrollsonline.com/#ja/answer/30730
+[A0719][PATCH][CLAIM][IMPERIAL_CITY][TEL_VAR_STONES] 帝都（Imperial City）の地上および下水道では、PvE死亡・PvP死亡のいずれでも所持テルバー（Tel Var Stones）の50%を失う死亡リスクを前提とする。
+[A0720][AUTHOR_VIEW][AI][RULE][IMPERIAL_CITY][TEL_VAR_STONES][RECOMMENDATION_SCOPE] 質問者がテルバー（Tel Var Stones）収集を目的にしていると推察されるときは特に、死亡回数だけでなく現在の所持テルバーから推測される損失額も重大な死亡リスクとして取り扱い、テルバー損失の仕様を軽視しない。
+[A0721][REFERENCE_NOTE][PATCH][CLAIM][PATCH_HISTORY][IMPERIAL_CITY][TEL_VAR_STONES] 公式PC/Macパッチノートv2.4.5では、帝都（Imperial City）での死亡時テルバー（Tel Var Stones）損失がPvE死亡10%・PvP死亡80%から、PvE死亡・PvP死亡とも50%へ変更された。
+[A0722][REFERENCE_NOTE][AUTHOR_VIEW][AI][RULE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][TEL_VAR_STONES] ESO Support Answer 30730にはPvP死亡時80%という旧記述が残っているため、現行仕様を判断する根拠として同回答を公式PC/Macパッチノートv2.4.5より優先しない。
+[A0723][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][TEL_VAR_STONES] 根拠対象: A0719, A0721, A0722. Official PC/Mac Patch Notes v2.4.5: https://forums.elderscrollsonline.com/en/discussion/268496/pc-mac-patch-notes-v2-4-5
+[A0724][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][TEL_VAR_STONES] 根拠対象: A0722. ESO Support Answer 30730（旧80%記述が残存）: https://help.elderscrollsonline.com/#ja/answer/30730
 
-#### 地上テルバー（Tel Var Stones）・地区旗
+### 地上テルバー（Tel Var Stones）・地区旗
 
-[A0741][AUTHOR_VIEW][EVAL][IMPERIAL_CITY][TEL_VAR_STONES][PVE_PVP_INTERACTION] 帝都（Imperial City）地上で効率的なPvEテルバー（Tel Var Stones）獲得を目的とする場合、通常雑魚、宝箱、低価値の寄り道等を広く拾うより、地区ボスを連続して撃破しながら地区間を周回する運用を有力な高効率候補として扱う。
-[A0742][PATCH][CLAIM][IMPERIAL_CITY][TEL_VAR_STONES] 帝都（Imperial City）地上の地区占領によるテルバー（Tel Var Stones）獲得ボーナスは、現在いる地区を自同盟が占領しているかだけで決まらず、自同盟が占領している地区数に応じて地上全域のテルバー獲得へ累積する。
-[A0743][AUTHOR_VIEW][PATCH][PRIORITY][IMPERIAL_CITY] 帝都（Imperial City）地上で積極的にPvPを行う場合、可能なら交戦前に地区旗を占領して連続攻撃（Continuous Attack）を発動しておくことを有力候補とする。
-[A0744][AUTHOR_VIEW][CAUSE][IMPERIAL_CITY][SITUATIONAL_AWARENESS] 帝都（Imperial City）で地区旗を反転させる行為は、敵対陣営へその地区で自同盟プレイヤーが活動したという間接情報を与えるため、バフ・テルバー（Tel Var Stones）利益と自陣営の活動地点を推測される情報コストの交換として扱う。
+[A0743][AUTHOR_VIEW][EVAL][IMPERIAL_CITY][TEL_VAR_STONES][PVE_PVP_INTERACTION] 帝都（Imperial City）地上で効率的なPvEテルバー（Tel Var Stones）獲得を目的とする場合、通常雑魚、宝箱、低価値の寄り道等を広く拾うより、地区ボスを連続して撃破しながら地区間を周回する運用を有力な高効率候補として扱う。
+[A0744][PATCH][CLAIM][IMPERIAL_CITY][TEL_VAR_STONES] 帝都（Imperial City）地上の地区占領によるテルバー（Tel Var Stones）獲得ボーナスは、現在いる地区を自同盟が占領しているかだけで決まらず、自同盟が占領している地区数に応じて地上全域のテルバー獲得へ累積する。
+[A0745][AUTHOR_VIEW][PATCH][PRIORITY][IMPERIAL_CITY] 帝都（Imperial City）地上で積極的にPvPを行う場合、可能なら交戦前に地区旗を占領して連続攻撃（Continuous Attack）を発動しておくことを有力候補とする。
+[A0746][AUTHOR_VIEW][CAUSE][IMPERIAL_CITY][SITUATIONAL_AWARENESS] 帝都（Imperial City）で地区旗を反転させる行為は、敵対陣営へその地区で自同盟プレイヤーが活動したという間接情報を与えるため、バフ・テルバー（Tel Var Stones）利益と自陣営の活動地点を推測される情報コストの交換として扱う。
 
-#### テルバー（Tel Var Stones）・Imperial Physique
+### テルバー（Tel Var Stones）・Imperial Physique
 
-[A0745][AUTHOR_VIEW][LIMIT][IMPERIAL_CITY][TEL_VAR_STONES][ROLE_GANKER] 帝都（Imperial City）にいる熟練プレイヤーまたはガンカーだからといって大量のテルバー（Tel Var Stones）を所持しているとは推定せず、PvPそのものを目的として活動するプレイヤーを高額テルバー所持者と同一視しない。
-[A0746][PATCH][CLAIM][IMPERIAL_CITY][TEL_VAR_STONES][ROLE_GANKER] 所持テルバー（Tel Var Stones）による獲得倍率は敵プレイヤーから奪うテルバーには適用されないため、対人強奪量を増やす目的だけで大量テルバーを携行しても倍率上の利益は得られない。
+[A0747][AUTHOR_VIEW][LIMIT][IMPERIAL_CITY][TEL_VAR_STONES][ROLE_GANKER] 帝都（Imperial City）にいる熟練プレイヤーまたはガンカーだからといって大量のテルバー（Tel Var Stones）を所持しているとは推定せず、PvPそのものを目的として活動するプレイヤーを高額テルバー所持者と同一視しない。
+[A0748][PATCH][CLAIM][IMPERIAL_CITY][TEL_VAR_STONES][ROLE_GANKER] 所持テルバー（Tel Var Stones）による獲得倍率は敵プレイヤーから奪うテルバーには適用されないため、対人強奪量を増やす目的だけで大量テルバーを携行しても倍率上の利益は得られない。
 
-## A09.2 地形・LoS・状況把握
+## 地形・状況把握
 
-### A09.L 地形・状況把握
+### 地形・LoS・状況把握
 
-#### 地形・LoS・状況把握
+[A0732][AUTHOR_VIEW][PRACTICE][IMPERIAL_CITY][ESCAPE_ROUTE] 帝都（Imperial City）で継続的に戦うプレイヤーは、各所に自分が戦いやすい・逃げやすい地点を事前に選び、その地点から使うLoS先と次の退避先までセットで準備し、どの地形が有効かは帝都に習熟したプレイヤーの実際の移動・反転・退避先を観察して学習する。
+[A0733][AUTHOR_VIEW][PRACTICE][IMPERIAL_CITY][PVE_PVP_INTERACTION][ESCAPE_ROUTE] 帝都（Imperial City）地上で交戦する前に、現在地から利用できるLoSと離脱先に加えて、近隣ボスの位置と主要ギミックを把握し、戦闘中にボスが混入した場合の影響へおおよその対応方針を準備する。
+[A0736][AUTHOR_VIEW][PATCH][RULE][IMPERIAL_CITY][ROLE_BOMBER][SITUATIONAL_AWARENESS] 帝都（Imperial City）の集団奇襲では、敵集団を引き寄せ・集約して範囲バーストへつなぐ装備・スキル等が利用され得るため、ボンバーが必ず自分の至近距離へ潜伏しているとは考えない。闇の収束（Dark Convergence）や迫る苦痛（Rush of Agony）は集敵効果の例であり、具体例は現行パッチで再確認する。
+[A0737][AUTHOR_VIEW][RULE][IMPERIAL_CITY][ROLE_GANKER][ROLE_BOMBER] 帝都（Imperial City）の地区間扉、クエスト用区画、宝物庫、ダンジョン等への遷移地点は通行者の位置と通過時点を予測しやすいため、待ち伏せ・奇襲の成立しやすい地点として警戒し、イベント中に集団が集中する場合はボンバーの攻撃地点としても警戒する。
+[A0738][AUTHOR_VIEW][RULE][IMPERIAL_CITY][SITUATIONAL_AWARENESS][ROLE_GANKER][ROLE_BOMBER] 帝都（Imperial City）で奇襲を警戒するときは同じ標高・至近距離だけを確認せず、高所から落下しながら接近する敵や、遠距離から範囲攻撃・集敵を始動できる敵も脅威候補に含める。
+[A0740][AUTHOR_VIEW][PATCH][PRACTICE][IMPERIAL_CITY][MOVEMENT_SPEED] 騎乗訓練（mount training）が十分に進んでいる場合、帝都（Imperial City）地上を比較的安全に巡回する目的では徒歩より騎乗による高速通過を優先候補とし、闇の一党（Dark Brotherhood）パッシブのシャドウライダー（Shadow Rider）を利用できる場合は敵対NPCの感知・アグロを受けにくくして騎乗移動を維持しやすくする。
+[A0741][AUTHOR_VIEW][PRACTICE][IMPERIAL_CITY] 帝都（Imperial City）下水道では優先攻撃ターゲット（Target Lock）を利用し、曲がり角や障害物の向こうへ移動した敵の位置関係を追跡し、相手が追ってくるか逃げるか、追撃できるか、待ち伏せへ移るか、追跡を断念するかの判断材料にする。
+[A0742][AUTHOR_VIEW][PRACTICE][IMPERIAL_CITY][PVE_PVP_INTERACTION] 帝都（Imperial City）地上ボスを安全寄りに戦う場合、可能ならボスを自分に有利な地形へ誘導し、背後や敵プレイヤーの接近経路を地形・ボスで制限し、開けた場所で全方向を無防備にしたまま長時間戦うことを避ける。
 
-[A0747][AUTHOR_VIEW][PRACTICE][IMPERIAL_CITY][ESCAPE_ROUTE] 帝都（Imperial City）で継続的に戦うプレイヤーは、各所に自分が戦いやすい・逃げやすい地点を事前に選び、その地点から使うLoS先と次の退避先までセットで準備し、どの地形が有効かは帝都に習熟したプレイヤーの実際の移動・反転・退避先を観察して学習する。
-[A0748][AUTHOR_VIEW][PRACTICE][IMPERIAL_CITY][PVE_PVP_INTERACTION][ESCAPE_ROUTE] 帝都（Imperial City）地上で交戦する前に、現在地から利用できるLoSと離脱先に加えて、近隣ボスの位置と主要ギミックを把握し、戦闘中にボスが混入した場合の影響へおおよその対応方針を準備する。
+## ボス・中央部
 
-#### 帝都の地形・旗・状況把握
+### 下水道ボス・中央部・ボス戦リスク
 
-[A0749][AUTHOR_VIEW][PATCH][RULE][IMPERIAL_CITY][ROLE_BOMBER][SITUATIONAL_AWARENESS] 帝都（Imperial City）の集団奇襲では、敵集団を引き寄せ・集約して範囲バーストへつなぐ装備・スキル等が利用され得るため、ボンバーが必ず自分の至近距離へ潜伏しているとは考えない。闇の収束（Dark Convergence）や迫る苦痛（Rush of Agony）は集敵効果の例であり、具体例は現行パッチで再確認する。
-[A0750][AUTHOR_VIEW][RULE][IMPERIAL_CITY][ROLE_GANKER][ROLE_BOMBER] 帝都（Imperial City）の地区間扉、クエスト用区画、宝物庫、ダンジョン等への遷移地点は通行者の位置と通過時点を予測しやすいため、待ち伏せ・奇襲の成立しやすい地点として警戒し、イベント中に集団が集中する場合はボンバーの攻撃地点としても警戒する。
-[A0751][AUTHOR_VIEW][RULE][IMPERIAL_CITY][SITUATIONAL_AWARENESS][ROLE_GANKER][ROLE_BOMBER] 帝都（Imperial City）で奇襲を警戒するときは同じ標高・至近距離だけを確認せず、高所から落下しながら接近する敵や、遠距離から範囲攻撃・集敵を始動できる敵も脅威候補に含める。
+[A0751][AUTHOR_VIEW][PATCH][CLAIM][IMPERIAL_CITY][PVE_PVP_INTERACTION] 帝都（Imperial City）下水道中央部のモラグ・バルの幻影（Simulacrum of Molag Bal）は撃破時に高威力の広範囲爆発を発生させるため、撃破した瞬間を安全時間として扱わない。
+[A0752][AUTHOR_VIEW][CAUSE][IMPERIAL_CITY][PVE_PVP_INTERACTION][SITUATIONAL_AWARENESS] モラグ・バルの幻影（Simulacrum of Molag Bal）撃破直後は、爆発被害、回復、蘇生、ルート等へ注意が集中しやすいため、敵対プレイヤーが介入する好機になり得る危険時間として警戒する。
+[A0753][AUTHOR_VIEW][AI][RULE][IMPERIAL_CITY][PVE_PVP_INTERACTION][RECOMMENDATION_SCOPE] 帝都（Imperial City）ボスやメインクエストの安全情報を助言するときは、回復、強制CC、大ダメージ、撃破時効果等の初見殺しになり得る主要ギミックを必要に応じて警告する一方、質問者がネタバレ回避を望む場合は具体的内容を伏せて一般警告までに留める。
+[A0754][AUTHOR_VIEW][PATCH][COND][IMPERIAL_CITY] 帝都（Imperial City）のモンスターや地上ボスで既にルート資格を得ており、撃破時にもルート可能圏内にいる場合、死亡状態でも撃破後にルート権が残ることがあるため、装備報酬を狙う場合は反射的に遠距離へリスポーンせず、死体が消える前に回収できるかを確認する。
 
-#### 地形・LoS・状況把握
+## 帰還・固有阻害
 
-[A0752][AUTHOR_VIEW][PATCH][PRACTICE][IMPERIAL_CITY][MOVEMENT_SPEED] 騎乗訓練（mount training）が十分に進んでいる場合、帝都（Imperial City）地上を比較的安全に巡回する目的では徒歩より騎乗による高速通過を優先候補とし、闇の一党（Dark Brotherhood）パッシブのシャドウライダー（Shadow Rider）を利用できる場合は敵対NPCの感知・アグロを受けにくくして騎乗移動を維持しやすくする。
-[A0753][AUTHOR_VIEW][PRACTICE][IMPERIAL_CITY] 帝都（Imperial City）下水道では優先攻撃ターゲット（Target Lock）を利用し、曲がり角や障害物の向こうへ移動した敵の位置関係を追跡し、相手が追ってくるか逃げるか、追撃できるか、待ち伏せへ移るか、追跡を断念するかの判断材料にする。
-[A0754][AUTHOR_VIEW][PRACTICE][IMPERIAL_CITY][PVE_PVP_INTERACTION] 帝都（Imperial City）地上ボスを安全寄りに戦う場合、可能ならボスを自分に有利な地形へ誘導し、背後や敵プレイヤーの接近経路を地形・ボスで制限し、開けた場所で全方向を無防備にしたまま長時間戦うことを避ける。
+### Update 50時点の高パッチ依存帰還リファレンス
 
-## A09.3 ボス・中央部
+[A0757][AUTHOR_VIEW][AI][SCOPE][IMPERIAL_CITY][ESCAPE_ROUTE][AI_META_EVALUATION] 帝都（Imperial City）の帰還・脱出経路に関する高パッチ依存情報は、本Corpusの主要な長期的PvP判断原則そのものではないが、敵対プレイヤーの現実的な撤退可能性を評価するための補助情報として保持する。
+[A0758][AUTHOR_VIEW][AI][RULE][IMPERIAL_CITY][ESCAPE_ROUTE][AI_META_EVALUATION] 帝都（Imperial City）の帰還・脱出経路は、質問者自身が利用する手段としてだけでなく、敵対プレイヤーが交戦離脱・テルバー（Tel Var Stones）保全・追跡回避に利用し得る手段としても評価し、質問者へ当該経路を推奨しないことだけを理由に敵の撤退可能性の評価対象から除外しない。
+[A0759][PATCH][CLAIM][IMPERIAL_CITY][ESCAPE_ROUTE] Update 50確認時点では、帝都（Imperial City）地上の帝都監獄（Imperial City Prison）および下水道各同盟基地前の白金の塔（White-Gold Tower）の実在ダンジョン入口へ入り、ダンジョン側から退出することで所持テルバー（Tel Var Stones）数にかかわらず安全側へ移行できる経路が利用可能である。入口へ到達するまでの待ち伏せ・PvP危険は別に評価する。
+[A0760][REFERENCE_SOURCE][EVIDENCE][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0759. ESO Support Answer 37229 / “How do I leave the Imperial City?”: https://help.elderscrollsonline.com/app/answers/detail/a_id/37229
+[A0761][REFERENCE_NOTE][PATCH][OBSERVATION][IMPERIAL_CITY][ESCAPE_ROUTE] Update 50確認時点では、所持テルバー（Tel Var Stones）が100未満の時点で開始したキャンペーン待ち列は、その後100以上へ増えても順番到来・承諾による移動に利用できる現行挙動が報告されている。
+[A0762][AUTHOR_VIEW][PATCH][AI][RULE][IMPERIAL_CITY][ESCAPE_ROUTE] この待ち列挙動はパッチ依存性が非常に高いため、利用方法または敵の撤退可能性として回答へ使う前に、質問時点の現行仕様を再確認する。
+[A0763][REFERENCE_SOURCE][EVIDENCE][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0761. IC＝インペリアルシティ（Imperial City）。ESO Official Forums / “IC queuing for Battlegrounds”, SeaGtGruff #9（2026-07-16、100未満で開始した待ち列を100以上所持後も受諾できることを実測確認）: https://forums.elderscrollsonline.com/en/discussion/comment/8506709
+[A0764][PATCH][REFERENCE_NOTE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] Update 49では、100以上のテルバー（Tel Var Stones）所持時に別キャンペーンへ新規キューできない制限が導入された。
+[A0765][PATCH][REFERENCE_NOTE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] Update 50では、100以上のテルバー（Tel Var Stones）を所持したまま別の帝都（Imperial City）キャンペーンへ直接キューする経路も利用できなくなった。
+[A0766][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0764. ZOS / Update 49 Live Patch Notes: All Platforms: https://forums.elderscrollsonline.com/en/discussion/689473/update-49-live-patch-notes-all-platforms
+[A0767][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][IMPERIAL_CITY][ESCAPE_ROUTE] Update 49で100以上のテルバー（Tel Var Stones）所持時の新規キャンペーンキュー制限が導入された後も、Update 50以前には100以上を所持したまま別の帝都（Imperial City）キャンペーンへ直接キューできる実挙動が報告されていた。
+[A0768][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0767. IC＝インペリアルシティ（Imperial City）。ESO Official Forums / “[BUG] You can still queue out of IC while carrying telvar”: https://forums.elderscrollsonline.com/en-gb/discussion/689708/bug-you-can-still-queue-out-of-ic-while-carrying-telvar ; “Queuing from one Imperial City Campaign to another is now possible despite having over 100 Tel Var”: https://forums.elderscrollsonline.com/en/discussion/689872/queuing-from-one-imperial-city-campaign-to-another-is-now-possible-despite-having-over-100-tel-var
+[A0769][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0765. ESOUI / “Tel Var Saver”, Update 50 note: https://www.esoui.com/downloads/info3664-TelVarSaver.html
+[A0770][AUTHOR_VIEW][PATCH][AI][RULE][IMPERIAL_CITY][ESCAPE_ROUTE] 帝都（Imperial City）からのキャンペーンキュー脱出を説明するときは、過去パッチで利用できた経路を現行仕様として復活させず、質問時点の仕様を確認する。
+[A0771][AUTHOR_VIEW][PATCH][AI][RULE][IMPERIAL_CITY][ESCAPE_ROUTE] ダンジョン入口を利用する経路と、100未満の時点で開始済みの待ち列を利用する挙動は、新規キャンペーンキュー制限とは別の挙動として扱い、それぞれ現行仕様を確認する。
 
-### A09.B ボス・中央部
+### 帝都（Imperial City）地上ボスの隠密・透明化阻害補遺
 
-#### 下水道ボス・中央部・ボス戦リスク
-
-[A0755][AUTHOR_VIEW][PATCH][CLAIM][IMPERIAL_CITY][PVE_PVP_INTERACTION] 帝都（Imperial City）下水道中央部のモラグ・バルの幻影（Simulacrum of Molag Bal）は撃破時に高威力の広範囲爆発を発生させるため、撃破した瞬間を安全時間として扱わない。
-[A0756][AUTHOR_VIEW][CAUSE][IMPERIAL_CITY][PVE_PVP_INTERACTION][SITUATIONAL_AWARENESS] モラグ・バルの幻影（Simulacrum of Molag Bal）撃破直後は、爆発被害、回復、蘇生、ルート等へ注意が集中しやすいため、敵対プレイヤーが介入する好機になり得る危険時間として警戒する。
-[A0757][AUTHOR_VIEW][AI][RULE][IMPERIAL_CITY][PVE_PVP_INTERACTION][RECOMMENDATION_SCOPE] 帝都（Imperial City）ボスやメインクエストの安全情報を助言するときは、回復、強制CC、大ダメージ、撃破時効果等の初見殺しになり得る主要ギミックを必要に応じて警告する一方、質問者がネタバレ回避を望む場合は具体的内容を伏せて一般警告までに留める。
-[A0758][AUTHOR_VIEW][PATCH][COND][IMPERIAL_CITY] 帝都（Imperial City）のモンスターや地上ボスで既にルート資格を得ており、撃破時にもルート可能圏内にいる場合、死亡状態でも撃破後にルート権が残ることがあるため、装備報酬を狙う場合は反射的に遠距離へリスポーンせず、死体が消える前に回収できるかを確認する。
-
-## A09.4 帰還・帰還阻害
-
-### A09.R 帰還・帰還阻害
-
-#### 実在ダンジョン入口による帰還
-
-[A0759][AUTHOR_VIEW][AI][SCOPE][IMPERIAL_CITY][ESCAPE_ROUTE][AI_META_EVALUATION] 帝都（Imperial City）の帰還・脱出経路に関する高パッチ依存情報は、本Corpusの主要な長期的PvP判断原則そのものではないが、敵対プレイヤーの現実的な撤退可能性を評価するための補助情報として保持する。
-[A0760][AUTHOR_VIEW][AI][RULE][IMPERIAL_CITY][ESCAPE_ROUTE][AI_META_EVALUATION] 帝都（Imperial City）の帰還・脱出経路は、質問者自身が利用する手段としてだけでなく、敵対プレイヤーが交戦離脱・テルバー（Tel Var Stones）保全・追跡回避に利用し得る手段としても評価し、質問者へ当該経路を推奨しないことだけを理由に敵の撤退可能性の評価対象から除外しない。
-[A0761][PATCH][CLAIM][IMPERIAL_CITY][ESCAPE_ROUTE] Update 50確認時点では、帝都（Imperial City）地上の帝都監獄（Imperial City Prison）および下水道各同盟基地前の白金の塔（White-Gold Tower）の実在ダンジョン入口へ入り、ダンジョン側から退出することで所持テルバー（Tel Var Stones）数にかかわらず安全側へ移行できる経路が利用可能である。入口へ到達するまでの待ち伏せ・PvP危険は別に評価する。
-[A0762][REFERENCE_SOURCE][EVIDENCE][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0761. ESO Support Answer 37229 / “How do I leave the Imperial City?”: https://help.elderscrollsonline.com/app/answers/detail/a_id/37229
-
-#### 100未満で開始した待ち列の挙動
-
-[A0763][REFERENCE_NOTE][PATCH][OBSERVATION][IMPERIAL_CITY][ESCAPE_ROUTE] Update 50確認時点では、所持テルバー（Tel Var Stones）が100未満の時点で開始したキャンペーン待ち列は、その後100以上へ増えても順番到来・承諾による移動に利用できる現行挙動が報告されている。
-[A0764][AUTHOR_VIEW][PATCH][AI][RULE][IMPERIAL_CITY][ESCAPE_ROUTE] この待ち列挙動はパッチ依存性が非常に高いため、利用方法または敵の撤退可能性として回答へ使う前に、質問時点の現行仕様を再確認する。
-[A0765][REFERENCE_SOURCE][EVIDENCE][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0763. IC＝インペリアルシティ（Imperial City）。ESO Official Forums / “IC queuing for Battlegrounds”, SeaGtGruff #9（2026-07-16、100未満で開始した待ち列を100以上所持後も受諾できることを実測確認）: https://forums.elderscrollsonline.com/en/discussion/comment/8506709
-
-#### Update 49・50の帰還仕様変更
-
-[A0766][PATCH][REFERENCE_NOTE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] Update 49では、100以上のテルバー（Tel Var Stones）所持時に別キャンペーンへ新規キューできない制限が導入された。
-[A0767][PATCH][REFERENCE_NOTE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] Update 50では、100以上のテルバー（Tel Var Stones）を所持したまま別の帝都（Imperial City）キャンペーンへ直接キューする経路も利用できなくなった。
-[A0768][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0766. ZOS / Update 49 Live Patch Notes: All Platforms: https://forums.elderscrollsonline.com/en/discussion/689473/update-49-live-patch-notes-all-platforms
-[A0769][REFERENCE_NOTE][PATCH_HISTORY][OBSERVATION][IMPERIAL_CITY][ESCAPE_ROUTE] Update 49で100以上のテルバー（Tel Var Stones）所持時の新規キャンペーンキュー制限が導入された後も、Update 50以前には100以上を所持したまま別の帝都（Imperial City）キャンペーンへ直接キューできる実挙動が報告されていた。
-[A0770][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0769. IC＝インペリアルシティ（Imperial City）。ESO Official Forums / “[BUG] You can still queue out of IC while carrying telvar”: https://forums.elderscrollsonline.com/en-gb/discussion/689708/bug-you-can-still-queue-out-of-ic-while-carrying-telvar ; “Queuing from one Imperial City Campaign to another is now possible despite having over 100 Tel Var”: https://forums.elderscrollsonline.com/en/discussion/689872/queuing-from-one-imperial-city-campaign-to-another-is-now-possible-despite-having-over-100-tel-var
-[A0771][REFERENCE_SOURCE][EVIDENCE][PATCH_HISTORY][IMPERIAL_CITY][ESCAPE_ROUTE] 根拠対象: A0767. ESOUI / “Tel Var Saver”, Update 50 note: https://www.esoui.com/downloads/info3664-TelVarSaver.html
-
-#### 現行帰還回答の確認規律
-
-[A0772][AUTHOR_VIEW][PATCH][AI][RULE][IMPERIAL_CITY][ESCAPE_ROUTE] 帝都（Imperial City）からのキャンペーンキュー脱出を説明するときは、過去パッチで利用できた経路を現行仕様として復活させず、質問時点の仕様を確認する。
-[A0773][AUTHOR_VIEW][PATCH][AI][RULE][IMPERIAL_CITY][ESCAPE_ROUTE] ダンジョン入口を利用する経路と、100未満の時点で開始済みの待ち列を利用する挙動は、新規キャンペーンキュー制限とは別の挙動として扱い、それぞれ現行仕様を確認する。
-
-## A09.5 隠密抑制
-
-### A09.S 隠密抑制
-
-#### 帝都（Imperial City）地上ボスの隠密・透明化阻害補遺
-
-[A0774][AUTHOR_VIEW][PATCH][CLAIM][AI][LIMIT][IMPERIAL_CITY][PVE_PVP_INTERACTION][STEALTH_COUNTER] 帝都（Imperial City）地上の恐怖の偵察隊（Patrolling Horror）と帝都下水道のコールドハーバーの精鋭衛兵（Coldharbour Elite Guard）は、生存中、その近傍で隠密・透明化を検知または抑制する固有の領域・能力を持つ。これらの近傍では隠密・透明化を主要な生存手段として信頼せず、利用する場合は該当する検知・抑制範囲の外まで十分に距離を取る必要がある。
+[A0772][AUTHOR_VIEW][PATCH][CLAIM][AI][LIMIT][IMPERIAL_CITY][PVE_PVP_INTERACTION][STEALTH_COUNTER] 帝都（Imperial City）地上の恐怖の偵察隊（Patrolling Horror）と帝都下水道のコールドハーバーの精鋭衛兵（Coldharbour Elite Guard）は、生存中、その近傍で隠密・透明化を検知または抑制する固有の領域・能力を持つ。これらの近傍では隠密・透明化を主要な生存手段として信頼せず、利用する場合は該当する検知・抑制範囲の外まで十分に距離を取る必要がある。

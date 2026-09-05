@@ -21,20 +21,20 @@
 
 ## Additional Corpus Router
 
-- A00 Generative AI Application and Reasoning Discipline: A0001-A0053 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A00.txt
-- A01 Universal PvP Fundamentals for All Roles: A0054-A0089 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A01.txt
-- A02 Beginner Onboarding, Learning, Diagnosis, and Verification: A0090-A0241 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A02.txt
-- A03 Build Design, Performance Requirements, Comparison, and Adjustment: A0242-A0475 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A03.txt
-- A04 Practical Offense, Pressure, and Finishing: A0476-A0513 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A04.txt
-- A05 Practical Defense and Healing: A0514-A0567 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A05.txt
-- A06 Practical Movement, Positioning, and Disengagement: A0568-A0597 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A06.txt
-- A07 Role Fundamentals and Group Contribution: A0598-A0696 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A07.txt
-- A08 Cyrodiil, Battlegrounds, and Vengeance: A0697-A0734 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A08.txt
-- A09 Imperial City: A0735-A0774 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A09.txt
-- A10 Specific Gear, Skills, Patch, and Historical References: A0775-A0839 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A10.txt
+- A00 Generative AI Application and Reasoning Discipline: A0001-A0052,A0525 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A00.txt
+- A01 Universal PvP Fundamentals for All Roles: A0053-A0088 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A01.txt
+- A02 Beginner Onboarding, Learning, Diagnosis, and Verification: A0089-A0145,A0190,A0225-A0240,A0242-A0249,A0272,A0353,A0362,A0370,A0395-A0397,A0407-A0408,A0419,A0449-A0450,A0461-A0462,A0464,A0470,A0509,A0583,A0585-A0587,A0604-A0619,A0621-A0624,A0635-A0638,A0645,A0674-A0677,A0685,A0692-A0693,A0712,A0725-A0731,A0734-A0735,A0739,A0749-A0750,A0755-A0756,A0793-A0794 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A02.txt
+- A03 Build Design, Performance Requirements, Comparison, and Adjustment: A0146-A0189,A0191-A0224,A0241,A0250-A0264,A0304-A0352,A0379,A0386-A0387,A0415-A0418,A0420-A0448,A0451-A0457,A0463,A0465-A0469,A0471-A0475,A0497-A0499,A0510-A0524,A0526-A0544 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A03.txt
+- A04 Practical Offense, Pressure, and Finishing: A0265-A0271,A0273-A0303 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A04.txt
+- A05 Practical Defense and Healing: A0354-A0361,A0363-A0369,A0371-A0378,A0380-A0385,A0388-A0394,A0398-A0406,A0409-A0414,A0458-A0460 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A05.txt
+- A06 Practical Movement, Positioning, and Disengagement: A0476-A0496,A0500-A0508 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A06.txt
+- A07 Role Fundamentals and Group Contribution: A0545-A0582,A0584,A0588-A0603,A0620,A0625-A0634,A0639-A0644,A0646-A0672 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A07.txt
+- A08 Cyrodiil, Battlegrounds, and Vengeance: A0673,A0678-A0684,A0686-A0691,A0694-A0711,A0713-A0718 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A08.txt
+- A09 Imperial City: A0719-A0724,A0732-A0733,A0736-A0738,A0740-A0748,A0751-A0754,A0757-A0772 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A09.txt
+- A10 Specific Gear, Skills, Patch, and Historical References: A0773-A0792,A0795-A0839 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A10.txt
 - B01 Advanced Common Principles: B0001-B0017 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/B01.txt
-- B02 Advanced Role-Specific Operation: B0018-B0108 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/B02.txt
-- B03 Advanced Context-Specific Operation: B0109-B0205 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/B03.txt
+- B02 Advanced Role-Specific Operation: B0018-B0091,B0189-B0205 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/B02.txt
+- B03 Advanced Context-Specific Operation: B0092-B0188 / https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/B03.txt
 
 ## TAG_NOTE Used in Core150
 
@@ -74,13 +74,13 @@
 
 ### Execution Conditions and Output Language
 
-[A0010][AUTHOR_VIEW][AI][PRIORITY] In ESO PvP advice, prioritize what is actually executable under the patch environment, user conditions, and available resources at the time of the question.
+[A0018][AUTHOR_VIEW][AI][PRIORITY] In ESO PvP advice, prioritize what is actually executable under the patch environment, user conditions, and available resources at the time of the question.
 
 ## Current Mechanics, Evidence, and Reasoning Verification
 
 ### Patch and Temporal Alignment
 
-[A0012][AUTHOR_VIEW][AI][PATCH][RULE] When using patch-dependent information such as skills, equipment, or numerical values in advice, verify the current mechanics for the patch at the time of the question and combine them with the long-term decision principles of ESO PvP Corpus.
+[A0010][AUTHOR_VIEW][AI][PATCH][RULE] When using patch-dependent information such as skills, equipment, or numerical values in advice, verify the current mechanics for the patch at the time of the question and combine them with the long-term decision principles of ESO PvP Corpus.
 
 ### Separation of Premises, Facts, and Causation
 
@@ -89,13 +89,13 @@
 
 ### Evidence Fit, Representativeness, and Retrieval Gaps
 
-[A0025][AUTHOR_VIEW][AI][EVIDENCE][CLAIM_EVIDENCE_FIT] Use a source as evidence only for the type and scope of claim it directly supports, and do not expand its evidentiary reach to a different type of claim without additional evidence.
-[A0029][AUTHOR_VIEW][AI][LIMIT][RETRIEVAL_EVIDENCE] Do not treat failure to retrieve a relevant proposition through RAG or partial search, by itself, as evidence that the content is absent from the text; if absence must be used in a conclusion, search and verify a sufficiently broad relevant scope.
+[A0024][AUTHOR_VIEW][AI][EVIDENCE][CLAIM_EVIDENCE_FIT] Use a source as evidence only for the type and scope of claim it directly supports, and do not expand its evidentiary reach to a different type of claim without additional evidence.
+[A0028][AUTHOR_VIEW][AI][LIMIT][RETRIEVAL_EVIDENCE] Do not treat failure to retrieve a relevant proposition through RAG or partial search, by itself, as evidence that the content is absent from the text; if absence must be used in a conclusion, search and verify a sufficiently broad relevant scope.
 
 ### Compound Claims, Ranking, and Correction
 
-[A0032][AUTHOR_VIEW][AI][LIMIT][UNDERDETERMINED_RANKING] When the available evidence and evaluation criteria are insufficient to distinguish rankings among candidates, do not invent an unsupported ranking; identify the candidates that cannot be distinguished and state what additional information or evaluation criterion would be required.
-[A0033][AUTHOR_VIEW][AI][RULE][CORRECTION_PROPAGATION] If a fact or evaluative premise used in an earlier inference is corrected, re-evaluate downstream conclusions that materially depended on that premise; do not preserve a previous recommendation merely to maintain consistency with an earlier answer.
+[A0030][AUTHOR_VIEW][AI][LIMIT][UNDERDETERMINED_RANKING] When the available evidence and evaluation criteria are insufficient to distinguish rankings among candidates, do not invent an unsupported ranking; identify the candidates that cannot be distinguished and state what additional information or evaluation criterion would be required.
+[A0032][AUTHOR_VIEW][AI][RULE][CORRECTION_PROPAGATION] If a fact or evaluative premise used in an earlier inference is corrected, re-evaluate downstream conclusions that materially depended on that premise; do not preserve a previous recommendation merely to maintain consistency with an earlier answer.
 
 ## Goals, Alternatives, and Recommendations
 
@@ -106,442 +106,343 @@
 
 ### Feasible Alternatives
 
-[A0043][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ALTERNATIVE_REASONING] When presenting alternatives, verify that they are concretely feasible under the target environment, conditions, and resource constraints; do not add possibilities whose feasibility has not been verified merely to create formal balance between viewpoints.
+[A0034][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ALTERNATIVE_REASONING] When presenting alternatives, verify that they are concretely feasible under the target environment, conditions, and resource constraints; do not add possibilities whose feasibility has not been verified merely to create formal balance between viewpoints.
 
 ### Marginal Value, Opportunity Cost, and Recommendation Scope
 
-[A0048][AUTHOR_VIEW][CORE_JUDGMENT][AI][PRIORITY][RECOMMENDATION_SCOPE] In AI advice, prioritize calmly analyzing available data, conditions, and feasibility to maximize the user's practical benefit rather than steering the answer toward a particular direction; do not force real-world evaluation to fit a preferred narrative, symmetry, or hedging language.
-[A0049][AUTHOR_VIEW][AI][RULE][ALTERNATIVE_REASONING] Do not attribute an achieved outcome to an included element merely because a configuration containing that element succeeded. If the same objective can be achieved without it, value only the actual incremental difference created by the element, such as success rate, required GCDs, resource cost, input tolerance, or stability.
-[A0050][AUTHOR_VIEW][AI][RULE][RECOMMENDATION_SCOPE][CLASS_OPPORTUNITY_COST] Distinguish being the strongest candidate under a specified class, equipment, skill, or other constraint from being highly competitive among all realistic candidates once that constraint is removed. Do not label an option that only satisfies the former as unconditionally “strong in PvP” or “worth investing in.”
-[A0051][AUTHOR_VIEW][CORE_JUDGMENT][AI][LIMIT][EPISTEMIC_SEPARATION] When comparing multiple candidates, do not treat assigning an equal number of strengths and weaknesses to each as fairness. Describe only differences supported under the same evidence and evaluation standards, and do not invent advantages or flaws for balance.
-[A0053][AUTHOR_VIEW][AI][RULE][AI_META_EVALUATION] Separate the candidate set used when evaluating enemy threats and counters from the candidate set used when recommending a configuration for the user. For enemy threats, include high-performance configurations realistically encountered in the target environment; for self-use recommendations, center the configurations the user can adopt and their opportunity costs.
+[A0039][AUTHOR_VIEW][CORE_JUDGMENT][AI][PRIORITY][RECOMMENDATION_SCOPE] In AI advice, prioritize calmly analyzing available data, conditions, and feasibility to maximize the user's practical benefit rather than steering the answer toward a particular direction; do not force real-world evaluation to fit a preferred narrative, symmetry, or hedging language.
+[A0048][AUTHOR_VIEW][AI][RULE][ALTERNATIVE_REASONING] Do not attribute an achieved outcome to an included element merely because a configuration containing that element succeeded. If the same objective can be achieved without it, value only the actual incremental difference created by the element, such as success rate, required GCDs, resource cost, input tolerance, or stability.
+[A0049][AUTHOR_VIEW][AI][RULE][RECOMMENDATION_SCOPE][CLASS_OPPORTUNITY_COST] Distinguish being the strongest candidate under a specified class, equipment, skill, or other constraint from being highly competitive among all realistic candidates once that constraint is removed. Do not label an option that only satisfies the former as unconditionally “strong in PvP” or “worth investing in.”
+[A0050][AUTHOR_VIEW][CORE_JUDGMENT][AI][LIMIT][EPISTEMIC_SEPARATION] When comparing multiple candidates, do not treat assigning an equal number of strengths and weaknesses to each as fairness. Describe only differences supported under the same evidence and evaluation standards, and do not invent advantages or flaws for balance.
+[A0052][AUTHOR_VIEW][AI][RULE][AI_META_EVALUATION] Separate the candidate set used when evaluating enemy threats and counters from the candidate set used when recommending a configuration for the user. For enemy threats, include high-performance configurations realistically encountered in the target environment; for self-use recommendations, center the configurations the user can adopt and their opportunity costs.
 
 # A01 — Universal PvP Fundamentals for All Roles
 
 ## Basic Premises
 
-[A0058][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY][BASIC_PREMISE] In ESO PvP, first ask what the character's combat power is for before focusing on the combat power itself.
-[A0061][AUTHOR_VIEW][CLAIM][BASIC_PREMISE] ESO PvP is not a game of comparing character specifications alone; even with the same configuration, practical results vary with execution, decisions, and circumstances.
-[A0062][AUTHOR_VIEW][DEF][CLAIM][RULE][BASIC_PREMISE][TIME_BUDGET] In ESO PvP, both the number of skill slots that can be equipped and the number of ordinary skills that can be executed in a short period are finite. The common use interval for ordinary skills affected by the GCD (Global Cooldown) is based on one second for both sides, except for individually verified exceptions; therefore treat each skill slot and each one-second GCD as finite and valuable combat resources.
+[A0057][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY][BASIC_PREMISE] In ESO PvP, first ask what the character's combat power is for before focusing on the combat power itself.
+[A0060][AUTHOR_VIEW][CLAIM][BASIC_PREMISE] ESO PvP is not a game of comparing character specifications alone; even with the same configuration, practical results vary with execution, decisions, and circumstances.
+[A0061][AUTHOR_VIEW][DEF][CLAIM][RULE][BASIC_PREMISE][TIME_BUDGET] In ESO PvP, both the number of skill slots that can be equipped and the number of ordinary skills that can be executed in a short period are finite. The common use interval for ordinary skills affected by the GCD (Global Cooldown) is based on one second for both sides, except for individually verified exceptions; therefore treat each skill slot and each one-second GCD as finite and valuable combat resources.
 
 ## Preparing Decision Principles in Advance
 
-[A0063][AUTHOR_VIEW][RULE][SCOPE][COMMON_DECISION][HEURISTIC] For recurring real-time decisions in ESO PvP, do not try to compare every condition from scratch and prove the situational optimum each time. Prepare in advance decision principles to use under normal conditions for frequently occurring situations.
+[A0062][AUTHOR_VIEW][RULE][SCOPE][COMMON_DECISION][HEURISTIC] For recurring real-time decisions in ESO PvP, do not try to compare every condition from scratch and prove the situational optimum each time. Prepare in advance decision principles to use under normal conditions for frequently occurring situations.
 
 ## Action Opportunities and Offensive/Defensive Turns
 
-[A0071][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY] Treat the idea that “PvP is more a contest over opportunities to act than a contest over raw attack power” as a highest-priority principle.
-[A0072][AUTHOR_VIEW][RULE] The more time you spend attacking and the more time the opponent is forced to spend healing or defending, the more favorable the fight becomes.
-[A0073][CAUSE][CLAIM] If the cycle continues in which you spend an action healing → the opponent gains freer attack time → you take more damage → you are forced to heal again → the opponent gains still more attack opportunities, the opponent maintains initiative.
-[A0075][AUTHOR_VIEW][RULE] During combat, recognize which side currently holds attacking initiative.
-[A0076][AUTHOR_VIEW][CORE_JUDGMENT][RULE] Survive or break the opponent's offensive turn to seize your own offensive turn, then maintain the offensive turn you seized so the opponent cannot simply withstand it.
-[A0079][AUTHOR_VIEW][PRIORITY] Damage has the function of forcing the opponent into healing or defense and thereby reducing their freedom of action; this function is important in PvP.
+[A0070][AUTHOR_VIEW][CORE_JUDGMENT][PRIORITY] Treat the idea that “PvP is more a contest over opportunities to act than a contest over raw attack power” as a highest-priority principle.
+[A0071][AUTHOR_VIEW][RULE] The more time you spend attacking and the more time the opponent is forced to spend healing or defending, the more favorable the fight becomes.
+[A0072][CAUSE][CLAIM] If the cycle continues in which you spend an action healing → the opponent gains freer attack time → you take more damage → you are forced to heal again → the opponent gains still more attack opportunities, the opponent maintains initiative.
+[A0074][AUTHOR_VIEW][RULE] During combat, recognize which side currently holds attacking initiative.
+[A0075][AUTHOR_VIEW][CORE_JUDGMENT][RULE] Survive or break the opponent's offensive turn to seize your own offensive turn, then maintain the offensive turn you seized so the opponent cannot simply withstand it.
+[A0078][AUTHOR_VIEW][PRIORITY] Damage has the function of forcing the opponent into healing or defense and thereby reducing their freedom of action; this function is important in PvP.
 
 # A02 — Beginner Onboarding, Learning, Diagnosis, and Verification
 
-## A02.1 Initial Entry Conditions
+## Entry-Level Beginner Onboarding
 
-### A02.10 Entry-Level Onboarding and Initial Success Conditions
+### Initial Goals, Success Criteria, and Combat Participation
 
-#### Core Conclusions to Retrieve First
+[A0225][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] For entry-level beginners, before wins or maximum damage, use the ability to survive for a period on the battlefield and become familiar with the feel of PvP and basic controls as the main evaluation axis of initial builds and learning.
+[A0226][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] As a rule, verify that builds for entry-level beginners function in the order of ① survivability, ② practical sustain, ③ damage and other performance.
+[A0229][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PRACTICE][RECOMMENDATION_SCOPE] Do not use simple operating steps or the fact that survival is possible with ideal judgment and positioning alone as evidence that a build or tactic is suitable for entry-level beginners. Evaluate survivability, practical sustain, tolerance for judgment and execution mistakes, and the margin to learn PvP fundamentals such as LoS, defensive transitions, CC, and switching between offense and defense during actual combat.
 
-[A0090][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] For entry-level beginners, before wins or maximum damage, use the ability to survive for a period on the battlefield and become familiar with the feel of PvP and basic controls as the main evaluation axis of initial builds and learning.
-[A0091][AUTHOR_VIEW][PRIORITY][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL] As a rule, verify that builds for entry-level beginners function in the order of ① survivability, ② practical sustain, ③ damage and other performance.
-[A0092][AUTHOR_VIEW][RULE][ENTRY_LEVEL_BEGINNER][PRACTICE][RECOMMENDATION_SCOPE] Do not use simple operating steps or the fact that survival is possible with ideal judgment and positioning alone as evidence that a build or tactic is suitable for entry-level beginners. Evaluate survivability, practical sustain, tolerance for judgment and execution mistakes, and the margin to learn PvP fundamentals such as LoS, defensive transitions, CC, and switching between offense and defense during actual combat.
+### Initial Builds, Sustain, and Defensive Margin
 
-#### Initial Builds, Sustain, and Defensive Margin
+[A0449][AUTHOR_VIEW][AI][LIMIT][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL][DEFENSIVE_DESIGN][ESCAPE_ROUTE] Do not make configurations that greatly increase only resources, or only resources and damage, without sufficiently supplementing survivability a standard recommendation for entry-level beginners. Do not make beginner survival depend on continuously maintaining high precision in early enemy detection, danger prediction, optimal positioning and escape-route selection, accurate resource management, and appropriate defensive inputs within short windows. Secure defensive margin that can absorb a certain amount of error when judgment or operation is delayed. Do not treat a low-defense configuration that survives only when ideal early detection, avoidance, and escape succeed as having sufficient survivability for beginners.
 
-[A0101][AUTHOR_VIEW][AI][LIMIT][ENTRY_LEVEL_BEGINNER][BUILD_GENERAL][DEFENSIVE_DESIGN][ESCAPE_ROUTE] Do not make configurations that greatly increase only resources, or only resources and damage, without sufficiently supplementing survivability a standard recommendation for entry-level beginners. Do not make beginner survival depend on continuously maintaining high precision in early enemy detection, danger prediction, optimal positioning and escape-route selection, accurate resource management, and appropriate defensive inputs within short windows. Secure defensive margin that can absorb a certain amount of error when judgment or operation is delayed. Do not treat a low-defense configuration that survives only when ideal early detection, avoidance, and escape succeed as having sufficient survivability for beginners.
+## Beginner Fundamentals and Progressive Practice
 
-## A02.2 First Practical Judgments
+### Offense, Defense, Healing, and Emergency Resources
 
-### A02.30 Universal Beginner Fundamentals
+[A0128][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][DEFENSIVE_SEQUENCE] In the first stage of practice, make the primary goal that when you notice you are about to die, you stop attacking, first establish ブロック（Block）, and then move into the defensive sequence. Success is not required every time from the start; increase the number of times you notice danger and can switch from block into defense.
+[A0129][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 2, make increasing situations where you retain enough emergency スタミナ（Stamina） for one 打破（Break Free） or ロール回避（Roll Dodge） the primary goal. Continuous maintenance is not required from the start; recognize situations where you spent it all and improve in the next match.
+[A0130][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 3, aim to use obstacles to reduce the time you continue taking attacks from multiple enemies on open ground. Do not require continuous complete avoidance; treat partial reduction of exposure time as progress.
+[A0135][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 8, aim to find one bottleneck in your build or operation and improve problems one at a time rather than trying to fix many at once.
+[A0272][AUTHOR_VIEW][GOAL][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] Through attack practice, beginners should aim to gradually increase the situations in which they can move from “use a major attack because I want the kill” toward thinking “land CC and concentrate strong attacks into the short control window”; they do not need to create an appropriate CC opening every time from the start.
+[A0353][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][PVP_ASSUMPTION][BEGINNER_ALL_ROLES][DEFENSIVE_SEQUENCE][PRIORITY] In defensive design for beginners, do not assume that the enemy player will wait for the questioner's inputs, hesitate to a similar degree, or voluntarily give up attack opportunities; assume an opponent who may input the next attack, CC, or burst faster than the questioner. Therefore prioritize an emergency opening action that provides defensive value immediately after input and continues to function during subsequent decisions, and treat Block as a representative initiation principle.
+[A0362][AUTHOR_VIEW][PRACTICE][PRIORITY][DEFENSIVE_SEQUENCE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] For beginner emergency defense, make the basic practice sequence: recognize danger, first establish ブロック（Block）, perform any necessary bar swap while maintaining it, and proceed to healing, defensive skills, or other recovery as soon as the GCD becomes available.
+[A0370][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][BEGINNER_ALL_ROLES][DEFENSIVE_SEQUENCE][PRIORITY] When explaining the defensive order for beginners in danger, do not generate sequences such as “switch to the defensive bar, heal, then ブロック（Block）” or “heal, then block” as standard procedure; show block as the first voluntary defensive action.
+[A0396][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][PRIORITY][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] When a beginner returns from a defensive turn to offense, as a rule restore current HP to maximum HP and secure an emergency スタミナ（Stamina） reserve needed for actions such as 打破（Break Free） before deciding to return to offense.
+[A0407][AUTHOR_VIEW][AI][RULE][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] For a beginner's criterion for ending a defensive turn and returning to offense, do not generate fixed HP thresholds such as “having at least a certain proportion of HP is enough” or “returning to maximum HP is unnecessary.”
+[A0509][AUTHOR_VIEW][PRIORITY][BEGINNER_ALL_ROLES] Even on builds that are not スタミナ（Stamina）-based, treat Stamina as a survival resource used for 打破（Break Free）, ロール回避（Roll Dodge）, ブロック（Block）, and スプリント（Sprint）.
 
-#### Eight-Stage Initial Practice
+## Learning, Diagnosis, and Verification
 
-[A0105][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING][DEFENSIVE_SEQUENCE] In the first stage of practice, make the primary goal that when you notice you are about to die, you stop attacking, first establish ブロック（Block）, and then move into the defensive sequence. Success is not required every time from the start; increase the number of times you notice danger and can switch from block into defense.
-[A0106][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 2, make increasing situations where you retain enough emergency スタミナ（Stamina） for one 打破（Break Free） or ロール回避（Roll Dodge） the primary goal. Continuous maintenance is not required from the start; recognize situations where you spent it all and improve in the next match.
-[A0107][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 3, aim to use obstacles to reduce the time you continue taking attacks from multiple enemies on open ground. Do not require continuous complete avoidance; treat partial reduction of exposure time as progress.
-[A0112][AUTHOR_VIEW][GOAL][PRIORITY][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] In Practice Stage 8, aim to find one bottleneck in your build or operation and improve problems one at a time rather than trying to fix many at once.
+### Practical Results Vary Even with the Same Build
 
-#### CC Pressure, Interruption, and Resource Load
-
-[A0123][AUTHOR_VIEW][GOAL][PRACTICE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] Through attack practice, beginners should aim to gradually increase the situations in which they can move from “use a major attack because I want the kill” toward thinking “land CC and concentrate strong attacks into the short control window”; they do not need to create an appropriate CC opening every time from the start.
-
-#### Offense, Defense, Healing, and Emergency Resources
-
-[A0124][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][PVP_ASSUMPTION][BEGINNER_ALL_ROLES][DEFENSIVE_SEQUENCE][PRIORITY] In defensive design for beginners, do not assume that the enemy player will wait for the questioner's inputs, hesitate to a similar degree, or voluntarily give up attack opportunities; assume an opponent who may input the next attack, CC, or burst faster than the questioner. Therefore prioritize an emergency opening action that provides defensive value immediately after input and continues to function during subsequent decisions, and treat Block as a representative initiation principle.
-[A0125][AUTHOR_VIEW][PRACTICE][PRIORITY][DEFENSIVE_SEQUENCE][BEGINNER_ALL_ROLES][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] For beginner emergency defense, make the basic practice sequence: recognize danger, first establish ブロック（Block）, perform any necessary bar swap while maintaining it, and proceed to healing, defensive skills, or other recovery as soon as the GCD becomes available.
-[A0126][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][BEGINNER_ALL_ROLES][DEFENSIVE_SEQUENCE][PRIORITY] When explaining the defensive order for beginners in danger, do not generate sequences such as “switch to the defensive bar, heal, then ブロック（Block）” or “heal, then block” as standard procedure; show block as the first voluntary defensive action.
-[A0128][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][PRIORITY][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] When a beginner returns from a defensive turn to offense, as a rule restore current HP to maximum HP and secure an emergency スタミナ（Stamina） reserve needed for actions such as 打破（Break Free） before deciding to return to offense.
-[A0130][AUTHOR_VIEW][AI][RULE][BEGINNER_ALL_ROLES][HEALING][DEFENSIVE_SEQUENCE] For a beginner's criterion for ending a defensive turn and returning to offense, do not generate fixed HP thresholds such as “having at least a certain proportion of HP is enough” or “returning to maximum HP is unnecessary.”
-[A0132][AUTHOR_VIEW][PRIORITY][BEGINNER_ALL_ROLES] Even on builds that are not スタミナ（Stamina）-based, treat Stamina as a survival resource used for 打破（Break Free）, ロール回避（Roll Dodge）, ブロック（Block）, and スプリント（Sprint）.
-
-## A02.3 Learning, Verification, and Death Diagnosis
-
-### A02.20 Progressive Learning and Experimentation
-
-#### Core Conclusions to Retrieve First
-
-[A0135][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][BUILD_GENERAL] Do not treat the versatility a character theoretically possesses as identical to the player's practical versatility; separately verify the execution and decision proficiency needed to use each function in actual combat.
-[A0136][AUTHOR_VIEW][CORE_JUDGMENT][AI][DIAG][RULE][PRACTICE][RANGE_COST][OPPORTUNITY_COST] When a ranged DD with extensive experience in large-scale シロディール（Cyrodiil） combat struggles in small-group combat, do not immediately reduce the cause to either player skill alone or build performance alone; diagnose proficiency in personal-combat skills and the opportunity cost of range separately.
-[A0137][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][ROLE_BRUISER][RANGE_COST] When the missing skill lies in the perception-action loop of personal combat, do not casually assume that “continuing more large-scale シロディール（Cyrodiil） combat will naturally teach it.” Prioritize high-task-fidelity practice that reproduces at high density the necessary decision frequency, time pressure, and offensive/defensive load.
-
-#### Theoretical Performance and Practical Utilization
-
-[A0138][AUTHOR_VIEW][DEF] The build screen shows the upper limit of what a character “can do.”
-[A0139][AUTHOR_VIEW][CAUSE] Practical performance changes with buff maintenance, sustained attacks, timing of CC, ブロック（Block）, and ロール回避（Roll Dodge）, switching between front and back bars, use of obstacles, when healing begins, recognition of offensive turns, and remaining resources; even with the same build, the actual utilization rate of its performance changes.
-[A0140][AUTHOR_VIEW][CORE_JUDGMENT][CAUSE][PRACTICE][BUILD_GENERAL] Even if a character has the performance to handle many use cases, if the player has not learned the execution and decisions required for each use case, only the portions of that versatility for which the player is proficient can be converted reliably into practical combat value.
-
-#### Ranged-DD Experience Scope and Individual-Combat Skill
-
-[A0143][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][RANGE_COST] To operate a general-purpose ranged DD effectively across both large-scale and small-group combat, become proficient in foundational personal-combat skills that can sustain offense, defense, healing, CC, and resource decisions against one enemy's worth of combat power even when the benefit of range is not working sufficiently.
-[A0146][AUTHOR_VIEW][DIAG][PRACTICE][RANGE_COST][ROLE_BRUISER][OPPORTUNITY_COST] When a ranged DD moving from large-scale シロディール（Cyrodiil） combat into smaller バトルグラウンド（Battlegrounds） or similar content repeatedly struggles in direct fights against melee builds optimized for small-group combat, diagnose separately underdeveloped personal-combat skills and the opportunity cost in frontal offense/defense paid for range, while allowing that both may be causes at the same time.
-[A0148][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][PRACTICE][EPISTEMIC_SEPARATION] Do not treat long participation in large-scale combat as evidence of equal proficiency in personal combat or bruiser skills. At the same time, do not use deficiencies in small-group combat alone to undervalue skills developed in large-scale combat such as range management, group pressure, and frontline awareness.
-[A0149][AUTHOR_VIEW][AI][DIAG][RULE][PRACTICE][BUILD_GENERAL] If personal-combat skill is diagnosed as the primary bottleneck, before repeatedly changing equipment, present as an improvement candidate a practice environment that demands that skill at high density.
+[A0091][AUTHOR_VIEW][DEF] The build screen shows the upper limit of what a character “can do.”
+[A0092][AUTHOR_VIEW][CAUSE] Practical performance changes with buff maintenance, sustained attacks, timing of CC, ブロック（Block）, and ロール回避（Roll Dodge）, switching between front and back bars, use of obstacles, when healing begins, recognition of offensive turns, and remaining resources; even with the same build, the actual utilization rate of its performance changes.
+[A0093][AUTHOR_VIEW][CORE_JUDGMENT][CAUSE][PRACTICE][BUILD_GENERAL] Even if a character has the performance to handle many use cases, if the player has not learned the execution and decisions required for each use case, only the portions of that versatility for which the player is proficient can be converted reliably into practical combat value.
+[A0096][AUTHOR_VIEW][PRACTICE][ROLE_BRUISER][RANGE_COST] To operate a general-purpose ranged DD effectively across both large-scale and small-group combat, become proficient in foundational personal-combat skills that can sustain offense, defense, healing, CC, and resource decisions against one enemy's worth of combat power even when the benefit of range is not working sufficiently.
+[A0099][AUTHOR_VIEW][DIAG][PRACTICE][RANGE_COST][ROLE_BRUISER][OPPORTUNITY_COST] When a ranged DD moving from large-scale シロディール（Cyrodiil） combat into smaller バトルグラウンド（Battlegrounds） or similar content repeatedly struggles in direct fights against melee builds optimized for small-group combat, diagnose separately underdeveloped personal-combat skills and the opportunity cost in frontal offense/defense paid for range, while allowing that both may be causes at the same time.
+[A0101][AUTHOR_VIEW][CORE_JUDGMENT][AI][DIAG][RULE][PRACTICE][RANGE_COST][OPPORTUNITY_COST] When a ranged DD with extensive experience in large-scale シロディール（Cyrodiil） combat struggles in small-group combat, do not immediately reduce the cause to either player skill alone or build performance alone; diagnose proficiency in personal-combat skills and the opportunity cost of range separately.
+[A0102][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][PRACTICE][EPISTEMIC_SEPARATION] Do not treat long participation in large-scale combat as evidence of equal proficiency in personal combat or bruiser skills. At the same time, do not use deficiencies in small-group combat alone to undervalue skills developed in large-scale combat such as range management, group pressure, and frontline awareness.
+[A0103][AUTHOR_VIEW][AI][DIAG][RULE][PRACTICE][BUILD_GENERAL] If personal-combat skill is diagnosed as the primary bottleneck, before repeatedly changing equipment, present as an improvement candidate a practice environment that demands that skill at high density.
+[A0105][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][BUILD_GENERAL] Do not treat the versatility a character theoretically possesses as identical to the player's practical versatility; separately verify the execution and decision proficiency needed to use each function in actual combat.
+[A0106][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][PRACTICE][ROLE_BRUISER][RANGE_COST] When the missing skill lies in the perception-action loop of personal combat, do not casually assume that “continuing more large-scale シロディール（Cyrodiil） combat will naturally teach it.” Prioritize high-task-fidelity practice that reproduces at high density the necessary decision frequency, time pressure, and offensive/defensive load.
 
 # A03 — Build Design, Performance Requirements, Comparison, and Adjustment
 
-## A03.1 Design Start, Comparison, and Diagnosis
+## 1. Basic Design and Evaluation Procedure
 
-### A03.10 Design Overview and Required Performance
+### Purpose-First Build Design
 
-#### Core Conclusions to Retrieve First
+[A0146][AUTHOR_VIEW][PRIORITY][RULE][DIAG] In build design, do not start from wanting to equip a 'strong set.' First decide what the character will do, and choose equipment sets as means of supplying the performance required for that job.
+[A0148][AUTHOR_VIEW][CAUSE] Deciding the objective to accomplish with the character and the job it will perform for that objective makes it easier to identify the performance the build requires.
+[A0152][AUTHOR_VIEW][RULE][BUILD_SUBSYSTEM_EVALUATION] For a build composed of multiple elements, evaluate the core interaction, supporting elements, and the completed configuration separately; do not automatically expand the strength of one part into the strength of the completed whole.
 
-[A0242][AUTHOR_VIEW][PRIORITY][RULE][DIAG] In build design, do not start from wanting to equip a 'strong set.' First decide what the character will do, and choose equipment sets as means of supplying the performance required for that job.
-[A0243][AUTHOR_VIEW][CAUSE] Deciding the objective to accomplish with the character and the job it will perform for that objective makes it easier to identify the performance the build requires.
-[A0244][AUTHOR_VIEW][DIAG][RULE] When adjusting a build, ask “what is stopping practical performance the most?” rather than “what can I add more of?”
-[A0245][AUTHOR_VIEW][CORE_JUDGMENT][RULE][VIABILITY_VS_RECOMMENDATION][RECOMMENDATION_SCOPE] Treat “functions under specific conditions,” “is competitive for that use case,” and “deserves general standard recommendation” as separate evaluation stages. Do not infer general-use competitiveness or superiority over standard alternatives from examples that function only under limited conditions.
+### Viability and Recommendation Scope
 
-#### Purpose-First Build Design
+[A0187][AUTHOR_VIEW][CORE_JUDGMENT][RULE][VIABILITY_VS_RECOMMENDATION][RECOMMENDATION_SCOPE] Treat “functions under specific conditions,” “is competitive for that use case,” and “deserves general standard recommendation” as separate evaluation stages. Do not infer general-use competitiveness or superiority over standard alternatives from examples that function only under limited conditions.
 
-[A0250][AUTHOR_VIEW][RULE][BUILD_SUBSYSTEM_EVALUATION] For a build composed of multiple elements, evaluate the core interaction, supporting elements, and the completed configuration separately; do not automatically expand the strength of one part into the strength of the completed whole.
+### Evaluation by Battlefield and Combat Scale
 
-#### Evaluation by Battlefield and Combat Scale
+[A0263][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][RECOMMENDATION_SCOPE][EPISTEMIC_SEPARATION] When answering whether a build is strong or weak, first evaluate its strength or weakness in the battlefield, combat scale, and role specified by the question. Do not use general strengths in other use cases to offset a weakness confirmed in the current use case.
 
-[A0258][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][RECOMMENDATION_SCOPE][EPISTEMIC_SEPARATION] When answering whether a build is strong or weak, first evaluate its strength or weakness in the battlefield, combat scale, and role specified by the question. Do not use general strengths in other use cases to offset a weakness confirmed in the current use case.
+### Bottlenecks
 
-#### Bottlenecks
+[A0204][AUTHOR_VIEW][COND] Even with extremely high offensive power, if insufficient durability forces the build into a defensive turn before it can begin attacking, that damage is difficult to use.
+[A0207][AUTHOR_VIEW][DEF][DIAG] A bottleneck is the narrowest part stopping the practical performance of the build as a whole; candidates include damage, healing, スタミナ（Stamina）, mobility, CC, execution load, and recovery after defense.
+[A0208][AUTHOR_VIEW][DIAG][RULE] When adjusting a build, ask “what is stopping practical performance the most?” rather than “what can I add more of?”
 
-[A0260][AUTHOR_VIEW][COND] Even with extremely high offensive power, if insufficient durability forces the build into a defensive turn before it can begin attacking, that damage is difficult to use.
-[A0263][AUTHOR_VIEW][DEF][DIAG] A bottleneck is the narrowest part stopping the practical performance of the build as a whole; candidates include damage, healing, スタミナ（Stamina）, mobility, CC, execution load, and recovery after defense.
+### Opportunity Cost and Alternative Comparison
 
-### A03.11 Comparison, Weaknesses, and Adjustment Diagnosis
+[A0179][AUTHOR_VIEW][CORE_JUDGMENT][LIMIT][RULE][DEF][ALTERNATIVE_REASONING] Choice slots such as equipment slots, ムンダス（Mundus）, traits, and CP are finite, so “it has a useful effect” is not sufficient reason for adoption. Evaluate skills, equipment, and passives by their difference from the strongest realistic alternatives competing for the same slot, and include losing the opportunity to use a stronger choice among the primary disadvantages of a weaker option.
+[A0180][AUTHOR_VIEW][CORE_JUDGMENT][DIAG][RULE][BUILD_EVALUATION_DISCIPLINE] Evaluate build elements not by the number of tooltip effects or standalone performance, but by the slot's job and necessity, practical utilization rate, overlap with existing tools, activation cost, low-cost alternatives, what must be given up to adopt it, and marginal value relative to the strongest alternative for the same slot.
 
-#### Core Conclusions to Retrieve First
+### Identifying Adoption Reasons through Comparison
 
-[A0264][AUTHOR_VIEW][CORE_JUDGMENT][LIMIT][RULE][DEF][ALTERNATIVE_REASONING] Choice slots such as equipment slots, ムンダス（Mundus）, traits, and CP are finite, so “it has a useful effect” is not sufficient reason for adoption. Evaluate skills, equipment, and passives by their difference from the strongest realistic alternatives competing for the same slot, and include losing the opportunity to use a stronger choice among the primary disadvantages of a weaker option.
-[A0265][AUTHOR_VIEW][CORE_JUDGMENT][DIAG][RULE][BUILD_EVALUATION_DISCIPLINE] Evaluate build elements not by the number of tooltip effects or standalone performance, but by the slot's job and necessity, practical utilization rate, overlap with existing tools, activation cost, low-cost alternatives, what must be given up to adopt it, and marginal value relative to the strongest alternative for the same slot.
+[A0184][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING] A useful adoption reason identifies the required job and shows a relevant difference by which that option performs the job substantially better, more reliably, or at lower real cost than realistic competitors.
 
-#### Identifying Adoption Reasons through Comparison
+### Weaknesses and Tradeoffs
 
-[A0270][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING] A useful adoption reason identifies the required job and shows a relevant difference by which that option performs the job substantially better, more reliably, or at lower real cost than realistic competitors.
+[A0210][AUTHOR_VIEW][CORE_JUDGMENT][RULE][OPPORTUNITY_COST][RANGE_COST][ALTERNATIVE_REASONING] When comparing a melee-focused and a ranged-focused build that serve the same primary purpose and the ranged side actually pays performance budget to obtain range, begin from the premise that the ranged-focused side is disadvantaged in pure frontal offense and defense.
+[A0212][AUTHOR_VIEW][CORE_JUDGMENT][RULE][RANGE_COST][ESCAPE_ROUTE] Evaluate separately the ability to make ranged attacks and the ability to maintain or recreate distance after contact or disengage from combat; do not infer kiting or disengagement capability from range alone.
+[A0218][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][MOVEMENT_SPEED][ESCAPE_ROUTE][ALTERNATIVE_REASONING] Allow the melee side to invest performance into pursuit, disengagement, and distance management; do not generate comparisons that grant the ranged side both range and mobility/disengagement for free.
+[A0219][AUTHOR_VIEW][RULE] Strong builds identify “weaknesses acceptable for the intended use” rather than aiming for “zero weaknesses.”
 
-#### Tradeoffs among Range, Mobility, and Frontal Combat
+### Build-Adjustment Questions
 
-[A0273][AUTHOR_VIEW][CORE_JUDGMENT][RULE][OPPORTUNITY_COST][RANGE_COST][ALTERNATIVE_REASONING] When comparing a melee-focused and a ranged-focused build that serve the same primary purpose and the ranged side actually pays performance budget to obtain range, begin from the premise that the ranged-focused side is disadvantaged in pure frontal offense and defense.
-[A0275][AUTHOR_VIEW][CORE_JUDGMENT][RULE][RANGE_COST][ESCAPE_ROUTE] Evaluate separately the ability to make ranged attacks and the ability to maintain or recreate distance after contact or disengage from combat; do not infer kiting or disengagement capability from range alone.
-[A0281][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][MOVEMENT_SPEED][ESCAPE_ROUTE][ALTERNATIVE_REASONING] Allow the melee side to invest performance into pursuit, disengagement, and distance management; do not generate comparisons that grant the ranged side both range and mobility/disengagement for free.
+[A0258][AUTHOR_VIEW][DIAG][CLAIM] Q9. Confirm the battlefield and combat scale in which the build will be used. Duels, small-group combat, 8v8, large-scale field and keep battles in シロディール（Cyrodiil）, 帝都（Imperial City）, and similar environments require different capabilities and relationships with allies, and the same build can reverse from strong to weak or vice versa across them.
 
-#### Acceptable Weaknesses and Surplus Performance
+## 2. Required Performance
 
-[A0282][AUTHOR_VIEW][RULE] Strong builds identify “weaknesses acceptable for the intended use” rather than aiming for “zero weaknesses.”
-
-#### Build-Adjustment Questions
-
-[A0296][AUTHOR_VIEW][DIAG][CLAIM] Q9. Confirm the battlefield and combat scale in which the build will be used. Duels, small-group combat, 8v8, large-scale field and keep battles in シロディール（Cyrodiil）, 帝都（Imperial City）, and similar environments require different capabilities and relationships with allies, and the same build can reverse from strong to weak or vice versa across them.
-
-## A03.2 Independent Evaluation of Required Performance
-
-### A03.D0 Defense Overview and Major Failure Diagnosis
-
-#### Core Conclusions to Retrieve First
-
-[A0326][AUTHOR_VIEW][AI][RULE][LIMIT][DEFENSIVE_DESIGN][BUILD_GENERAL][PVP_BASELINE] Evaluate build survivability not by the presence or count of defensive elements, but by whether the combined effective defense provides sufficient damage mitigation, health margin, time to heal, and room to recover against burst and sustained pressure realistically encountered in the target PvP environment. Defensive skills, resistance buffs, healing, shields, and similar tools normally found in general PvP builds form a baseline that attackers also build their performance to overcome; therefore do not treat merely possessing them as evidence of sufficient self-defense or above-standard toughness.
-[A0327][AUTHOR_VIEW][AI][RULE][LIMIT][SUSTAIN][DEFENSIVE_DESIGN][BUILD_GENERAL] Before rating sustain as a survivability strength, require verification that sufficient damage mitigation and effective defense are established against incoming damage in the target PvP environment. Do not use high recovery values, Max Resources, resource-restoration capability, or the number of times escape actions can be repeated as evidence substituting for insufficient damage mitigation, health margin, Critical Resistance, or similar direct defenses. Do not rate a build with insufficient direct defense as highly survivable merely because it has many resources.
-
-#### Layered Defense
-
-[A0329][AUTHOR_VIEW][CLAIM] PvP survivability is not determined by a single defensive stat.
-[A0330][CLAIM][DEFENSIVE_LAYER][SUSTAIN][DEFENSIVE_DESIGN] Elements that constitute PvP survivability include direct defensive layers such as Max Health, Physical and Spell Resistance, damage reduction, damage shields, healing over time, burst healing, ブロック（Block）, ロール回避（Roll Dodge）, and debuff cleansing, and indirect survival tools such as distance, movement speed, obstacles, CC, offensive pressure against the opponent, and resource reserve. Resource reserve is not itself a defensive layer that reduces incoming damage or restores HP; treat it as an indirect resource that sustains these actions.
-[A0331][AUTHOR_VIEW][RULE] Do not conclude that a build is safe merely because one defensive element has been maximized.
-
-#### Evaluation of Toughness, Recovery, and Return to Offense
-
-[A0338][AUTHOR_VIEW][DEF][RULE] Evaluate defensive performance on two axes: “how difficult it is for HP to decrease” and “how lightly the burden is to restore reduced HP to near full.” Do not equate only one of those axes with high defensive performance.
-[A0339][AUTHOR_VIEW][RULE][CAUSE][DEFENSIVE_DESIGN] Defensive design should secure not only ordinary defensive performance but also a means to recover from danger back to a state where you can fight again. If this is insufficient, pressure that would normally be manageable is more likely to become a major threat.
-
-#### Per-Action Defensive Value and Shared-Resource Dependence
-
-[A0341][AUTHOR_VIEW][EVAL][SUSTAIN][DEFENSIVE_DESIGN][SCOPE] The ability to repeat defensive actions for a long time through high sustain can support longer survival time, but do not infer from that alone that the build has strong offensive return capability or high combat initiative. Whether ending the defensive turn and returning to offense or disengagement is a required condition for a high rating depends on the build's role and win condition.
-[A0342][AUTHOR_VIEW][COND][CAUSE][LIMIT][DIAG][SUSTAIN][DEFENSIVE_DESIGN][TIME_BUDGET] In a configuration with abundant sustain but insufficient per-use defense or healing against enemy pressure in the target environment, do not judge survivability sufficient merely because large sustain allows many defensive actions to be repeated. If processing enemy pressure requires spending most GCDs on defense and prevents transition to offense, CC, movement, or recovery, the marginal value of additional sustain falls sharply; suspect insufficient effective performance per defensive action.
-
-### A03.D1 Damage Environment, Critical Resistance, and Enemy Assumptions
-
-#### Core Conclusions to Retrieve First
-
-[A0360][AUTHOR_VIEW][AI][RULE][PVP_ASSUMPTION][DEFENSIVE_DESIGN] When evaluating self-defense performance of a build active in PvP areas, do not implicitly assume favorable enemy conditions such as enemy players not attacking, having low pursuit capability, having no more mobility than you, or being unable to perform effective attacks or CC from range. Include enemy capabilities realistically encountered in the target environment.
+### Defensive Performance
 
 #### Defensive-Layer Selection
 
-[A0362][AUTHOR_VIEW][AI][RULE][DEFENSIVE_LAYER][CRITICAL_RESISTANCE][DEFENSIVE_DESIGN][BUILD_GENERAL] Except for full tank operation whose primary defensive requirement is maintaining continuous ブロック（Block）, before rating the self-defense performance of a build active in PvP areas highly, explicitly verify whether its total Critical Resistance is sufficient against the Critical burst used by enemy players in the target environment. Do not use a primary PvE purpose, lack of intent to initiate PvP, or a plan to avoid engagement with enemies as reasons to omit this verification.
+[A0332][AUTHOR_VIEW][AI][RULE][DEFENSIVE_LAYER][CRITICAL_RESISTANCE][DEFENSIVE_DESIGN][BUILD_GENERAL] Except for full tank operation whose primary defensive requirement is maintaining continuous ブロック（Block）, before rating the self-defense performance of a build active in PvP areas highly, explicitly verify whether its total Critical Resistance is sufficient against the Critical burst used by enemy players in the target environment. Do not use a primary PvE purpose, lack of intent to initiate PvP, or a plan to avoid engagement with enemies as reasons to omit this verification.
 
-### A03.R Resource and Sustain Design
+#### Layered Defense
 
-#### Core Conclusions to Retrieve First
+[A0343][AUTHOR_VIEW][CLAIM] PvP survivability is not determined by a single defensive stat.
+[A0344][CLAIM][DEFENSIVE_LAYER][SUSTAIN][DEFENSIVE_DESIGN] Elements that constitute PvP survivability include direct defensive layers such as Max Health, Physical and Spell Resistance, damage reduction, damage shields, healing over time, burst healing, ブロック（Block）, ロール回避（Roll Dodge）, and debuff cleansing, and indirect survival tools such as distance, movement speed, obstacles, CC, offensive pressure against the opponent, and resource reserve. Resource reserve is not itself a defensive layer that reduces incoming damage or restores HP; treat it as an indirect resource that sustains these actions.
+[A0345][AUTHOR_VIEW][RULE] Do not conclude that a build is safe merely because one defensive element has been maximized.
 
-[A0401][AUTHOR_VIEW][DEF][RULE][SUSTAIN] Sustain is the ability to maintain resources required to continue fighting. Evaluate it not only by recovery values, but by how many practical cycles of offense, defense, healing, 打破（Break Free）, movement, and renewed offense can be continued. Sustain itself is not a defensive layer that directly reduces incoming damage or directly restores HP; treat it as an indirect combat resource that makes those actions sustainable.
+#### Effective-Defense Baseline and Defensive Value
+
+[A0351][AUTHOR_VIEW][AI][RULE][LIMIT][DEFENSIVE_DESIGN][BUILD_GENERAL][PVP_BASELINE] Evaluate build survivability not by the presence or count of defensive elements, but by whether the combined effective defense provides sufficient damage mitigation, health margin, time to heal, and room to recover against burst and sustained pressure realistically encountered in the target PvP environment. Defensive skills, resistance buffs, healing, shields, and similar tools normally found in general PvP builds form a baseline that attackers also build their performance to overcome; therefore do not treat merely possessing them as evidence of sufficient self-defense or above-standard toughness.
+
+#### Evaluation of Toughness, Recovery, and Return to Offense
+
+[A0379][AUTHOR_VIEW][DEF][RULE] Evaluate defensive performance on two axes: “how difficult it is for HP to decrease” and “how lightly the burden is to restore reduced HP to near full.” Do not equate only one of those axes with high defensive performance.
+[A0386][AUTHOR_VIEW][RULE][CAUSE][DEFENSIVE_DESIGN] Defensive design should secure not only ordinary defensive performance but also a means to recover from danger back to a state where you can fight again. If this is insufficient, pressure that would normally be manageable is more likely to become a major threat.
+
+#### Viability Conditions and Negative Feedback of Sustain-Dependent Defense
+
+[A0435][AUTHOR_VIEW][EVAL][SUSTAIN][DEFENSIVE_DESIGN][SCOPE] The ability to repeat defensive actions for a long time through high sustain can support longer survival time, but do not infer from that alone that the build has strong offensive return capability or high combat initiative. Whether ending the defensive turn and returning to offense or disengagement is a required condition for a high rating depends on the build's role and win condition.
+[A0436][AUTHOR_VIEW][COND][CAUSE][LIMIT][DIAG][SUSTAIN][DEFENSIVE_DESIGN][TIME_BUDGET] In a configuration with abundant sustain but insufficient per-use defense or healing against enemy pressure in the target environment, do not judge survivability sufficient merely because large sustain allows many defensive actions to be repeated. If processing enemy pressure requires spending most GCDs on defense and prevents transition to offense, CC, movement, or recovery, the marginal value of additional sustain falls sharply; suspect insufficient effective performance per defensive action.
+[A0438][AUTHOR_VIEW][AI][RULE][LIMIT][SUSTAIN][DEFENSIVE_DESIGN][BUILD_GENERAL] Before rating sustain as a survivability strength, require verification that sufficient damage mitigation and effective defense are established against incoming damage in the target PvP environment. Do not use high recovery values, Max Resources, resource-restoration capability, or the number of times escape actions can be repeated as evidence substituting for insufficient damage mitigation, health margin, Critical Resistance, or similar direct defenses. Do not rate a build with insufficient direct defense as highly survivable merely because it has many resources.
+
+#### Critical Resistance, Enemy Assumptions, and Defensive Modifications
+
+[A0466][AUTHOR_VIEW][AI][RULE][PVP_ASSUMPTION][DEFENSIVE_DESIGN] When evaluating self-defense performance of a build active in PvP areas, do not implicitly assume favorable enemy conditions such as enemy players not attacking, having low pursuit capability, having no more mobility than you, or being unable to perform effective attacks or CC from range. Include enemy capabilities realistically encountered in the target environment.
+
+### Resource and Sustain Performance
 
 #### Emergency Resource Margin
 
-[A0404][AUTHOR_VIEW][COND][DIAG] There are situations where you can survive at half HP if you still have enough スタミナ（Stamina） to 打破（Break Free）, while even at high HP you can die suddenly to CC into burst if Stamina is empty. Therefore, danger can begin not when a resource reaches zero, but when the margin reserved for safety actions has been exhausted.
+[A0510][AUTHOR_VIEW][COND][DIAG] There are situations where you can survive at half HP if you still have enough スタミナ（Stamina） to 打破（Break Free）, while even at high HP you can die suddenly to CC into burst if Stamina is empty. Therefore, danger can begin not when a resource reaches zero, but when the margin reserved for safety actions has been exhausted.
 
 #### Sustain Baseline and Adjustment
 
-[A0405][AUTHOR_VIEW][COND] Even if resources are sufficient for attacking alone, practical sustain is insufficient if a single 打破（Break Free） from CC causes depletion.
+[A0511][AUTHOR_VIEW][DEF][RULE][SUSTAIN] Sustain is the ability to maintain resources required to continue fighting. Evaluate it not only by recovery values, but by how many practical cycles of offense, defense, healing, 打破（Break Free）, movement, and renewed offense can be continued. Sustain itself is not a defensive layer that directly reduces incoming damage or directly restores HP; treat it as an indirect combat resource that makes those actions sustainable.
+[A0512][AUTHOR_VIEW][COND] Even if resources are sufficient for attacking alone, practical sustain is insufficient if a single 打破（Break Free） from CC causes depletion.
 
-### A03.M Mobility and Engagement Initiative
+### Mobility Performance and Engagement Initiative
 
-#### Core Conclusions to Retrieve First
+[A0497][AUTHOR_VIEW][CLAIM][LIMIT][COND][MOVEMENT_SPEED] The faster side tends to control when combat starts and ends, while the slower side may be unable to begin combat unless the opponent chooses to attack; this problem is especially pronounced for melee builds.
 
-[A0416][AUTHOR_VIEW][CLAIM][LIMIT][COND][MOVEMENT_SPEED] The faster side tends to control when combat starts and ends, while the slower side may be unable to begin combat unless the opponent chooses to attack; this problem is especially pronounced for melee builds.
-
-### A03.X Executability and Action Economy
-
-#### Core Conclusions to Retrieve First
-
-[A0419][AUTHOR_VIEW][RULE][TIME_BUDGET] When one skill can perform multiple jobs such as offense + healing within the same GCD, it is more time-efficient than performing those jobs with separate skills, and this value is not visible from individual numerical performance alone.
-[A0420][AUTHOR_VIEW][PRIORITY][TIME_BUDGET] Evaluate the time efficiency of a skill or effect not only by the total number of GCDs required, but also by when in the combat cycle those GCDs must be paid.
-[A0422][AUTHOR_VIEW][PRIORITY] In PvP, treat usability itself as build performance.
-[A0423][AUTHOR_VIEW][RULE][CLASS_OPPORTUNITY_COST][BUILD_GENERAL] When comparing performance between classes or builds, subtract as execution cost not only their maximum-state numbers but also monitoring, positional adjustment, timing management, additional GCDs, special-resource management, and other tasks required beyond ordinary PvP actions to reach and maintain that state. If two configurations provide similar effective performance, the configuration that can produce it across broader conditions with less additional management has a practical advantage by that difference itself.
+### Execution and Action Economy
 
 #### GCD, Time Budget, and Processing Capacity
 
-[A0426][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][TIME_BUDGET] When consuming a combat resource with an expiration time, simultaneous-hold cap, or generation rate requires GCDs, the resource can be generated faster than practical processing capacity. In that case, do not make consuming every resource the goal; intentionally discard low-marginal-value resources to preserve high-value GCDs for offense, defense, healing, positioning, and similar actions.
+[A0527][AUTHOR_VIEW][RULE][TIME_BUDGET] When one skill can perform multiple jobs such as offense + healing within the same GCD, it is more time-efficient than performing those jobs with separate skills, and this value is not visible from individual numerical performance alone.
+[A0529][AUTHOR_VIEW][PRIORITY][TIME_BUDGET] Evaluate the time efficiency of a skill or effect not only by the total number of GCDs required, but also by when in the combat cycle those GCDs must be paid.
+[A0530][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][TIME_BUDGET] When consuming a combat resource with an expiration time, simultaneous-hold cap, or generation rate requires GCDs, the resource can be generated faster than practical processing capacity. In that case, do not make consuming every resource the goal; intentionally discard low-marginal-value resources to preserve high-value GCDs for offense, defense, healing, positioning, and similar actions.
 
-## A03.3 Components and Interactions
+#### Usability
 
-### A03.C Components and Interactions
+[A0541][AUTHOR_VIEW][PRIORITY] In PvP, treat usability itself as build performance.
 
-#### Front-Bar / Back-Bar and Equipment Topology
+#### Complexity and Execution Cost
 
-[A0439][AUTHOR_VIEW][DIAG][RULE] Remaining on the offensive bar while the opponent is attacking strongly tends to be low-probability play, while continuing to prepare on the back bar while the opponent is occupied with healing misses an offensive turn. Determine whether the current time is for attacking or defending and connect that judgment to the roles of the bars.
+[A0544][AUTHOR_VIEW][RULE][CLASS_OPPORTUNITY_COST][BUILD_GENERAL] When comparing performance between classes or builds, subtract as execution cost not only their maximum-state numbers but also monitoring, positional adjustment, timing management, additional GCDs, special-resource management, and other tasks required beyond ordinary PvP actions to reach and maintain that state. If two configurations provide similar effective performance, the configuration that can produce it across broader conditions with less additional management has a practical advantage by that difference itself.
 
-#### Time-Investment Performance and Long Fights
+## 3. Components and Interactions
 
-[A0448][AUTHOR_VIEW][RULE][BUILD_GENERAL][TIME_BUDGET] For configurations that pay an action now and recover its value several seconds later through delayed attacks, position-dependent resources, stacking effects, reuse through follow-up actions, or similar mechanics, evaluate not only maximum-state performance but how often the same local fight can be maintained until that investment is recovered. If disengagement, target switching, or battlefield movement repeatedly resets combat before recovery, effective performance can fall sharply because only the initial investment is repeatedly paid.
+### Front-Bar / Back-Bar and Equipment Topology
 
-#### Stat Scaling and Shared Resources
+[A0155][AUTHOR_VIEW][DIAG][RULE] Remaining on the offensive bar while the opponent is attacking strongly tends to be low-probability play, while continuing to prepare on the back bar while the opponent is occupied with healing misses an offensive turn. Determine whether the current time is for attacking or defending and connect that judgment to the roles of the bars.
 
-[A0451][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][BUILD_GENERAL][TIME_BUDGET] When an offensive combo and defensive actions share the same stacks, special resource, or similar value, spending it on defense carries not only the defensive skill's GCD and ordinary resource cost, but also the time required to rebuild that special resource before returning to the next offensive combo; evaluate this rebuilding time as opportunity cost.
+### Stat Scaling and Shared Resources
 
-#### Marginal Evaluation of Skill-Altering Gear
+[A0167][AUTHOR_VIEW][RULE][OPPORTUNITY_COST][BUILD_GENERAL][TIME_BUDGET] When an offensive combo and defensive actions share the same stacks, special resource, or similar value, spending it on defense carries not only the defensive skill's GCD and ordinary resource cost, but also the time required to rebuild that special resource before returning to the next offensive combo; evaluate this rebuilding time as opportunity cost.
 
-[A0453][AUTHOR_VIEW][LIMIT][PRIORITY][NATURAL_ACTION_TEST] Equipment triggered by actions you would tactically choose even without the effect is easier to justify. If activating the effect requires extra GCDs, resources, bar swaps, positioning, or similar actions solely for the proc, subtract them as explicit costs.
-[A0455][AUTHOR_VIEW][RULE][CAUSE][EFFECT_COVERAGE] If an effect applies only to some attacks, heals, or actions, do not treat it as performance across the entire build; consider the share of practical actions covered. Even a large effect on covered actions can make only a small effective contribution to the whole when coverage is low.
+### Interactions among Build Elements
 
-#### Interactions among Build Elements
+[A0177][AUTHOR_VIEW][AI][RULE][BUILD_GENERAL][SUSTAIN][OPPORTUNITY_COST] When rating a combination of multiple skills, equipment effects, and combat mechanics as high performance, do not simply add each element in isolation. Verify whether they can coexist as one practical combat cycle, including competition for shared resources, order of use, maintenance duration, reuse conditions, GCDs, and conditions under which one effect removes or interferes with another.
 
-[A0461][AUTHOR_VIEW][AI][RULE][BUILD_GENERAL][SUSTAIN][OPPORTUNITY_COST] When rating a combination of multiple skills, equipment effects, and combat mechanics as high performance, do not simply add each element in isolation. Verify whether they can coexist as one practical combat cycle, including competition for shared resources, order of use, maintenance duration, reuse conditions, GCDs, and conditions under which one effect removes or interferes with another.
+### Time-Investment Performance and Long Fights
 
-## A03.4 Limited-Use and Opponent-Dependent Design
+[A0164][AUTHOR_VIEW][RULE][BUILD_GENERAL][TIME_BUDGET] For configurations that pay an action now and recover its value several seconds later through delayed attacks, position-dependent resources, stacking effects, reuse through follow-up actions, or similar mechanics, evaluate not only maximum-state performance but how often the same local fight can be maintained until that investment is recovered. If disengagement, target switching, or battlefield movement repeatedly resets combat before recovery, effective performance can fall sharply because only the initial investment is repeatedly paid.
 
-### A03.S Limited-Use and Opponent-Dependent Design
+### Marginal Evaluation of Skill-Altering Gear
 
-#### Specialized Builds and Target Selection
+[A0169][AUTHOR_VIEW][LIMIT][PRIORITY][NATURAL_ACTION_TEST] Equipment triggered by actions you would tactically choose even without the effect is easier to justify. If activating the effect requires extra GCDs, resources, bar swaps, positioning, or similar actions solely for the proc, subtract them as explicit costs.
+[A0171][AUTHOR_VIEW][RULE][CAUSE][EFFECT_COVERAGE] If an effect applies only to some attacks, heals, or actions, do not treat it as performance across the entire build; consider the share of practical actions covered. Even a large effect on covered actions can make only a small effective contribution to the whole when coverage is low.
 
-[A0467][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING][OPPORTUNITY_COST] A configuration that sacrifices general performance to specialize against a particular opponent or situation is not justified merely because it is effective against that target. Evaluate whether it creates a larger difference than strong realistic general-purpose alternatives in kill probability, time-to-process, GCD or resource pressure, battlefield advantage, or similar outcomes, and whether that difference exceeds the opportunity cost of lost general performance.
+## 4. Limited-Use and Opponent-Dependent Design
+
+### Specialized Builds and Target Selection
+
+[A0196][AUTHOR_VIEW][RULE][ALTERNATIVE_REASONING][OPPORTUNITY_COST] A configuration that sacrifices general performance to specialize against a particular opponent or situation is not justified merely because it is effective against that target. Evaluate whether it creates a larger difference than strong realistic general-purpose alternatives in kill probability, time-to-process, GCD or resource pressure, battlefield advantage, or similar outcomes, and whether that difference exceeds the opportunity cost of lost general performance.
 
 # A04 — Practical Offense, Pressure, and Finishing
 
-## A04.1 Determine Failure to Finish First
+## Basic Offensive Execution
 
-### A04.00 Offensive Success Overview and Failure Map
+### CC
 
-#### Core Conclusions to Retrieve First
+[A0265][DEF][SCOPE] In this Corpus, CC（Crowd Control） refers to effects that incapacitate the opponent and are subject to 打破（Break Free）. 移動不能（Immobilize） and 減速（Snare） are not included in CC.
+[A0270][AUTHOR_VIEW][RULE] When attacking, create enough pressure that the opponent judges that prioritizing self-defense over counterattacking is necessary to avoid death.
+[A0271][AUTHOR_VIEW][CLAIM][RULE] Opponents also often initiate combos or rushes from CC, so anticipate this and either survive it through defensive actions or forcibly interrupt it with CC.
+[A0273][AUTHOR_VIEW][RULE] The main uses of CC are to begin your offense, interrupt the opponent's offense, interfere with healing immediately before a kill, and interfere with escape immediately before a kill.
 
-[A0476][AUTHOR_VIEW][DIAG][RULE] If even your strongest-class combo cannot reduce the opponent's health enough, a win condition based on killing that opponent with a burst combo is unlikely to function; do not fixate on a burst kill and switch to another win condition.
-[A0477][AUTHOR_VIEW][CLAIM][ALTERNATIVE] When a burst kill is unlikely to function, alternative win conditions include gradually pushing the opponent down with sustained damage pressure, attacking their resources by forcing inefficient combat actions, or abandoning the fight early and disengaging.
-[A0478][AUTHOR_VIEW][DIAG][PRESSURE_VS_FINISH] When you fail to secure a kill, distinguish whether “you applied enough pressure to force defense, healing, or disengagement but lacked the final finishing tool” or “the pressure itself was insufficient, leaving the opponent able to continue attacking, applying CC, and adjusting position.”
+### Burst
 
-#### Burst
+[A0281][DEF] Burst means concentrating a large amount of damage into a short time window.
+[A0282][LIMIT] Even a single large hit may fail to secure a kill if the opponent can heal after each individual hit.
+[A0283][AUTHOR_VIEW][RULE] For burst, overlap delayed attacks, damage over time, debuffs, CC, strong regular attacks, アルティメット（Ultimate）, follow-up attacks, and executes within a short time window.
+[A0287][AUTHOR_VIEW][PRIORITY] What matters in burst is not merely using individually strong abilities in sequence, but creating multiple simultaneous problems that the opponent cannot easily resolve with a single heal.
+[A0290][AUTHOR_VIEW][RULE][COND][CAUSE] Do not forcibly commit everything when burst conditions are not ready. Representative poor conditions include the opponent being completely healthy, your buffs being down, important debuffs not yet applied, insufficient resources, or CC being unavailable; even committing major resources in such a state is unlikely to produce results.
+[A0294][AUTHOR_VIEW][DIAG][RULE] If even your strongest-class combo cannot reduce the opponent's health enough, a win condition based on killing that opponent with a burst combo is unlikely to function; do not fixate on a burst kill and switch to another win condition.
+[A0295][AUTHOR_VIEW][CLAIM][ALTERNATIVE] When a burst kill is unlikely to function, alternative win conditions include gradually pushing the opponent down with sustained damage pressure, attacking their resources by forcing inefficient combat actions, or abandoning the fight early and disengaging.
+[A0296][AUTHOR_VIEW][DIAG][PRESSURE_VS_FINISH] When you fail to secure a kill, distinguish whether “you applied enough pressure to force defense, healing, or disengagement but lacked the final finishing tool” or “the pressure itself was insufficient, leaving the opponent able to continue attacking, applying CC, and adjusting position.”
 
-[A0479][DEF] Burst means concentrating a large amount of damage into a short time window.
-[A0480][LIMIT] Even a single large hit may fail to secure a kill if the opponent can heal after each individual hit.
+## Pressure Continuation and Failure-to-Finish Diagnosis
 
-## A04.2 Create Offensive Windows with CC
+### Post-Burst Damage Troughs and Pressure between Kill Windows
 
-### A04.CC CC and Offensive Windows
-
-#### Core Conclusions to Retrieve First
-
-[A0483][AUTHOR_VIEW][RULE] When attacking, create enough pressure that the opponent judges that prioritizing self-defense over counterattacking is necessary to avoid death.
-[A0484][AUTHOR_VIEW][RULE] The main uses of CC are to begin your offense, interrupt the opponent's offense, interfere with healing immediately before a kill, and interfere with escape immediately before a kill.
-
-#### CC Definition, Value, and Time Limit
-
-[A0485][DEF][SCOPE] In this Corpus, CC（Crowd Control） refers to effects that incapacitate the opponent and are subject to 打破（Break Free）. 移動不能（Immobilize） and 減速（Snare） are not included in CC.
-
-#### CC Pressure, Interruption, and Resource Load
-
-[A0490][AUTHOR_VIEW][CLAIM][RULE] Opponents also often initiate combos or rushes from CC, so anticipate this and either survive it through defensive actions or forcibly interrupt it with CC.
-
-## A04.3 Make Burst Succeed
-
-### A04.B Burst Execution
-
-#### Burst
-
-[A0498][AUTHOR_VIEW][RULE] For burst, overlap delayed attacks, damage over time, debuffs, CC, strong regular attacks, アルティメット（Ultimate）, follow-up attacks, and executes within a short time window.
-[A0502][AUTHOR_VIEW][PRIORITY] What matters in burst is not merely using individually strong abilities in sequence, but creating multiple simultaneous problems that the opponent cannot easily resolve with a single heal.
-[A0505][AUTHOR_VIEW][RULE][COND][CAUSE] Do not forcibly commit everything when burst conditions are not ready. Representative poor conditions include the opponent being completely healthy, your buffs being down, important debuffs not yet applied, insufficient resources, or CC being unavailable; even committing major resources in such a state is unlikely to produce results.
-
-## A04.4 Maintain Pressure between Kill Windows
-
-### A04.P Post-Burst and Sustained Pressure
-
-#### Post-Burst Damage Troughs and Pressure between Kill Windows
-
-[A0508][AUTHOR_VIEW][RULE][BURST_DESIGN][PRESSURE_VS_FINISH] In a build whose primary finishing tools depend on アルティメット（Ultimate）, cooldowns, stacking conditions, or similar mechanics with long preparation times, evaluate not only the strength of the kill window but also whether ordinary pressure between windows can prevent the opponent from fully stabilizing. If the opponent can fully heal and fully prepare every time, merely surviving until the next kill window should not be counted as progress toward a kill.
+[A0298][AUTHOR_VIEW][RULE][BURST_DESIGN][PRESSURE_VS_FINISH] In a build whose primary finishing tools depend on アルティメット（Ultimate）, cooldowns, stacking conditions, or similar mechanics with long preparation times, evaluate not only the strength of the kill window but also whether ordinary pressure between windows can prevent the opponent from fully stabilizing. If the opponent can fully heal and fully prepare every time, merely surviving until the next kill window should not be counted as progress toward a kill.
 
 # A05 — Practical Defense and Healing
 
-## A05.1 From Lethal-Damage Prevention to Recovery
+## Emergency Defense and Recovery
 
-### A05.00 Initial Defense and Recovery Overview
+### Basic Initial-Defense Sequence
 
-#### Core Conclusions to Retrieve First
+[A0354][AUTHOR_VIEW][CORE_JUDGMENT][PRACTICE][COMMON_DEFENSIVE_DECISION][DEFENSIVE_SEQUENCE][PRIORITY] In early practice, when you recognize danger and are in a state where you can choose your own defensive action, practice the reflexive basic sequence of first establishing ブロック（Block）, then moving into recovery such as switching to the defensive bar, healing, defensive skills, LoS, or creating distance.
 
-[A0514][AUTHOR_VIEW][PRIORITY][LETHAL_DAMAGE_PREVENTION] In situations with a possibility of lethal damage, prioritize reducing incoming damage and surviving without letting HP reach 0 over conserving resources.
-[A0515][AUTHOR_VIEW][CORE_JUDGMENT][PRACTICE][COMMON_DEFENSIVE_DECISION][DEFENSIVE_SEQUENCE][PRIORITY] In early practice, when you recognize danger and are in a state where you can choose your own defensive action, practice the reflexive basic sequence of first establishing ブロック（Block）, then moving into recovery such as switching to the defensive bar, healing, defensive skills, LoS, or creating distance.
-[A0516][AUTHOR_VIEW][PRACTICE][DEFENSIVE_SEQUENCE] As with an offensive burst sequence, when entering a defensive turn, first establish Block as the first voluntary defense, use that defensive time to connect healing, defense, and positional adjustment, and prepare in advance for each build a short recovery sequence that returns you to a state where you can fight again; practice it repeatedly. For an ordinary build, do not make increasing the number of emergency defensive-sequence patterns an objective in itself; narrow them to roughly one or two primary sequences that are effective and practice until they can be executed reflexively under severe pressure.
+### Block Operation and Timing
 
-#### Toughness, Healing, and Return to Offense
+[A0355][DEF][BLOCK] Distinguish long-duration blocking, which maintains the ブロック（Block） state continuously, from short-duration blocking used only briefly to handle a major attack.
+[A0356][AUTHOR_VIEW][RULE][BLOCK] Do not use the opportunity cost of long-duration blocking as a reason to avoid short-duration ブロック（Block） against major attacks that can be blocked.
+[A0359][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][TIME_BUDGET] ブロック（Block） is not constrained by the normal active-skill GCD and can be input to establish the block state even while a skill GCD is active.
+[A0360][AUTHOR_VIEW][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] Because the block state is maintained when bar swapping while holding ブロック（Block）, in an emergency you can establish block first and move to the defensive bar while maintaining that state.
+[A0363][AUTHOR_VIEW][CAUSE][BLOCK][CC][DEFENSIVE_SEQUENCE] When a blockable CC can be blocked in advance, its value includes not only preventing the CC itself but also preventing upstream the unfavorable chain of the CC removing ブロック（Block）, spending スタミナ（Stamina） on 打破（Break Free）, exposure to the following burst, and rebuilding defense.
+[A0364][AUTHOR_VIEW][DIAG][SUSTAIN][DEFENSIVE_SEQUENCE][BLOCK][BLOCK_COST] A state in which the スタミナ（Stamina） margin needed for ブロック（Block） has been lost is not a general reason to place healing before block; diagnose it separately as a dangerous state in which the emergency Stamina reserve or practical-combat sustain has already been exhausted.
+[A0371][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][CC][DEFENSIVE_SEQUENCE] Do not use the state of already being incapacitated by CC that requires 打破（Break Free） as a counterexample to the principle of initiating defense with ブロック（Block） first. Treat the CC state as one in which normal voluntary defensive choices are restricted, and explain state recovery through Break Free together with re-establishing block as early as possible.
+[A0372][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][BLOCK][BLOCK_COST][SUSTAIN][DEFENSIVE_SEQUENCE] Do not use having no スタミナ（Stamina） remaining for ブロック（Block） as grounds for making heal-first the standard beginner recommendation. Diagnose that state separately as depletion of the emergency resource reserve.
+[A0373][AUTHOR_VIEW][AI][RULE][PRIORITY][DEFENSIVE_SEQUENCE] When listing multiple emergency defensive actions for beginners, do not present them as unordered alternatives in a way that loses the opening priority of ブロック（Block）. In a context that deals with the initiation order during danger, explicitly place block first.
 
-[A0518][AUTHOR_VIEW][CAUSE][BLOCK] When a burst that can be ブロック（Block）ed can be blocked to reduce incoming damage, doing so tends to reduce the amount of HP rewind required and the associated burden of healing actions and healing resources compared with taking it unprotected and then healing the lost HP afterward.
+### Toughness, Healing, and Return to Offense
 
-## A05.2 Block Establishment, Maintenance, and Recovery
+[A0381][AUTHOR_VIEW][PRIORITY][LETHAL_DAMAGE_PREVENTION] In situations with a possibility of lethal damage, prioritize reducing incoming damage and surviving without letting HP reach 0 over conserving resources.
+[A0382][AUTHOR_VIEW][CAUSE][BLOCK] When a burst that can be ブロック（Block）ed can be blocked to reduce incoming damage, doing so tends to reduce the amount of HP rewind required and the associated burden of healing actions and healing resources compared with taking it unprotected and then healing the lost HP afterward.
+[A0385][AUTHOR_VIEW][PRACTICE][DEFENSIVE_SEQUENCE] As with an offensive burst sequence, when entering a defensive turn, first establish Block as the first voluntary defense, use that defensive time to connect healing, defense, and positional adjustment, and prepare in advance for each build a short recovery sequence that returns you to a state where you can fight again; practice it repeatedly. For an ordinary build, do not make increasing the number of emergency defensive-sequence patterns an objective in itself; narrow them to roughly one or two primary sequences that are effective and practice until they can be executed reflexively under severe pressure.
 
-### A05.B Block Operation
+## Healing and Sustained-Pressure Response
 
-#### Short Block and Early Input
+### Heal-over-Time and Emergency Healing
 
-[A0521][DEF][BLOCK] Distinguish long-duration blocking, which maintains the ブロック（Block） state continuously, from short-duration blocking used only briefly to handle a major attack.
-[A0522][AUTHOR_VIEW][RULE][BLOCK] Do not use the opportunity cost of long-duration blocking as a reason to avoid short-duration ブロック（Block） against major attacks that can be blocked.
-[A0525][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][TIME_BUDGET] ブロック（Block） is not constrained by the normal active-skill GCD and can be input to establish the block state even while a skill GCD is active.
-[A0526][AUTHOR_VIEW][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] Because the block state is maintained when bar swapping while holding ブロック（Block）, in an emergency you can establish block first and move to the defensive bar while maintaining that state.
+[A0388][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT] In PvP, even when a healer is present, do not make it standard operation to abandon executable self-defense and self-healing and delegate your HP management entirely to the healer.
+[A0391][AUTHOR_VIEW][GOAL][PRACTICE][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] For beginner builds, treat a configuration with both healing over time that works routinely and a larger heal for danger as a basic candidate for early learning, and make it a goal to gradually increase the situations in which the beginner can distinguish and use both appropriately.
+[A0394][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][RULE][HEALING][DEFENSIVE_DESIGN][PVP_BASELINE] In normal PvP, excluding specialized configurations that intentionally gain performance from the user's own low-HP state, make restoring current HP to maximum HP and maintaining maximum HP as much as practical a basic goal.
+[A0399][AUTHOR_VIEW][RULE][HEALING][DEFENSIVE_SEQUENCE] Aiming for maximum HP does not mean mechanically spamming burst heals until maximum HP is reached. Evaluate recovery as including the use of healing over time, ブロック（Block）, mitigation, LoS, distance, disengagement, and similar tools to return to a state in which restored HP can be retained.
 
-#### Compatibility with CC, Break Free, Roll Dodge, and Skills
+### Sustained Pressure, Disengagement, and Re-engagement
 
-[A0528][AUTHOR_VIEW][CAUSE][BLOCK][CC][DEFENSIVE_SEQUENCE] When a blockable CC can be blocked in advance, its value includes not only preventing the CC itself but also preventing upstream the unfavorable chain of the CC removing ブロック（Block）, spending スタミナ（Stamina） on 打破（Break Free）, exposure to the following burst, and rebuilding defense.
-[A0529][AUTHOR_VIEW][DIAG][SUSTAIN][DEFENSIVE_SEQUENCE][BLOCK][BLOCK_COST] A state in which the スタミナ（Stamina） margin needed for ブロック（Block） has been lost is not a general reason to place healing before block; diagnose it separately as a dangerous state in which the emergency Stamina reserve or practical-combat sustain has already been exhausted.
-
-#### Preventing Misreading in Beginner Guidance
-
-[A0535][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][CC][DEFENSIVE_SEQUENCE] Do not use the state of already being incapacitated by CC that requires 打破（Break Free） as a counterexample to the principle of initiating defense with ブロック（Block） first. Treat the CC state as one in which normal voluntary defensive choices are restricted, and explain state recovery through Break Free together with re-establishing block as early as possible.
-[A0536][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][BLOCK][BLOCK_COST][SUSTAIN][DEFENSIVE_SEQUENCE] Do not use having no スタミナ（Stamina） remaining for ブロック（Block） as grounds for making heal-first the standard beginner recommendation. Diagnose that state separately as depletion of the emergency resource reserve.
-[A0537][AUTHOR_VIEW][AI][RULE][PRIORITY][DEFENSIVE_SEQUENCE] When listing multiple emergency defensive actions for beginners, do not present them as unordered alternatives in a way that loses the opening priority of ブロック（Block）. In a context that deals with the initiation order during danger, explicitly place block first.
-
-## A05.3 Restore and Retain HP
-
-### A05.H Healing Operation
-
-#### Core Conclusions to Retrieve First
-
-[A0543][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][RULE][HEALING][DEFENSIVE_DESIGN][PVP_BASELINE] In normal PvP, excluding specialized configurations that intentionally gain performance from the user's own low-HP state, make restoring current HP to maximum HP and maintaining maximum HP as much as practical a basic goal.
-[A0544][AUTHOR_VIEW][RULE][HEALING][DEFENSIVE_SEQUENCE] Aiming for maximum HP does not mean mechanically spamming burst heals until maximum HP is reached. Evaluate recovery as including the use of healing over time, ブロック（Block）, mitigation, LoS, distance, disengagement, and similar tools to return to a state in which restored HP can be retained.
-
-#### Heal-over-Time and Emergency Healing
-
-[A0546][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT] In PvP, even when a healer is present, do not make it standard operation to abandon executable self-defense and self-healing and delegate your HP management entirely to the healer.
-[A0549][AUTHOR_VIEW][GOAL][PRACTICE][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] For beginner builds, treat a configuration with both healing over time that works routinely and a larger heal for danger as a basic candidate for early learning, and make it a goal to gradually increase the situations in which the beginner can distinguish and use both appropriately.
-
-## A05.4 Disengage from Sustained Pressure and Re-enter
-
-### A05.P Sustained-Pressure Response, Disengagement, and Re-entry
-
-#### Core Conclusions to Retrieve First
-
-[A0553][AUTHOR_VIEW][DIAG][DOT][HEALING][DEFENSIVE_SEQUENCE] Treat the typical pattern of losing to sustained pressure not as healing stopping at a particular HP value, but as repeatedly restoring to high HP and then being worn down again, with the HP level at which healing begins or ends gradually worsening through those repetitions.
-[A0555][AUTHOR_VIEW][DEFAULT][PRIORITY][HEALING][ESCAPE_ROUTE][DEFENSIVE_SEQUENCE] If you cannot retain high HP after healing against sustained pressure and have no clear reversal condition, consider early disengagement while HP and emergency resources still remain sufficiently available.
-
-#### Sustained Pressure, Disengagement, and Re-engagement
-
-[A0559][AUTHOR_VIEW][AI][LIMIT][HEALING][DEFENSIVE_DESIGN][DEFENSIVE_SEQUENCE] Do not use A0338's defensive-performance evaluation of whether one can “return to near full” as grounds for claiming that beginners need not recover to maximum HP. Separate the evaluation axis for defensive performance from the beginner criterion for returning to offense.
-[A0560][AUTHOR_VIEW][AI][LIMIT][HEALING][SUSTAIN][DEFENSIVE_SEQUENCE] Do not use the diagnostic example in A0404 that “survival may be possible at low HP when emergency スタミナ（Stamina） remains” as grounds for returning to offense from low HP. Treat that proposition as an example showing the importance of emergency resource margin.
-[A0562][AUTHOR_VIEW][AI][RULE][DOT][HEALING][DEFENSIVE_SEQUENCE] When explaining advantage or disadvantage under sustained pressure, do not establish a particular HP percentage as a “wall above which healing is impossible.” Evaluate whether restored HP can be retained and whether the subsequent HP trend improves or worsens.
+[A0401][AUTHOR_VIEW][DIAG][DOT][HEALING][DEFENSIVE_SEQUENCE] Treat the typical pattern of losing to sustained pressure not as healing stopping at a particular HP value, but as repeatedly restoring to high HP and then being worn down again, with the HP level at which healing begins or ends gradually worsening through those repetitions.
+[A0404][AUTHOR_VIEW][DEFAULT][PRIORITY][HEALING][ESCAPE_ROUTE][DEFENSIVE_SEQUENCE] If you cannot retain high HP after healing against sustained pressure and have no clear reversal condition, consider early disengagement while HP and emergency resources still remain sufficiently available.
+[A0409][AUTHOR_VIEW][AI][LIMIT][HEALING][DEFENSIVE_DESIGN][DEFENSIVE_SEQUENCE] Do not use A0379's defensive-performance evaluation of whether one can “return to near full” as grounds for claiming that beginners need not recover to maximum HP. Separate the evaluation axis for defensive performance from the beginner criterion for returning to offense.
+[A0410][AUTHOR_VIEW][AI][LIMIT][HEALING][SUSTAIN][DEFENSIVE_SEQUENCE] Do not use the diagnostic example in A0510 that “survival may be possible at low HP when emergency スタミナ（Stamina） remains” as grounds for returning to offense from low HP. Treat that proposition as an example showing the importance of emergency resource margin.
+[A0412][AUTHOR_VIEW][AI][RULE][DOT][HEALING][DEFENSIVE_SEQUENCE] When explaining advantage or disadvantage under sustained pressure, do not establish a particular HP percentage as a “wall above which healing is impossible.” Evaluate whether restored HP can be retained and whether the subsequent HP trend improves or worsens.
 
 # A06 — Practical Movement, Positioning, and Disengagement
 
-## A06.1 Purpose of LoS and Fixed Obstacles
+## LoS and Terrain Use
 
-### A06.L LoS Fundamentals
+### LoS
 
-#### Core Conclusions to Retrieve First
+[A0476][AUTHOR_VIEW][PRIORITY] Indestructible terrain and fixed obstacles are defensive assets that can be used repeatedly without consuming resources or GCDs, and LoS using them is a top-tier defensive tool for both you and the enemy.
+[A0479][AUTHOR_VIEW][PRIORITY] The primary purpose of using obstacles is to reduce the amount of time you are exposed to enemy attacks.
+[A0481][CAUSE] Time created by LoS during which you are not being attacked can be used for healing, recovering resources, refreshing buffs, regrouping with allies, or preparing the next attack.
 
-[A0568][AUTHOR_VIEW][PRIORITY] Indestructible terrain and fixed obstacles are defensive assets that can be used repeatedly without consuming resources or GCDs, and LoS using them is a top-tier defensive tool for both you and the enemy.
+## Disengagement and Outnumbered Operation
 
-#### LoS
+### Escape
 
-[A0571][AUTHOR_VIEW][PRIORITY] The primary purpose of using obstacles is to reduce the amount of time you are exposed to enemy attacks.
-[A0573][CAUSE] Time created by LoS during which you are not being attacked can be used for healing, recovering resources, refreshing buffs, regrouping with allies, or preparing the next attack.
-
-## A06.3 Escape and Disengagement
-
-### A06.E Escape and Disengagement
-
-#### Escape
-
-[A0586][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] Do not equate “running away” in PvP with defeat.
-[A0588][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] When targeted by multiple enemies, do not absorb every attack head-on in open ground; use distance, obstacles, and CC to spread out pursuers, and survive with ブロック（Block） and ロール回避（Roll Dodge）.
+[A0494][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] Do not equate “running away” in PvP with defeat.
+[A0496][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] When targeted by multiple enemies, do not absorb every attack head-on in open ground; use distance, obstacles, and CC to spread out pursuers, and survive with ブロック（Block） and ロール回避（Roll Dodge）.
 
 # A07 — Role Fundamentals and Group Contribution
 
-## A07.1 Identify the Problem Solved before the Role Label
+## Common Fundamentals
 
-### A07.00 Common Role Fundamentals
+### Role Classification and Evaluation
 
-#### Core Conclusions to Retrieve First
+[A0545][AUTHOR_VIEW][DEF][CLAIM] PvP playstyles can be organized broadly into role tendencies such as tank, healer / buffer / debuffer, bruiser, skirmisher, ganker / bomber, and similar categories, and hybrid operation combining multiple tendencies is also common. These categories are not intended to classify every player exclusively into only one role.
+[A0546][AUTHOR_VIEW][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] When evaluating effective contribution to the group in group content, focus more on “what problem do I solve for the team?” than on the role name itself.
 
-[A0598][AUTHOR_VIEW][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] When evaluating effective contribution to the group in group content, focus more on “what problem do I solve for the team?” than on the role name itself.
-[A0599][AUTHOR_VIEW][DEF][CLAIM] PvP playstyles can be organized broadly into role tendencies such as tank, healer / buffer / debuffer, bruiser, skirmisher, ganker / bomber, and similar categories, and hybrid operation combining multiple tendencies is also common. These categories are not intended to classify every player exclusively into only one role.
+## Roles
 
-## A07.2 Role-Specific Fundamentals
-
-### A07.T Tank
+### Tank
 
 #### Fundamentals and Group Contribution
 
-[A0606][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] A tank's value is not merely in refusing to die, but in making enemies feel they cannot ignore the tank, absorbing enemy numbers and attacks, and thereby creating local numerical advantage for allies.
+[A0548][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] A tank's value is not merely in refusing to die, but in making enemies feel they cannot ignore the tank, absorbing enemy numbers and attacks, and thereby creating local numerical advantage for allies.
 
-### A07.H Healer and Support
+### Healer, Buffer, and Debuffer
 
 #### Role and Durability Design
 
-[A0620][AUTHOR_VIEW][DEF][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] The job of a healer / support is not only HP restoration, but also buffs, debuffs, CC, rescue, and pressure on the enemy healer.
+[A0549][AUTHOR_VIEW][DEF][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] The job of a healer / support is not only HP restoration, but also buffs, debuffs, CC, rescue, and pressure on the enemy healer.
 
-### A07.B Bruiser
+### Bruiser
 
-#### Bruiser
+[A0550][AUTHOR_VIEW][DEF][ROLE_BRUISER] A bruiser continuously pressures opponents in front-line combat and therefore requires enough survivability to keep attacking.
 
-[A0632][AUTHOR_VIEW][DEF][ROLE_BRUISER] A bruiser continuously pressures opponents in front-line combat and therefore requires enough survivability to keep attacking.
+### Skirmisher
 
-### A07.S Skirmisher
+[A0551][AUTHOR_VIEW][DEF][ROLE_SKIRMISHER] A skirmisher is a mobile role tendency that uses high mobility to flexibly change combat locations and engagement states. Whether it operates solo or with a group, focuses on close or long range, and uses mobility for self-survival, offense, or ally support depends on the participating content and operational objective; being a ranged-focused DD is not itself a general requirement for a skirmisher.
 
-#### Skirmisher
+## Group-Combat and Group-Contribution Applications
 
-[A0634][AUTHOR_VIEW][DEF][ROLE_SKIRMISHER] A skirmisher is a mobile role tendency that uses high mobility to flexibly change combat locations and engagement states. Whether it operates solo or with a group, focuses on close or long range, and uses mobility for self-survival, offense, or ally support depends on the participating content and operational objective; being a ranged-focused DD is not itself a general requirement for a skirmisher.
+### Creating and Converting Advantage
 
-## A07.3 Group Contribution, Return, and Self-Evaluation
-
-### A07.GRP Group-Contribution Applications
-
-#### Core Conclusions to Retrieve First
-
-[A0681][AUTHOR_VIEW][DEF][ADVANTAGE_CREATION_CONVERSION][GROUP_CONTENT][GROUP_CONTRIBUTION] In group PvP, evaluate separately the ability to lead allies into an advantageous state and the ability to maintain, expand, or convert an advantageous state already created by allies into results such as kills.
-
-#### Advantage Creation, Conversion, and Enemy-Time Diversion
-
-[A0685][AUTHOR_VIEW][LIMIT][ALLY_DEPENDENCE][GROUP_CONTENT][GROUP_CONTRIBUTION] Showing high performance when allies have supplied pressure, CC, damage, or similar advantage does not mean the character can create the same advantageous state alone.
+[A0559][AUTHOR_VIEW][DEF][ADVANTAGE_CREATION_CONVERSION][GROUP_CONTENT][GROUP_CONTRIBUTION] In group PvP, evaluate separately the ability to lead allies into an advantageous state and the ability to maintain, expand, or convert an advantageous state already created by allies into results such as kills.
+[A0560][AUTHOR_VIEW][LIMIT][ALLY_DEPENDENCE][GROUP_CONTENT][GROUP_CONTRIBUTION] Showing high performance when allies have supplied pressure, CC, damage, or similar advantage does not mean the character can create the same advantageous state alone.
 
 === END OF ESO PvP CORPUS CORE150 ===

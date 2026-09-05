@@ -3,7 +3,7 @@
 [CORPUS_NAME] ESO PvP Corpus
 [CORPUS_VERSION] v162
 [PAGE_NAME] A07 ロール別基本・集団貢献
-[SECTION_SCOPE] v162 / A0598-A0696
+[SECTION_SCOPE] v162 / A0545-A0582,A0584,A0588-A0603,A0620,A0625-A0634,A0639-A0644,A0646-A0672
 [PROPOSITION_COUNT] 99
 [FREE_AI_SPLIT] Yes
 [CORE150_EXISTS] Yes
@@ -26,188 +26,178 @@
 [TAG_NOTE][GROUP_CONTRIBUTION] 個人の自由行動よりグループ全体への実効的な貢献を評価軸にすることを示す。
 [TAG_NOTE][ROLE_SKIRMISHER] スカーミッシャーは、高い機動力を戦闘地点の選択・変更、交戦・離脱・再介入等に利用する遊撃的なロール傾向を示す。このタグ自体は、遠距離主体DD、グループコンテンツへの参加、グループ貢献の優先、複数地点の味方救援、ソーサラー（Sorcerer）やボルトエスケープ（Bolt Escape）／雷光（Streak）の使用、またはB系列の上級競技運用を意味しない。[GROUP_CONTENT]・[GROUP_CONTRIBUTION]・[ADVANCED_ONLY]等が付く場合は、その追加条件を満たす用途だけへ評価範囲を限定する。また、B系列の高度運用条件を満たさないことだけから、その運用をスカーミッシャーではない、またはブルーザーであると判定しない。
 
-## A07.1 ロール名より解決する仕事を先に見る
 
-### A07.00 ロール共通基本
+## 共通基本
 
-#### 先に取得する中核結論
+### ロール分類・評価
 
-[A0598][AUTHOR_VIEW][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] グループコンテンツでグループへの実効的な貢献を評価する場合は、ロール名そのものより「自分がチームの何を解決するか」を重視する。
-[A0599][AUTHOR_VIEW][DEF][CLAIM] PvPの戦い方は大まかにタンク、ヒーラー／バッファー／デバッファー、ブルーザー、スカーミッシャー、ガンカー／ボマー等のロール傾向として整理でき、複数の傾向を兼ねる運用も普通に存在する。これらはすべてのプレイヤーを一つだけのロールへ排他的に分類するための区分ではない。
-[A0600][DEF][SCOPE] DD（Damage Dealer）は、主として敵へダメージを与える構成・役割を指す広い呼称であり、ESO PvP Corpusで区別するブルーザー、スカーミッシャー、ガンカー／ボマー等のPvPロール分類と一対一対応しない。
+[A0545][AUTHOR_VIEW][DEF][CLAIM] PvPの戦い方は大まかにタンク、ヒーラー／バッファー／デバッファー、ブルーザー、スカーミッシャー、ガンカー／ボマー等のロール傾向として整理でき、複数の傾向を兼ねる運用も普通に存在する。これらはすべてのプレイヤーを一つだけのロールへ排他的に分類するための区分ではない。
+[A0546][AUTHOR_VIEW][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] グループコンテンツでグループへの実効的な貢献を評価する場合は、ロール名そのものより「自分がチームの何を解決するか」を重視する。
+[A0547][DEF][SCOPE] DD（Damage Dealer）は、主として敵へダメージを与える構成・役割を指す広い呼称であり、ESO PvP Corpusで区別するブルーザー、スカーミッシャー、ガンカー／ボマー等のPvPロール分類と一対一対応しない。
+[A0556][AUTHOR_VIEW][RULE][STEALTH_MOBILITY_SEPARATION] 隠密性は敵から位置や行動意図に関する情報を隠す性能、機動力は短時間で実際の位置を変える性能として分離して評価し、隠密性が高いことを高機動と同一視しない。
+[A0557][AUTHOR_VIEW][RULE][RECOMMENDATION_SCOPE] 特定ロールの適性は、そのロールの目的・必要行動・成功条件に直接関係する性能で評価し、ソロ総合力、別ロール、ガンカー性能等の評価を、その能力が当該ロール要件へ直接寄与する場合を除き、当該ロールの適性順位を決める根拠へ流用しない。
 
-#### ロール間の境界・複合化
+### ロール間の境界・複合化
 
-[A0601][AUTHOR_VIEW][AI][LIMIT][ROLE_SKIRMISHER][ROLE_BRUISER][RECOMMENDATION_SCOPE] ある運用がグループ貢献型またはB系列の上級競技スカーミッシャー条件を満たさないことから、その運用をスカーミッシャーではない、またはブルーザーであると自動的に結論しない。ロール傾向は、実際に行う戦闘行動と運用目的から個別に評価する。
+[A0554][AUTHOR_VIEW][AI][LIMIT][ROLE_SKIRMISHER][ROLE_BRUISER][RECOMMENDATION_SCOPE] ある運用がグループ貢献型またはB系列の上級競技スカーミッシャー条件を満たさないことから、その運用をスカーミッシャーではない、またはブルーザーであると自動的に結論しない。ロール傾向は、実際に行う戦闘行動と運用目的から個別に評価する。
+[A0558][AUTHOR_VIEW][RULE][BUILD_GENERAL] クラスまたはビルドが主要ロールの直接競争で不利な場合、弱点を過剰投資で平均化することだけを改善策とせず、既存の長所を維持したまま競争力を得られる隣接ロールへの複合化を検討する。
+[A0580][AUTHOR_VIEW][DEF][ROLE_TANK][ROLE_BRUISER] 高耐久のブルーザーと本職タンクは耐久値の大小だけで区別せず、生存後の性能予算を自分の攻撃圧力へ戻すことを主要目的とするか、被フォーカス・味方保護・バフ・デバフ・CC・妨害等の支援へ変換することを主要目的とするかで区別する。
 
-#### ロール分類・評価
+## 各ロール
 
-[A0602][AUTHOR_VIEW][RULE][STEALTH_MOBILITY_SEPARATION] 隠密性は敵から位置や行動意図に関する情報を隠す性能、機動力は短時間で実際の位置を変える性能として分離して評価し、隠密性が高いことを高機動と同一視しない。
-[A0603][AUTHOR_VIEW][RULE][RECOMMENDATION_SCOPE] 特定ロールの適性は、そのロールの目的・必要行動・成功条件に直接関係する性能で評価し、ソロ総合力、別ロール、ガンカー性能等の評価を、その能力が当該ロール要件へ直接寄与する場合を除き、当該ロールの適性順位を決める根拠へ流用しない。
-
-#### ロール間の境界・複合化
-
-[A0604][AUTHOR_VIEW][RULE][BUILD_GENERAL] クラスまたはビルドが主要ロールの直接競争で不利な場合、弱点を過剰投資で平均化することだけを改善策とせず、既存の長所を維持したまま競争力を得られる隣接ロールへの複合化を検討する。
-[A0605][AUTHOR_VIEW][DEF][ROLE_TANK][ROLE_BRUISER] 高耐久のブルーザーと本職タンクは耐久値の大小だけで区別せず、生存後の性能予算を自分の攻撃圧力へ戻すことを主要目的とするか、被フォーカス・味方保護・バフ・デバフ・CC・妨害等の支援へ変換することを主要目的とするかで区別する。
-
-## A07.2 ロール別基本
-
-### A07.T タンク
+### タンク
 
 #### 基本・集団貢献
 
-[A0606][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクの価値は単に死なないことだけではなく、敵に無視したくないと思わせ、敵の人数や攻撃を引き受けて味方側に局地的な人数有利を作ることにある。
-[A0607][AUTHOR_VIEW][PRIORITY][ROLE_TANK] タンク設計では、付加価値を増やす前に、想定する敵圧力の中で継続して生存できる基礎を先に成立させる。
-[A0608][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクが敵の有意な攻撃・注意を継続して引き受けながら生存し、その結果として味方への攻撃・防御負担を減らしている場合、防御ターンを終了せず生存し続けること自体をタンクの貢献として評価する。
+[A0548][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクの価値は単に死なないことだけではなく、敵に無視したくないと思わせ、敵の人数や攻撃を引き受けて味方側に局地的な人数有利を作ることにある。
+[A0575][AUTHOR_VIEW][PRIORITY][ROLE_TANK] タンク設計では、付加価値を増やす前に、想定する敵圧力の中で継続して生存できる基礎を先に成立させる。
+[A0576][AUTHOR_VIEW][EVAL][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクが敵の有意な攻撃・注意を継続して引き受けながら生存し、その結果として味方への攻撃・防御負担を減らしている場合、防御ターンを終了せず生存し続けること自体をタンクの貢献として評価する。
 
 #### 設計・運用
 
-[A0609][AUTHOR_VIEW][RULE][ROLE_TANK][BLOCK] タンクを評価・設計するときは、継続的なブロック（Block）維持を主防御とする常時ブロック型と、ブロック外の移動・行動を主要な生存手段として使う行動・機動型を区別し、両者へ同じ防御・サステイン・LoS・操作原則を一律に適用しない。
-[A0610][AUTHOR_VIEW][RULE][SCOPE][ROLE_TANK][GROUP_CONTENT][RECOMMENDATION_SCOPE] PvPタンクへ要求する性能は、参加コンテンツの人数制限、戦闘規模、移動性、勝利条件、敵がタンクを無視できる程度によって変わるため、定員制上級少人数戦のタンク要求をシロディール（Cyrodiil）等の異なる戦場へ一律に一般化しない。
-[A0611][AUTHOR_VIEW][RULE][ROLE_TANK][TIME_BUDGET] タンクはGCDを常時消費する必要はなく、追加行動の価値がない時間は何もキャストせず、必要な防御状態やブロック（Block）だけを維持して待つことを適切な運用として扱う。
-[A0612][AUTHOR_VIEW][PRIORITY][ROLE_TANK] 本職タンクが攻撃面へ寄与する場合も、攻撃行動によって本来必要な防御・味方保護・支援を崩さないことを優先する。
-[A0613][AUTHOR_VIEW][PRIORITY][ROLE_TANK][BLOCK][OPPORTUNITY_COST][GROUP_CONTRIBUTION] 本職タンクが生存に必要なブロック（Block）を解除して低価値な攻撃を追加し、その結果として死亡リスクまたは本来の仕事の喪失が増える場合、その攻撃のDPSが正でもタンク全体の貢献は低下し得る。ブロック中に使用できる行動は、必要なブロックを維持したまま行うことを優先候補とする。
-[A0614][AUTHOR_VIEW][PRIORITY][ROLE_TANK][BLOCK][BLOCK_COST][SUSTAIN] 常時ブロック（Block）型タンクでは、ブロック軽減量だけでなくブロックコストを主要な成立条件として扱い、必要時間ブロックを維持できない場合は耐久値が高くても長時間耐久が成立したと評価しない。
+[A0577][AUTHOR_VIEW][RULE][ROLE_TANK][BLOCK] タンクを評価・設計するときは、継続的なブロック（Block）維持を主防御とする常時ブロック型と、ブロック外の移動・行動を主要な生存手段として使う行動・機動型を区別し、両者へ同じ防御・サステイン・LoS・操作原則を一律に適用しない。
+[A0578][AUTHOR_VIEW][RULE][SCOPE][ROLE_TANK][GROUP_CONTENT][RECOMMENDATION_SCOPE] PvPタンクへ要求する性能は、参加コンテンツの人数制限、戦闘規模、移動性、勝利条件、敵がタンクを無視できる程度によって変わるため、定員制上級少人数戦のタンク要求をシロディール（Cyrodiil）等の異なる戦場へ一律に一般化しない。
+[A0579][AUTHOR_VIEW][RULE][ROLE_TANK][TIME_BUDGET] タンクはGCDを常時消費する必要はなく、追加行動の価値がない時間は何もキャストせず、必要な防御状態やブロック（Block）だけを維持して待つことを適切な運用として扱う。
+[A0581][AUTHOR_VIEW][PRIORITY][ROLE_TANK] 本職タンクが攻撃面へ寄与する場合も、攻撃行動によって本来必要な防御・味方保護・支援を崩さないことを優先する。
+[A0582][AUTHOR_VIEW][PRIORITY][ROLE_TANK][BLOCK][OPPORTUNITY_COST][GROUP_CONTRIBUTION] 本職タンクが生存に必要なブロック（Block）を解除して低価値な攻撃を追加し、その結果として死亡リスクまたは本来の仕事の喪失が増える場合、その攻撃のDPSが正でもタンク全体の貢献は低下し得る。ブロック中に使用できる行動は、必要なブロックを維持したまま行うことを優先候補とする。
+[A0584][AUTHOR_VIEW][PRIORITY][ROLE_TANK][BLOCK][BLOCK_COST][SUSTAIN] 常時ブロック（Block）型タンクでは、ブロック軽減量だけでなくブロックコストを主要な成立条件として扱い、必要時間ブロックを維持できない場合は耐久値が高くても長時間耐久が成立したと評価しない。
 
 #### 自己回復
 
-[A0615][AUTHOR_VIEW][PRIORITY][ROLE_TANK][HEALING][DEFENSIVE_DESIGN] 高最大体力のPvPタンクは、大きく失った自分のHPを自力で差し戻せる最大体力スケーリングのバースト自己回復を少なくとも一つ確保することを基本設計とする。
-[A0616][AUTHOR_VIEW][PRIORITY][ROLE_TANK][HEALING][TIME_BUDGET][SUSTAIN][DEFENSIVE_DESIGN] PvPタンクではバースト自己回復だけへ依存せず、平常被弾を継続的に相殺するHoTと組み合わせる。バースト回復の反復はリソースだけでなくGCD、移動、重攻撃（Heavy Attack）その他の行動時間を消費するため、HoTは立て直し負担を減らす。
+[A0588][AUTHOR_VIEW][PRIORITY][ROLE_TANK][HEALING][DEFENSIVE_DESIGN] 高最大体力のPvPタンクは、大きく失った自分のHPを自力で差し戻せる最大体力スケーリングのバースト自己回復を少なくとも一つ確保することを基本設計とする。
+[A0589][AUTHOR_VIEW][PRIORITY][ROLE_TANK][HEALING][TIME_BUDGET][SUSTAIN][DEFENSIVE_DESIGN] PvPタンクではバースト自己回復だけへ依存せず、平常被弾を継続的に相殺するHoTと組み合わせる。バースト回復の反復はリソースだけでなくGCD、移動、重攻撃（Heavy Attack）その他の行動時間を消費するため、HoTは立て直し負担を減らす。
 
 #### 引き寄せ・耐性・盾の壁
 
-[A0617][AUTHOR_VIEW][DEF][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクの引き寄せは、複数の敵を狭い範囲へ集約して味方の範囲攻撃・CCを通しやすくする用途と、敵を本来の位置から大きく移動させて射線・距離・隊形・位置取りを崩す用途を区別して評価する。
-[A0618][AUTHOR_VIEW][PATCH][RULE][ROLE_TANK][DEFENSIVE_DESIGN] PvPタンクの耐性は、耐性による通常の軽減が上限へ達する表示値を超えたことだけで過剰と判定せず、敵の貫通や耐性低下を受けた後の実効耐性を基準に評価する。一方、耐性だけへ性能予算を集中させず、最大体力・割合軽減・ブロック（Block）・回復・サステイン等の複数防御層を維持する。
-[A0619][AUTHOR_VIEW][PATCH][EVAL][ROLE_TANK][BLOCK][SUSTAIN][OPPORTUNITY_COST] 盾の壁（Shield Wall）系は一定時間のブロック（Block）維持を自動化・無償化して手動ブロックから解放される性質を持つため、常時ブロック型タンクでは生存時間だけでなく、その時間に重攻撃（Heavy Attack）等でリソースを再構築できる価値を含めて評価し、他の防御アルティメット（Ultimate）はこの低い運用機会費用との比較で評価する。
+[A0590][AUTHOR_VIEW][DEF][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] タンクの引き寄せは、複数の敵を狭い範囲へ集約して味方の範囲攻撃・CCを通しやすくする用途と、敵を本来の位置から大きく移動させて射線・距離・隊形・位置取りを崩す用途を区別して評価する。
+[A0591][AUTHOR_VIEW][PATCH][RULE][ROLE_TANK][DEFENSIVE_DESIGN] PvPタンクの耐性は、耐性による通常の軽減が上限へ達する表示値を超えたことだけで過剰と判定せず、敵の貫通や耐性低下を受けた後の実効耐性を基準に評価する。一方、耐性だけへ性能予算を集中させず、最大体力・割合軽減・ブロック（Block）・回復・サステイン等の複数防御層を維持する。
+[A0592][AUTHOR_VIEW][PATCH][EVAL][ROLE_TANK][BLOCK][SUSTAIN][OPPORTUNITY_COST] 盾の壁（Shield Wall）系は一定時間のブロック（Block）維持を自動化・無償化して手動ブロックから解放される性質を持つため、常時ブロック型タンクでは生存時間だけでなく、その時間に重攻撃（Heavy Attack）等でリソースを再構築できる価値を含めて評価し、他の防御アルティメット（Ultimate）はこの低い運用機会費用との比較で評価する。
 
-### A07.H ヒーラー・サポート
+### ヒーラー／バッファー／デバッファー
 
 #### 役割・耐久設計
 
-[A0620][AUTHOR_VIEW][DEF][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／サポートの仕事はHP回復だけではなく、バフ、デバフ、CC、救援、相手ヒーラーへの圧力を含む。
-[A0621][AUTHOR_VIEW][CAUSE][COND][RULE][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーは、味方戦力を維持し敵戦力を低下させるため、敵から高優先度で狙われやすい。特に最前線で運用する場合は、優先フォーカスを受けることを前提に自衛性能を設計する。
-[A0622][AUTHOR_VIEW][CAUSE][PRIORITY][RULE][OPPORTUNITY_COST][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーは支援性能へも性能予算を配分する必要があり、純タンクのように全性能を耐久へ割り振れない。したがって、支援機能を維持したまま優先フォーカス下で生存できる耐久設計と自衛手段を、最初に成立させる。
+[A0549][AUTHOR_VIEW][DEF][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／サポートの仕事はHP回復だけではなく、バフ、デバフ、CC、救援、相手ヒーラーへの圧力を含む。
+[A0593][AUTHOR_VIEW][CAUSE][COND][RULE][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーは、味方戦力を維持し敵戦力を低下させるため、敵から高優先度で狙われやすい。特に最前線で運用する場合は、優先フォーカスを受けることを前提に自衛性能を設計する。
+[A0594][AUTHOR_VIEW][CAUSE][PRIORITY][RULE][OPPORTUNITY_COST][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラー／バッファー／デバッファーは支援性能へも性能予算を配分する必要があり、純タンクのように全性能を耐久へ割り振れない。したがって、支援機能を維持したまま優先フォーカス下で生存できる耐久設計と自衛手段を、最初に成立させる。
 
 #### ヒール方式・庇護（Guard）系
 
-[A0623][DEF][SCOPE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節では、集団戦で味方へ回復を届ける方式を、移動する対象へ直接バーストヒール（Burst Heal）を行うか、対象本人へ継続回復（Healing over Time／HoT）を付与する「対象追従型」と、特定地点へ回復効果を設置・維持して範囲内の味方を回復する「定点範囲型」に区分する。
-[A0624][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 多くのクラスでは、ヒーラー本来の性質として定点回復エリア方式を得意とする。
-[A0625][AUTHOR_VIEW][COND][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）野戦などでは移動対象へ届けるヒールが必須になる場面がある。
-[A0626][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 最初から両方式を得意にしようとするより、どちらを重視するか先に決める方が使いやすい。
-[A0627][AUTHOR_VIEW][COND][PRIORITY][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 移動対象へ回復を届ける方式を重視するヒーラーでは、対象へ付与後も継続するHoTやヒーラーと共に移動するHoTを、移動中も回復を継続できる手段として優先候補にする。
-[A0628][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラーの回復が届かない味方は存在する。
-[A0629][CLAIM][HEALING] ESOには「回復無効（Healing Immunity）」が正式なゲーム仕様として存在する。
-[A0630][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 回復不能または回復無効（Healing Immunity）の味方に対しては、その状態中に無効な回復投入を繰り返さず、他の対象・行動へ切り替える判断を持つ。
-[A0631][AUTHOR_VIEW][PATCH][EVAL][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST] 庇護（Guard）系は高耐久プレイヤーが味方の被ダメージの一部を引き受ける強い支援手段として評価できる一方、両バーで維持する運用では複数スキル枠を占有し、リンク距離・移動同期・受け流した追加ダメージを処理できる耐久を要求するため、支援効果とビルド・立ち回りの自由度低下をまとめて評価する。
+[A0595][DEF][SCOPE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 本節では、集団戦で味方へ回復を届ける方式を、移動する対象へ直接バーストヒール（Burst Heal）を行うか、対象本人へ継続回復（Healing over Time／HoT）を付与する「対象追従型」と、特定地点へ回復効果を設置・維持して範囲内の味方を回復する「定点範囲型」に区分する。
+[A0596][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 多くのクラスでは、ヒーラー本来の性質として定点回復エリア方式を得意とする。
+[A0597][AUTHOR_VIEW][COND][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] シロディール（Cyrodiil）野戦などでは移動対象へ届けるヒールが必須になる場面がある。
+[A0598][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 最初から両方式を得意にしようとするより、どちらを重視するか先に決める方が使いやすい。
+[A0599][AUTHOR_VIEW][COND][PRIORITY][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 移動対象へ回復を届ける方式を重視するヒーラーでは、対象へ付与後も継続するHoTやヒーラーと共に移動するHoTを、移動中も回復を継続できる手段として優先候補にする。
+[A0600][CLAIM][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] ヒーラーの回復が届かない味方は存在する。
+[A0601][CLAIM][HEALING] ESOには「回復無効（Healing Immunity）」が正式なゲーム仕様として存在する。
+[A0602][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT][GROUP_CONTRIBUTION] 回復不能または回復無効（Healing Immunity）の味方に対しては、その状態中に無効な回復投入を繰り返さず、他の対象・行動へ切り替える判断を持つ。
+[A0603][AUTHOR_VIEW][PATCH][EVAL][GROUP_CONTENT][GROUP_CONTRIBUTION][OPPORTUNITY_COST] 庇護（Guard）系は高耐久プレイヤーが味方の被ダメージの一部を引き受ける強い支援手段として評価できる一方、両バーで維持する運用では複数スキル枠を占有し、リンク距離・移動同期・受け流した追加ダメージを処理できる耐久を要求するため、支援効果とビルド・立ち回りの自由度低下をまとめて評価する。
 
-### A07.B ブルーザー
+### ブルーザー
 
-#### ブルーザー
+[A0550][AUTHOR_VIEW][DEF][ROLE_BRUISER] ブルーザーは正面戦で相手へ圧力を継続する役であり、そのために殴り続けられる生存性を必要とする。
+[A0620][AUTHOR_VIEW][DEF][ROLE_BRUISER] ブルーザーは直接的な殴り合いをするロールである。
 
-[A0632][AUTHOR_VIEW][DEF][ROLE_BRUISER] ブルーザーは正面戦で相手へ圧力を継続する役であり、そのために殴り続けられる生存性を必要とする。
-[A0633][AUTHOR_VIEW][DEF][ROLE_BRUISER] ブルーザーは直接的な殴り合いをするロールである。
+### スカーミッシャー
 
-### A07.S スカーミッシャー
+[A0551][AUTHOR_VIEW][DEF][ROLE_SKIRMISHER] スカーミッシャーは、高い機動力を利用して戦闘地点や交戦状態を柔軟に変更する遊撃的なロール傾向である。単独行動かグループ行動か、近距離主体か遠距離主体か、機動力を自己生存・攻撃・味方支援のどこへ使うかは参加コンテンツと運用目的によって異なり、遠距離主体DDであること自体をスカーミッシャーの一般要件としない。
+[A0552][AUTHOR_VIEW][COND][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] グループコンテンツでグループへの実効的な貢献を優先してスカーミッシャーを運用する場合は、機動力を好きな場所へ移動する自由だけでなく、介入価値の高い地点へ早く到達する能力として利用する。
+[A0553][AUTHOR_VIEW][EVAL][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ貢献型スカーミッシャーの介入性能は、単発の高速移動や散発的なヒット・アンド・ランだけで評価せず、必要な戦場へ移動してから実効的な攻撃・CC・救援・圧力を開始するまでの時間と、複数の戦闘地点へ有効介入を反復できる頻度を含めて評価する。
 
-#### スカーミッシャー
-
-[A0634][AUTHOR_VIEW][DEF][ROLE_SKIRMISHER] スカーミッシャーは、高い機動力を利用して戦闘地点や交戦状態を柔軟に変更する遊撃的なロール傾向である。単独行動かグループ行動か、近距離主体か遠距離主体か、機動力を自己生存・攻撃・味方支援のどこへ使うかは参加コンテンツと運用目的によって異なり、遠距離主体DDであること自体をスカーミッシャーの一般要件としない。
-[A0635][AUTHOR_VIEW][COND][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] グループコンテンツでグループへの実効的な貢献を優先してスカーミッシャーを運用する場合は、機動力を好きな場所へ移動する自由だけでなく、介入価値の高い地点へ早く到達する能力として利用する。
-[A0636][AUTHOR_VIEW][EVAL][ROLE_SKIRMISHER][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ貢献型スカーミッシャーの介入性能は、単発の高速移動や散発的なヒット・アンド・ランだけで評価せず、必要な戦場へ移動してから実効的な攻撃・CC・救援・圧力を開始するまでの時間と、複数の戦闘地点へ有効介入を反復できる頻度を含めて評価する。
-
-### A07.GB Ganker・Bomber共通
+### Ganker／Bomber共通
 
 #### 定義・成立条件・評価
 
-[A0637][AUTHOR_VIEW][DEF][ROLE_GANKER] Gankとは、通常の正面交換を長時間継続することより、標的、位置、攻撃開始時点等を選び、短い攻撃機会から撃破を狙う行為である。隠密・透明化・近接攻撃はGankの必要条件ではない。
-[A0638][AUTHOR_VIEW][DEF][ROLE_GANKER] Gankerは、Gankによる撃破を主要な勝ち筋または反復する主要行動として運用するロール傾向である。通常DDが状況に応じて一度Gankを行ったことだけで、そのビルド全体をGankerと分類しない。
-[A0639][AUTHOR_VIEW][DEF][ROLE_GANKER][OPPORTUNITY_COST] Pure Gankerは、通常の正面戦闘性能等の一部を交換して、標的選択、攻撃開始条件、撃破可能範囲、探索・追従・離脱・再試行等のGankサイクルへ強く専門化したGankerとして扱う。
-[A0640][AUTHOR_VIEW][DEF][ROLE_BOMBER][BURST_DESIGN] Bomberは、敵集団の密度を利用または形成し、短時間へ複数の範囲攻撃・CC・遅延攻撃等を同期して初回撃破または大きな集団損害を成立させ、その結果を周囲の追加撃破へ変換することを主要な勝ち筋とするロール傾向として扱う。残忍な死（Vicious Death）等の特定装備一つをBomberの定義条件としない。
-[A0641][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ROLE_BOMBER][BURST_DESIGN] Bomberの実行可能性を評価するときは、主要な成立条件として、①攻撃価値のある敵集団密度、②対象環境の標準と比べて防御余力・防御準備・反応成立率が低いか、一時的に防御余力が低下して初回撃破を成立させやすい対象、③攻撃開始と主要打点の同期を成立させられる時間、を確認する。
-[A0642][AUTHOR_VIEW][CAUSE][ROLE_BOMBER][ROLE_GANKER][TIME_BUDGET] Pure Gankerは自分に有利な標的状態へ攻撃時点を合わせる機会選択の比重が高くなりやすい一方、Bomberは短時間だけ生じる集団密度・初回撃破機会へ準備済みの攻撃を間に合わせる機会対応の比重が高くなりやすい。
-[A0643][AUTHOR_VIEW][CAUSE][ROLE_BOMBER][TIME_BUDGET] Bomberが起爆前に必要とする複数GCDの準備コストは、攻撃機会を利用できる時間が長い戦場ほど吸収しやすい。シロディール（Cyrodiil）や帝都（Imperial City）では移動・位置形成・待機中に準備できる余地が比較的大きく、短時間で状況が変化するバトルグラウンド（Battlegrounds）では同じ事前GCDがより大きな機会損失になりやすい。
-[A0644][AUTHOR_VIEW][RULE][ROLE_BOMBER][TIME_BUDGET][BURST_DESIGN] BomberのGCD評価では、起爆を成立させる前に支払う準備GCDと、圧縮した初回攻撃後に生存者を処理する追撃GCDを分ける。準備GCDの削減は攻撃機会へ間に合う頻度を高め、追撃GCDは起爆後の成果拡張として評価する。
-[A0645][AUTHOR_VIEW][AI][EVAL][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方がほぼ撃破まで進めた敵へexecute等で最終打撃だけを加え、付随して残忍な死（Vicious Death）等の周囲損害が発動した場合、それだけでBomberとしての攻撃シーケンスが成立したとは評価しない。通常DDとしての直接貢献、初回撃破形成、集団への同期攻撃、周囲への撃破変換へ本人が生んだ差分を分けて評価する。
-[A0646][AUTHOR_VIEW][PATCH][AI][LIMIT][ROLE_BOMBER] Bomberの撃破・状態異常等から周囲へ損害を拡張する補助効果を説明するとき、残忍な死（Vicious Death）を代表例として扱ってよいが、その種の仕事を残忍な死だけに限定しない。疫病爆発（Plaguebreak）や戦闘系Champion Pointの一部等もパッチによって類似または補助的な役割を持ち得るため、具体例と効果は回答時点の現行仕様で再確認する。
-[A0647][AUTHOR_VIEW][AI][RULE][ROLE_BOMBER][ROLE_GANKER][RECOMMENDATION_SCOPE] GankerまたはBomberという名称だけから、長時間の隠密、透明化、近距離接近、単独行動を必要条件として補わない。遠距離型、高機動型、通常戦闘へ参加する型、グループ戦術へ組み込まれた型を含め、実際の勝ち筋と戦闘行動から分類する。
+[A0555][AUTHOR_VIEW][DEF][ROLE_GANKER] Gankとは、通常の正面交換を長時間継続することより、標的、位置、攻撃開始時点等を選び、短い攻撃機会から撃破を狙う行為である。隠密・透明化・近接攻撃はGankの必要条件ではない。
+[A0648][AUTHOR_VIEW][DEF][ROLE_GANKER] Gankerは、Gankによる撃破を主要な勝ち筋または反復する主要行動として運用するロール傾向である。通常DDが状況に応じて一度Gankを行ったことだけで、そのビルド全体をGankerと分類しない。
+[A0649][AUTHOR_VIEW][DEF][ROLE_GANKER][OPPORTUNITY_COST] Pure Gankerは、通常の正面戦闘性能等の一部を交換して、標的選択、攻撃開始条件、撃破可能範囲、探索・追従・離脱・再試行等のGankサイクルへ強く専門化したGankerとして扱う。
+[A0650][AUTHOR_VIEW][DEF][ROLE_BOMBER][BURST_DESIGN] Bomberは、敵集団の密度を利用または形成し、短時間へ複数の範囲攻撃・CC・遅延攻撃等を同期して初回撃破または大きな集団損害を成立させ、その結果を周囲の追加撃破へ変換することを主要な勝ち筋とするロール傾向として扱う。残忍な死（Vicious Death）等の特定装備一つをBomberの定義条件としない。
+[A0651][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ROLE_BOMBER][BURST_DESIGN] Bomberの実行可能性を評価するときは、主要な成立条件として、①攻撃価値のある敵集団密度、②対象環境の標準と比べて防御余力・防御準備・反応成立率が低いか、一時的に防御余力が低下して初回撃破を成立させやすい対象、③攻撃開始と主要打点の同期を成立させられる時間、を確認する。
+[A0652][AUTHOR_VIEW][CAUSE][ROLE_BOMBER][ROLE_GANKER][TIME_BUDGET] Pure Gankerは自分に有利な標的状態へ攻撃時点を合わせる機会選択の比重が高くなりやすい一方、Bomberは短時間だけ生じる集団密度・初回撃破機会へ準備済みの攻撃を間に合わせる機会対応の比重が高くなりやすい。
+[A0653][AUTHOR_VIEW][CAUSE][ROLE_BOMBER][TIME_BUDGET] Bomberが起爆前に必要とする複数GCDの準備コストは、攻撃機会を利用できる時間が長い戦場ほど吸収しやすい。シロディール（Cyrodiil）や帝都（Imperial City）では移動・位置形成・待機中に準備できる余地が比較的大きく、短時間で状況が変化するバトルグラウンド（Battlegrounds）では同じ事前GCDがより大きな機会損失になりやすい。
+[A0654][AUTHOR_VIEW][RULE][ROLE_BOMBER][TIME_BUDGET][BURST_DESIGN] BomberのGCD評価では、起爆を成立させる前に支払う準備GCDと、圧縮した初回攻撃後に生存者を処理する追撃GCDを分ける。準備GCDの削減は攻撃機会へ間に合う頻度を高め、追撃GCDは起爆後の成果拡張として評価する。
+[A0655][AUTHOR_VIEW][AI][EVAL][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方がほぼ撃破まで進めた敵へexecute等で最終打撃だけを加え、付随して残忍な死（Vicious Death）等の周囲損害が発動した場合、それだけでBomberとしての攻撃シーケンスが成立したとは評価しない。通常DDとしての直接貢献、初回撃破形成、集団への同期攻撃、周囲への撃破変換へ本人が生んだ差分を分けて評価する。
+[A0656][AUTHOR_VIEW][PATCH][AI][LIMIT][ROLE_BOMBER] Bomberの撃破・状態異常等から周囲へ損害を拡張する補助効果を説明するとき、残忍な死（Vicious Death）を代表例として扱ってよいが、その種の仕事を残忍な死だけに限定しない。疫病爆発（Plaguebreak）や戦闘系Champion Pointの一部等もパッチによって類似または補助的な役割を持ち得るため、具体例と効果は回答時点の現行仕様で再確認する。
+[A0657][AUTHOR_VIEW][AI][RULE][ROLE_BOMBER][ROLE_GANKER][RECOMMENDATION_SCOPE] GankerまたはBomberという名称だけから、長時間の隠密、透明化、近距離接近、単独行動を必要条件として補わない。遠距離型、高機動型、通常戦闘へ参加する型、グループ戦術へ組み込まれた型を含め、実際の勝ち筋と戦闘行動から分類する。
 
-### A07.G Ganker
+### Ganker
 
 #### 基本運用
 
-[A0648][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][ROLE_GANKER][OPPORTUNITY_COST] 長い準備・探索・待機・再試行を必要とする純ガンカーの実用性は、一回の暗殺成功時の撃破性能だけでなく、成功で得る戦術的・経済的価値が、標的遭遇頻度、準備時間、失敗時損失を含む一連の暗殺サイクルの機会費用を上回るかで評価する。
-[A0649][AUTHOR_VIEW][PRIORITY][ROLE_GANKER][GROUP_CONTENT] 隠密・待機によって有利な攻撃開始条件を選別する純ガンカーをバトルグラウンド（Battlegrounds／BG）4v4以外など適した場所で運用する場合、待つことは主要な技能の一つである。
-[A0650][AUTHOR_VIEW][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、倒しやすい標的状態へ攻撃時点を合わせるため、自分の存在・位置・意図を可能な範囲で秘匿する。
-[A0651][AUTHOR_VIEW][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、発見した相手へ即座に攻撃することを標準とせず、自分の構成に有利な攻撃開始条件まで待つ。
-[A0652][AUTHOR_VIEW][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、防御手順が十分に成立している相手を標準的な襲撃対象として高く評価しない。
-[A0653][AUTHOR_VIEW][DEF][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーの理想状態では、敵がその場に自分が存在すると考えていないこと自体が、攻撃性能と防御性能の両方に大きく寄与する。
-[A0654][AUTHOR_VIEW][LIMIT][ROLE_GANKER] 攻撃スキル、しゃがみ、透明化はガンカー／ボマーの本質ではなく、目的達成のための手段である。
-[A0655][AUTHOR_VIEW][CAUSE][ROLE_GANKER][BURST_COMPRESSION] 隠密から短時間だけ姿を現して奇襲・離脱する純ガンカーは、長時間の継続攻撃で火力を積み上げるほど隠密の利点を失いやすいため、必要な攻撃・CCを短い露出時間へ圧縮する必要がある。
-[A0656][AUTHOR_VIEW][COND][ROLE_GANKER] 状況が許さない場合、強引に遂行するより一度諦めることが重要な戦術になり得る。
-[A0657][AUTHOR_VIEW][COND][ROLE_GANKER] 帝都（Imperial City）地上で、相手がボスを適切に誘導・配置してガンカーを近寄らせにくい状態を作っている場合、その相手への暗殺を一時的に諦めて様子見へ移る。
+[A0625][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][ROLE_GANKER][OPPORTUNITY_COST] 長い準備・探索・待機・再試行を必要とする純ガンカーの実用性は、一回の暗殺成功時の撃破性能だけでなく、成功で得る戦術的・経済的価値が、標的遭遇頻度、準備時間、失敗時損失を含む一連の暗殺サイクルの機会費用を上回るかで評価する。
+[A0626][AUTHOR_VIEW][PRIORITY][ROLE_GANKER][GROUP_CONTENT] 隠密・待機によって有利な攻撃開始条件を選別する純ガンカーをバトルグラウンド（Battlegrounds／BG）4v4以外など適した場所で運用する場合、待つことは主要な技能の一つである。
+[A0627][AUTHOR_VIEW][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、倒しやすい標的状態へ攻撃時点を合わせるため、自分の存在・位置・意図を可能な範囲で秘匿する。
+[A0628][AUTHOR_VIEW][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、発見した相手へ即座に攻撃することを標準とせず、自分の構成に有利な攻撃開始条件まで待つ。
+[A0629][AUTHOR_VIEW][RULE][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーでは、防御手順が十分に成立している相手を標準的な襲撃対象として高く評価しない。
+[A0630][AUTHOR_VIEW][DEF][ROLE_GANKER] 隠密・待機を主手段とする純ガンカーの理想状態では、敵がその場に自分が存在すると考えていないこと自体が、攻撃性能と防御性能の両方に大きく寄与する。
+[A0631][AUTHOR_VIEW][LIMIT][ROLE_GANKER] 攻撃スキル、しゃがみ、透明化はガンカー／ボマーの本質ではなく、目的達成のための手段である。
+[A0632][AUTHOR_VIEW][CAUSE][ROLE_GANKER][BURST_COMPRESSION] 隠密から短時間だけ姿を現して奇襲・離脱する純ガンカーは、長時間の継続攻撃で火力を積み上げるほど隠密の利点を失いやすいため、必要な攻撃・CCを短い露出時間へ圧縮する必要がある。
+[A0633][AUTHOR_VIEW][COND][ROLE_GANKER] 状況が許さない場合、強引に遂行するより一度諦めることが重要な戦術になり得る。
+[A0634][AUTHOR_VIEW][COND][ROLE_GANKER] 帝都（Imperial City）地上で、相手がボスを適切に誘導・配置してガンカーを近寄らせにくい状態を作っている場合、その相手への暗殺を一時的に諦めて様子見へ移る。
 
 #### 固有仕様・透明化
 
-[A0658][PATCH][CLAIM][DEF][ROLE_GANKER] 隠密近接初撃スタン（コミュニティ通称：スラムスタン／Slam Stun）は、隠密状態（Hidden）からの近接スニークアタックによって発生するスタンを指す。現行仕様確認の対象として扱う。
-[A0659][AUTHOR_VIEW][EVAL][ROLE_GANKER] 隠密近接初撃スタン（スラムスタン／Slam Stun）は、Gankerの攻撃開始性能として高く評価する。
-[A0660][PATCH][CLAIM][ROLE_GANKER] 防御中の相手には、隠密状態（Hidden）からの近接スニークアタックによる隠密近接初撃スタンが付与されない。
-[A0661][PATCH][CLAIM][ROLE_GANKER] 防御中の相手には、防御無視性能を持たないCCスキルが実効しない。
-[A0662][AUTHOR_VIEW][RULE][PATCH][ROLE_GANKER] 頭上に探知マークがある相手はハイド中の相手を探知できるため、ガンカーが基本的に襲撃対象へ選ばない。
-[A0663][PATCH][SCOPE][NIGHTBLADE][STEALTH_COUNTER] シャドウクローク（Shadow Cloak）またはその透明化変異である偽りの影（Shadowy Disguise）の透明化運用を扱う命題は、透明化を失う変異ダーククローク（Dark Cloak）を対象としない。
-[A0664][AUTHOR_VIEW][PATCH][AI][RULE][LIMIT][NIGHTBLADE][STEALTH_COUNTER][ESCAPE_ROUTE] シャドウクローク（Shadow Cloak）またはその透明化変異による透明化を主要な逃走手段とする用途では、自分由来の攻撃判定によって透明化を自発的に解除する効果を、逃走成立条件と重大に競合するものとして扱う。この競合を含む組み合わせは、透明化維持が主要な逃走成立条件である限り、原則として不適合または重大な欠陥を持つ組み合わせと評価する。
-[A0665][PATCH][CLAIM][NIGHTBLADE][STEALTH_COUNTER][ESCAPE_ROUTE] 透明化を開始する前に使用した攻撃、継続効果、遅延攻撃等でも、透明化開始後に自分由来の攻撃判定が発生し、その判定によって透明化が解除され得る場合がある。
+[A0639][PATCH][CLAIM][DEF][ROLE_GANKER] 隠密近接初撃スタン（コミュニティ通称：スラムスタン／Slam Stun）は、隠密状態（Hidden）からの近接スニークアタックによって発生するスタンを指す。現行仕様確認の対象として扱う。
+[A0640][AUTHOR_VIEW][EVAL][ROLE_GANKER] 隠密近接初撃スタン（スラムスタン／Slam Stun）は、Gankerの攻撃開始性能として高く評価する。
+[A0641][PATCH][CLAIM][ROLE_GANKER] 防御中の相手には、隠密状態（Hidden）からの近接スニークアタックによる隠密近接初撃スタンが付与されない。
+[A0642][PATCH][CLAIM][ROLE_GANKER] 防御中の相手には、防御無視性能を持たないCCスキルが実効しない。
+[A0643][AUTHOR_VIEW][RULE][PATCH][ROLE_GANKER] 頭上に探知マークがある相手はハイド中の相手を探知できるため、ガンカーが基本的に襲撃対象へ選ばない。
+[A0644][PATCH][SCOPE][NIGHTBLADE][STEALTH_COUNTER] シャドウクローク（Shadow Cloak）またはその透明化変異である偽りの影（Shadowy Disguise）の透明化運用を扱う命題は、透明化を失う変異ダーククローク（Dark Cloak）を対象としない。
+[A0646][AUTHOR_VIEW][PATCH][AI][RULE][LIMIT][NIGHTBLADE][STEALTH_COUNTER][ESCAPE_ROUTE] シャドウクローク（Shadow Cloak）またはその透明化変異による透明化を主要な逃走手段とする用途では、自分由来の攻撃判定によって透明化を自発的に解除する効果を、逃走成立条件と重大に競合するものとして扱う。この競合を含む組み合わせは、透明化維持が主要な逃走成立条件である限り、原則として不適合または重大な欠陥を持つ組み合わせと評価する。
+[A0647][PATCH][CLAIM][NIGHTBLADE][STEALTH_COUNTER][ESCAPE_ROUTE] 透明化を開始する前に使用した攻撃、継続効果、遅延攻撃等でも、透明化開始後に自分由来の攻撃判定が発生し、その判定によって透明化が解除され得る場合がある。
 
-### A07.BM Bomber
+### Bomber
 
 #### 8v8実戦設計
 
-[A0666][AUTHOR_VIEW][DEF][SCOPE][ROLE_BOMBER][GROUP_CONTENT] 本文でいう8v8 Bomberは、主としてカジュアルな8v8 バトルグラウンド（Battlegrounds）で、敵集団密度と初回撃破機会が現実的に生じ、Bomberとして継続して戦闘参加できる運用を指す。同様の条件が成立するカジュアル4v4にも、この設計思想を応用できる。
-[A0667][AUTHOR_VIEW][PRACTICE][ROLE_BOMBER][DEFENSIVE_DESIGN][GROUP_CONTENT] 8v8 Bomberは構成許容幅を広く取りつつ、シロディール（Cyrodiil）や帝都（Imperial City）の一回交換型Bomberより耐久・回復・再離脱へ性能を配分すると扱いやすい場合が多い。これは失敗しないことを参加条件にするためではなく、失敗後にも生存して次の攻撃機会を利用しやすくするための推奨傾向として扱う。
-[A0668][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][ROLE_BOMBER][TIME_BUDGET][DEFENSIVE_DESIGN] 8v8 Bomberは一回の最大Bombだけで評価せず、攻撃試行、成功または失敗、生存、立て直し、アルティメット（Ultimate）等の再構築、次の攻撃機会への復帰までを一つの反復サイクルとして評価する。
-[A0669][AUTHOR_VIEW][PRIORITY][ROLE_BOMBER][TIME_BUDGET][GROUP_CONTENT] 8v8 Bomberでは、十分なBomb威力を得るための事前準備GCDを増やしすぎない構成を有力な扱いやすい候補とする。短時間の密集・初回撃破機会へ間に合う頻度を高めることを、理論上の最大同期火力と比較して評価する。
-[A0670][AUTHOR_VIEW][PRIORITY][ROLE_BOMBER][TIME_BUDGET] Bomberはアルティメット（Ultimate）を主要な起爆資源にする構成が多く、8v8 Bomberでは次の攻撃可能な集団状態が比較的早く再出現するため、Ultimate不足が実行頻度のボトルネックになる場合がある。ビルド全体の火力・耐久との機会費用を確認しつつ、Ultimate生成を補う構成を有力候補として評価する。
-[A0671][AUTHOR_VIEW][PRACTICE][ROLE_BOMBER][MOVEMENT_SPEED][GROUP_CONTENT] 近接主体の8v8 Bomberでは、主要火力を大きく失わない範囲で移動速度を高めると、短時間だけ生じるBomb可能地点への到達、失敗後の再配置、次の攻撃機会への復帰を行いやすくなる。
-[A0672][AUTHOR_VIEW][ALTERNATIVE][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] 8v8 Bomberでは、攻撃機会まで長時間隠れる以外に、味方戦線へ参加しながらBomb機会を待つ、移動速度で攻撃位置へ入る、遠距離から起爆を始める等の運用も候補とする。隠密を不要とはせず、その必要性を用途に応じて評価する。
-[A0673][AUTHOR_VIEW][LIMIT][ROLE_BOMBER][GROUP_CONTENT] 8v8 Bomberの実効貢献は、初回撃破を成立させやすい対象の存在、敵の集合密度、その状態が発生する頻度へ強く依存する。これらが試合中ほとんど成立しない場合、一般的なPvP構成より試合全体を通した役割遂行が難しくなる場合がある。
+[A0658][AUTHOR_VIEW][DEF][SCOPE][ROLE_BOMBER][GROUP_CONTENT] 本文でいう8v8 Bomberは、主としてカジュアルな8v8 バトルグラウンド（Battlegrounds）で、敵集団密度と初回撃破機会が現実的に生じ、Bomberとして継続して戦闘参加できる運用を指す。同様の条件が成立するカジュアル4v4にも、この設計思想を応用できる。
+[A0659][AUTHOR_VIEW][PRACTICE][ROLE_BOMBER][DEFENSIVE_DESIGN][GROUP_CONTENT] 8v8 Bomberは構成許容幅を広く取りつつ、シロディール（Cyrodiil）や帝都（Imperial City）の一回交換型Bomberより耐久・回復・再離脱へ性能を配分すると扱いやすい場合が多い。これは失敗しないことを参加条件にするためではなく、失敗後にも生存して次の攻撃機会を利用しやすくするための推奨傾向として扱う。
+[A0660][AUTHOR_VIEW][CORE_JUDGMENT][EVAL][ROLE_BOMBER][TIME_BUDGET][DEFENSIVE_DESIGN] 8v8 Bomberは一回の最大Bombだけで評価せず、攻撃試行、成功または失敗、生存、立て直し、アルティメット（Ultimate）等の再構築、次の攻撃機会への復帰までを一つの反復サイクルとして評価する。
+[A0661][AUTHOR_VIEW][PRIORITY][ROLE_BOMBER][TIME_BUDGET][GROUP_CONTENT] 8v8 Bomberでは、十分なBomb威力を得るための事前準備GCDを増やしすぎない構成を有力な扱いやすい候補とする。短時間の密集・初回撃破機会へ間に合う頻度を高めることを、理論上の最大同期火力と比較して評価する。
+[A0662][AUTHOR_VIEW][PRIORITY][ROLE_BOMBER][TIME_BUDGET] Bomberはアルティメット（Ultimate）を主要な起爆資源にする構成が多く、8v8 Bomberでは次の攻撃可能な集団状態が比較的早く再出現するため、Ultimate不足が実行頻度のボトルネックになる場合がある。ビルド全体の火力・耐久との機会費用を確認しつつ、Ultimate生成を補う構成を有力候補として評価する。
+[A0663][AUTHOR_VIEW][PRACTICE][ROLE_BOMBER][MOVEMENT_SPEED][GROUP_CONTENT] 近接主体の8v8 Bomberでは、主要火力を大きく失わない範囲で移動速度を高めると、短時間だけ生じるBomb可能地点への到達、失敗後の再配置、次の攻撃機会への復帰を行いやすくなる。
+[A0664][AUTHOR_VIEW][ALTERNATIVE][ROLE_BOMBER][GROUP_CONTENT][GROUP_CONTRIBUTION] 8v8 Bomberでは、攻撃機会まで長時間隠れる以外に、味方戦線へ参加しながらBomb機会を待つ、移動速度で攻撃位置へ入る、遠距離から起爆を始める等の運用も候補とする。隠密を不要とはせず、その必要性を用途に応じて評価する。
+[A0665][AUTHOR_VIEW][LIMIT][ROLE_BOMBER][GROUP_CONTENT] 8v8 Bomberの実効貢献は、初回撃破を成立させやすい対象の存在、敵の集合密度、その状態が発生する頻度へ強く依存する。これらが試合中ほとんど成立しない場合、一般的なPvP構成より試合全体を通した役割遂行が難しくなる場合がある。
 
 #### 防御評価・AI誤読防止
 
-[A0674][AUTHOR_VIEW][LIMIT][IMPERIAL_CITY][ROLE_BOMBER] 帝都（Imperial City）で日常的に活動する熟練デュオ・トリオや熟練者中心の少人数集団は、各人の防御成立率が高く、人数が少ないため連鎖価値も小さくなりやすく、Bomberの現実的な標準攻撃対象として高く評価しない。イベント等で一時的に集まった低強度・高密度集団とは標的条件を分けて評価する。
-[A0675][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ROLE_BOMBER][DEFENSIVE_DESIGN][RECOMMENDATION_SCOPE][BUILD_EVALUATION_DISCIPLINE] Bomberの装備・防具特性を評価するときは、戦場、人数、攻撃距離、隠密依存度、Bomb後の生存価値、再挑戦頻度、死亡時損失、グループ支援の有無を先に特定し、その用途に対応する評価モードへ切り替える。一回のBomb成果を最大化して死亡交換も許容する用途と、生存してBombを反復する用途で同じ防御・火力基準を混用しない。
-[A0676][AUTHOR_VIEW][LIMIT][ROLE_BOMBER][DEFENSIVE_DESIGN][EQUIPMENT_TOPOLOGY] 防具特性を神々（Divines）等へ広く振って防御特性から得る防御層を薄くしたBomberは、死亡交換を許容する大規模戦等では高く評価できる場合がある一方、反復参加、被フォーカス処理、死亡損失が重要な用途では実効性能を大きく失い得る。Bomberというロール名だけから、この種の低防御・高火力特性配分を一般的な最適解として扱わない。
-[A0677][AUTHOR_VIEW][AI][RULE][ROLE_BOMBER][ROLE_GANKER][GROUP_CONTENT][RECOMMENDATION_SCOPE] バトルグラウンド（Battlegrounds）の4v4を一律の実力環境として扱わず、参加者の防御準備、反応精度、耐久、密集、通常戦闘への習熟等の観察可能な戦闘条件からGanker／Bomberの実用性を評価する。
-[A0678][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][RECOMMENDATION_SCOPE] PvPの用途適性を評価するとき、複数の低確率条件が同時成立すれば理論上成功可能であることだけを、現実的な勝ち筋、推奨候補、または有意な実用性の根拠にしない。対象環境で通常期待できる成立頻度、失敗時損失、機会費用から実用性を判断する。
-[A0679][AUTHOR_VIEW][AI][LIMIT][IMPERIAL_CITY][ROLE_BRUISER][ROLE_BOMBER][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] 帝都（Imperial City）で継続的に活動する熟練ブルーザーの通常ビルドを想定するとき、残忍な死（Vicious Death）等、撃破後の周囲損害を主目的として5pc等の大きなビルド枠を割く構成を標準像として自動的に加えない。通常の直接交戦性能との機会費用を比較し、Bomber、対低強度集団特化、特定目的の1vX・撮影企画等での限定採用をブルーザー一般の通常像へ拡張しない。
-[A0680][AUTHOR_VIEW][AI][LIMIT][ROLE_BOMBER][GROUP_CONTENT][RECOMMENDATION_SCOPE] 上級者中心4v4における専用Bomberの実用的不成立判断を、初心者・カジュアル8v8・参加者の戦闘習熟度にばらつきがある4v4へ一般化しない。上級4v4の専用判断はB系列として扱い、初心者の参加条件・標準推奨・失敗判定へ流用しない。
+[A0666][AUTHOR_VIEW][LIMIT][IMPERIAL_CITY][ROLE_BOMBER] 帝都（Imperial City）で日常的に活動する熟練デュオ・トリオや熟練者中心の少人数集団は、各人の防御成立率が高く、人数が少ないため連鎖価値も小さくなりやすく、Bomberの現実的な標準攻撃対象として高く評価しない。イベント等で一時的に集まった低強度・高密度集団とは標的条件を分けて評価する。
+[A0667][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][ROLE_BOMBER][DEFENSIVE_DESIGN][RECOMMENDATION_SCOPE][BUILD_EVALUATION_DISCIPLINE] Bomberの装備・防具特性を評価するときは、戦場、人数、攻撃距離、隠密依存度、Bomb後の生存価値、再挑戦頻度、死亡時損失、グループ支援の有無を先に特定し、その用途に対応する評価モードへ切り替える。一回のBomb成果を最大化して死亡交換も許容する用途と、生存してBombを反復する用途で同じ防御・火力基準を混用しない。
+[A0668][AUTHOR_VIEW][LIMIT][ROLE_BOMBER][DEFENSIVE_DESIGN][EQUIPMENT_TOPOLOGY] 防具特性を神々（Divines）等へ広く振って防御特性から得る防御層を薄くしたBomberは、死亡交換を許容する大規模戦等では高く評価できる場合がある一方、反復参加、被フォーカス処理、死亡損失が重要な用途では実効性能を大きく失い得る。Bomberというロール名だけから、この種の低防御・高火力特性配分を一般的な最適解として扱わない。
+[A0669][AUTHOR_VIEW][AI][RULE][ROLE_BOMBER][ROLE_GANKER][GROUP_CONTENT][RECOMMENDATION_SCOPE] バトルグラウンド（Battlegrounds）の4v4を一律の実力環境として扱わず、参加者の防御準備、反応精度、耐久、密集、通常戦闘への習熟等の観察可能な戦闘条件からGanker／Bomberの実用性を評価する。
+[A0670][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][RECOMMENDATION_SCOPE] PvPの用途適性を評価するとき、複数の低確率条件が同時成立すれば理論上成功可能であることだけを、現実的な勝ち筋、推奨候補、または有意な実用性の根拠にしない。対象環境で通常期待できる成立頻度、失敗時損失、機会費用から実用性を判断する。
+[A0671][AUTHOR_VIEW][AI][LIMIT][IMPERIAL_CITY][ROLE_BRUISER][ROLE_BOMBER][OPPORTUNITY_COST][RECOMMENDATION_SCOPE] 帝都（Imperial City）で継続的に活動する熟練ブルーザーの通常ビルドを想定するとき、残忍な死（Vicious Death）等、撃破後の周囲損害を主目的として5pc等の大きなビルド枠を割く構成を標準像として自動的に加えない。通常の直接交戦性能との機会費用を比較し、Bomber、対低強度集団特化、特定目的の1vX・撮影企画等での限定採用をブルーザー一般の通常像へ拡張しない。
+[A0672][AUTHOR_VIEW][AI][LIMIT][ROLE_BOMBER][GROUP_CONTENT][RECOMMENDATION_SCOPE] 上級者中心4v4における専用Bomberの実用的不成立判断を、初心者・カジュアル8v8・参加者の戦闘習熟度にばらつきがある4v4へ一般化しない。上級4v4の専用判断はB系列として扱い、初心者の参加条件・標準推奨・失敗判定へ流用しない。
 
-## A07.3 集団貢献・戦線復帰・自己評価
+## 集団戦・グループ貢献専用応用
 
-### A07.GRP 集団貢献専用応用
+### 有利生成と有利変換
 
-#### 先に取得する中核結論
+[A0559][AUTHOR_VIEW][DEF][ADVANTAGE_CREATION_CONVERSION][GROUP_CONTENT][GROUP_CONTRIBUTION] 集団PvPでは、味方を有利な状態へ導く能力と、すでに味方が作った有利な状態を維持・拡大・撃破等の成果へ変換する能力を分けて評価する。
+[A0560][AUTHOR_VIEW][LIMIT][ALLY_DEPENDENCE][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方が圧力・CC・削り等を供給した状況で高い性能を示すことは、そのキャラクターが同じ有利状態を単独で作れることを意味しない。
+[A0561][AUTHOR_VIEW][LIMIT][SOLO_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION] 単独で有利状態を作る能力が低いことだけを理由に、味方が作った有利を高効率で成果へ変換できるビルドの集団戦価値まで低いと結論しない。
 
-[A0681][AUTHOR_VIEW][DEF][ADVANTAGE_CREATION_CONVERSION][GROUP_CONTENT][GROUP_CONTRIBUTION] 集団PvPでは、味方を有利な状態へ導く能力と、すでに味方が作った有利な状態を維持・拡大・撃破等の成果へ変換する能力を分けて評価する。
-[A0682][AUTHOR_VIEW][COND][RULE][CAUSE][TIME_BUDGET][GROUP_CONTENT][GROUP_CONTRIBUTION] 集団戦では、敵のGCD・時間・位置取りは有限であるため、自分が生存しながら敵の攻撃・CC・追跡を引き受け、その分だけ味方への圧力を減らせるなら、その減少分をチーム価値として評価する。
-[A0683][AUTHOR_VIEW][PRIORITY][ESCAPE_ROUTE] 逃走の最終目的地は「最も遠い安全地帯」ではなく「次に戦える場所」である。
-[A0684][AUTHOR_VIEW][RULE][CAUSE][EX][GROUP_CONTENT][GROUP_CONTRIBUTION] PvPの自己評価ではキル数だけを基準にせず、自分の役割によって生じた実効貢献を振り返る。ヒーラー保護、敵複数人の長時間拘束、相手回復の崩し、瀕死の味方救援等はキル数へ十分に表れないため、役割達成を基準にした方が具体的な改善点を特定しやすい。
+### 対面外への波及価値
 
-#### 有利生成・有利変換・敵時間の拘束
+[A0562][AUTHOR_VIEW][RULE][GROUP_EFFECT][TARGET_LOCAL_EFFECT][GROUP_CONTENT][GROUP_CONTRIBUTION] 集団戦で二人が互いに拘束し合っているように見える場合でも、片方がHoT・範囲回復・バフ・デバフ・AoE・CC等を通じて他の味方や敵へ継続的に価値を出せるなら、両者を単純な1対1相殺として扱わず、拘束中に直接対面の外へ波及する価値の差を含めて評価する。
 
-[A0685][AUTHOR_VIEW][LIMIT][ALLY_DEPENDENCE][GROUP_CONTENT][GROUP_CONTRIBUTION] 味方が圧力・CC・削り等を供給した状況で高い性能を示すことは、そのキャラクターが同じ有利状態を単独で作れることを意味しない。
-[A0686][AUTHOR_VIEW][LIMIT][SOLO_EVALUATION][GROUP_CONTENT][GROUP_CONTRIBUTION] 単独で有利状態を作る能力が低いことだけを理由に、味方が作った有利を高効率で成果へ変換できるビルドの集団戦価値まで低いと結論しない。
-[A0687][AUTHOR_VIEW][RULE][GROUP_EFFECT][TARGET_LOCAL_EFFECT][GROUP_CONTENT][GROUP_CONTRIBUTION] 集団戦で二人が互いに拘束し合っているように見える場合でも、片方がHoT・範囲回復・バフ・デバフ・AoE・CC等を通じて他の味方や敵へ継続的に価値を出せるなら、両者を単純な1対1相殺として扱わず、拘束中に直接対面の外へ波及する価値の差を含めて評価する。
-[A0688][NOT_INITIAL_REQUIREMENT][AUTHOR_VIEW][GOAL][LIMIT][COMBAT_PARTICIPATION_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 初心者は、固定人数の集団戦で隠密・待機等によって実質的な戦闘参加を減らす運用について、その時間に失う攻撃・CC・支援・被フォーカス分散等を機会費用として差し引き、後の介入がその損失を上回るか評価できることを将来的な目標とし、初期段階の必須要件とはしない。
+### ヘイト価値
 
-#### 逃走価値と戦線復帰
+[A0563][AUTHOR_VIEW][COND][RULE][CAUSE][TIME_BUDGET][GROUP_CONTENT][GROUP_CONTRIBUTION] 集団戦では、敵のGCD・時間・位置取りは有限であるため、自分が生存しながら敵の攻撃・CC・追跡を引き受け、その分だけ味方への圧力を減らせるなら、その減少分をチーム価値として評価する。
+[A0564][NOT_INITIAL_REQUIREMENT][AUTHOR_VIEW][GOAL][LIMIT][COMBAT_PARTICIPATION_COST][GROUP_CONTENT][GROUP_CONTRIBUTION] 初心者は、固定人数の集団戦で隠密・待機等によって実質的な戦闘参加を減らす運用について、その時間に失う攻撃・CC・支援・被フォーカス分散等を機会費用として差し引き、後の介入がその損失を上回るか評価できることを将来的な目標とし、初期段階の必須要件とはしない。
 
-[A0689][AUTHOR_VIEW][CLAIM][GROUP_CONTENT][GROUP_CONTRIBUTION] バトルグラウンド（Battlegrounds／BG）では自分が死なないことだけでは不十分な場合がある。
-[A0690][AUTHOR_VIEW][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] 「自分が死なないことだけでは不十分」という問題は、競技性の高い4v4で特に顕著である。
-[A0691][EX][GROUP_CONTENT][ESCAPE_ROUTE] 自分が敵2人に追われて主戦場から遠くへ逃げる状況が例示されている。
-[A0692][AUTHOR_VIEW][COND][CLAIM][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 敵2人が自分を追跡し続ける間、その2人は味方を攻撃できず、味方側は主戦場で一時的な人数有利を得る。この人数有利には戦術的価値がある。
-[A0693][AUTHOR_VIEW][COND][LIMIT][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 敵が追跡をやめて主戦場へ戻った後も自分だけ遠方に残ると、味方は自分不在で戦うことになり、敵を引きつけた価値は薄くなる。
-[A0694][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] 「攻撃から逃げること」と「戦場から消えること」を区別する。
-[A0695][AUTHOR_VIEW][PROC][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 理想的な逃走復帰では、相手の攻撃をいなす→味方またはヒーラーの近くへ戻る→可能なら追跡者も味方側へ連れてくる→立て直して戦闘へ復帰する。
+### 逃走・戦線復帰
 
-#### 役割達成による自己評価
+[A0565][AUTHOR_VIEW][CLAIM][GROUP_CONTENT][GROUP_CONTRIBUTION] バトルグラウンド（Battlegrounds／BG）では自分が死なないことだけでは不十分な場合がある。
+[A0566][AUTHOR_VIEW][COND][GROUP_CONTENT][GROUP_CONTRIBUTION] 「自分が死なないことだけでは不十分」という問題は、競技性の高い4v4で特に顕著である。
+[A0567][EX][GROUP_CONTENT][ESCAPE_ROUTE] 自分が敵2人に追われて主戦場から遠くへ逃げる状況が例示されている。
+[A0568][AUTHOR_VIEW][COND][CLAIM][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 敵2人が自分を追跡し続ける間、その2人は味方を攻撃できず、味方側は主戦場で一時的な人数有利を得る。この人数有利には戦術的価値がある。
+[A0569][AUTHOR_VIEW][COND][LIMIT][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 敵が追跡をやめて主戦場へ戻った後も自分だけ遠方に残ると、味方は自分不在で戦うことになり、敵を引きつけた価値は薄くなる。
+[A0570][AUTHOR_VIEW][RULE][ESCAPE_ROUTE] 「攻撃から逃げること」と「戦場から消えること」を区別する。
+[A0571][AUTHOR_VIEW][PROC][GROUP_CONTENT][GROUP_CONTRIBUTION][ESCAPE_ROUTE] 理想的な逃走復帰では、相手の攻撃をいなす→味方またはヒーラーの近くへ戻る→可能なら追跡者も味方側へ連れてくる→立て直して戦闘へ復帰する。
+[A0572][AUTHOR_VIEW][PRIORITY][ESCAPE_ROUTE] 逃走の最終目的地は「最も遠い安全地帯」ではなく「次に戦える場所」である。
 
-[A0696][NOT_INITIAL_REQUIREMENT][AUTHOR_VIEW][GOAL][LIMIT][KILL_CONTRIBUTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 初心者は、撃破への貢献をKilling Blowの有無だけで評価せず、自分の介入がなければ相手が生存・回復・離脱できたかを比較し、自分がいなくても直後に撃破される相手への最後の一撃を大きな追加価値として数えない評価を将来的な目標とし、初期段階の必須要件とはしない。
+### キル数によらない貢献評価
+
+[A0573][AUTHOR_VIEW][RULE][CAUSE][EX][GROUP_CONTENT][GROUP_CONTRIBUTION] PvPの自己評価ではキル数だけを基準にせず、自分の役割によって生じた実効貢献を振り返る。ヒーラー保護、敵複数人の長時間拘束、相手回復の崩し、瀕死の味方救援等はキル数へ十分に表れないため、役割達成を基準にした方が具体的な改善点を特定しやすい。
+[A0574][NOT_INITIAL_REQUIREMENT][AUTHOR_VIEW][GOAL][LIMIT][KILL_CONTRIBUTION][GROUP_CONTENT][GROUP_CONTRIBUTION] 初心者は、撃破への貢献をKilling Blowの有無だけで評価せず、自分の介入がなければ相手が生存・回復・離脱できたかを比較し、自分がいなくても直後に撃破される相手への最後の一撃を大きな追加価値として数えない評価を将来的な目標とし、初期段階の必須要件とはしない。

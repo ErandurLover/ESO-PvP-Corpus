@@ -3,7 +3,7 @@
 [CORPUS_NAME] ESO PvP Corpus
 [CORPUS_VERSION] v162
 [PAGE_NAME] A08 Cyrodiil, Battlegrounds, and Vengeance
-[SECTION_SCOPE] v162 / A0697-A0734
+[SECTION_SCOPE] v162 / A0673,A0678-A0684,A0686-A0691,A0694-A0711,A0713-A0718
 [PROPOSITION_COUNT] 38
 [FREE_AI_SPLIT] Yes
 [CORE150_EXISTS] Yes
@@ -26,86 +26,77 @@
 [TAG_NOTE][GROUP_CONTRIBUTION] Indicates that effective contribution to the group as a whole, rather than individual freedom of action, is the evaluation axis.
 [TAG_NOTE][VENGEANCE] Indicates an evaluation target specific to the 復讐（Vengeance） environment, which has dedicated rules, abilities, loadouts, or similar systems different from normal campaigns. Do not automatically generalize strength, weakness, or learning suitability within this environment to normal PvP.
 
-## A08.1 Cyrodiil Siege and Support
 
-### A08.S Cyrodiil Siege and Support
+## Cyrodiil
 
-#### Siege Support in シロディール（Cyrodiil） Keep Battles
+### Siege Support in シロディール（Cyrodiil） Keep Battles
 
-[A0697][AUTHOR_VIEW][PATCH][COND][PRIORITY][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] When enemy siege weapons greatly interfere with allied operation or with a 破城槌（Battering Ram） during keep offense or defense in シロディール（Cyrodiil）, healer / support players should prioritize slotting a defensive shield against siege damage to preserve continuity of siege operations.
+[A0673][AUTHOR_VIEW][PATCH][COND][PRIORITY][ROLE_SUPPORT][GROUP_CONTENT][GROUP_CONTRIBUTION] When enemy siege weapons greatly interfere with allied operation or with a 破城槌（Battering Ram） during keep offense or defense in シロディール（Cyrodiil）, healer / support players should prioritize slotting a defensive shield against siege damage to preserve continuity of siege operations.
 
-#### Recommended Siege Weapons and Basic Operation in シロディール（Cyrodiil）
+### Recommended Siege Weapons and Basic Operation in シロディール（Cyrodiil）
 
-[A0698][AUTHOR_VIEW][PATCH][PRIORITY] Treat バリスタ（Ballista） not as a primary anti-player weapon but mainly as a tool for attacking structures and enemy siege weapons.
-[A0699][AUTHOR_VIEW][PATCH][CLAIM] Treat 氷炎バリスタ（Cold Fire Ballista） as a strong anti-player siege weapon with high anti-player performance among siege weapons.
-[A0700][AUTHOR_VIEW][PATCH][CLAIM] 氷炎バリスタ（Cold Fire Ballista） also has high performance against enemy siege weapons and strong practical value for destroying them.
-[A0701][AUTHOR_VIEW][PATCH][CLAIM] 氷炎バリスタ（Cold Fire Ballista） has a trajectory whose impact point is easy to predict and an easy-to-handle firing rhythm, allowing players unfamiliar with siege weapons to participate in sustained attacks more easily.
-[A0702][AUTHOR_VIEW][PATCH][LIMIT] The anti-structure performance of 氷炎バリスタ（Cold Fire Ballista） against walls, gates, and similar targets is usable, but do not rate it as an outstanding strength to the same degree as its anti-player and anti-enemy-siege performance.
-[A0703][AUTHOR_VIEW][PATCH][CLAIM][LIMIT] Because acquisition opportunities for 氷炎バリスタ（Cold Fire Ballista） are more limited than for ordinary basic siege weapons, do not assume it is a standard weapon available at all times.
-[A0704][AUTHOR_VIEW][PATCH][RULE][ALTERNATIVE_REASONING] When comparing 氷炎バリスタ（Cold Fire Ballista） with a normal バリスタ（standard Ballista） or similar weapon, separate low availability from combat performance and evaluate the whole practical role including anti-player performance, anti-enemy-siege performance, and usability, not only damage to walls.
-[A0705][AUTHOR_VIEW][RULE] For anti-player siege weapons, do not make continuously tracking moving enemies with the reticle the basic method. Instead, place the reticle on locations where enemies are likely to pass through or remain and wait.
-[A0706][AUTHOR_VIEW][RULE] When attacking enemy siege weapons, aim for an impact point that can hit not only the weapon itself but also its operator and nearby players at the same time.
-[A0707][AUTHOR_VIEW][RULE] With catapults, overlap impacts from multiple weapons at locations where enemies concentrate while passing through, such as in front of gates or breaches, creating continuous danger at the entry point.
-[A0708][AUTHOR_VIEW][PATCH][RULE] For 燃え盛る油（Flaming Oil）, make repeated use at available intervals to keep the lower area continuously hazardous rather than using it as a one-time attack aimed only at the instant an enemy enters the area.
-[A0709][AUTHOR_VIEW][PATCH][COND][LIMIT][TACTIC] From positions directly below walls or similar locations that are difficult to target directly from atop the wall, it can sometimes be possible to use a trebuchet's trajectory to attack siege weapons or players on top of the wall; do not treat these positions as safe zones because enemy players can jump down from the wall and approach.
-[A0710][AUTHOR_VIEW][PATCH][ADVANTAGE] 氷石トレビュシェット（Iceball Trebuchet） has high single-hit anti-player pressure and value for aiming a major hit at targets with limited room to move, such as players on walls.
+[A0678][AUTHOR_VIEW][PATCH][PRIORITY] Treat バリスタ（Ballista） not as a primary anti-player weapon but mainly as a tool for attacking structures and enemy siege weapons.
+[A0679][AUTHOR_VIEW][PATCH][CLAIM] Treat 氷炎バリスタ（Cold Fire Ballista） as a strong anti-player siege weapon with high anti-player performance among siege weapons.
+[A0680][AUTHOR_VIEW][PATCH][CLAIM] 氷炎バリスタ（Cold Fire Ballista） also has high performance against enemy siege weapons and strong practical value for destroying them.
+[A0681][AUTHOR_VIEW][PATCH][CLAIM] 氷炎バリスタ（Cold Fire Ballista） has a trajectory whose impact point is easy to predict and an easy-to-handle firing rhythm, allowing players unfamiliar with siege weapons to participate in sustained attacks more easily.
+[A0682][AUTHOR_VIEW][PATCH][LIMIT] The anti-structure performance of 氷炎バリスタ（Cold Fire Ballista） against walls, gates, and similar targets is usable, but do not rate it as an outstanding strength to the same degree as its anti-player and anti-enemy-siege performance.
+[A0683][AUTHOR_VIEW][PATCH][CLAIM][LIMIT] Because acquisition opportunities for 氷炎バリスタ（Cold Fire Ballista） are more limited than for ordinary basic siege weapons, do not assume it is a standard weapon available at all times.
+[A0684][AUTHOR_VIEW][PATCH][RULE][ALTERNATIVE_REASONING] When comparing 氷炎バリスタ（Cold Fire Ballista） with a normal バリスタ（standard Ballista） or similar weapon, separate low availability from combat performance and evaluate the whole practical role including anti-player performance, anti-enemy-siege performance, and usability, not only damage to walls.
+[A0686][AUTHOR_VIEW][RULE] For anti-player siege weapons, do not make continuously tracking moving enemies with the reticle the basic method. Instead, place the reticle on locations where enemies are likely to pass through or remain and wait.
+[A0687][AUTHOR_VIEW][RULE] When attacking enemy siege weapons, aim for an impact point that can hit not only the weapon itself but also its operator and nearby players at the same time.
+[A0688][AUTHOR_VIEW][RULE] With catapults, overlap impacts from multiple weapons at locations where enemies concentrate while passing through, such as in front of gates or breaches, creating continuous danger at the entry point.
+[A0689][AUTHOR_VIEW][PATCH][RULE] For 燃え盛る油（Flaming Oil）, make repeated use at available intervals to keep the lower area continuously hazardous rather than using it as a one-time attack aimed only at the instant an enemy enters the area.
+[A0690][AUTHOR_VIEW][PATCH][COND][LIMIT][TACTIC] From positions directly below walls or similar locations that are difficult to target directly from atop the wall, it can sometimes be possible to use a trebuchet's trajectory to attack siege weapons or players on top of the wall; do not treat these positions as safe zones because enemy players can jump down from the wall and approach.
+[A0691][AUTHOR_VIEW][PATCH][ADVANTAGE] 氷石トレビュシェット（Iceball Trebuchet） has high single-hit anti-player pressure and value for aiming a major hit at targets with limited room to move, such as players on walls.
 
-## A08.2 Cyrodiil Roles, Communication, Resurrection, and Progression
+### Tank Operation in シロディール（Cyrodiil）
 
-### A08.C Cyrodiil Roles, Communication, Resurrection, and Progression
+[A0694][AUTHOR_VIEW][COND][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] In asymmetric large-scale battles such as シロディール（Cyrodiil）, if multiple enemies continuously commit combat resources to a high-durability tank and allied pressure is thereby reduced, survival itself can have large combat value even with little additional support contribution.
+[A0695][AUTHOR_VIEW][COND][ROLE_TANK][BLOCK][MOVEMENT_SPEED][GROUP_CONTENT] Tank suitability in シロディール（Cyrodiil） changes with how fixed the combat position is. In highly mobile open-field fights, mobility and follow capability gain importance, while in fixed or semi-fixed fights around resources, keeps, or similar locations, permanent ブロック（Block）-type durability is easier to convert into useful work.
+[A0696][AUTHOR_VIEW][ADVANTAGE][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] High durability can provide value not merely as resistance to incoming damage but by enabling tasks that require survivability, such as reviving allies in positions dangerous to ordinary players, directly intervening against enemy siege, performing actions at dangerous locations, or holding position there.
 
-#### Tank Operation in シロディール（Cyrodiil）
+### Chat Information in シロディール（Cyrodiil）
 
-[A0711][AUTHOR_VIEW][COND][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] In asymmetric large-scale battles such as シロディール（Cyrodiil）, if multiple enemies continuously commit combat resources to a high-durability tank and allied pressure is thereby reduced, survival itself can have large combat value even with little additional support contribution.
-[A0712][AUTHOR_VIEW][COND][ROLE_TANK][BLOCK][MOVEMENT_SPEED][GROUP_CONTENT] Tank suitability in シロディール（Cyrodiil） changes with how fixed the combat position is. In highly mobile open-field fights, mobility and follow capability gain importance, while in fixed or semi-fixed fights around resources, keeps, or similar locations, permanent ブロック（Block）-type durability is easier to convert into useful work.
-[A0713][AUTHOR_VIEW][ADVANTAGE][ROLE_TANK][GROUP_CONTENT][GROUP_CONTRIBUTION] High durability can provide value not merely as resistance to incoming damage but by enabling tasks that require survivability, such as reviving allies in positions dangerous to ordinary players, directly intervening against enemy siege, performing actions at dangerous locations, or holding position there.
+[A0697][AUTHOR_VIEW][PRIORITY] When operating solo in シロディール（Cyrodiil）, check ゾーンチャット（Zone Chat） as a source of battlefield information.
+[A0698][PATCH][SCOPE] In シロディール（Cyrodiil）, ゾーンチャット（Zone Chat） reaches the entire zone while 叫び（Yell） reaches a broad nearby area, so do not treat them as having the same information range.
+[A0699][AUTHOR_VIEW][PRACTICE] To use battlefield chat in シロディール（Cyrodiil）, prioritize learning a small number of frequent abbreviations such as keep names, alliance names, “inc,” and player counts; do not require advanced English conversation ability as a condition for use.
 
-#### Chat Information in シロディール（Cyrodiil）
+### Reviving Allies in シロディール（Cyrodiil）
 
-[A0714][AUTHOR_VIEW][PRIORITY] When operating solo in シロディール（Cyrodiil）, check ゾーンチャット（Zone Chat） as a source of battlefield information.
-[A0715][PATCH][SCOPE] In シロディール（Cyrodiil）, ゾーンチャット（Zone Chat） reaches the entire zone while 叫び（Yell） reaches a broad nearby area, so do not treat them as having the same information range.
-[A0716][AUTHOR_VIEW][PRACTICE] To use battlefield chat in シロディール（Cyrodiil）, prioritize learning a small number of frequent abbreviations such as keep names, alliance names, “inc,” and player counts; do not require advanced English conversation ability as a condition for use.
+[A0700][AUTHOR_VIEW][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] When attempting to revive an ally in シロディール（Cyrodiil）, if the risk of dying yourself during the revive is high, prioritize your own survival over reviving the ally.
+[A0701][AUTHOR_VIEW][COND][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] When an ally can be revived safely in シロディール（Cyrodiil）, reviving them on the spot reduces long-distance return time for the dead player and makes it easier to restore front-line numbers quickly.
+[A0702][AUTHOR_VIEW][COND][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] In シロディール（Cyrodiil）, when there is no nearby usable return point, increase the priority of reviving allies when it can be done safely.
+[A0703][AUTHOR_VIEW][PATCH][COND][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] In シロディール（Cyrodiil）, if an ally near a 前線キャンプ（Forward Camp） can be revived manually and safely, returning them to the fight without using the Forward Camp preserves a camp respawn opportunity.
 
-#### Reviving Allies in シロディール（Cyrodiil）
+### シロディール（Cyrodiil） 洞窟（Delve） and Crowded Campaigns
 
-[A0717][AUTHOR_VIEW][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] When attempting to revive an ally in シロディール（Cyrodiil）, if the risk of dying yourself during the revive is high, prioritize your own survival over reviving the ally.
-[A0718][AUTHOR_VIEW][COND][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] When an ally can be revived safely in シロディール（Cyrodiil）, reviving them on the spot reduces long-distance return time for the dead player and makes it easier to restore front-line numbers quickly.
-[A0719][AUTHOR_VIEW][COND][PRIORITY][GROUP_CONTENT][GROUP_CONTRIBUTION] In シロディール（Cyrodiil）, when there is no nearby usable return point, increase the priority of reviving allies when it can be done safely.
-[A0720][AUTHOR_VIEW][PATCH][COND][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] In シロディール（Cyrodiil）, if an ally near a 前線キャンプ（Forward Camp） can be revived manually and safely, returning them to the fight without using the Forward Camp preserves a camp respawn opportunity.
+[A0704][PATCH][CLAIM] A シロディール（Cyrodiil） 洞窟（Delve） is a separate instance from the surface campaign, and the transition back to the surface is processed as re-entry into the surface campaign.
+[A0705][PATCH][COND][LIMIT] If the surface シロディール（Cyrodiil） campaign has reached its population cap, attempting to return from a 洞窟（Delve） may not return you immediately and can place you in a state waiting for re-entry until space becomes available.
+[A0706][AUTHOR_VIEW][PATCH][RULE] During events, crowded hours, or other situations where the surface campaign is likely to reach its population cap, account for the risk of being unable to return to the surface immediately even when entering a シロディール（Cyrodiil） 洞窟（Delve） for an 同盟ポイント（Alliance Points／AP）-related bonus from killing a delve boss or a town daily objective.
 
-#### シロディール（Cyrodiil） 洞窟（Delve） and Crowded Campaigns
+### Siege Weapons and Tanks in シロディール（Cyrodiil）
 
-[A0721][PATCH][CLAIM] A シロディール（Cyrodiil） 洞窟（Delve） is a separate instance from the surface campaign, and the transition back to the surface is processed as re-entry into the surface campaign.
-[A0722][PATCH][COND][LIMIT] If the surface シロディール（Cyrodiil） campaign has reached its population cap, attempting to return from a 洞窟（Delve） may not return you immediately and can place you in a state waiting for re-entry until space becomes available.
-[A0723][AUTHOR_VIEW][PATCH][RULE] During events, crowded hours, or other situations where the surface campaign is likely to reach its population cap, account for the risk of being unable to return to the surface immediately even when entering a シロディール（Cyrodiil） 洞窟（Delve） for an 同盟ポイント（Alliance Points／AP）-related bonus from killing a delve boss or a town daily objective.
+[A0707][AUTHOR_VIEW][PATCH][RULE][ROLE_TANK][GROUP_CONTENT] Even as a tank, do not remain without positional benefit inside avoidable high-damage AoE, especially persistent damage zones created by siege weapons; move out of the area to avoid unnecessary continuous damage.
+[A0708][AUTHOR_VIEW][PATCH][DIAG][ROLE_TANK][GROUP_CONTENT] When evaluating tank durability in シロディール（Cyrodiil）, separately verify toughness against ordinary player attacks and handling of siege weapons; do not judge a survival design complete against siege-inclusive threats merely because durability against players is high.
 
-#### Siege Weapons and Tanks in シロディール（Cyrodiil）
+### War Torte Line and 同盟戦争（Alliance War） Progression
 
-[A0724][AUTHOR_VIEW][PATCH][RULE][ROLE_TANK][GROUP_CONTENT] Even as a tank, do not remain without positional benefit inside avoidable high-damage AoE, especially persistent damage zones created by siege weapons; move out of the area to avoid unnecessary continuous damage.
-[A0725][AUTHOR_VIEW][PATCH][DIAG][ROLE_TANK][GROUP_CONTENT] When evaluating tank durability in シロディール（Cyrodiil）, separately verify toughness against ordinary player attacks and handling of siege weapons; do not judge a survival design complete against siege-inclusive threats merely because durability against players is high.
+[A0709][PATCH][CLAIM][FOOD] War Torte items such as コロヴィアのウォートルテ（Colovian War Torte） do not increase the actual amount of 同盟ポイント（Alliance Points／AP） gained, but increase progression speed of 同盟ランク（Alliance Rank） and the 同盟戦争（Alliance War） skill lines.
+[A0710][AUTHOR_VIEW][PATCH][RULE] When evaluating progression speed related to 同盟戦争（Alliance War）, distinguish effects that increase actual 同盟ポイント（Alliance Points／AP） or experience gained from effects that directly amplify progress of 同盟ランク（Alliance Rank） or Alliance War skill lines, and evaluate the latter as effects that also shorten progression time.
 
-#### War Torte Line and 同盟戦争（Alliance War） Progression
+## Vengeance
 
-[A0726][PATCH][CLAIM][FOOD] War Torte items such as コロヴィアのウォートルテ（Colovian War Torte） do not increase the actual amount of 同盟ポイント（Alliance Points／AP） gained, but increase progression speed of 同盟ランク（Alliance Rank） and the 同盟戦争（Alliance War） skill lines.
-[A0727][AUTHOR_VIEW][PATCH][RULE] When evaluating progression speed related to 同盟戦争（Alliance War）, distinguish effects that increase actual 同盟ポイント（Alliance Points／AP） or experience gained from effects that directly amplify progress of 同盟ランク（Alliance Rank） or Alliance War skill lines, and evaluate the latter as effects that also shorten progression time.
+### 復讐（Vengeance）: Separating Evaluation and Learning Scope from Normal PvP
 
-## A08.3 Separate Vengeance from Ordinary PvP
+[A0711][AUTHOR_VIEW][PATCH][AI][RULE][SCOPE][RECOMMENDATION_SCOPE][VENGEANCE] Do not directly reuse evaluations of class, build, or skill strength obtained in 復讐（Vengeance） for normal シロディール（Cyrodiil） or other normal PvP. Because character performance, abilities, loadouts, and similar systems differ from normal campaigns in Vengeance, generalize only performance that remains after excluding environment-specific adjustments.
 
-### A08.V Vengeance
+## Battlegrounds
 
-#### 復讐（Vengeance）: Separating Evaluation and Learning Scope from Normal PvP
+### Revive and Respawn in バトルグラウンド（Battlegrounds）
 
-[A0728][AUTHOR_VIEW][PATCH][AI][RULE][SCOPE][RECOMMENDATION_SCOPE][VENGEANCE] Do not directly reuse evaluations of class, build, or skill strength obtained in 復讐（Vengeance） for normal シロディール（Cyrodiil） or other normal PvP. Because character performance, abilities, loadouts, and similar systems differ from normal campaigns in Vengeance, generalize only performance that remains after excluding environment-specific adjustments.
-
-## A08.4 Battleground Resurrection and Respawn
-
-### A08.BG Battlegrounds
-
-#### Revive and Respawn in バトルグラウンド（Battlegrounds）
-
-[A0729][AUTHOR_VIEW][PATCH][DEFAULT][HEURISTIC][GROUP_CONTENT][GROUP_CONTRIBUTION] In バトルグラウンド（Battlegrounds）, when self-respawn is available, make prompt self-respawn the default rather than remaining as a corpse waiting for an ally revive.
-[A0730][AUTHOR_VIEW][PATCH][DEFAULT][HEURISTIC][GROUP_CONTENT][GROUP_CONTRIBUTION] In バトルグラウンド（Battlegrounds） under normal conditions where self-respawn is available, do not make manual revival of dead allies a high-priority action; prioritize continuing your own combat participation.
-[A0731][PATCH][CLAIM][4V4_DEATHMATCH][GROUP_CONTENT] Current 4v4 Deathmatch uses rounds and a finite number of lives per player; once an individual's lives are exhausted, that player cannot respawn again in that round.
-[A0732][AUTHOR_VIEW][RULE][GROUP_CONTENT][GROUP_CONTRIBUTION] In バトルグラウンド（Battlegrounds）, treat prompt self-respawn and immediately charging back into enemies alone after respawning as separate decisions.
-[A0733][AUTHOR_VIEW][COND][RULE][GROUP_CONTENT][GROUP_CONTRIBUTION] If allies are effectively wiped when you respawn in バトルグラウンド（Battlegrounds）, do not re-enter alone; regroup with returning allies at an easily assembled position such as high ground near the spawn point before committing again.
-[A0734][AUTHOR_VIEW][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] Do not treat remaining dead while waiting for an ally revive and having already respawned while waiting to regroup with allies as the same combat absence in バトルグラウンド（Battlegrounds）. In the latter state, you can redeploy immediately in coordination with allies.
+[A0713][AUTHOR_VIEW][PATCH][DEFAULT][HEURISTIC][GROUP_CONTENT][GROUP_CONTRIBUTION] In バトルグラウンド（Battlegrounds）, when self-respawn is available, make prompt self-respawn the default rather than remaining as a corpse waiting for an ally revive.
+[A0714][AUTHOR_VIEW][PATCH][DEFAULT][HEURISTIC][GROUP_CONTENT][GROUP_CONTRIBUTION] In バトルグラウンド（Battlegrounds） under normal conditions where self-respawn is available, do not make manual revival of dead allies a high-priority action; prioritize continuing your own combat participation.
+[A0715][PATCH][CLAIM][4V4_DEATHMATCH][GROUP_CONTENT] Current 4v4 Deathmatch uses rounds and a finite number of lives per player; once an individual's lives are exhausted, that player cannot respawn again in that round.
+[A0716][AUTHOR_VIEW][RULE][GROUP_CONTENT][GROUP_CONTRIBUTION] In バトルグラウンド（Battlegrounds）, treat prompt self-respawn and immediately charging back into enemies alone after respawning as separate decisions.
+[A0717][AUTHOR_VIEW][COND][RULE][GROUP_CONTENT][GROUP_CONTRIBUTION] If allies are effectively wiped when you respawn in バトルグラウンド（Battlegrounds）, do not re-enter alone; regroup with returning allies at an easily assembled position such as high ground near the spawn point before committing again.
+[A0718][AUTHOR_VIEW][CAUSE][GROUP_CONTENT][GROUP_CONTRIBUTION] Do not treat remaining dead while waiting for an ally revive and having already respawned while waiting to regroup with allies as the same combat absence in バトルグラウンド（Battlegrounds）. In the latter state, you can redeploy immediately in coordination with allies.

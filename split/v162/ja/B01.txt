@@ -31,17 +31,13 @@
 [TAG_NOTE][GROUP_CONTENT] グループとして参加し、味方との相互作用を評価対象に含むコンテンツまたは運用を示す。
 [TAG_NOTE][GROUP_CONTRIBUTION] 個人の自由行動よりグループ全体への実効的な貢献を評価軸にすることを示す。
 
-## B.0 全ロール共通原則
 
-### B系列の適用前提・集団原則
+## B1 全ロール・共通原則
 
 [B0001][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][REQUIREMENT][ALL_ROLES] 上級者向けの要求水準を適用する前提として、評価対象となるロール・用途に関連するA系列の基礎行動を安定して実行できることを求める。A系列の全ロール・全用途の初心者向け目標を一括して既習であることまでは要求しない。
 [B0002][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ単位でも機会費用を考える。
 [B0003][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ単位でも相手の自由時間を圧迫することを考える。
 [B0004][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CORE_JUDGMENT][RULE][ALL_ROLES][GROUP_CONTENT][GROUP_CONTRIBUTION] グループ単位でも攻防ターンの概念を考える。
-
-### ブルーザー経験と上級技能の課題忠実度
-
 [B0005][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ALL_ROLES] ブルーザー以外の全ロールは、純ブルーザーとして正面戦の役割を実際に遂行する経験によって能力向上が促進される。
 [B0006][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CAUSE][ROLE_BRUISER][ALL_ROLES] 純ブルーザーは、攻撃・防御・回復・CC・位置・リソース判断を高頻度に反復し、判断失敗が短時間で被圧・防御ターン・被撃破等の結果として返りやすく、自分の判断によって相手の行動が変化し、その反応をさらに自分が処理する知覚―行動ループを繰り返すため、各種テクニックと判断力への訓練曝露が高密度になりやすい。
 [B0007][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][CAUSE][ALL_ROLES] 他ロールは、そのロール固有の成功手段によって正面の攻防交換を避けたまま成果を得られる場合があるため、ブルーザーで要求される高密度な攻防負荷への学習曝露が少なくなる場合がある。これは他ロールの価値が低いことを意味せず、学習経路によってブルーザーで要求される負荷を十分に反復しない場合があることを示す。
@@ -55,6 +51,6 @@
 [B0015][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][PRACTICE][CLAIM][ROLE_BRUISER][ALL_ROLES] このB系列が求める上級者水準へ到達する最も直接的な方法は、純ブルーザーとして正面戦を成立させる実戦経験を反復することであり、ブルーザー実戦経験を避けたまま同等の操作・判断品質へ到達する経路は一般に迂遠かつ困難である。
 [B0016][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][CLAIM][ROLE_BRUISER][ALL_ROLES] ブルーザー実戦経験を避けたまま同等の操作・判断品質へ到達しようとする場合、ブルーザー経験者との戦闘感覚・価値判断にも差が残りやすい。
 
-### PvPvE環境の第三者利用
+### B1A PvPvE環境第三者利用
 
 [B0017][ADVANCED_ONLY][NOT_FOR_BEGINNER_REQUIREMENT][AUTHOR_VIEW][TACTIC][THIRD_PARTY_ENVIRONMENT_USE] PvPvE環境では、モンスターや第三勢力からの攻撃を利用して、自分の被弾時効果またはシールド破壊時効果の発動タイミングを、敵プレイヤーだけでは制御できない状態へ変えられる場合がある。

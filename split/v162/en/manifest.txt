@@ -35,77 +35,77 @@
 # A SERIES
 
 ## A00 Generative AI Application and Reasoning Discipline
-[ID_SCOPE] A0001-A0053
+[ID_SCOPE] A0001-A0052,A0525
 [COUNT] 53
 [ROUTE_WHEN] Corpus application, verification of current mechanics, evidence and reasoning, user goals, and comparison or recommendation discipline
 [PAGE_FLOW] Read scope and core principles first, then retrieve only the evidence-verification or recommendation-discipline branch that is needed.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A00.txt
 
 ## A01 Universal PvP Fundamentals for All Roles
-[ID_SCOPE] A0054-A0089
+[ID_SCOPE] A0053-A0088
 [COUNT] 36
 [ROUTE_WHEN] universal purpose-first reasoning, decision principles, action opportunities, offensive and defensive turns, and small exchanges
 [PAGE_FLOW] Read purpose, decisions, and action opportunities first; add small exchanges only when diagnosing practical differences.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A01.txt
 
 ## A02 Beginner Onboarding, Learning, Diagnosis, and Verification
-[ID_SCOPE] A0090-A0241
+[ID_SCOPE] A0089-A0145,A0190,A0225-A0240,A0242-A0249,A0272,A0353,A0362,A0370,A0395-A0397,A0407-A0408,A0419,A0449-A0450,A0461-A0462,A0464,A0470,A0509,A0583,A0585-A0587,A0604-A0619,A0621-A0624,A0635-A0638,A0645,A0674-A0677,A0685,A0692-A0693,A0712,A0725-A0731,A0734-A0735,A0739,A0749-A0750,A0755-A0756,A0793-A0794
 [COUNT] 152
 [ROUTE_WHEN] entry-level onboarding, foundational skills, beginner information by role and battlefield, learning, diagnosis, and verification
 [PAGE_FLOW] Read initial onboarding first, then add only the relevant role, battlefield, or diagnostic subsection.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A02.txt
 
 ## A03 Build Design, Performance Requirements, Comparison, and Adjustment
-[ID_SCOPE] A0242-A0475
+[ID_SCOPE] A0146-A0189,A0191-A0224,A0241,A0250-A0264,A0304-A0352,A0379,A0386-A0387,A0415-A0418,A0420-A0448,A0451-A0457,A0463,A0465-A0469,A0471-A0475,A0497-A0499,A0510-A0524,A0526-A0544
 [COUNT] 234
 [ROUTE_WHEN] build purpose and viability, required offensive, defensive, sustain, mobility, and execution performance, components, comparison, and adjustment
 [PAGE_FLOW] Read basic design and evaluation first, then select one required-performance branch. Add components and limited-use information only as needed.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A03.txt
 
 ## A04 Practical Offense, Pressure, and Finishing
-[ID_SCOPE] A0476-A0513
+[ID_SCOPE] A0265-A0271,A0273-A0303
 [COUNT] 38
 [ROUTE_WHEN] practical CC, burst, sustained pressure, and diagnosis of failure to finish
 [PAGE_FLOW] Read basic offensive execution first; add pressure continuation and failure diagnosis only when finishing fails.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A04.txt
 
 ## A05 Practical Defense and Healing
-[ID_SCOPE] A0514-A0567
+[ID_SCOPE] A0354-A0361,A0363-A0369,A0371-A0378,A0380-A0385,A0388-A0394,A0398-A0406,A0409-A0414,A0458-A0460
 [COUNT] 54
 [ROUTE_WHEN] emergency defense, Block, recovery, healing, sustained-pressure response, situational awareness, and anti-stealth
 [PAGE_FLOW] Read emergency defense and recovery first, then add healing, sustained-pressure response, or anti-stealth only as needed.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A05.txt
 
 ## A06 Practical Movement, Positioning, and Disengagement
-[ID_SCOPE] A0568-A0597
+[ID_SCOPE] A0476-A0496,A0500-A0508
 [COUNT] 30
 [ROUTE_WHEN] LoS, terrain use, circling, escape, and 1vX
 [PAGE_FLOW] Read LoS and terrain use first; add disengagement or outnumbered operation only when it is the question's focus.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A06.txt
 
 ## A07 Role Fundamentals and Group Contribution
-[ID_SCOPE] A0598-A0696
+[ID_SCOPE] A0545-A0582,A0584,A0588-A0603,A0620,A0625-A0634,A0639-A0644,A0646-A0672
 [COUNT] 99
 [ROUTE_WHEN] common role fundamentals, target-role fundamentals, and group contribution
 [PAGE_FLOW] Read common fundamentals and only the target role; add group-contribution applications only for group-combat questions.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A07.txt
 
 ## A08 Cyrodiil, Battlegrounds, and Vengeance
-[ID_SCOPE] A0697-A0734
+[ID_SCOPE] A0673,A0678-A0684,A0686-A0691,A0694-A0711,A0713-A0718
 [COUNT] 38
 [ROUTE_WHEN] Cyrodiil-, Vengeance-, and Battleground-specific information
 [PAGE_FLOW] Retrieve only the target environment among Cyrodiil, Vengeance, and Battlegrounds.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A08.txt
 
 ## A09 Imperial City
-[ID_SCOPE] A0735-A0774
+[ID_SCOPE] A0719-A0724,A0732-A0733,A0736-A0738,A0740-A0748,A0751-A0754,A0757-A0772
 [COUNT] 40
 [ROUTE_WHEN] Imperial City Tel Var, terrain, districts, bosses, return routes, and specific suppression effects
 [PAGE_FLOW] Retrieve only the target branch among Tel Var, terrain, bosses, and return routes.
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A09.txt
 
 ## A10 Specific Gear, Skills, Patch, and Historical References
-[ID_SCOPE] A0775-A0839
+[ID_SCOPE] A0773-A0792,A0795-A0839
 [COUNT] 65
 [ROUTE_WHEN] specific gear and skills, past changes, high ping, and historical reference for extreme lag environments
 [PAGE_FLOW] Retrieve only the gear, skill, or historical item explicitly named in the question.
@@ -127,7 +127,7 @@ URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/A10.txt
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/B01.txt
 
 ## B02 Advanced Role-Specific Operation
-[ID_SCOPE] B0018-B0108
+[ID_SCOPE] B0018-B0091,B0189-B0205
 [COUNT] 91
 [ROUTE_WHEN] advanced Tank, Healer and Support, Bruiser, Ganker, and Bomber operation
 [PAGE_FLOW] When an advanced condition is explicit, retrieve only one target role.
@@ -136,7 +136,7 @@ URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/B01.txt
 URL: https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/B02.txt
 
 ## B03 Advanced Context-Specific Operation
-[ID_SCOPE] B0109-B0205
+[ID_SCOPE] B0092-B0188
 [COUNT] 97
 [ROUTE_WHEN] ranged and hybrid roles in fixed small groups, competitive Skirmisher operation, and high-MMR 4v4
 [PAGE_FLOW] When an advanced condition is explicit, retrieve only one target combat context.

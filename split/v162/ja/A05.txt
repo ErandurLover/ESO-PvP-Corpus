@@ -3,7 +3,7 @@
 [CORPUS_NAME] ESO PvP Corpus
 [CORPUS_VERSION] v162
 [PAGE_NAME] A05 防御・回復の実戦運用
-[SECTION_SCOPE] v162 / A0514-A0567
+[SECTION_SCOPE] v162 / A0354-A0361,A0363-A0369,A0371-A0378,A0380-A0385,A0388-A0394,A0398-A0406,A0409-A0414,A0458-A0460
 [PROPOSITION_COUNT] 54
 [FREE_AI_SPLIT] Yes
 [CORE150_EXISTS] Yes
@@ -27,109 +27,79 @@
 [TAG_NOTE][PROGRESSIVE_LEARNING] 部分的成功から成功頻度を増やして段階的に身体化する学習過程を示す。
 [TAG_NOTE][GROUP_CONTENT] グループとして参加し、味方との相互作用を評価対象に含むコンテンツまたは運用を示す。
 
-## A05.1 致死回避から立て直しへ
 
-### A05.00 防御初動・立て直し概論
+## 緊急防御・立て直し
 
-#### 先に取得する中核結論
+### 初動防御の基本順序
 
-[A0514][AUTHOR_VIEW][PRIORITY][LETHAL_DAMAGE_PREVENTION] 致死の可能性がある局面では、リソース節約より、被ダメージを減らしてHPを0にせず生存することを優先する。
-[A0515][AUTHOR_VIEW][CORE_JUDGMENT][PRACTICE][COMMON_DEFENSIVE_DECISION][DEFENSIVE_SEQUENCE][PRIORITY] 初期練習では、危険を認識して自分で防御行動を選べる状態なら、まずブロック（Block）を成立させてから、防御バーへの移行、回復、防御スキル、LoS、距離確保等の立て直しへ入ることを反射的な基本順序として練習する。
-[A0516][AUTHOR_VIEW][PRACTICE][DEFENSIVE_SEQUENCE] 攻撃用のバースト手順と同様に、防御ターンへ入った時は、まずブロック（Block）を最初の自発防御として成立させ、その防御時間を利用して回復・防御・位置調整を連結し、再び戦える状態へ戻るための短い立て直し手順をビルドごとに事前に準備して反復練習する。通常のビルドでは、緊急防御シーケンスのパターン数を増やすこと自体を目的とせず、主要な実効手順を1～2程度に絞り、窮地で反射的に実行できるまで習熟する。
+[A0354][AUTHOR_VIEW][CORE_JUDGMENT][PRACTICE][COMMON_DEFENSIVE_DECISION][DEFENSIVE_SEQUENCE][PRIORITY] 初期練習では、危険を認識して自分で防御行動を選べる状態なら、まずブロック（Block）を成立させてから、防御バーへの移行、回復、防御スキル、LoS、距離確保等の立て直しへ入ることを反射的な基本順序として練習する。
 
-#### 硬さ・回復・攻防移行
+### ブロック運用・タイミング
 
-[A0517][CLAIM][DEATH_STATE][HEALING_LIMIT] HPが0になって死亡した後は、通常の回復スキルを自分で使用して生存状態へ戻ることはできない。
-[A0518][AUTHOR_VIEW][CAUSE][BLOCK] ブロック（Block）可能なバーストをブロックして被ダメージを減らせる場合、無防備に受けた後で失ったHPを回復するより、必要なHP巻き戻し量と、それに伴う回復行動・回復リソースの負担を減らしやすい。
-[A0519][CAUSE] HPが減りにくくても、回復に何回も行動を使う必要があるなら、その間は攻撃できない。
-[A0520][CAUSE] 多少削られやすくても、一回または二回の行動で大きく回復できれば、戦線へ早く戻れる。
+[A0355][DEF][BLOCK] 継続的にブロック（Block）状態を維持する長時間ブロックと、重大攻撃を処理するため短い時間だけ行う短時間ブロックを区別する。
+[A0356][AUTHOR_VIEW][RULE][BLOCK] 長時間ブロック（Block）の機会費用を理由に、ブロック可能な重大攻撃への短時間ブロックまで避けない。
+[A0357][AUTHOR_VIEW][PRACTICE][BLOCK][BLOCK_TIMING] 短時間ブロック（Block）は攻撃が着弾する一点だけに入力を合わせる操作ではなく、予想着弾より前にブロック状態を成立させ、着弾後まで保持して攻撃をブロック状態の時間帯へ迎え入れる操作として扱う。
+[A0358][AUTHOR_VIEW][COND][BLOCK][BLOCK_TIMING][LAG] 通信遅延やサーバーラグが強い環境では、ブロック（Block）入力と実際の防御判定のずれを考慮し、重大攻撃に対するブロックの前後の保持余裕を通常より長く取る。
+[A0359][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][TIME_BUDGET] ブロック（Block）は通常のアクティブスキルのGCDに拘束されず、スキルのGCD中でも入力してブロック状態を成立させられる。
+[A0360][AUTHOR_VIEW][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] ブロック（Block）を保持したままバー交換してもブロック状態は維持されるため、緊急時は先にブロックを成立させ、その状態を維持したまま防御バーへ移行できる。
+[A0361][AUTHOR_VIEW][PATCH][CAUSE][DEFENSIVE_SEQUENCE][TIME_BUDGET] 緊急時に回復スキルがGCD待ちになる局面でもブロック（Block）は先に防御価値を発生させられるため、回復を最初の行動にするより、まずブロックを成立させる方が防御の実利を早く得やすい。
+[A0363][AUTHOR_VIEW][CAUSE][BLOCK][CC][DEFENSIVE_SEQUENCE] ブロック（Block）可能なCCを事前にブロックできる場合、その価値にはCC自体の阻止だけでなく、CC成立によるブロック解除、打破（Break Free）のスタミナ（Stamina）消費、後続バーストへの露出、防御再構築という不利な連鎖を上流で防ぐことも含まれる。
+[A0364][AUTHOR_VIEW][DIAG][SUSTAIN][DEFENSIVE_SEQUENCE][BLOCK][BLOCK_COST] ブロック（Block）に必要なスタミナ（Stamina）余白を失っている状態は、回復をブロックより先に置く一般的な理由ではなく、非常用スタミナ余白または実戦サステインをすでに使い切った危険状態として別途診断する。
+[A0365][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] 打破（Break Free）を必要とするCCを受けて行動不能になっている間はブロック（Block）状態が解除される。
+[A0366][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] 打破（Break Free）のモーション中は、ブロック（Block）入力によってブロック（Block）状態を成立させることができる。
+[A0367][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] ロール回避（Roll Dodge）中は、ブロック（Block）入力によってブロック（Block）状態を成立させることができる。
+[A0368][AUTHOR_VIEW][PATCH][PRACTICE][DEFENSIVE_SEQUENCE] 打破（Break Free）を必要とするCCをすでに受けて行動不能になっている間は、打破を通常の防御選択より前に必要な状態復帰として扱う。CCによってブロック（Block）状態が解除された後や、打破・ロール回避（Roll Dodge）を行う局面では、可能な場合はその動作中からブロック入力を行い、直後に続くバーストや時間差攻撃を無防備に受ける時間を減らす。
+[A0369][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY] 詠唱・チャネリングを伴わない通常の即時スキルは、ブロック（Block）入力を維持したまま使用でき、スキル使用のためにブロックを解除する必要がない。
+[A0371][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][CC][DEFENSIVE_SEQUENCE] 打破（Break Free）を必要とするCCをすでに受けて行動不能になっている状態を、ブロック（Block）最優先の防御起動原則への反例として使用しない。CC中は自由な通常防御選択が制限された状態として扱い、打破による状態復帰と、可能な限り早いブロック再確立を説明する。
+[A0372][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][BLOCK][BLOCK_COST][SUSTAIN][DEFENSIVE_SEQUENCE] ブロック（Block）用のスタミナ（Stamina）が残っていない状態を、初心者へ回復先行を標準推奨する根拠として使用しない。その状態は非常用リソース余白の枯渇として別途診断する。
+[A0373][AUTHOR_VIEW][AI][RULE][PRIORITY][DEFENSIVE_SEQUENCE] 初心者向けに緊急防御行動を複数列挙するとき、それらを順不同の候補として提示してブロック（Block）の初動優先を失わせない。窮地の起動順序を扱う文脈では、最初にブロックを明示する。
+[A0374][AUTHOR_VIEW][CORE_JUDGMENT][AI][LIMIT][BLOCK][DEFENSIVE_SEQUENCE] 個別にブロック（Block）で処理できない攻撃が存在することを、一般的な初心者緊急防御シーケンスを回復先行へ変更する根拠として使用しない。特定攻撃への対処を問われた場合は、その攻撃に対する個別防御として説明する。
+[A0375][AUTHOR_VIEW][AI][PATCH][RULE][EPISTEMIC_SEPARATION][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] ブロック（Block）のGCD非拘束、ブロック中のバー交換、ブロック中のスキル使用等の仕様を根拠に防御順序を説明する場合は、質問時点の現行仕様を確認し、確認済み仕様と「初心者はブロックを最初の自発防御とする」という著者判断を区別して説明する。
+[A0376][PATCH][CAUSE][BLOCK][BLOCK_COST] ブロック（Block）コストは受けるダメージ量ではなく、ブロック中にコスト徴収判定が発生した回数によって増える。このため、内部クールダウンをまたいで反復命中する攻撃は、単発攻撃より相手のブロック用リソースへ圧力をかけやすい。
+[A0377][AUTHOR_VIEW][LIMIT][BLOCK] 多段攻撃の価値をブロック（Block）コスト圧迫だけで評価せず、通常はダメージ・圧力形成・付随効果等の主要機能に加わる副次的価値として扱う。
+[A0378][AUTHOR_VIEW][PATCH][DIAG][BLOCK][BLOCK_FAILURE] キャラクターのブロック（Block）モーションやブロックエフェクトが表示されていても、通信遅延やブロック関連の不具合によって実際の防御判定が成立していない場合がある。長時間保持中などにブロック不成立を疑う場合は、一度入力を解除してから再入力し、ブロック状態を再確立する。
 
-## A05.2 ブロックの成立・維持・解除後
+### 硬さ・回復・攻防移行
 
-### A05.B ブロック運用
+[A0380][CLAIM][DEATH_STATE][HEALING_LIMIT] HPが0になって死亡した後は、通常の回復スキルを自分で使用して生存状態へ戻ることはできない。
+[A0381][AUTHOR_VIEW][PRIORITY][LETHAL_DAMAGE_PREVENTION] 致死の可能性がある局面では、リソース節約より、被ダメージを減らしてHPを0にせず生存することを優先する。
+[A0382][AUTHOR_VIEW][CAUSE][BLOCK] ブロック（Block）可能なバーストをブロックして被ダメージを減らせる場合、無防備に受けた後で失ったHPを回復するより、必要なHP巻き戻し量と、それに伴う回復行動・回復リソースの負担を減らしやすい。
+[A0383][CAUSE] HPが減りにくくても、回復に何回も行動を使う必要があるなら、その間は攻撃できない。
+[A0384][CAUSE] 多少削られやすくても、一回または二回の行動で大きく回復できれば、戦線へ早く戻れる。
+[A0385][AUTHOR_VIEW][PRACTICE][DEFENSIVE_SEQUENCE] 攻撃用のバースト手順と同様に、防御ターンへ入った時は、まずブロック（Block）を最初の自発防御として成立させ、その防御時間を利用して回復・防御・位置調整を連結し、再び戦える状態へ戻るための短い立て直し手順をビルドごとに事前に準備して反復練習する。通常のビルドでは、緊急防御シーケンスのパターン数を増やすこと自体を目的とせず、主要な実効手順を1～2程度に絞り、窮地で反射的に実行できるまで習熟する。
 
-#### 短時間ブロックと先行入力
+## 回復・継続圧力への対応
 
-[A0521][DEF][BLOCK] 継続的にブロック（Block）状態を維持する長時間ブロックと、重大攻撃を処理するため短い時間だけ行う短時間ブロックを区別する。
-[A0522][AUTHOR_VIEW][RULE][BLOCK] 長時間ブロック（Block）の機会費用を理由に、ブロック可能な重大攻撃への短時間ブロックまで避けない。
-[A0523][AUTHOR_VIEW][PRACTICE][BLOCK][BLOCK_TIMING] 短時間ブロック（Block）は攻撃が着弾する一点だけに入力を合わせる操作ではなく、予想着弾より前にブロック状態を成立させ、着弾後まで保持して攻撃をブロック状態の時間帯へ迎え入れる操作として扱う。
-[A0524][AUTHOR_VIEW][COND][BLOCK][BLOCK_TIMING][LAG] 通信遅延やサーバーラグが強い環境では、ブロック（Block）入力と実際の防御判定のずれを考慮し、重大攻撃に対するブロックの前後の保持余裕を通常より長く取る。
-[A0525][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][TIME_BUDGET] ブロック（Block）は通常のアクティブスキルのGCDに拘束されず、スキルのGCD中でも入力してブロック状態を成立させられる。
-[A0526][AUTHOR_VIEW][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] ブロック（Block）を保持したままバー交換してもブロック状態は維持されるため、緊急時は先にブロックを成立させ、その状態を維持したまま防御バーへ移行できる。
-[A0527][AUTHOR_VIEW][PATCH][CAUSE][DEFENSIVE_SEQUENCE][TIME_BUDGET] 緊急時に回復スキルがGCD待ちになる局面でもブロック（Block）は先に防御価値を発生させられるため、回復を最初の行動にするより、まずブロックを成立させる方が防御の実利を早く得やすい。
+### 継続回復と緊急回復
 
-#### CC・打破・ロール回避・スキルとの両立
+[A0388][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT] PvPではヒーラーが存在していても、自分で実行可能な自衛・自己回復を放棄して自分のHP管理を全面的にヒーラーへ委任することを基本運用としない。
+[A0389][CLAIM] 継続回復は戦闘中の細かいダメージを継続的に相殺する。
+[A0390][AUTHOR_VIEW][COND][RULE][HEALING] HPを一気に失った場合だけでなく、継続回復（Healing over Time／HoT）が平常被圧に追いつかず高HP状態が崩れ始めた場合も、大きく危険化する前に必要最小限の瞬間回復または直接回復を挟んでHPを高い水準へ差し戻す。
+[A0391][AUTHOR_VIEW][GOAL][PRACTICE][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者向けビルドでは、普段から働く継続回復と危険時に使う大きめの回復を持つ構成を初期学習の基本候補とし、両方を使い分けられる場面を徐々に増やすことを目標とする。
+[A0392][AUTHOR_VIEW][LIMIT][RULE] 回復量・被回復量を増やす効果だけでは実際のHP回復にならないため、回復増幅とは別に実際にHPを戻す手段を持つ。
+[A0393][AUTHOR_VIEW][CLAIM] 危険時に一回押せば大きくHPを戻せるスキルが一つあるだけでも、初心者の生存時間は大きく変わり得る。
+[A0394][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][RULE][HEALING][DEFENSIVE_DESIGN][PVP_BASELINE] 自分の低HP状態から意図的に性能を得る特殊構成を除く通常PvPでは、現在HPを最大HPまで戻し、可能な限り最大HPを維持することを基本目標とする。
+[A0398][AUTHOR_VIEW][CORE_JUDGMENT][LIMIT][RULE][HEALING][RECOMMENDATION_SCOPE] 自分のHP低下から攻撃性能その他の利益を意図的に得る専用構成は、通常PvPの最大HP維持原則とは別の特殊運用として扱い、その存在から一般的なPvPビルドへ低HP維持を推奨しない。
+[A0399][AUTHOR_VIEW][RULE][HEALING][DEFENSIVE_SEQUENCE] 最大HPを目指すことは、最大HPになるまで瞬間回復を機械的に連打することを意味しない。継続回復、ブロック（Block）、軽減、LoS、距離、離脱等を利用し、回復したHPを保持できる状態へ戻すことを含めて立て直しを評価する。
+[A0400][AUTHOR_VIEW][EVAL][HEALING][DEFENSIVE_DESIGN] 回復性能を評価するときは、一度大きくHPを戻せたかだけでなく、通常の防御・回復行動を行った後に高いHPをどの程度保持できるかも確認する。
 
-[A0528][AUTHOR_VIEW][CAUSE][BLOCK][CC][DEFENSIVE_SEQUENCE] ブロック（Block）可能なCCを事前にブロックできる場合、その価値にはCC自体の阻止だけでなく、CC成立によるブロック解除、打破（Break Free）のスタミナ（Stamina）消費、後続バーストへの露出、防御再構築という不利な連鎖を上流で防ぐことも含まれる。
-[A0529][AUTHOR_VIEW][DIAG][SUSTAIN][DEFENSIVE_SEQUENCE][BLOCK][BLOCK_COST] ブロック（Block）に必要なスタミナ（Stamina）余白を失っている状態は、回復をブロックより先に置く一般的な理由ではなく、非常用スタミナ余白または実戦サステインをすでに使い切った危険状態として別途診断する。
-[A0530][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] 打破（Break Free）を必要とするCCを受けて行動不能になっている間はブロック（Block）状態が解除される。
-[A0531][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] 打破（Break Free）のモーション中は、ブロック（Block）入力によってブロック（Block）状態を成立させることができる。
-[A0532][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] ロール回避（Roll Dodge）中は、ブロック（Block）入力によってブロック（Block）状態を成立させることができる。
-[A0533][AUTHOR_VIEW][PATCH][PRACTICE][DEFENSIVE_SEQUENCE] 打破（Break Free）を必要とするCCをすでに受けて行動不能になっている間は、打破を通常の防御選択より前に必要な状態復帰として扱う。CCによってブロック（Block）状態が解除された後や、打破・ロール回避（Roll Dodge）を行う局面では、可能な場合はその動作中からブロック入力を行い、直後に続くバーストや時間差攻撃を無防備に受ける時間を減らす。
-[A0534][PATCH][CLAIM][BLOCK][BLOCK_ACTION_COMPATIBILITY] 詠唱・チャネリングを伴わない通常の即時スキルは、ブロック（Block）入力を維持したまま使用でき、スキル使用のためにブロックを解除する必要がない。
+### 継続圧力・離脱・再攻撃
 
-#### 初心者向け説明の誤読防止
+[A0401][AUTHOR_VIEW][DIAG][DOT][HEALING][DEFENSIVE_SEQUENCE] 継続圧力に押されている典型的な挙動は、特定のHP値で回復が止まることではなく、回復によって高いHPへ戻しても再び削られ、その反復の中で回復開始時または回復後のHP水準が次第に悪化していくこととして捉える。
+[A0402][AUTHOR_VIEW][DIAG][CAUSE][DOT][HEALING][TIME_BUDGET] 回復によって高いHPへ戻しても短時間で再び削られる状態が反復する場合、敵の継続圧力が自分の回復・防御予算を消費し続けている不利な交換として扱う。
+[A0403][AUTHOR_VIEW][DIAG][PRIORITY][HEALING][DOT][DEFENSIVE_DESIGN] 大きな瞬間回復を使用してもHPがほとんど増えないほどの被圧は、通常のDoTだけによる緩やかな継続圧力として扱わず、短時間の総被圧が瞬間回復量へ近付く重大な危険状態として扱う。
+[A0404][AUTHOR_VIEW][DEFAULT][PRIORITY][HEALING][ESCAPE_ROUTE][DEFENSIVE_SEQUENCE] 継続圧力に対して回復後の高いHPを保持できず、明確な反転条件もない場合は、HPと非常用リソースが十分に残っている段階から早期離脱を検討する。
+[A0405][AUTHOR_VIEW][CAUSE][DOT][ESCAPE_ROUTE][DEFENSIVE_SEQUENCE] すでに付与されたDoT等の持続圧力は離脱を開始しただけでは直ちに消えないため、HPが危険域へ落ちてから離脱を始めるより、HPと防御資源に余裕のある段階から離脱する方が安全余白を確保しやすい。
+[A0406][AUTHOR_VIEW][RULE][HEALING][SUSTAIN][DEFENSIVE_SEQUENCE] 最大HPまで戻ったことだけを攻撃復帰条件とせず、打破（Break Free）・ブロック（Block）・ロール回避（Roll Dodge）等に必要な非常用スタミナ（Stamina）余白も別に確認する。
+[A0409][AUTHOR_VIEW][AI][LIMIT][HEALING][DEFENSIVE_DESIGN][DEFENSIVE_SEQUENCE] A0379の「全快近くまで戻せるか」という防御性能評価を、初心者は最大HPまで回復しなくてよいという根拠として使用しない。防御性能の評価軸と、初心者の攻撃復帰基準を分離する。
+[A0410][AUTHOR_VIEW][AI][LIMIT][HEALING][SUSTAIN][DEFENSIVE_SEQUENCE] A0510の「HPが低くても非常用スタミナ（Stamina）があれば生存できる場合がある」という診断例を、低いHPから攻撃へ戻ってよいという根拠として使用しない。この命題は非常用リソース余白の重要性を示す例として扱う。
+[A0411][AUTHOR_VIEW][AI][RULE][HEALING][DEFENSIVE_SEQUENCE] 「最大HPを維持する」という目標を、最大HPになるまで瞬間回復を機械的に連打する指示へ変換しない。回復後のHP保持、継続回復、防御、位置調整、必要な離脱を含めて立て直しを説明する。
+[A0412][AUTHOR_VIEW][AI][RULE][DOT][HEALING][DEFENSIVE_SEQUENCE] 継続圧力の優劣を説明するとき、特定のHP割合を「それより上へ回復できない壁」として設定せず、回復後のHPを保持できるかと、その後のHP推移が改善するか悪化するかを評価する。
+[A0413][AUTHOR_VIEW][AI][RULE][LIMIT][DOT][EPISTEMIC_SEPARATION] 敵の継続圧力が現在の交換で優位であることから、敵ビルドが全能力・全状況で自分より上位だと一般化しない。一方、現在の交換が不利である事実自体を一般的な長所の列挙で曖昧にしない。
+[A0414][AUTHOR_VIEW][AI][LIMIT][HEALING][RECOMMENDATION_SCOPE] 低HPで利益を得る専用装備・スキルやGanker／Bomber等の特殊運用を説明するとき、その運用を通常PvPのHP管理へ一般化せず、意図的な性能交換として分離する。
 
-[A0535][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][CC][DEFENSIVE_SEQUENCE] 打破（Break Free）を必要とするCCをすでに受けて行動不能になっている状態を、ブロック（Block）最優先の防御起動原則への反例として使用しない。CC中は自由な通常防御選択が制限された状態として扱い、打破による状態復帰と、可能な限り早いブロック再確立を説明する。
-[A0536][AUTHOR_VIEW][CORE_JUDGMENT][AI][RULE][LIMIT][BLOCK][BLOCK_COST][SUSTAIN][DEFENSIVE_SEQUENCE] ブロック（Block）用のスタミナ（Stamina）が残っていない状態を、初心者へ回復先行を標準推奨する根拠として使用しない。その状態は非常用リソース余白の枯渇として別途診断する。
-[A0537][AUTHOR_VIEW][AI][RULE][PRIORITY][DEFENSIVE_SEQUENCE] 初心者向けに緊急防御行動を複数列挙するとき、それらを順不同の候補として提示してブロック（Block）の初動優先を失わせない。窮地の起動順序を扱う文脈では、最初にブロックを明示する。
-[A0538][AUTHOR_VIEW][CORE_JUDGMENT][AI][LIMIT][BLOCK][DEFENSIVE_SEQUENCE] 個別にブロック（Block）で処理できない攻撃が存在することを、一般的な初心者緊急防御シーケンスを回復先行へ変更する根拠として使用しない。特定攻撃への対処を問われた場合は、その攻撃に対する個別防御として説明する。
-[A0539][AUTHOR_VIEW][AI][PATCH][RULE][EPISTEMIC_SEPARATION][BLOCK][BLOCK_ACTION_COMPATIBILITY][DEFENSIVE_SEQUENCE] ブロック（Block）のGCD非拘束、ブロック中のバー交換、ブロック中のスキル使用等の仕様を根拠に防御順序を説明する場合は、質問時点の現行仕様を確認し、確認済み仕様と「初心者はブロックを最初の自発防御とする」という著者判断を区別して説明する。
+## 周囲警戒・対隠密
 
-#### ブロックコストと多段攻撃
-
-[A0540][PATCH][CAUSE][BLOCK][BLOCK_COST] ブロック（Block）コストは受けるダメージ量ではなく、ブロック中にコスト徴収判定が発生した回数によって増える。このため、内部クールダウンをまたいで反復命中する攻撃は、単発攻撃より相手のブロック用リソースへ圧力をかけやすい。
-[A0541][AUTHOR_VIEW][LIMIT][BLOCK] 多段攻撃の価値をブロック（Block）コスト圧迫だけで評価せず、通常はダメージ・圧力形成・付随効果等の主要機能に加わる副次的価値として扱う。
-[A0542][AUTHOR_VIEW][PATCH][DIAG][BLOCK][BLOCK_FAILURE] キャラクターのブロック（Block）モーションやブロックエフェクトが表示されていても、通信遅延やブロック関連の不具合によって実際の防御判定が成立していない場合がある。長時間保持中などにブロック不成立を疑う場合は、一度入力を解除してから再入力し、ブロック状態を再確立する。
-
-## A05.3 HPを戻し保持する
-
-### A05.H 回復運用
-
-#### 先に取得する中核結論
-
-[A0543][AUTHOR_VIEW][CORE_JUDGMENT][DEFAULT][RULE][HEALING][DEFENSIVE_DESIGN][PVP_BASELINE] 自分の低HP状態から意図的に性能を得る特殊構成を除く通常PvPでは、現在HPを最大HPまで戻し、可能な限り最大HPを維持することを基本目標とする。
-[A0544][AUTHOR_VIEW][RULE][HEALING][DEFENSIVE_SEQUENCE] 最大HPを目指すことは、最大HPになるまで瞬間回復を機械的に連打することを意味しない。継続回復、ブロック（Block）、軽減、LoS、距離、離脱等を利用し、回復したHPを保持できる状態へ戻すことを含めて立て直しを評価する。
-[A0545][AUTHOR_VIEW][EVAL][HEALING][DEFENSIVE_DESIGN] 回復性能を評価するときは、一度大きくHPを戻せたかだけでなく、通常の防御・回復行動を行った後に高いHPをどの程度保持できるかも確認する。
-
-#### 継続回復と緊急回復
-
-[A0546][AUTHOR_VIEW][RULE][HEALING][GROUP_CONTENT] PvPではヒーラーが存在していても、自分で実行可能な自衛・自己回復を放棄して自分のHP管理を全面的にヒーラーへ委任することを基本運用としない。
-[A0547][CLAIM] 継続回復は戦闘中の細かいダメージを継続的に相殺する。
-[A0548][AUTHOR_VIEW][COND][RULE][HEALING] HPを一気に失った場合だけでなく、継続回復（Healing over Time／HoT）が平常被圧に追いつかず高HP状態が崩れ始めた場合も、大きく危険化する前に必要最小限の瞬間回復または直接回復を挟んでHPを高い水準へ差し戻す。
-[A0549][AUTHOR_VIEW][GOAL][PRACTICE][NOT_INITIAL_REQUIREMENT][PROGRESSIVE_LEARNING] 初心者向けビルドでは、普段から働く継続回復と危険時に使う大きめの回復を持つ構成を初期学習の基本候補とし、両方を使い分けられる場面を徐々に増やすことを目標とする。
-[A0550][AUTHOR_VIEW][LIMIT][RULE] 回復量・被回復量を増やす効果だけでは実際のHP回復にならないため、回復増幅とは別に実際にHPを戻す手段を持つ。
-[A0551][AUTHOR_VIEW][CLAIM] 危険時に一回押せば大きくHPを戻せるスキルが一つあるだけでも、初心者の生存時間は大きく変わり得る。
-[A0552][AUTHOR_VIEW][CORE_JUDGMENT][LIMIT][RULE][HEALING][RECOMMENDATION_SCOPE] 自分のHP低下から攻撃性能その他の利益を意図的に得る専用構成は、通常PvPの最大HP維持原則とは別の特殊運用として扱い、その存在から一般的なPvPビルドへ低HP維持を推奨しない。
-
-## A05.4 継続圧力から離脱し再攻撃する
-
-### A05.P 継続圧力対応・離脱・再攻撃
-
-#### 先に取得する中核結論
-
-[A0553][AUTHOR_VIEW][DIAG][DOT][HEALING][DEFENSIVE_SEQUENCE] 継続圧力に押されている典型的な挙動は、特定のHP値で回復が止まることではなく、回復によって高いHPへ戻しても再び削られ、その反復の中で回復開始時または回復後のHP水準が次第に悪化していくこととして捉える。
-[A0554][AUTHOR_VIEW][DIAG][PRIORITY][HEALING][DOT][DEFENSIVE_DESIGN] 大きな瞬間回復を使用してもHPがほとんど増えないほどの被圧は、通常のDoTだけによる緩やかな継続圧力として扱わず、短時間の総被圧が瞬間回復量へ近付く重大な危険状態として扱う。
-[A0555][AUTHOR_VIEW][DEFAULT][PRIORITY][HEALING][ESCAPE_ROUTE][DEFENSIVE_SEQUENCE] 継続圧力に対して回復後の高いHPを保持できず、明確な反転条件もない場合は、HPと非常用リソースが十分に残っている段階から早期離脱を検討する。
-[A0556][AUTHOR_VIEW][RULE][HEALING][SUSTAIN][DEFENSIVE_SEQUENCE] 最大HPまで戻ったことだけを攻撃復帰条件とせず、打破（Break Free）・ブロック（Block）・ロール回避（Roll Dodge）等に必要な非常用スタミナ（Stamina）余白も別に確認する。
-
-#### 継続圧力・離脱・再攻撃
-
-[A0557][AUTHOR_VIEW][DIAG][CAUSE][DOT][HEALING][TIME_BUDGET] 回復によって高いHPへ戻しても短時間で再び削られる状態が反復する場合、敵の継続圧力が自分の回復・防御予算を消費し続けている不利な交換として扱う。
-[A0558][AUTHOR_VIEW][CAUSE][DOT][ESCAPE_ROUTE][DEFENSIVE_SEQUENCE] すでに付与されたDoT等の持続圧力は離脱を開始しただけでは直ちに消えないため、HPが危険域へ落ちてから離脱を始めるより、HPと防御資源に余裕のある段階から離脱する方が安全余白を確保しやすい。
-[A0559][AUTHOR_VIEW][AI][LIMIT][HEALING][DEFENSIVE_DESIGN][DEFENSIVE_SEQUENCE] A0338の「全快近くまで戻せるか」という防御性能評価を、初心者は最大HPまで回復しなくてよいという根拠として使用しない。防御性能の評価軸と、初心者の攻撃復帰基準を分離する。
-[A0560][AUTHOR_VIEW][AI][LIMIT][HEALING][SUSTAIN][DEFENSIVE_SEQUENCE] A0404の「HPが低くても非常用スタミナ（Stamina）があれば生存できる場合がある」という診断例を、低いHPから攻撃へ戻ってよいという根拠として使用しない。この命題は非常用リソース余白の重要性を示す例として扱う。
-[A0561][AUTHOR_VIEW][AI][RULE][HEALING][DEFENSIVE_SEQUENCE] 「最大HPを維持する」という目標を、最大HPになるまで瞬間回復を機械的に連打する指示へ変換しない。回復後のHP保持、継続回復、防御、位置調整、必要な離脱を含めて立て直しを説明する。
-[A0562][AUTHOR_VIEW][AI][RULE][DOT][HEALING][DEFENSIVE_SEQUENCE] 継続圧力の優劣を説明するとき、特定のHP割合を「それより上へ回復できない壁」として設定せず、回復後のHPを保持できるかと、その後のHP推移が改善するか悪化するかを評価する。
-[A0563][AUTHOR_VIEW][AI][RULE][LIMIT][DOT][EPISTEMIC_SEPARATION] 敵の継続圧力が現在の交換で優位であることから、敵ビルドが全能力・全状況で自分より上位だと一般化しない。一方、現在の交換が不利である事実自体を一般的な長所の列挙で曖昧にしない。
-[A0564][AUTHOR_VIEW][AI][LIMIT][HEALING][RECOMMENDATION_SCOPE] 低HPで利益を得る専用装備・スキルやGanker／Bomber等の特殊運用を説明するとき、その運用を通常PvPのHP管理へ一般化せず、意図的な性能交換として分離する。
-
-## A05.5 周囲警戒・対隠密
-
-### A05.S 周囲警戒・対隠密
-
-#### 周囲警戒・対隠密
-
-[A0565][AUTHOR_VIEW][PRACTICE][HEURISTIC][SITUATIONAL_AWARENESS] PvP中の周囲警戒は、周囲を長時間凝視して戦闘処理を止めるのではなく、situational awareness・visual scanning・attention switchingの考え方を用い、戦闘・スキル・リソース確認と両立できる短時間の反復スキャンとして習慣化する。
-[A0566][AUTHOR_VIEW][PATCH][LIMIT][STEALTH_COUNTER] 隠密状態（Hidden）が露見・解除された後は、現行仕様上の再隠密条件、再使用制約、露見継続効果等によって直ちに隠密・透明化へ戻れない場合があるため、一度発見した敵が即座に完全な隠密状態へ復帰できると前提化しない。
-[A0567][AUTHOR_VIEW][PATCH][RULE][STEALTH_COUNTER] 対隠密効果には、隠密・透明化へ移行した対象を露見させ続ける効果と、隠密・透明化そのものの起動を一定時間阻害する効果があるため、両者を同一の対隠密効果として扱わない。
+[A0458][AUTHOR_VIEW][PRACTICE][HEURISTIC][SITUATIONAL_AWARENESS] PvP中の周囲警戒は、周囲を長時間凝視して戦闘処理を止めるのではなく、situational awareness・visual scanning・attention switchingの考え方を用い、戦闘・スキル・リソース確認と両立できる短時間の反復スキャンとして習慣化する。
+[A0459][AUTHOR_VIEW][PATCH][LIMIT][STEALTH_COUNTER] 隠密状態（Hidden）が露見・解除された後は、現行仕様上の再隠密条件、再使用制約、露見継続効果等によって直ちに隠密・透明化へ戻れない場合があるため、一度発見した敵が即座に完全な隠密状態へ復帰できると前提化しない。
+[A0460][AUTHOR_VIEW][PATCH][RULE][STEALTH_COUNTER] 対隠密効果には、隠密・透明化へ移行した対象を露見させ続ける効果と、隠密・透明化そのものの起動を一定時間阻害する効果があるため、両者を同一の対隠密効果として扱わない。

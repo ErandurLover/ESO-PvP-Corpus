@@ -3,7 +3,7 @@
 [CORPUS_NAME] ESO PvP Corpus
 [CORPUS_VERSION] v162
 [PAGE_NAME] A04 Practical Offense, Pressure, and Finishing
-[SECTION_SCOPE] v162 / A0476-A0513
+[SECTION_SCOPE] v162 / A0265-A0271,A0273-A0303
 [PROPOSITION_COUNT] 38
 [FREE_AI_SPLIT] Yes
 [CORE150_EXISTS] Yes
@@ -22,80 +22,57 @@
 [TAG_NOTE][GROUP_CONTENT] Indicates content or operation in which the player participates as part of a group and interactions with allies are included in the evaluation.
 [TAG_NOTE][GROUP_CONTRIBUTION] Indicates that effective contribution to the group as a whole, rather than individual freedom of action, is the evaluation axis.
 
-## A04.1 Determine Failure to Finish First
 
-### A04.00 Offensive Success Overview and Failure Map
+## Basic Offensive Execution
 
-#### Core Conclusions to Retrieve First
+### CC
 
-[A0476][AUTHOR_VIEW][DIAG][RULE] If even your strongest-class combo cannot reduce the opponent's health enough, a win condition based on killing that opponent with a burst combo is unlikely to function; do not fixate on a burst kill and switch to another win condition.
-[A0477][AUTHOR_VIEW][CLAIM][ALTERNATIVE] When a burst kill is unlikely to function, alternative win conditions include gradually pushing the opponent down with sustained damage pressure, attacking their resources by forcing inefficient combat actions, or abandoning the fight early and disengaging.
-[A0478][AUTHOR_VIEW][DIAG][PRESSURE_VS_FINISH] When you fail to secure a kill, distinguish whether “you applied enough pressure to force defense, healing, or disengagement but lacked the final finishing tool” or “the pressure itself was insufficient, leaving the opponent able to continue attacking, applying CC, and adjusting position.”
+[A0265][DEF][SCOPE] In this Corpus, CC（Crowd Control） refers to effects that incapacitate the opponent and are subject to 打破（Break Free）. 移動不能（Immobilize） and 減速（Snare） are not included in CC.
+[A0266][AUTHOR_VIEW][PRIORITY] In PvP, strong CC such as stuns and fears that stop the opponent's free actions is important.
+[A0267][CLAIM] CC that creates a period in which the opponent can neither heal nor attack is easy to understand as a trigger for beginning offense.
+[A0268][LIMIT] The period for which CC alone can secure initiative is short.
+[A0269][CAUSE] Continuing offensive actions after CC can create the possibility of maintaining initiative for several seconds or longer.
+[A0270][AUTHOR_VIEW][RULE] When attacking, create enough pressure that the opponent judges that prioritizing self-defense over counterattacking is necessary to avoid death.
+[A0271][AUTHOR_VIEW][CLAIM][RULE] Opponents also often initiate combos or rushes from CC, so anticipate this and either survive it through defensive actions or forcibly interrupt it with CC.
+[A0273][AUTHOR_VIEW][RULE] The main uses of CC are to begin your offense, interrupt the opponent's offense, interfere with healing immediately before a kill, and interfere with escape immediately before a kill.
+[A0274][CLAIM] A player affected by CC can remove it with 打破（Break Free）.
+[A0275][CLAIM] Immediately after using 打破（Break Free）, the player gains a buff granting CC immunity.
+[A0276][CLAIM] Immediately after using some skills, potions, or poisons, the player may gain a buff granting CC immunity.
+[A0277][AUTHOR_VIEW][RULE][GROUP_CC][GROUP_CONTENT][GROUP_CONTRIBUTION] When an ally needs an important CC to initiate burst, avoid applying your own CC first in a way that causes the opponent to 打破（Break Free） or gain CC immunity and prevents the ally's important CC from landing.
+[A0278][LIMIT] CC is not a universal tool that guarantees a kill.
+[A0279][CAUSE] Forcing the opponent to 打破（Break Free） also forces them to spend スタミナ（Stamina）.
+[A0280][CLAIM] CC therefore also applies pressure to the opponent's resources.
 
-#### Burst
+### Burst
 
-[A0479][DEF] Burst means concentrating a large amount of damage into a short time window.
-[A0480][LIMIT] Even a single large hit may fail to secure a kill if the opponent can heal after each individual hit.
-[A0481][AUTHOR_VIEW][GOAL] The final objective of a burst combo is to reduce the opponent's health to zero and secure the kill.
-[A0482][AUTHOR_VIEW][REQUIREMENT] For a burst-combo kill to function as a win condition, at minimum your strongest-class combo must be capable of pushing the opponent close to death.
+[A0281][DEF] Burst means concentrating a large amount of damage into a short time window.
+[A0282][LIMIT] Even a single large hit may fail to secure a kill if the opponent can heal after each individual hit.
+[A0283][AUTHOR_VIEW][RULE] For burst, overlap delayed attacks, damage over time, debuffs, CC, strong regular attacks, アルティメット（Ultimate）, follow-up attacks, and executes within a short time window.
+[A0284][AUTHOR_VIEW][RULE][BURST_DESIGN] For primary attacks, CC, Ultimate, and similar tools whose counterplay becomes easier when their sequence is predictable, vary their timing within the limits that preserve the attack setup rather than using them from the same interval and the same preparatory pattern every time and allowing the opponent to resolve them with a fixed defensive routine.
+[A0285][CAUSE][BURST][BLOCK] If CC that cannot be prevented by ブロック（Block） is timed immediately before a delayed attack lands, it can prevent the opponent from receiving that hit while in block and make it easier to land heavy damage.
+[A0286][AUTHOR_VIEW][PRIORITY][RULE][BURST_DESIGN] In the basic form of an offensive sequence, when the properties of the CC and combo allow it, make the first design priority to place CC immediately before or at the point where maximum damage concentrates, reducing the time in which the opponent can freely answer that peak damage with defense or healing. Treat CC at the opener, during follow-up, during execute phases, and similar placements as branches used when they have a concrete purpose and effective result.
+[A0287][AUTHOR_VIEW][PRIORITY] What matters in burst is not merely using individually strong abilities in sequence, but creating multiple simultaneous problems that the opponent cannot easily resolve with a single heal.
+[A0288][AUTHOR_VIEW][PROC] For beginners, think of a burst sequence as preparation → CC → major attack → follow-up.
+[A0289][AUTHOR_VIEW][COND] If the opponent escapes or heals after the burst, continue with further follow-up attacks.
+[A0290][AUTHOR_VIEW][RULE][COND][CAUSE] Do not forcibly commit everything when burst conditions are not ready. Representative poor conditions include the opponent being completely healthy, your buffs being down, important debuffs not yet applied, insufficient resources, or CC being unavailable; even committing major resources in such a state is unlikely to produce results.
+[A0291][AUTHOR_VIEW][GOAL] The final objective of a burst combo is to reduce the opponent's health to zero and secure the kill.
+[A0292][AUTHOR_VIEW][REQUIREMENT] For a burst-combo kill to function as a win condition, at minimum your strongest-class combo must be capable of pushing the opponent close to death.
+[A0293][AUTHOR_VIEW][PRIORITY][PRACTICE][BURST_DESIGN] Do not make increasing the number of offensive-sequence patterns an objective in itself; first establish one strong basic combo that is a sufficient threat in real combat and can be executed reliably, then add effective branches that force the opponent to make different choices and predictions.
+[A0294][AUTHOR_VIEW][DIAG][RULE] If even your strongest-class combo cannot reduce the opponent's health enough, a win condition based on killing that opponent with a burst combo is unlikely to function; do not fixate on a burst kill and switch to another win condition.
+[A0295][AUTHOR_VIEW][CLAIM][ALTERNATIVE] When a burst kill is unlikely to function, alternative win conditions include gradually pushing the opponent down with sustained damage pressure, attacking their resources by forcing inefficient combat actions, or abandoning the fight early and disengaging.
+[A0296][AUTHOR_VIEW][DIAG][PRESSURE_VS_FINISH] When you fail to secure a kill, distinguish whether “you applied enough pressure to force defense, healing, or disengagement but lacked the final finishing tool” or “the pressure itself was insufficient, leaving the opponent able to continue attacking, applying CC, and adjusting position.”
 
-## A04.2 Create Offensive Windows with CC
+## Pressure Continuation and Failure-to-Finish Diagnosis
 
-### A04.CC CC and Offensive Windows
+### Post-Burst Damage Troughs and Pressure between Kill Windows
 
-#### Core Conclusions to Retrieve First
+[A0297][AUTHOR_VIEW][EVAL][BURST_DESIGN][PRESSURE_VS_FINISH] Evaluate the killing power of a burst build not only by the instantaneous damage of its maximum combo, but also by the アルティメット（Ultimate）, special resources, primary attacks, debuffs, and follow-up capability that remain after the combo and the time required to rebuild them. A configuration whose damage falls sharply immediately after the maximum combo is survived can have lower actual killing power than its displayed maximum burst suggests.
+[A0298][AUTHOR_VIEW][RULE][BURST_DESIGN][PRESSURE_VS_FINISH] In a build whose primary finishing tools depend on アルティメット（Ultimate）, cooldowns, stacking conditions, or similar mechanics with long preparation times, evaluate not only the strength of the kill window but also whether ordinary pressure between windows can prevent the opponent from fully stabilizing. If the opponent can fully heal and fully prepare every time, merely surviving until the next kill window should not be counted as progress toward a kill.
+[A0299][AUTHOR_VIEW][PRACTICE][BURST_DESIGN][PRESSURE_VS_FINISH] Prepare an ordinary offensive sequence that does not use Ultimate and an enhanced form that adds Ultimate to increase finishing power. The ordinary form should still create enough pressure to require meaningful defense or healing, rather than making Ultimate the sole prerequisite for the offensive sequence to function.
 
-[A0483][AUTHOR_VIEW][RULE] When attacking, create enough pressure that the opponent judges that prioritizing self-defense over counterattacking is necessary to avoid death.
-[A0484][AUTHOR_VIEW][RULE] The main uses of CC are to begin your offense, interrupt the opponent's offense, interfere with healing immediately before a kill, and interfere with escape immediately before a kill.
+### Countering DoT, Circling, and Temporary Disengagement
 
-#### CC Definition, Value, and Time Limit
-
-[A0485][DEF][SCOPE] In this Corpus, CC（Crowd Control） refers to effects that incapacitate the opponent and are subject to 打破（Break Free）. 移動不能（Immobilize） and 減速（Snare） are not included in CC.
-[A0486][AUTHOR_VIEW][PRIORITY] In PvP, strong CC such as stuns and fears that stop the opponent's free actions is important.
-[A0487][CLAIM] CC that creates a period in which the opponent can neither heal nor attack is easy to understand as a trigger for beginning offense.
-[A0488][LIMIT] The period for which CC alone can secure initiative is short.
-[A0489][CAUSE] Continuing offensive actions after CC can create the possibility of maintaining initiative for several seconds or longer.
-
-#### CC Pressure, Interruption, and Resource Load
-
-[A0490][AUTHOR_VIEW][CLAIM][RULE] Opponents also often initiate combos or rushes from CC, so anticipate this and either survive it through defensive actions or forcibly interrupt it with CC.
-[A0491][CLAIM] A player affected by CC can remove it with 打破（Break Free）.
-[A0492][CLAIM] Immediately after using 打破（Break Free）, the player gains a buff granting CC immunity.
-[A0493][CLAIM] Immediately after using some skills, potions, or poisons, the player may gain a buff granting CC immunity.
-[A0494][AUTHOR_VIEW][RULE][GROUP_CC][GROUP_CONTENT][GROUP_CONTRIBUTION] When an ally needs an important CC to initiate burst, avoid applying your own CC first in a way that causes the opponent to 打破（Break Free） or gain CC immunity and prevents the ally's important CC from landing.
-[A0495][LIMIT] CC is not a universal tool that guarantees a kill.
-[A0496][CAUSE] Forcing the opponent to 打破（Break Free） also forces them to spend スタミナ（Stamina）.
-[A0497][CLAIM] CC therefore also applies pressure to the opponent's resources.
-
-## A04.3 Make Burst Succeed
-
-### A04.B Burst Execution
-
-#### Burst
-
-[A0498][AUTHOR_VIEW][RULE] For burst, overlap delayed attacks, damage over time, debuffs, CC, strong regular attacks, アルティメット（Ultimate）, follow-up attacks, and executes within a short time window.
-[A0499][AUTHOR_VIEW][RULE][BURST_DESIGN] For primary attacks, CC, Ultimate, and similar tools whose counterplay becomes easier when their sequence is predictable, vary their timing within the limits that preserve the attack setup rather than using them from the same interval and the same preparatory pattern every time and allowing the opponent to resolve them with a fixed defensive routine.
-[A0500][CAUSE][BURST][BLOCK] If CC that cannot be prevented by ブロック（Block） is timed immediately before a delayed attack lands, it can prevent the opponent from receiving that hit while in block and make it easier to land heavy damage.
-[A0501][AUTHOR_VIEW][PRIORITY][RULE][BURST_DESIGN] In the basic form of an offensive sequence, when the properties of the CC and combo allow it, make the first design priority to place CC immediately before or at the point where maximum damage concentrates, reducing the time in which the opponent can freely answer that peak damage with defense or healing. Treat CC at the opener, during follow-up, during execute phases, and similar placements as branches used when they have a concrete purpose and effective result.
-[A0502][AUTHOR_VIEW][PRIORITY] What matters in burst is not merely using individually strong abilities in sequence, but creating multiple simultaneous problems that the opponent cannot easily resolve with a single heal.
-[A0503][AUTHOR_VIEW][PROC] For beginners, think of a burst sequence as preparation → CC → major attack → follow-up.
-[A0504][AUTHOR_VIEW][COND] If the opponent escapes or heals after the burst, continue with further follow-up attacks.
-[A0505][AUTHOR_VIEW][RULE][COND][CAUSE] Do not forcibly commit everything when burst conditions are not ready. Representative poor conditions include the opponent being completely healthy, your buffs being down, important debuffs not yet applied, insufficient resources, or CC being unavailable; even committing major resources in such a state is unlikely to produce results.
-[A0506][AUTHOR_VIEW][PRIORITY][PRACTICE][BURST_DESIGN] Do not make increasing the number of offensive-sequence patterns an objective in itself; first establish one strong basic combo that is a sufficient threat in real combat and can be executed reliably, then add effective branches that force the opponent to make different choices and predictions.
-
-## A04.4 Maintain Pressure between Kill Windows
-
-### A04.P Post-Burst and Sustained Pressure
-
-#### Post-Burst Damage Troughs and Pressure between Kill Windows
-
-[A0507][AUTHOR_VIEW][EVAL][BURST_DESIGN][PRESSURE_VS_FINISH] Evaluate the killing power of a burst build not only by the instantaneous damage of its maximum combo, but also by the アルティメット（Ultimate）, special resources, primary attacks, debuffs, and follow-up capability that remain after the combo and the time required to rebuild them. A configuration whose damage falls sharply immediately after the maximum combo is survived can have lower actual killing power than its displayed maximum burst suggests.
-[A0508][AUTHOR_VIEW][RULE][BURST_DESIGN][PRESSURE_VS_FINISH] In a build whose primary finishing tools depend on アルティメット（Ultimate）, cooldowns, stacking conditions, or similar mechanics with long preparation times, evaluate not only the strength of the kill window but also whether ordinary pressure between windows can prevent the opponent from fully stabilizing. If the opponent can fully heal and fully prepare every time, merely surviving until the next kill window should not be counted as progress toward a kill.
-[A0509][AUTHOR_VIEW][PRACTICE][BURST_DESIGN][PRESSURE_VS_FINISH] Prepare an ordinary offensive sequence that does not use Ultimate and an enhanced form that adds Ultimate to increase finishing power. The ordinary form should still create enough pressure to require meaningful defense or healing, rather than making Ultimate the sole prerequisite for the offensive sequence to function.
-
-#### Countering DoT, Circling, and Temporary Disengagement
-
-[A0510][AUTHOR_VIEW][ADVANTAGE][DOT] A build with strong DoTs tends to have a countermeasure against play that uses kiting or temporary disengagement even when its direct offensive tools are purely melee attacks.
-[A0511][CAUSE][DOT] DoTs can leave part of the offensive pressure active during periods in which direct attack skills cannot be cast because the opponent is kiting or temporarily disengaging.
-[A0512][AUTHOR_VIEW][RULE][DOT][TIME_BUDGET] When an established DoT, persistent attack, or similar effect continues dealing damage without depending on your subsequent active offensive GCDs, evaluate its value not only by total damage but also by its ability to preserve pressure on the opponent while you spend GCDs on healing, defense, buff maintenance, movement, or similar actions.
-[A0513][AUTHOR_VIEW][CLAIM][DOT][ALTERNATIVE_REASONING] Layering DoTs on top of an active primary attack such as a spammable can increase sustained offensive pressure relative to repeating the primary attack alone.
+[A0300][AUTHOR_VIEW][ADVANTAGE][DOT] A build with strong DoTs tends to have a countermeasure against play that uses kiting or temporary disengagement even when its direct offensive tools are purely melee attacks.
+[A0301][CAUSE][DOT] DoTs can leave part of the offensive pressure active during periods in which direct attack skills cannot be cast because the opponent is kiting or temporarily disengaging.
+[A0302][AUTHOR_VIEW][RULE][DOT][TIME_BUDGET] When an established DoT, persistent attack, or similar effect continues dealing damage without depending on your subsequent active offensive GCDs, evaluate its value not only by total damage but also by its ability to preserve pressure on the opponent while you spend GCDs on healing, defense, buff maintenance, movement, or similar actions.
+[A0303][AUTHOR_VIEW][CLAIM][DOT][ALTERNATIVE_REASONING] Layering DoTs on top of an active primary attack such as a spammable can increase sustained offensive pressure relative to repeating the primary attack alone.
