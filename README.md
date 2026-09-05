@@ -6,21 +6,21 @@ The corpus is published in versioned **Japanese and English** editions.
 
 ## Current Version
 
-**v161**
+**v162**
 
 ### Full
 
-* [Japanese](https://erandurlover.github.io/ESO-PvP-Corpus/full/v161/ja/corpus.txt)
-* [English](https://erandurlover.github.io/ESO-PvP-Corpus/full/v161/en/corpus.txt)
+* [Japanese](https://erandurlover.github.io/ESO-PvP-Corpus/full/v162/ja/corpus.txt)
+* [English](https://erandurlover.github.io/ESO-PvP-Corpus/full/v162/en/corpus.txt)
 
 ### Split
 
 For partial retrieval, RAG, and environments with context or retrieval limits.
 
-* [Japanese Manifest](https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/ja/manifest.txt)
-* [Japanese Core150](https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/ja/core150.txt)
-* [English Manifest](https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/en/manifest.txt)
-* [English Core150](https://erandurlover.github.io/ESO-PvP-Corpus/split/v161/en/core150.txt)
+* [Japanese Manifest](https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/manifest.txt)
+* [Japanese Core150](https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/ja/core150.txt)
+* [English Manifest](https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/manifest.txt)
+* [English Core150](https://erandurlover.github.io/ESO-PvP-Corpus/split/v162/en/core150.txt)
 
 If an AI cannot access a linked corpus file directly, download the required `.txt` file and upload it to the AI conversation.
 
